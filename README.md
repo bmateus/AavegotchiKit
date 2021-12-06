@@ -1,7 +1,7 @@
 # Aavegotchi Kit
 A Unity Package for getting started using Aavegotchi in a Unity game.
 
-
+![Preview](https://github.com/bmateus/AavegotchiKit/blob/main/screenshot.PNG)
 
 I made this kit while working on game and figured it could be helpful to others.
 An Aavegotchi's graphics are stored on-chain as SVGs, but it is difficult to use this
