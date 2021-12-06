@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7544f1907c44b1394f70c35d12caec5, type: 3}
+  m_Name: AavegotchiCore_GraphConfig
+  m_EditorClassIdentifier: 
+  Endpoint: https://api.thegraph.com/subgraphs/name/aavegotchi/aavegotchi-core-matic
+  Files:
+  - {fileID: -2997410325540601474, guid: c4e8b542a4dc362479c8d525cdf99abb, type: 3}
+  - {fileID: -2997410325540601474, guid: b90c344d0af15184f8bf0cc8e763ddfa, type: 3}
+  - {fileID: -2997410325540601474, guid: 3f0aa91823da2b743b3a5606bc4fbac1, type: 3}
+  AuthScheme: Bearer
+  CustomHeaders: []

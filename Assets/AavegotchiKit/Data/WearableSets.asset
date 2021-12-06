@@ -1,0 +1,511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e4a41579e135f42bfb47089467842b, type: 3}
+  m_Name: WearableSets
+  m_EditorClassIdentifier: 
+  source: {fileID: 4900000, guid: e3d6903c78c622348bec817b40990bb1, type: 3}
+  wearableSets:
+  - name: Infantry
+    allowedCollaterals: []
+    wearableIds: 010000000200000003000000
+    traitsBonuses: 0100000000000000010000000000000000000000
+  - name: Trooper
+    allowedCollaterals: []
+    wearableIds: 040000000500000006000000
+    traitsBonuses: 0200000000000000010000000000000000000000
+  - name: Sergeant
+    allowedCollaterals: []
+    wearableIds: 070000000800000009000000
+    traitsBonuses: 0300000000000000020000000000000000000000
+  - name: General
+    allowedCollaterals: []
+    wearableIds: 0a0000000b0000000c000000
+    traitsBonuses: 0400000000000000020000000000000000000000
+  - name: Mythical Sergey
+    allowedCollaterals: []
+    wearableIds: 0d0000000e0000000f000000
+    traitsBonuses: 0500000000000000030000000000000000000000
+  - name: Godlike Sergey
+    allowedCollaterals: []
+    wearableIds: 0d0000000e00000010000000
+    traitsBonuses: 06000000fdffffff000000000000000000000000
+  - name: Apex Sergey
+    allowedCollaterals:
+    - 3
+    wearableIds: 0d0000000e0000001000000011000000
+    traitsBonuses: 06000000fcffffff000000000000000000000000
+  - name: Aave Hero
+    allowedCollaterals: []
+    wearableIds: 120000001300000014000000
+    traitsBonuses: 0100000000000000000000000100000000000000
+  - name: Captain Aave
+    allowedCollaterals: []
+    wearableIds: 150000001600000017000000
+    traitsBonuses: 0200000000000000000000000100000000000000
+  - name: Thaave
+    allowedCollaterals: []
+    wearableIds: 18000000190000001a000000
+    traitsBonuses: 0300000002000000000000000000000000000000
+  - name: Marc
+    allowedCollaterals: []
+    wearableIds: 1b0000001c0000001d000000
+    traitsBonuses: 0400000002000000000000000000000000000000
+  - name: Jordan
+    allowedCollaterals: []
+    wearableIds: 1e0000001f00000020000000
+    traitsBonuses: 0500000000000000000000000300000000000000
+  - name: Godlike Stani
+    allowedCollaterals: []
+    wearableIds: 210000002200000023000000
+    traitsBonuses: 0600000000000000fdffffff0000000000000000
+  - name: Apex Stani
+    allowedCollaterals:
+    - 2
+    wearableIds: 20000000210000002200000023000000
+    traitsBonuses: 0600000001000000fdffffff0000000000000000
+  - name: ETH Maxi
+    allowedCollaterals: []
+    wearableIds: 240000002500000026000000
+    traitsBonuses: 01000000000000000000000000000000ffffffff
+  - name: Foxy Meta
+    allowedCollaterals: []
+    wearableIds: 270000002800000029000000
+    traitsBonuses: 0200000000000000ffffffff0000000000000000
+  - name: Nogara the Eagle
+    allowedCollaterals: []
+    wearableIds: 2a0000002b0000002c000000
+    traitsBonuses: 0300000002000000000000000000000000000000
+  - name: DeFi Degen
+    allowedCollaterals: []
+    wearableIds: 2d0000002e0000002f000000
+    traitsBonuses: 04000000000000000000000000000000feffffff
+  - name: DAO Summoner
+    allowedCollaterals: []
+    wearableIds: 30000000310000003200000033000000
+    traitsBonuses: 0500000000000000000000000000000003000000
+  - name: Vitalik Visionary
+    allowedCollaterals: []
+    wearableIds: 340000003500000036000000
+    traitsBonuses: 06000000fdffffff000000000000000000000000
+  - name: Apex Vitalik Visionary
+    allowedCollaterals:
+    - 1
+    wearableIds: 33000000340000003500000036000000
+    traitsBonuses: 07000000fdffffff000000000000000001000000
+  - name: Super Aagent
+    allowedCollaterals: []
+    wearableIds: 3700000038000000390000003a0000003b000000
+    traitsBonuses: 04000000ffffffff000000000200000000000000
+  - name: 'Aagent '
+    allowedCollaterals: []
+    wearableIds: 370000003800000039000000
+    traitsBonuses: 03000000ffffffff000000000100000000000000
+  - name: 'Aagent '
+    allowedCollaterals: []
+    wearableIds: 3700000038000000390000003a000000
+    traitsBonuses: 03000000ffffffff000000000200000000000000
+  - name: 'Wizard '
+    allowedCollaterals: []
+    wearableIds: 3c0000004000000042000000
+    traitsBonuses: 0100000001000000000000000000000000000000
+  - name: Wizard
+    allowedCollaterals: []
+    wearableIds: 3d0000004000000042000000
+    traitsBonuses: 0100000001000000000000000000000000000000
+  - name: Wizard
+    allowedCollaterals: []
+    wearableIds: 3e0000004000000042000000
+    traitsBonuses: 0100000001000000000000000000000000000000
+  - name: Wizard
+    allowedCollaterals: []
+    wearableIds: 3f0000004000000042000000
+    traitsBonuses: 0100000001000000000000000000000000000000
+  - name: Wizard
+    allowedCollaterals: []
+    wearableIds: 3c0000004100000042000000
+    traitsBonuses: 0100000001000000000000000000000000000000
+  - name: Legendary Wizard
+    allowedCollaterals: []
+    wearableIds: 3d0000004100000042000000
+    traitsBonuses: 0400000001000000000000000000000001000000
+  - name: Mythical Wizard
+    allowedCollaterals: []
+    wearableIds: 3e0000004100000042000000
+    traitsBonuses: 0500000001000000000000000000000002000000
+  - name: Godlike Wizard
+    allowedCollaterals: []
+    wearableIds: 3f0000004100000042000000
+    traitsBonuses: 0600000001000000000000000000000002000000
+  - name: Farmer
+    allowedCollaterals: []
+    wearableIds: 430000004400000045000000
+    traitsBonuses: 01000000ffffffff000000000000000000000000
+  - name: Mythical Farmer
+    allowedCollaterals: []
+    wearableIds: 430000004400000046000000
+    traitsBonuses: 05000000feffffff0000000000000000ffffffff
+  - name: OKex Jaay
+    allowedCollaterals: []
+    wearableIds: 48000000490000004a000000
+    traitsBonuses: 05000000ffffffff0000000000000000feffffff
+  - name: OKex Jaay Hao
+    allowedCollaterals: []
+    wearableIds: 48000000490000004a0000004b000000
+    traitsBonuses: 05000000ffffffff0000000000000000feffffff
+  - name: Skater
+    allowedCollaterals: []
+    wearableIds: 4d0000004e0000004f000000
+    traitsBonuses: 02000000000000000000000000000000ffffffff
+  - name: Sushi Chef
+    allowedCollaterals: []
+    wearableIds: 500000005100000052000000
+    traitsBonuses: 0400000000000000020000000000000000000000
+  - name: Sushi Chef
+    allowedCollaterals: []
+    wearableIds: 500000005100000053000000
+    traitsBonuses: 0300000000000000020000000000000000000000
+  - name: Master Sushi Chef
+    allowedCollaterals: []
+    wearableIds: 50000000510000005200000053000000
+    traitsBonuses: 040000000000000002000000ffffffff00000000
+  - name: Gentleman
+    allowedCollaterals: []
+    wearableIds: 540000005500000056000000
+    traitsBonuses: 0400000000000000feffffff0000000000000000
+  - name: Miner
+    allowedCollaterals: []
+    wearableIds: 570000005800000059000000
+    traitsBonuses: 0200000001000000000000000000000000000000
+  - name: Pajamas
+    allowedCollaterals: []
+    wearableIds: 5a0000005b0000005c000000
+    traitsBonuses: 030000000000000000000000feffffff00000000
+  - name: Pajamas
+    allowedCollaterals: []
+    wearableIds: 5a0000005b0000005d000000
+    traitsBonuses: 030000000000000000000000feffffff00000000
+  - name: Full Pajamas
+    allowedCollaterals: []
+    wearableIds: 5a0000005b0000005c0000005d000000
+    traitsBonuses: 040000000000000000000000fdffffff00000000
+  - name: Runner
+    allowedCollaterals: []
+    wearableIds: 5e0000005f00000060000000
+    traitsBonuses: 0200000001000000000000000000000000000000
+  - name: Runner
+    allowedCollaterals: []
+    wearableIds: 5e0000005f00000079000000
+    traitsBonuses: 0200000001000000000000000000000000000000
+  - name: Runner
+    allowedCollaterals: []
+    wearableIds: 5e0000007d00000060000000
+    traitsBonuses: 0200000001000000000000000000000000000000
+  - name: Long Distance Runner
+    allowedCollaterals: []
+    wearableIds: 5e0000007d00000079000000
+    traitsBonuses: 0400000002000000000000000000000000000000
+  - name: Lady
+    allowedCollaterals: []
+    wearableIds: 610000006200000064000000
+    traitsBonuses: 040000000000000000000000feffffff00000000
+  - name: Lady
+    allowedCollaterals: []
+    wearableIds: 610000006200000063000000
+    traitsBonuses: 040000000000000000000000feffffff00000000
+  - name: Socialite
+    allowedCollaterals: []
+    wearableIds: 61000000620000006300000064000000
+    traitsBonuses: 050000000200000000000000ffffffff00000000
+  - name: Witchy
+    allowedCollaterals: []
+    wearableIds: 650000006600000067000000
+    traitsBonuses: 0500000000000000000000000300000000000000
+  - name: Portal Mage
+    allowedCollaterals: []
+    wearableIds: 68000000690000006a000000
+    traitsBonuses: 0400000000000000020000000000000000000000
+  - name: Supreme Portal Mage
+    allowedCollaterals: []
+    wearableIds: 68000000690000006b000000
+    traitsBonuses: 0600000000000000030000000000000000000000
+  - name: Rastafarian
+    allowedCollaterals: []
+    wearableIds: 6c0000006d0000006e000000
+    traitsBonuses: 0300000000000000feffffff0000000000000000
+  - name: Off Duty Hazmat
+    allowedCollaterals: []
+    wearableIds: 6f000000700000007b000000
+    traitsBonuses: 0400000002000000000000000000000000000000
+  - name: On Duty Hazmat
+    allowedCollaterals: []
+    wearableIds: 6f0000007000000071000000
+    traitsBonuses: 0600000003000000000000000000000000000000
+  - name: Blue Vacationer
+    allowedCollaterals: []
+    wearableIds: 730000007400000075000000
+    traitsBonuses: 04000000feffffff000000000000000000000000
+  - name: Red Vacationer
+    allowedCollaterals: []
+    wearableIds: 720000007400000075000000
+    traitsBonuses: 05000000feffffff00000000ffffffff00000000
+  - name: Crypto OG
+    allowedCollaterals: []
+    wearableIds: 0c0000001300000024000000280000004d000000
+    traitsBonuses: 04000000000000000000000000000000feffffff
+  - name: Rektboi
+    allowedCollaterals: []
+    wearableIds: 1d0000002d0000002e000000
+    traitsBonuses: 04000000000000000000000000000000feffffff
+  - name: Man of Culture
+    allowedCollaterals: []
+    wearableIds: 2f0000003b0000004a000000
+    traitsBonuses: 04000000000000000000000000000000feffffff
+  - name: Curve Surfer
+    allowedCollaterals: []
+    wearableIds: 420000004c00000073000000
+    traitsBonuses: 0400000000000000000000000000000002000000
+  - name: PoW Miner
+    allowedCollaterals: []
+    wearableIds: 190000004d00000059000000
+    traitsBonuses: 0300000000000000020000000000000000000000
+  - name: Toddler
+    allowedCollaterals: []
+    wearableIds: 5a0000005b00000077000000
+    traitsBonuses: 0400000000000000feffffff0000000000000000
+  - name: FU Money
+    allowedCollaterals: []
+    wearableIds: 23000000720000007500000078000000
+    traitsBonuses: 0600000000000000fdffffff0000000000000000
+  - name: Farmer Alf
+    allowedCollaterals: []
+    wearableIds: 0d000000430000004400000045000000
+    traitsBonuses: 05000000fdffffff000000000000000000000000
+  - name: Battle Santa
+    allowedCollaterals: []
+    wearableIds: 050000000d000000470000006a000000
+    traitsBonuses: 0500000000000000030000000000000000000000
+  - name: Party Animal
+    allowedCollaterals: []
+    wearableIds: 6d000000280000007c000000
+    traitsBonuses: 05000000000000000000000000000000fdffffff
+  - name: Snapshot Voter
+    allowedCollaterals: []
+    wearableIds: 890000008a0000008b000000
+    traitsBonuses: 0300000000000000feffffff0000000000000000
+  - name: Polygonist
+    allowedCollaterals: []
+    wearableIds: 860000008700000088000000
+    traitsBonuses: 0300000000000000ffffffff0000000001000000
+  - name: Quickswap Dragon
+    allowedCollaterals: []
+    wearableIds: 820000008300000084000000
+    traitsBonuses: 0300000000000000010000000100000000000000
+  - name: Swappy the Dragon
+    allowedCollaterals: []
+    wearableIds: 820000008400000085000000
+    traitsBonuses: 0400000000000000010000000100000000000000
+  - name: Gotchi Elf
+    allowedCollaterals: []
+    wearableIds: 8c0000008d0000008e000000
+    traitsBonuses: 030000000000000000000000ffffffff01000000
+  - name: Gotchi Princess
+    allowedCollaterals: []
+    wearableIds: 8c0000008d0000008e0000008f000000
+    traitsBonuses: 0400000001000000010000000000000000000000
+  - name: Gotchi Queen
+    allowedCollaterals: []
+    wearableIds: 8c0000008d000000900000008f000000
+    traitsBonuses: 050000000000000000000000feffffff01000000
+  - name: Godli Locks
+    allowedCollaterals: []
+    wearableIds: 8c0000008d000000910000008f000000
+    traitsBonuses: 060000000000000000000000feffffff02000000
+  - name: Gotchi Baron
+    allowedCollaterals: []
+    wearableIds: 920000009300000094000000
+    traitsBonuses: 03000000ffffffff0000000000000000ffffffff
+  - name: Gotchi Lord
+    allowedCollaterals: []
+    wearableIds: 92000000930000009400000096000000
+    traitsBonuses: 05000000ffffffff0000000000000000feffffff
+  - name: Gotchi King
+    allowedCollaterals: []
+    wearableIds: 92000000950000009400000096000000
+    traitsBonuses: 05000000feffffff0000000000000000ffffffff
+  - name: Gotchi Emperor
+    allowedCollaterals: []
+    wearableIds: 920000009500000094000000960000009c000000
+    traitsBonuses: 06000000feffffff0000000000000000feffffff
+  - name: Lil Pumpagotchi
+    allowedCollaterals: []
+    wearableIds: 9d0000009e0000009f000000a0000000a1000000
+    traitsBonuses: 0600000002000000020000000000000000000000
+  - name: Soundcloud Rapper
+    allowedCollaterals: []
+    wearableIds: 6c0000009d0000009e0000009f000000a0000000
+    traitsBonuses: 0500000001000000020000000000000000000000
+  - name: REALM Tycoon
+    allowedCollaterals: []
+    wearableIds: 54000000550000005600000092000000
+    traitsBonuses: 04000000ffffffffffffffff0000000000000000
+  - name: Yegres the Dragon
+    allowedCollaterals: []
+    wearableIds: 0e00000083000000840000002c000000
+    traitsBonuses: 0500000000000000000000000100000002000000
+  - name: Vacation Santa
+    allowedCollaterals: []
+    wearableIds: 47000000720000007800000075000000
+    traitsBonuses: 05000000ffffffffffffffffffffffff00000000
+  - name: VR Gamer
+    allowedCollaterals: []
+    wearableIds: ca000000cb000000cc000000
+    traitsBonuses: 0500000002000000010000000000000000000000
+  - name: Steampunk
+    allowedCollaterals: []
+    wearableIds: c7000000c8000000c9000000
+    traitsBonuses: 0400000000000000000000000200000000000000
+  - name: Casual Gamer
+    allowedCollaterals: []
+    wearableIds: 75000000cb000000cc000000
+    traitsBonuses: 0300000001000000010000000000000000000000
+  - name: Gentleman Farmer
+    allowedCollaterals: []
+    wearableIds: 4500000092000000c8000000
+    traitsBonuses: 0200000000000000000000000100000000000000
+  - name: Cyberpunk
+    allowedCollaterals: []
+    wearableIds: 2b00000030000000ca000000
+    traitsBonuses: 0500000003000000000000000000000000000000
+  - name: Steampunk Grenadier
+    allowedCollaterals: []
+    wearableIds: 010000000200000006000000c7000000
+    traitsBonuses: 0300000000000000000000000200000000000000
+  - name: Venly Biker
+    allowedCollaterals: []
+    wearableIds: ce000000cf000000d0000000d1000000
+    traitsBonuses: 0400000001000000010000000000000000000000
+  - name: Hacker Aanon
+    allowedCollaterals: []
+    wearableIds: d3000000d4000000d5000000
+    traitsBonuses: 05000000feffffff000000000000000001000000
+  - name: Shadowy Supercoder
+    allowedCollaterals: []
+    wearableIds: d4000000d5000000d6000000
+    traitsBonuses: 06000000feffffff000000000000000001000000
+  - name: 'Cyborg '
+    allowedCollaterals: []
+    wearableIds: d7000000d8000000d9000000
+    traitsBonuses: 0500000000000000030000000000000000000000
+  - name: Punk Rocker
+    allowedCollaterals: []
+    wearableIds: da000000db000000dc000000
+    traitsBonuses: 0400000000000000020000000000000000000000
+  - name: Piraate
+    allowedCollaterals: []
+    wearableIds: dd000000de000000df000000e0000000
+    traitsBonuses: 03000000000000000000000000000000feffffff
+  - name: Aair Gotchi
+    allowedCollaterals: []
+    wearableIds: e1000000e2000000e3000000
+    traitsBonuses: 0300000002000000000000000000000000000000
+  - name: Wraangler
+    allowedCollaterals: []
+    wearableIds: e4000000e5000000e6000000
+    traitsBonuses: 0200000000000000010000000000000000000000
+  - name: Ranchero
+    allowedCollaterals: []
+    wearableIds: e7000000e8000000e9000000
+    traitsBonuses: 02000000ffffffff000000000000000000000000
+  - name: Ranchero
+    allowedCollaterals: []
+    wearableIds: e7000000e8000000ec000000
+    traitsBonuses: 02000000ffffffff000000000000000000000000
+  - name: Ranchero
+    allowedCollaterals: []
+    wearableIds: e7000000e8000000ed000000
+    traitsBonuses: 02000000ffffffff000000000000000000000000
+  - name: Ranchero
+    allowedCollaterals: []
+    wearableIds: e7000000e8000000ee000000
+    traitsBonuses: 02000000ffffffff000000000000000000000000
+  - name: Novice Shaaman
+    allowedCollaterals: []
+    wearableIds: e9000000ea000000eb000000
+    traitsBonuses: 05000000fdffffff000000000000000000000000
+  - name: Shaaman Priest
+    allowedCollaterals: []
+    wearableIds: ea000000eb000000ec000000
+    traitsBonuses: 05000000fdffffff000000000000000000000000
+  - name: Shaaman Mystic
+    allowedCollaterals: []
+    wearableIds: ea000000eb000000ed000000
+    traitsBonuses: 05000000fdffffff000000000000000000000000
+  - name: Master Shaaman
+    allowedCollaterals: []
+    wearableIds: ea000000eb000000ee000000
+    traitsBonuses: 06000000fdffffff000000000000000000000000
+  - name: 'WGMI Wagie '
+    allowedCollaterals: []
+    wearableIds: ef000000f0000000f1000000
+    traitsBonuses: 0300000000000000feffffff0000000000000000
+  - name: YOLO Guy
+    allowedCollaterals: []
+    wearableIds: f2000000f3000000f4000000
+    traitsBonuses: 04000000ffffffffffffffff0000000000000000
+  - name: Psychonaut
+    allowedCollaterals: []
+    wearableIds: ea000000eb000000ee00000035000000
+    traitsBonuses: 07000000fdffffff000000000000000001000000
+  - name: Tech Bro
+    allowedCollaterals: []
+    wearableIds: f2000000f3000000f4000000d4000000
+    traitsBonuses: 05000000feffffff000000000000000001000000
+  - name: Gunslinger
+    allowedCollaterals: []
+    wearableIds: e7000000e40000003a0000003a000000
+    traitsBonuses: 0300000000000000020000000000000000000000
+  - name: We Are Legion
+    allowedCollaterals: []
+    wearableIds: 55000000d3000000d4000000
+    traitsBonuses: 0500000000000000000000000300000000000000
+  - name: Aastronaut
+    allowedCollaterals: []
+    wearableIds: fc000000fd000000fe000000
+    traitsBonuses: 0100000000000000000000000100000000000000
+  - name: Geckogotchi
+    allowedCollaterals: []
+    wearableIds: f9000000fa000000fb000000
+    traitsBonuses: 0200000001000000000000000000000000000000
+  - name: Super Geckogotchi
+    allowedCollaterals: []
+    wearableIds: f5000000f9000000fa000000fb000000
+    traitsBonuses: 030000000000000000000000ffffffffffffffff
+  - name: Lil Bubble
+    allowedCollaterals: []
+    wearableIds: ff0000000001000001010000
+    traitsBonuses: 0400000002000000ffffffff0000000000000000
+  - name: Radar
+    allowedCollaterals: []
+    wearableIds: 050100000601000007010000
+    traitsBonuses: 0500000000000000ffffffff0000000002000000
+  - name: Laozigotchi
+    allowedCollaterals: []
+    wearableIds: 020100000301000004010000
+    traitsBonuses: 06000000feffffff000000000000000001000000
+  - name: Wandering Sage
+    allowedCollaterals: []
+    wearableIds: 41000000020100000301000004010000
+    traitsBonuses: 07000000feffffff000000000000000002000000
+  - name: APY Visionary
+    allowedCollaterals: []
+    wearableIds: f6000000f7000000f8000000
+    traitsBonuses: 0200000001000000000000000000000000000000

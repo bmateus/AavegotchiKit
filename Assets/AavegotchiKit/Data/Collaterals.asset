@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0076835abd155c4789efbd20fd10d8f, type: 3}
+  m_Name: Collaterals
+  m_EditorClassIdentifier: 
+  source: {fileID: 4900000, guid: 39181c68e9d46384691ababb284fe0e9, type: 3}
+  collaterals:
+  - collateralType: 0xE0b22E0037B130A9F56bBb537684E6fA18192341
+    modifiers: 010000000000000000000000000000000000000000000000
+    primaryColor: 0xff7d00
+    secondaryColor: 0xf9d792
+    cheekColor: 0xf4af24
+    haunt: 1
+    svgId: 0
+    eyeShapeSvgId: 18
+    sprites:
+    - {fileID: 21300000, guid: e7b4a1832131d444993a87eb17a33192, type: 3}
+    - {fileID: 21300000, guid: bb870d3e9a8132a419e60cd4082aec99, type: 3}
+    - {fileID: 21300000, guid: 3f45cf3419de2f24290dcdd2232611f8, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 906c8720bc968144fb115fb39cf66d76, type: 3}
+    - {fileID: 21300000, guid: 225c5e4c249647e498fa4b61cc2a3ece, type: 3}
+    - {fileID: 21300000, guid: c38d771bce87a5f4193b19956633c632, type: 3}
+  - collateralType: 0x20D3922b4a1A8560E1aC99FBA4faDe0c849e2142
+    modifiers: 000000000100000000000000000000000000000000000000
+    primaryColor: 0x64438e
+    secondaryColor: 0xedd3fd
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 1
+    eyeShapeSvgId: 19
+    sprites:
+    - {fileID: 21300000, guid: 6c6c4b75a7d59fc4da905750d4ed80d1, type: 3}
+    - {fileID: 21300000, guid: 3ad1c799f874d83468d7352854a369b8, type: 3}
+    - {fileID: 21300000, guid: 354ac5ef90632034e81bd9e968684932, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: ddfc620bf674b074e9e1c7387c8af18a, type: 3}
+    - {fileID: 21300000, guid: 7310c3e749d221e4584f3bd72fd37450, type: 3}
+    - {fileID: 21300000, guid: c521b2dfed0d0cf4a8d4e2b977940969, type: 3}
+  - collateralType: 0x823CD4264C1b951C9209aD0DeAea9988fE8429bF
+    modifiers: 000000000000000001000000000000000000000000000000
+    primaryColor: 0xb6509e
+    secondaryColor: 0xcfeef4
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 2
+    eyeShapeSvgId: 17
+    sprites:
+    - {fileID: 21300000, guid: ac78057140794394482fb7dde0191763, type: 3}
+    - {fileID: 21300000, guid: 6ec63c8a2ff334e4fa419b69010340a7, type: 3}
+    - {fileID: 21300000, guid: ac79275d943ff3d4da1114e5c5cb1747, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 1d946cf241f8ffa4c98c594883474d91, type: 3}
+    - {fileID: 21300000, guid: 0d0746469238e9440bbc0452a171ee0c, type: 3}
+    - {fileID: 21300000, guid: 40e628610814edf4bacf330a28a0306f, type: 3}
+  - collateralType: 0x98ea609569bD25119707451eF982b90E3eb719cD
+    modifiers: 000000000000000000000000010000000000000000000000
+    primaryColor: 0x0000b9
+    secondaryColor: 0xd4def8
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 3
+    eyeShapeSvgId: 20
+    sprites:
+    - {fileID: 21300000, guid: 4c84c5d6acb67be4290584b01c9a0b4f, type: 3}
+    - {fileID: 21300000, guid: 85d554bf903d2394085f63b69624eba0, type: 3}
+    - {fileID: 21300000, guid: cb17867ce6de7a34a8c0964b84c397a7, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 32c2473e5f690334f8b24e303582ee22, type: 3}
+    - {fileID: 21300000, guid: 0f76df144728e4e4794d3200fff6314b, type: 3}
+    - {fileID: 21300000, guid: 9aceb5719e248fb4d9bc581e050a9d6d, type: 3}
+  - collateralType: 0xDAE5F1590db13E3B40423B5b5c5fbf175515910b
+    modifiers: 00000000ffffffff00000000000000000000000000000000
+    primaryColor: 0x26a17b
+    secondaryColor: 0xaedcce
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 4
+    eyeShapeSvgId: 25
+    sprites:
+    - {fileID: 21300000, guid: 609376a40001e9d4da7f84b149117a5a, type: 3}
+    - {fileID: 21300000, guid: b70648c87c78b7f4ca31dc72a51f9ff3, type: 3}
+    - {fileID: 21300000, guid: 8a092d0d98621394283b9b78a521e2fb, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: e68e445018f017249b4caec1edc0f879, type: 3}
+    - {fileID: 21300000, guid: 58827bc52d40e904fb4ae6bbf4b66cff, type: 3}
+    - {fileID: 21300000, guid: b646142cc0d462742b99ff7bbb973885, type: 3}
+  - collateralType: 0x9719d867A500Ef117cC201206B8ab51e794d3F82
+    modifiers: 0000000000000000ffffffff000000000000000000000000
+    primaryColor: 0x2664ba
+    secondaryColor: 0xd4e0f1
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 5
+    eyeShapeSvgId: 21
+    sprites:
+    - {fileID: 21300000, guid: 52e11bb589b23a3448c08b6d72628df3, type: 3}
+    - {fileID: 21300000, guid: 11d41e26cee2d2c44896c088a8a676fb, type: 3}
+    - {fileID: 21300000, guid: 868997c7cf6a9ec45812b1eb3679029d, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: bf0e0156f8478bd4690510e20c62c7bc, type: 3}
+    - {fileID: 21300000, guid: d9e1a93064bdbd540b744f03a8a7493e, type: 3}
+    - {fileID: 21300000, guid: 82d75b64fa44cfe4489c3393c91eb3b8, type: 3}
+  - collateralType: 0xF4b8888427b00d7caf21654408B7CBA2eCf4EbD9
+    modifiers: 0000000000000000ffffffff000000000000000000000000
+    primaryColor: 0x282473
+    secondaryColor: 0x489ff8
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 8
+    eyeShapeSvgId: 24
+    sprites:
+    - {fileID: 21300000, guid: ea0ea3294283c3e4285699b1d779deae, type: 3}
+    - {fileID: 21300000, guid: 5f51ae92e1b68884a935ee065cd36cc7, type: 3}
+    - {fileID: 21300000, guid: e62da57ca5bab4a42a9c27922ce7c8d9, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: d11c077426d0c9443b3506933e8d94e2, type: 3}
+    - {fileID: 21300000, guid: 9c52a9c498338594aa041981426faaac, type: 3}
+    - {fileID: 21300000, guid: 3beb8bcf62ac9ca46b3972ef470f7501, type: 3}
+  - collateralType: 0x8c8bdBe9CeE455732525086264a4Bf9Cf821C498
+    modifiers: 0000000000000000ffffffff000000000000000000000000
+    primaryColor: 0xff2a7a
+    secondaryColor: 0xffc3df
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 6
+    eyeShapeSvgId: 23
+    sprites:
+    - {fileID: 21300000, guid: bacb149e144149543a7ea0bdba58311d, type: 3}
+    - {fileID: 21300000, guid: b89f9f2a6fec08f46a7afa3586581c48, type: 3}
+    - {fileID: 21300000, guid: bc5f35d4f74f9e14ab76c9f7abff089f, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 58c4546edff9d304787059d83253edba, type: 3}
+    - {fileID: 21300000, guid: 9fb105774433a7a4b8d00f8f10e1e3b6, type: 3}
+    - {fileID: 21300000, guid: 427a765de4bfdbb409a722bf74e90974, type: 3}
+  - collateralType: 0xe20f7d1f0eC39C4d5DB01f53554F2EF54c71f613
+    modifiers: 000000000000000000000000010000000000000000000000
+    primaryColor: 0x0074f9
+    secondaryColor: 0xc8e1fd
+    cheekColor: 0xf696c6
+    haunt: 1
+    svgId: 7
+    eyeShapeSvgId: 22
+    sprites:
+    - {fileID: 21300000, guid: 0696691562256454194636f4213e762c, type: 3}
+    - {fileID: 21300000, guid: 37cc8a0ea4dade94885e7f6e0d4d49a5, type: 3}
+    - {fileID: 21300000, guid: 7ea6b4b8a6d5204448058a50f4e88ef4, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: fe4ba1ec8667601409118d32e9ac296e, type: 3}
+    - {fileID: 21300000, guid: c0229b7671a62ef429dddadd5de8e09a, type: 3}
+    - {fileID: 21300000, guid: 3fd577cc53cb1a1468e8d59bdf1cd068, type: 3}
+  - collateralType: 0x27F8D03b3a2196956ED754baDc28D73be8830A6e
+    modifiers: 010000000000000000000000000000000000000000000000
+    primaryColor: 0xff7d00
+    secondaryColor: 0xf9d792
+    cheekColor: 0xf4af24
+    haunt: 2
+    svgId: 0
+    eyeShapeSvgId: 18
+    sprites:
+    - {fileID: 21300000, guid: e7b4a1832131d444993a87eb17a33192, type: 3}
+    - {fileID: 21300000, guid: bb870d3e9a8132a419e60cd4082aec99, type: 3}
+    - {fileID: 21300000, guid: 3f45cf3419de2f24290dcdd2232611f8, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 906c8720bc968144fb115fb39cf66d76, type: 3}
+    - {fileID: 21300000, guid: 225c5e4c249647e498fa4b61cc2a3ece, type: 3}
+    - {fileID: 21300000, guid: c38d771bce87a5f4193b19956633c632, type: 3}
+  - collateralType: 0x28424507fefb6f7f8E9D3860F56504E4e5f5f390
+    modifiers: 000000000100000000000000000000000000000000000000
+    primaryColor: 0x000000
+    secondaryColor: 0xfbdfeb
+    cheekColor: 0xf696c6
+    haunt: 2
+    svgId: 9
+    eyeShapeSvgId: 19
+    sprites:
+    - {fileID: 21300000, guid: 3c9446ebe4902ff49892fae43e1d965a, type: 3}
+    - {fileID: 21300000, guid: 5bf6d02f625998c4ea1ed3b166216d71, type: 3}
+    - {fileID: 21300000, guid: 5229eb2e60522f44bbdbca6db611e24f, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: ddfc620bf674b074e9e1c7387c8af18a, type: 3}
+    - {fileID: 21300000, guid: 7310c3e749d221e4584f3bd72fd37450, type: 3}
+    - {fileID: 21300000, guid: c521b2dfed0d0cf4a8d4e2b977940969, type: 3}
+  - collateralType: 0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360
+    modifiers: 000000000000000001000000000000000000000000000000
+    primaryColor: 0xb6509e
+    secondaryColor: 0xcfeef4
+    cheekColor: 0xf696c6
+    haunt: 2
+    svgId: 2
+    eyeShapeSvgId: 17
+    sprites:
+    - {fileID: 21300000, guid: ac78057140794394482fb7dde0191763, type: 3}
+    - {fileID: 21300000, guid: 6ec63c8a2ff334e4fa419b69010340a7, type: 3}
+    - {fileID: 21300000, guid: ac79275d943ff3d4da1114e5c5cb1747, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 1d946cf241f8ffa4c98c594883474d91, type: 3}
+    - {fileID: 21300000, guid: 0d0746469238e9440bbc0452a171ee0c, type: 3}
+    - {fileID: 21300000, guid: 40e628610814edf4bacf330a28a0306f, type: 3}
+  - collateralType: 0x60D55F02A771d515e077c9C2403a1ef324885CeC
+    modifiers: 00000000ffffffff00000000000000000000000000000000
+    primaryColor: 0x26a17b
+    secondaryColor: 0xaedcce
+    cheekColor: 0xf696c6
+    haunt: 2
+    svgId: 4
+    eyeShapeSvgId: 20
+    sprites:
+    - {fileID: 21300000, guid: 609376a40001e9d4da7f84b149117a5a, type: 3}
+    - {fileID: 21300000, guid: b70648c87c78b7f4ca31dc72a51f9ff3, type: 3}
+    - {fileID: 21300000, guid: 8a092d0d98621394283b9b78a521e2fb, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 32c2473e5f690334f8b24e303582ee22, type: 3}
+    - {fileID: 21300000, guid: 0f76df144728e4e4794d3200fff6314b, type: 3}
+    - {fileID: 21300000, guid: 9aceb5719e248fb4d9bc581e050a9d6d, type: 3}
+  - collateralType: 0x1a13F4Ca1d028320A707D99520AbFefca3998b7F
+    modifiers: 0000000000000000ffffffff000000000000000000000000
+    primaryColor: 0x2664ba
+    secondaryColor: 0xd4e0f1
+    cheekColor: 0xf696c6
+    haunt: 2
+    svgId: 5
+    eyeShapeSvgId: 21
+    sprites:
+    - {fileID: 21300000, guid: 52e11bb589b23a3448c08b6d72628df3, type: 3}
+    - {fileID: 21300000, guid: 11d41e26cee2d2c44896c088a8a676fb, type: 3}
+    - {fileID: 21300000, guid: 868997c7cf6a9ec45812b1eb3679029d, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: bf0e0156f8478bd4690510e20c62c7bc, type: 3}
+    - {fileID: 21300000, guid: d9e1a93064bdbd540b744f03a8a7493e, type: 3}
+    - {fileID: 21300000, guid: 82d75b64fa44cfe4489c3393c91eb3b8, type: 3}
+  - collateralType: 0x5c2ed810328349100A66B82b78a1791B101C9D61
+    modifiers: 000000000100000000000000000000000000000000000000
+    primaryColor: 0xff5e00
+    secondaryColor: 0xffcaa2
+    cheekColor: 0xf696c6
+    haunt: 2
+    svgId: 10
+    eyeShapeSvgId: 22
+    sprites:
+    - {fileID: 21300000, guid: aa101ba90f1cf804fa3d16d8c43137f3, type: 3}
+    - {fileID: 21300000, guid: 2445a1d05a7550444ac332a29146c5c6, type: 3}
+    - {fileID: 21300000, guid: 3a2068bc86fa9a446a62df5a0c88789f, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: fe4ba1ec8667601409118d32e9ac296e, type: 3}
+    - {fileID: 21300000, guid: c0229b7671a62ef429dddadd5de8e09a, type: 3}
+    - {fileID: 21300000, guid: 3fd577cc53cb1a1468e8d59bdf1cd068, type: 3}
+  - collateralType: 0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4
+    modifiers: 000000000000000000000000010000000000000000000000
+    primaryColor: 0x824ee2
+    secondaryColor: 0xe6dcf9
+    cheekColor: 0xf696c6
+    haunt: 2
+    svgId: 11
+    eyeShapeSvgId: 23
+    sprites:
+    - {fileID: 21300000, guid: b5667e99a980ba645b06065640658a17, type: 3}
+    - {fileID: 21300000, guid: 052812b82749a984bab15ee93a7cfba8, type: 3}
+    - {fileID: 21300000, guid: 74f3642c9189ee6439b91e6c5a7518ec, type: 3}
+    eyeSprites:
+    - {fileID: 21300000, guid: 58c4546edff9d304787059d83253edba, type: 3}
+    - {fileID: 21300000, guid: 9fb105774433a7a4b8d00f8f10e1e3b6, type: 3}
+    - {fileID: 21300000, guid: 427a765de4bfdbb409a722bf74e90974, type: 3}

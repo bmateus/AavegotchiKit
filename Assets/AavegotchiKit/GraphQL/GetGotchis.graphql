@@ -1,0 +1,46 @@
+# get gotchi info
+query GetGotchis($ids: [String!]!)
+{
+    aavegotchis(where: { 
+        id_in: $ids
+    })
+	{
+        id
+		gotchiId
+        owner {
+          id
+        }
+        portal {
+          id
+        }
+        hauntId
+        name
+        randomNumber
+        status
+        numericTraits
+        modifiedNumericTraits
+        withSetsNumericTraits
+        equippedWearables
+        equippedSetID
+        equippedSetName
+        possibleSets
+        collateral
+        escrow
+        stakedAmount
+        minimumStake
+        kinship
+        lastInteracted
+        experience
+        toNextLevel
+        usedSkillPoints
+        level
+        baseRarityScore
+        modifiedRarityScore
+        withSetsRarityScore
+        locked
+        createdAt
+        claimedAt
+        timesTraded
+        historicalPrices
+	}
+}

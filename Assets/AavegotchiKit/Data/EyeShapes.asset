@@ -1,0 +1,288 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b2dddfb2631b74b90a0e656a4baa5f, type: 3}
+  m_Name: EyeShapes
+  m_EditorClassIdentifier: 
+  source: {fileID: 4900000, guid: 4d1c8b2bad31aad448d762bf800aba82, type: 3}
+  eyeShapes:
+  - id: 0
+    haunt: 1
+    rangeMin: 0
+    rangeMax: 1
+    sprites:
+    - {fileID: 21300000, guid: 86d833f096dec9c4b8edf8368e22a388, type: 3}
+    - {fileID: 21300000, guid: 9618aa3e17e18754abbba1e1723ac7d1, type: 3}
+    - {fileID: 21300000, guid: b00443c99ea3b54409322dc5f1bf7d78, type: 3}
+  - id: 1
+    haunt: 1
+    rangeMin: 1
+    rangeMax: 2
+    sprites:
+    - {fileID: 21300000, guid: e8c076bdb3241624a8fe964933a43ad7, type: 3}
+    - {fileID: 21300000, guid: 74849f9417159584e9a130042ba0e688, type: 3}
+    - {fileID: 21300000, guid: 44ed1f867041da24c8dbef3c499de9d5, type: 3}
+  - id: 2
+    haunt: 1
+    rangeMin: 2
+    rangeMax: 5
+    sprites:
+    - {fileID: 21300000, guid: 4717c89f99fd1f043ba0e64f346cd297, type: 3}
+    - {fileID: 21300000, guid: aa773f69380211241b254450a30d86bc, type: 3}
+    - {fileID: 21300000, guid: 27601c4f38e35634f844c01ab4dfccb1, type: 3}
+  - id: 3
+    haunt: 1
+    rangeMin: 5
+    rangeMax: 7
+    sprites:
+    - {fileID: 21300000, guid: 1c0e873e13b542743b54599e90cfd6d8, type: 3}
+    - {fileID: 21300000, guid: 2cee86a2eb0d4de4abde722a53002d89, type: 3}
+    - {fileID: 21300000, guid: fc37718176954e544b166b995e36b3fd, type: 3}
+  - id: 4
+    haunt: 1
+    rangeMin: 7
+    rangeMax: 10
+    sprites:
+    - {fileID: 21300000, guid: ed4e6ae3db28115469d21ae7b736ab02, type: 3}
+    - {fileID: 21300000, guid: 9c13f1063a41273429a87c2507d9dd45, type: 3}
+    - {fileID: 21300000, guid: cf832c62d7daaf3488a6f72171f49389, type: 3}
+  - id: 5
+    haunt: 1
+    rangeMin: 10
+    rangeMax: 15
+    sprites:
+    - {fileID: 21300000, guid: 8d7a2fbe27d0283489df66d9c3002c5d, type: 3}
+    - {fileID: 21300000, guid: 130183d48083ab349b24e000a45f5fa3, type: 3}
+    - {fileID: 21300000, guid: e8c050abda6b55d408182e8970ed3619, type: 3}
+  - id: 6
+    haunt: 1
+    rangeMin: 15
+    rangeMax: 20
+    sprites:
+    - {fileID: 21300000, guid: 69cc8fc6f687d0e44b8a71f3817900af, type: 3}
+    - {fileID: 21300000, guid: 832c55ab2b68ef44ea5305d33186ea8b, type: 3}
+    - {fileID: 21300000, guid: 27e11312df0c43146b99c45bb7f17c71, type: 3}
+  - id: 7
+    haunt: 1
+    rangeMin: 20
+    rangeMax: 25
+    sprites:
+    - {fileID: 21300000, guid: a79e9db0493c86146acb8bd0fb6d7c11, type: 3}
+    - {fileID: 21300000, guid: 9d10c4e21a6a8ce438dee61bfdcc2dfe, type: 3}
+    - {fileID: 21300000, guid: 19542d7c04a1ddc4abe8fa975c52bdfa, type: 3}
+  - id: 8
+    haunt: 1
+    rangeMin: 25
+    rangeMax: 42
+    sprites:
+    - {fileID: 21300000, guid: 952bf975821003c409ae8626ff102f42, type: 3}
+    - {fileID: 21300000, guid: 2ca5f73a2258bd6499e907ce65c61a07, type: 3}
+    - {fileID: 21300000, guid: f6c825cd03477644aa6cf11c3cf4b353, type: 3}
+  - id: 9
+    haunt: 1
+    rangeMin: 42
+    rangeMax: 58
+    sprites:
+    - {fileID: 21300000, guid: 26c0a1252a9126b4eb05ab60b341482e, type: 3}
+    - {fileID: 21300000, guid: f37e2b45236e0f442971691a1f848935, type: 3}
+    - {fileID: 21300000, guid: f9903c7d5d3c5bb40bcb70d7e9213e6b, type: 3}
+  - id: 10
+    haunt: 1
+    rangeMin: 58
+    rangeMax: 75
+    sprites:
+    - {fileID: 21300000, guid: fae04992331c19040b3167f1388af0b9, type: 3}
+    - {fileID: 21300000, guid: 474555c2e4c69a04292e3397b2ca51e3, type: 3}
+    - {fileID: 21300000, guid: ffffafd616adba4418f8121b5a9862ef, type: 3}
+  - id: 11
+    haunt: 1
+    rangeMin: 75
+    rangeMax: 80
+    sprites:
+    - {fileID: 21300000, guid: 6ba4e87a05ad0404799c126af279f477, type: 3}
+    - {fileID: 21300000, guid: a392087d1a4d3914a8be7bdeaf273173, type: 3}
+    - {fileID: 21300000, guid: 9cfec3bab45c5e1498f422717c6aa2e0, type: 3}
+  - id: 12
+    haunt: 1
+    rangeMin: 80
+    rangeMax: 85
+    sprites:
+    - {fileID: 21300000, guid: c512aa7c2f5677240a829b84286d6544, type: 3}
+    - {fileID: 21300000, guid: a14d0174f29d48048ba5d3a2dd3dd7b5, type: 3}
+    - {fileID: 21300000, guid: 70ff142d379ff354ea4bfb40fa9e4fcf, type: 3}
+  - id: 13
+    haunt: 1
+    rangeMin: 85
+    rangeMax: 90
+    sprites:
+    - {fileID: 21300000, guid: 7a2ad97c8f59b8e46ae9d746ecb6160c, type: 3}
+    - {fileID: 21300000, guid: a12f934603de7f04fb1c5d3bb8601515, type: 3}
+    - {fileID: 21300000, guid: c537c9c654ac2aa45855869fe9f5e931, type: 3}
+  - id: 14
+    haunt: 1
+    rangeMin: 90
+    rangeMax: 93
+    sprites:
+    - {fileID: 21300000, guid: c534b42dcbb98f44dbca8d36e9273ad9, type: 3}
+    - {fileID: 21300000, guid: 6c87c3de2b823c442b28bbbf6cc5066e, type: 3}
+    - {fileID: 21300000, guid: 3e0abb91dbc4b2941a1ff5497862b7bc, type: 3}
+  - id: 15
+    haunt: 1
+    rangeMin: 93
+    rangeMax: 95
+    sprites:
+    - {fileID: 21300000, guid: 36ed023aef7ea1544af1ef24685e8bee, type: 3}
+    - {fileID: 21300000, guid: fbebe61bcd6bec44bad951f5dfa5f57b, type: 3}
+    - {fileID: 21300000, guid: d3b83f57786606740a9774ae0d076488, type: 3}
+  - id: 16
+    haunt: 1
+    rangeMin: 95
+    rangeMax: 98
+    sprites:
+    - {fileID: 21300000, guid: ac1d203a551a9f34f885f40c3bdafb39, type: 3}
+    - {fileID: 21300000, guid: 3f855b600740cca458e93732c4495b17, type: 3}
+    - {fileID: 21300000, guid: a771d77e9c8aaf548a4ea3e629cd7f6d, type: 3}
+  - id: 0
+    haunt: 2
+    rangeMin: 0
+    rangeMax: 1
+    sprites:
+    - {fileID: 21300000, guid: 349d8beede8ebbe409aea76e7a2ce9a0, type: 3}
+    - {fileID: 21300000, guid: f107ba0a31e66d547826740b32731997, type: 3}
+    - {fileID: 21300000, guid: 0302bbe8616e3cb4280c03794d4233cc, type: 3}
+  - id: 1
+    haunt: 2
+    rangeMin: 1
+    rangeMax: 2
+    sprites:
+    - {fileID: 21300000, guid: eae197be7ae80fd42a86293d69d5dabf, type: 3}
+    - {fileID: 21300000, guid: ce72f085b8000bd4eb9367cab64d5923, type: 3}
+    - {fileID: 21300000, guid: ac10c1504d50cfb4e9c10e3d0a7630b9, type: 3}
+  - id: 2
+    haunt: 2
+    rangeMin: 2
+    rangeMax: 5
+    sprites:
+    - {fileID: 21300000, guid: f96568ebf54bd6044925a27c06b5c3e2, type: 3}
+    - {fileID: 21300000, guid: ef679e94ac0738a43abd183a739371cc, type: 3}
+    - {fileID: 21300000, guid: 1d631923dc1a2384091822101df64bff, type: 3}
+  - id: 3
+    haunt: 2
+    rangeMin: 5
+    rangeMax: 7
+    sprites:
+    - {fileID: 21300000, guid: 0a70a6b03aa2fd44ebc35fb1550f6e89, type: 3}
+    - {fileID: 21300000, guid: d5c57283eb454864787e6bfb455b796f, type: 3}
+    - {fileID: 21300000, guid: 7af8a1640cadf5748aaf3b54ca16ea5e, type: 3}
+  - id: 4
+    haunt: 2
+    rangeMin: 7
+    rangeMax: 10
+    sprites:
+    - {fileID: 21300000, guid: 0509f7815de94f04bba310523143bb76, type: 3}
+    - {fileID: 21300000, guid: 8a276c1c01a366b4dbd004cf82c60f15, type: 3}
+    - {fileID: 21300000, guid: f2e7950d720051e4da8015f2e653352a, type: 3}
+  - id: 5
+    haunt: 2
+    rangeMin: 10
+    rangeMax: 15
+    sprites:
+    - {fileID: 21300000, guid: eecb7784a34239f4688d55b4dd25a66b, type: 3}
+    - {fileID: 21300000, guid: 23741a1dd7d069e468e355dd9e939640, type: 3}
+    - {fileID: 21300000, guid: 556c429a6ab66a047b886fc7e9da4cd7, type: 3}
+  - id: 6
+    haunt: 2
+    rangeMin: 15
+    rangeMax: 20
+    sprites:
+    - {fileID: 21300000, guid: 38d57258242cd4c408f096fb60cd1eb1, type: 3}
+    - {fileID: 21300000, guid: 1a45a8948f4806649a02f9798db196a2, type: 3}
+    - {fileID: 21300000, guid: 8af6aa4faef80214f83db9d6fb822bc8, type: 3}
+  - id: 7
+    haunt: 2
+    rangeMin: 20
+    rangeMax: 25
+    sprites:
+    - {fileID: 21300000, guid: 42a09d7de39b3524f9bb0285855be610, type: 3}
+    - {fileID: 21300000, guid: 83cc249bda14a1748b234476f609d2bd, type: 3}
+    - {fileID: 21300000, guid: 1c565b77378956849945d04ec5e533ad, type: 3}
+  - id: 8
+    haunt: 2
+    rangeMin: 25
+    rangeMax: 42
+    sprites:
+    - {fileID: 21300000, guid: 949b605e988aa5f4a8b0bd05aa36b962, type: 3}
+    - {fileID: 21300000, guid: eefdaabb072aac5499a070107c9cd90c, type: 3}
+    - {fileID: 21300000, guid: e8842cd235379ce4c92ac4d324c0549c, type: 3}
+  - id: 9
+    haunt: 2
+    rangeMin: 42
+    rangeMax: 58
+    sprites:
+    - {fileID: 21300000, guid: 5c1d69acde6b906409b5e93af8daca26, type: 3}
+    - {fileID: 21300000, guid: dc8c9bc015de19546b884934233b22d9, type: 3}
+    - {fileID: 21300000, guid: fc2c9f9a21f55814683c89243fbecd3b, type: 3}
+  - id: 10
+    haunt: 2
+    rangeMin: 58
+    rangeMax: 75
+    sprites:
+    - {fileID: 21300000, guid: 1465f545b38bc554da2959003e18c838, type: 3}
+    - {fileID: 21300000, guid: 8007310c39e4ea142b35fbd6c8d29ca0, type: 3}
+    - {fileID: 21300000, guid: 8f9c6f83a232cb5498f260c094731f52, type: 3}
+  - id: 11
+    haunt: 2
+    rangeMin: 75
+    rangeMax: 80
+    sprites:
+    - {fileID: 21300000, guid: 3b393c6314abe544db2d6c1fd33f952b, type: 3}
+    - {fileID: 21300000, guid: 5aab9c20e525f734aab64aef5f07955f, type: 3}
+    - {fileID: 21300000, guid: 8aa781e9656053440be1980f304178f3, type: 3}
+  - id: 12
+    haunt: 2
+    rangeMin: 80
+    rangeMax: 85
+    sprites:
+    - {fileID: 21300000, guid: ac438d0a99b203e479147b23d143966e, type: 3}
+    - {fileID: 21300000, guid: d2c5343678f636c4a8baf3d8d0769b65, type: 3}
+    - {fileID: 21300000, guid: b3f8c0d1b0dc8ce459930df2a7e3b284, type: 3}
+  - id: 13
+    haunt: 2
+    rangeMin: 85
+    rangeMax: 90
+    sprites:
+    - {fileID: 21300000, guid: 6408877026b6d2c4abece40029faa1f9, type: 3}
+    - {fileID: 21300000, guid: 8d683940a6d73a543b9aa43c8439de25, type: 3}
+    - {fileID: 21300000, guid: 336d0d1d2590e19419c6be96e525da60, type: 3}
+  - id: 14
+    haunt: 2
+    rangeMin: 90
+    rangeMax: 93
+    sprites:
+    - {fileID: 21300000, guid: 6e25134bd934d0c49b2cb5d93daa6fb5, type: 3}
+    - {fileID: 21300000, guid: a8e1b54ba05f5a24099cf6847ba95edb, type: 3}
+    - {fileID: 21300000, guid: d9e54f0e1d1b71d4ab72da0d3089fdf5, type: 3}
+  - id: 15
+    haunt: 2
+    rangeMin: 93
+    rangeMax: 95
+    sprites:
+    - {fileID: 21300000, guid: 7ef2098d1560ec9498814a2bf2bd7ae1, type: 3}
+    - {fileID: 21300000, guid: e56822202db28c84daed99fe048f0051, type: 3}
+    - {fileID: 21300000, guid: 6d346eba1a658794fb7f70df4d71f260, type: 3}
+  - id: 16
+    haunt: 2
+    rangeMin: 95
+    rangeMax: 98
+    sprites:
+    - {fileID: 21300000, guid: cffa80170472a914395107acd263fe67, type: 3}
+    - {fileID: 21300000, guid: 76abcec2dac7d6542bdcada4063b5aa1, type: 3}
+    - {fileID: 21300000, guid: 8f7f3c3fca903e14baef3e5074fba564, type: 3}

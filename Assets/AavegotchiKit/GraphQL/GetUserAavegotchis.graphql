@@ -1,0 +1,20 @@
+# get gotchis
+query GetUserAavegotchis($id: String!)
+{
+	user(id: $id)
+	{
+		id
+		gotchisOwned 
+		{
+			id
+	  		hauntId
+	  		collateral
+	  		name
+	  		numericTraits
+	  		equippedWearables
+	  		level
+	  		kinship
+	  		status
+		}
+	}
+}
