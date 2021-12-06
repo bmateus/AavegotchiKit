@@ -1,5 +1,4 @@
-Aavegotchi Kit
-=======================================================================================
+# Aavegotchi Kit
 A Unity Package for getting started using Aavegotchi in a Unity game.
 
 
@@ -42,8 +41,7 @@ Please feel free to report any issues or fix them and submit a pull request!
 
 
 
-Dependencies:
-=======================================================================================
+## Dependencies:
 
 - Install these dependencies using the Unity Package Manager:
 
@@ -55,9 +53,9 @@ https://github.com/LastAbyss/SimpleGraphQL-For-Unity.git
 
 
 
-Release Notes
-=======================================================================================
-0.1 - Dec 5 2021 - Initial Release
+## Release Notes
+
+- v0.1 - Dec 5 2021 - Initial Release
 
 
 
