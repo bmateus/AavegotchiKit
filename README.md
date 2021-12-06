@@ -10,13 +10,17 @@ in a Unity game.
 Initially, I tried converting the SVGs in a web build by sending a request from unity 
 through the unity <-> js bridge, grabbing the svg from on-chain or theGraph, compositing 
 it and then using URL.createObjectURL and then sending the URL back to unity, where you 
-could do a web request to get a useable image. This works, but besides being overly-
-complicated, it has several disadvantages:
-    - Takes a relatively long time
-    - Uses up a lot of texture memory
-    - Can't batch Aavegotchi draw calls
+could do a web request to get a useable image. This works, but besides being 
+overly-complicated, it has several disadvantages:
+
+    - It takes a relatively long time to load up a gotchi
+    - It uses up a lot of texture memory
+    - You can't batch draw calls
+    - Can only be used in a WebGL game
+
 This approach might be ok for a game that uses a single Aavegotchi, but would perform 
-poorly with many different gotchi simultaneously
+poorly with many different gotchi simultaneously. It would also be nice to build 
+Aavegotchi games for any platform, not just webGL
 
 This new approach uses a javascript / python toolchain to pull all the Aavegotchi data 
 from the blockchain and render all the SVGs into PNGs which can then all be packed together 
