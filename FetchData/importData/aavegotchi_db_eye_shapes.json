@@ -1,0 +1,376 @@
+[
+  {
+    "haunt": 1,
+    "id": 0,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M25 22h2v-1h-4v1h2z\" class=\"gotchi-primary\" /><path d=\"M27 25h-6v1h8v-1h-2zm0-2h-6v1h8v-1h-2z\" /><path d=\"M26 27h-4v1h6v-1h-2z\" class=\"gotchi-primary\" /><path d=\"M41 25h-6v1h8v-1h-2zm1-2h-7v1h8v-1h-1z\" /><path d=\"M39 22h2v-1h-4v1h2zm1 5h-4v1h6v-1h-2z\" class=\"gotchi-primary\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 22h2v1h-2v-1zm0 4h4v1h-4v-1zm0-2h4v1h-4v-1zm0 4h3v1h-3v-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 26h4v1h-4v-1zm2-4h2v1h-2v-1zm-2 2h4v1h-4v-1zm1 4h3v1h-3v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 1,
+    "rangeMin": 1,
+    "rangeMax": 2,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><g class=\"gotchi-primary\"><path d=\"M23 22h-1v1h1v-1zm5 5h-1v1h1v-1zm-5-1h-1v1h1v-1z\" /><path d=\"M22 25h-1v1h1v-1zm0-2h-1v1h1v-1z\" /></g><path d=\"M23 24h-1v1h1v-1z\" /><path d=\"M27 22h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M25 22h-1v1h1v-1zm2 4h-1v1h1v-1z\" /><path d=\"M29 26h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M25 26h-1v1h1v-1z\" /><path d=\"M29 24h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M25 24h-1v1h1v-1zm2 0h-1v1h1v-1z\" /><path d=\"M27 28h-1v1h1v-1zm-2 0h-1v1h1v-1zm1-7h-1v1h1v-1zm-2 0h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M28 25h-1v1h1v-1zm-2 0h-1v1h1v-1zm-2 0h-1v1h1v-1z\" /><path d=\"M28 23h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M24 23h-1v1h1v-1zm2 0h-1v1h1v-1zm0 4h-1v1h1v-1z\" /><g class=\"gotchi-primary\"> <path d=\"M24 27h-1v1h1v-1zm18-5h-1v1h1v-1zm-5 5h-1v1h1v-1zm5-1h-1v1h1v-1z\" /><path d=\"M43 25h-1v1h1v-1z\" /></g> <path d=\"M42 24h-1v1h1v-1z\" /><path d=\"M43 23h-1v1h1v-1zm-5-1h-1v1h1v-1z\" class=\"gotchi-primary\" /><g> <path d=\"M37 25h-1v1h1v-1zm4 0h-1v1h1v-1z\" /><path d=\"M38 26h-1v1h1v-1z\" /></g> <path d=\"M37 23h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M38 24h-1v1h1v-1zm3-1h-1v1h1v-1z\" /><path d=\"M38 28h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M39 23h-1v1h1v-1z\" /><path d=\"M39 21h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M40 22h-1v1h1v-1z\" /><path d=\"M41 21h-1v1h1v-1z\" class=\"gotchi-primary\" /><g> <path d=\"M40 26h-1v1h1v-1z\" /><path d=\"M39 25h-1v1h1v-1z\" /></g> <path d=\"M36 26h-1v1h1v-1zm0-2h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M40 24h-1v1h1v-1z\" /><g class=\"gotchi-primary\"> <path d=\"M41 27h-1v1h1v-1z\" /><path d=\"M40 28h-1v1h1v-1z\" /></g> <path d=\"M39 27h-1v1h1v-1z\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 23h1v1h-1v-1zm0 4h1v1h-1v-1z\"/><path d=\"M24,26h1v1h-1V26z\"/><path d=\"M23,25h1v1h-1V25z\"/><path d=\"M24 24h1v1h-1v-1zm-2 2h1v1h-1v-1zm0-2h1v1h-1v-1z\"/><path d=\"M21,23h1v1h-1V23z\"/><path d=\"M22 22h1v1h-1v-1zm-1 5h1v1h-1v-1z\"/><path d=\"M21 25h1v1h-1v-1zm1 3h1v1h-1v-1z\"/><path d=\"M21,29h1v1h-1V29z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M40 23h1v1h-1v-1zm0 4h1v1h-1v-1z\"/><path d=\"M39 26h1v1h-1v-1zm0-2h1v1h-1v-1z\"/><path d=\"M40 25h1v1h-1v-1zm2-2h1v1h-1v-1zm0 4h1v1h-1v-1zm0-2h1v1h-1v-1zm0 4h1v1h-1v-1z\"/><path d=\"M41 22h1v1h-1v-1zm0 4h1v1h-1v-1zm0-2h1v1h-1v-1zm0 4h1v1h-1v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 2,
+    "rangeMin": 2,
+    "rangeMax": 5,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 22h-1v1h1v-1zm0 5h-1v1h1v-1zm5-5h-1v1h1v-1zm0 5h-1v1h1v-1zm14 0h-1v1h1v-1zm0-5h-1v1h1v-1zm-5 0h-1v1h1v-1zm0 5h-1v1h1v-1z\" class=\"gotchi-primary\" /><g><path d=\"M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z\" /><path d=\"M25 23h-1v1h1v-1z\" /><path d=\"M25 24h-1v1h1v-1zm2 0h-1v1h1v-1zm-1 2h-1v1h1v-1z\" /><path d=\"M25 25h-1v1h1v-1z\" /><path d=\"M26 25h-1v1h1v-1zm-2 0h-1v1h1v-1zm2-2h-1v1h1v-1z\" /><path d=\"M26 24h-1v1h1v-1zm13 2h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z\" /><path d=\"M39 24h-1v1h1v-1z\" /><path d=\"M38 23h1v1h-1m0 1h-1v1h1v-1zm2 1h-1v1h1v-1z\" /><path d=\"M40 25h-1v1h1v-1z\" /><path d=\"M39 25h-1v1h1v-1zm2-1h-1v1h1v-1z\" /><path d=\"M40 23h-1v1h1v-1z\" /><path d=\"M40 24h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 23h1v1h-1v-1zm0 2h-1v-1h-1v4h1v-1h1v-2zm0 3h1v1h-1v-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42 24v1h-1v2h1v1h1v-4h-1zm-2 4h1v1h-1v-1zm0-5h1v1h-1v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 3,
+    "rangeMin": 5,
+    "rangeMax": 7,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><g><path d=\"M23 25h-1v1h1v-1z\" /><path d=\"M23 24h-1v1h1v-1zm4 2h-1v1h1v-1zm-3 0h-1v1h1v-1z\" /><path d=\"M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1zm3-1h-1v1h1v-1z\" /><path d=\"M28 24h-1v1h1v-1zm-3-1h-1v1h1v-1z\" /><path d=\"M27 24h-1v1h1v-1z\" /></g><path d=\"M27 28h-1v1h1v-1zm0-7h-1v1h1v-1zm-3 0h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M26 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-4 0h-1v1h1v-1zm0-2h-1v1h1v-1zm2 0h-1v1h1v-1z\" /><path d=\"M24 28h-1v1h1v-1z\" class=\"gotchi-primary\" /><g><path d=\"M42 25h-1v1h1v-1z\" /><path d=\"M42 24h-1v1h1v-1zm-5 1h-1v1h1v-1z\" /><path d=\"M39 26h-1v1h1v-1zm2-1h-1v1h1v-1z\" /><path d=\"M38 26h-1v1h1v-1zm-1-2h-1v1h1v-1z\" /><path d=\"M38 24h-1v1h1v-1zm3-1h-1v1h1v-1z\" /></g><path d=\"M38 28h-1v1h1v-1zm3 0h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M38 23h1v1h-1\" /><path d=\"M38 21h-1v1h1v-1zm3 0h-1v1h1v-1z\" class=\"gotchi-primary\" /><g><path d=\"M38 25h-1v1h1v-1zm3 1h-1v1h1v-1z\" /><path d=\"M40 26h-1v1h1v-1zm-2-3h-1v1h1v-1zm3 1h-1v1h1v-1z\" /><path d=\"M40 23h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M22 29h1v1h-1v-1zm0-7h1v1h-1v-1zm1 3v-1h-2v1h1v2h-1v1h2v-1h1v-2h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M41 29h1v1h-1v-1zm0-7h1v1h-1v-1zm2 3v-1h-2v1h-1v2h1v1h2v-1h-1v-2h1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 4,
+    "rangeMin": 7,
+    "rangeMax": 10,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><g><path d=\"M25 24h-1v1h1v-1z\" /><path d=\"M25 25h-1v1h1v-1z\" /></g><g class=\"gotchi-primary\"><path d=\"M28 27h-1v1h1v-1z\" /><path d=\"M27 27h-1v1h1v-1zm1-5h-1v1h1v-1z\" /><path d=\"M27 22h-1v1h1v-1zm-4 0h-1v1h1v-1z\" /><path d=\"M24 22h-1v1h1v-1z\" /></g><g><path d=\"M26 24h-1v1h1v-1z\" /><path d=\"M26 25h-1v1h1v-1z\" /></g><g class=\"gotchi-primary\"><path d=\"M23 27h-1v1h1v-1z\" /><path d=\"M24 27h-1v1h1v-1z\" /></g><path d=\"M39 25h-1v1h1v-1z\" /><g class=\"gotchi-primary\"><path d=\"M38 27h-1v1h1v-1z\" /><path d=\"M37 27h-1v1h1v-1zm4 0h-1v1h1v-1z\" /><path d=\"M42 27h-1v1h1v-1z\" /></g><path d=\"M38 24h1v1h-1\" /><g class=\"gotchi-primary\"><path d=\"M38 22h-1v1h1v-1z\" /><path d=\"M37 22h-1v1h1v-1zm4 0h-1v1h1v-1z\" /><path d=\"M42 22h-1v1h1v-1z\" /></g><g><path d=\"M40 25h-1v1h1v-1z\" /><path d=\"M40 24h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 24h1v2h-1v-2zm1-2h2v1h-2v-1zm0 5h2v1h-2v-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42 24h1v2h-1v-2zm-2 3h2v1h-2v-1zm0-5h2v1h-2v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 5,
+    "rangeMin": 10,
+    "rangeMax": 15,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"21\" y=\"23\" width=\"8\" height=\"2\" class=\"gotchi-primary\" /><rect x=\"35\" y=\"23\" width=\"8\" height=\"2\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"25\" width=\"2\" height=\"2\" /><rect x=\"24\" y=\"25\" width=\"2\" height=\"2\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M25 26v-2h-4v2h4z\"/><path d=\"M21,26v2h1v-2H21z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 26v-2h-4v2h4z\"/><path d=\"M42,26v2h1v-2H42z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 6,
+    "rangeMin": 15,
+    "rangeMax": 20,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"21\" y=\"23\" width=\"8\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"2\" /><rect x=\"35\" y=\"23\" width=\"8\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"2\" /><rect x=\"37\" y=\"24\" width=\"4\" height=\"1\" /><rect x=\"23\" y=\"24\" width=\"4\" height=\"1\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M25 25v-1h-4v1h4z\"/><path d=\"M21,25v2h1v-1h1v-1H21z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 25v-1h-4v1h4z\"/><path d=\"M41,25v1h1v1h1v-2H41z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 7,
+    "rangeMin": 20,
+    "rangeMax": 25,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"23\" y=\"23\" width=\"4\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"2\" /><rect x=\"37\" y=\"23\" width=\"4\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"2\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 25v-1h-2v1h2z\"/><path d=\"M21,25v2h1v-2H21z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 25v-1h-2v1h2z\"/><path d=\"M42,25v2h1v-2H42z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 8,
+    "rangeMin": 25,
+    "rangeMax": 42,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 28V29V30H24H25H26H27V29V28H28H29V27V26V25V24H28H27V23V22H26H25H24H23V23V24H22H21V25V26V27V28H22H23Z\" /><path d=\"M35 24V25V26V27V28H36H37V29V30H38H39H40H41V29V28H42H43V27V26V25V24H42H41V23V22H40H39H38H37V23V24H36H35Z\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M22,24v-2h-1v8h1v-2h2v-4H22z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 30v-8h-1v2h-2v4h2v2h1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 9,
+    "rangeMin": 42,
+    "rangeMax": 58,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"22\" y=\"28\" width=\"6\" height=\"6\" transform=\"rotate(-90 22 28)\" /><rect x=\"36\" y=\"22\" width=\"6\" height=\"6\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21,22h3v6h-3V22z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M40,22h3v6h-3V22z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 10,
+    "rangeMin": 58,
+    "rangeMax": 75,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M28 22H27V21H26H25H24H23V22H22V23H21V24V25V26V27H22V28H23V29H24H25H26H27V28H28V27H29V26V25V24V23H28V22Z\" /><path d=\"M42 23V22H41V21H40H39H38H37V22H36V23H35V24V25V26V27H36V28H37V29H38H39H40H41V28H42V27H43V26V25V24V23H42Z\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23,24v-1h-1v-1h-1v8h1v-1h1v-1h1v-4H23z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 30v-8h-1v1h-1v1h-1v4h1v1h1v1h1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 11,
+    "rangeMin": 75,
+    "rangeMax": 80,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M27 23H26H25H24H23H22H21V24V25H22H23H24H25H26H27H28H29V24V23H28H27Z\" class=\"gotchi-primary\" /><path d=\"M42 23H41H40H39H38H37H36H35V24V25H36H37H38H39H40H41H42H43V24V23H42Z\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"23\" width=\"2\" height=\"2\" /> <rect x=\"38\" y=\"23\" width=\"2\" height=\"2\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21,25h4v2h-4V25z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M38.6,25H43v2h-4.4V25z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 12,
+    "rangeMin": 80,
+    "rangeMax": 85,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M27 23H26H25H24H23H22H21V24H22H23H24V25H23H22H21V26H22H23H24H25H26H27H28H29V25H28H27H26V24H27H28H29V23H28H27Z\" class=\"gotchi-primary\" /><path d=\"M41 24H42H43V23H42H41H40H39H38H37H36H35V24H36H37H38V25H37H36H35V26H36H37H38H39H40H41H42H43V25H42H41H40V24H41Z\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"1\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"1\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 25h4v1h-4zm0 2h4v1h-4z\"/><path d=\"M21 26h1v1h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 25h4v1h-4zm0 2h4v1h-4z\"/><path d=\"M42 26h1v1h-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 13,
+    "rangeMin": 85,
+    "rangeMax": 90,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M27 23H26H25H24H23H22H21V24V25V26H22H23H24H25H26H27H28H29V25V24V23H28H27ZM23 25H22V24H23H24V25H23ZM28 25H27H26V24H27H28V25Z\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"1\" /><path d=\"M42 23H41H40H39H38H37H36H35V24V25V26H36H37H38H39H40H41H42H43V25V24V23H42ZM37 25H36V24H37H38V25H37ZM42 25H41H40V24H41H42V25Z\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"1\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M24 27v-1h-3v-1h4v3h-4v-1z\"/><path d=\"M21 26h1v1h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M40 27v-1h3v-1h-4v3h4v-1z\"/><path d=\"M42 26h1v1h-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 14,
+    "rangeMin": 90,
+    "rangeMax": 93,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 23v1h-1v-1h1v-1h-2v1h-1v2h1v1h2v-1h1v-2h-1z\" /><g class=\"gotchi-primary\"><path d=\"M34 25h-1v1h1v-1zm7 0v1h1v-2h-1v1zm-4-2v-1h-2v1h2z\" /><path d=\"M44 21h-7v1h5v2h1v-1h1v-1h1v-1h-1zm-9 5h-1v1h2v-1h-1z\" /><path d=\"M38 27h-2v1h4v-1h-2zm-3-3v-1h-1v2h1v-1z\" /><path d=\"M41 26h-1v1h1v-1z\" /></g><path d=\"M27 22h-2v1h1v1h-1v-1h-1v2h1v1h2v-1h1v-2h-1v-1z\" /><g class=\"gotchi-primary\"><path d=\"M31 25h-1v1h1v-1zm-8-1h-1v2h1v-2z\" /><path d=\"M22 22h5v-1h-8v1h1v1h1v1h1v-2z\" /><path d=\"M28 23h1v-1h-2v1h1zm0 3v1h2v-1h-2z\" /><path d=\"M26 27h-2v1h4v-1h-2zm3-2h1v-2h-1v2z\" /><path d=\"M24 26h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M24 25h1v2h-1z\"/><path d=\"M21 22v1h4v2h1v-1h1v-1h1v-1zm0 6h2v1h-2z\"/><path d=\"M23 27h1v1h-1zm-1-3v1h-1v2h1v-1h1v-2z\"/><path d=\"M21 23h1v1h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 25h1v2h-1z\"/><path d=\"M43 23v-1h-7v1h1v1h1v1h1v-2zm-2 5h2v1h-2z\"/><path d=\"M40 27h1v1h-1zm2-4h1v1h-1z\"/><path d=\"M41 24v2h1v1h1v-2h-1v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 15,
+    "rangeMin": 93,
+    "rangeMax": 95,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 23v2h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1z\" /><g class=\"gotchi-primary\"><path d=\"M36 22h-1v1h1v-1z\" /><path d=\"M35 25v-2h-1v4h1v-2z\" /><path d=\"M36 27h-1v1h1v-1zm5-5h-1v1h1v-1z\" /><path d=\"M41 23v4h1v-4h-1zm-3-1h2v-1h-4v1h2zm0 6h-2v1h4v-1h-2z\" /><path d=\"M41 27h-1v1h1v-1z\" /></g><path d=\"M27 24v1h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1v1z\" /><g class=\"gotchi-primary\"><path d=\"M24 22h-1v1h1v-1z\" /><path d=\"M23 25v-2h-1v4h1v-2z\" /><path d=\"M24 27h-1v1h1v-1zm5-5h-1v1h1v-1z\" /><path d=\"M29 24v3h1v-4h-1v1zm-3-2h2v-1h-4v1h2zm0 6h-2v1h4v-1h-2z\" /><path d=\"M29 27h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 23h1v1h-1z\"/><path d=\"M22 24v2h-1v2h1v-1h1v-3zm-1 5h2v1h-2z\"/><path d=\"M23 23h1v1h-1z\"/><path d=\"M24 24h1v4h-1z\"/><path d=\"M23 28h1v1h-1zm-2-6h2v1h-2z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42,23v1h-1v3h1v1h1v-5H42z\"/><path d=\"M40 23h1v1h-1z\"/><path d=\"M39 24h1v4h-1z\"/><path d=\"M40 28h1v1h-1z\"/><path d=\"M41 29h2v1h-2zm0-7h2v1h-2z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 1,
+    "id": 16,
+    "rangeMin": 95,
+    "rangeMax": 98,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><g><path d=\"M40 23v2h1v-2h-1z\" /><path d=\"M39 24v-1h-2v2h1v1h2v-1h-1v-1zm-13 0v1h1v-2h-1v1z\" /><path d=\"M25 24v-1h-2v2h1v1h2v-1h-1v-1z\" /></g><g class=\"gotchi-primary\"><path d=\"M35 23h-1v1h1v-1zm0 2h-1v1h1v-1zm9-2h-1v1h1v-1z\" /><path d=\"M45 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z\" /><path d=\"M34 24h-1v1h1v-1zm10 1h-1v1h1v-1z\" /><path d=\"M41 26h-6v1h8v-1h-2zm-20-3h-1v1h1v-1zm0 2h-1v1h1v-1zm9-2h-1v1h1v-1z\" /><path d=\"M31 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z\" /><path d=\"M20 24h-1v1h1v-1zm10 1h-1v1h1v-1z\" /><path d=\"M27 26h-6v1h8v-1h-2z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 27h4v1h-4zm4-3h1v1h-1z\"/><path d=\"M26 25h1v1h-1zm-5-2h4v1h-4z\"/><path d=\"M25 26h1v1h-1zm-4 0h1v1h-1z\"/><path d=\"M22 24h1v2h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M38 26h1v1h-1zm0-2h1v1h-1z\"/><path d=\"M37 25h1v1h-1zm2 2h4v1h-4zm0-4h4v1h-4z\"/><path d=\"M41 26h1v1h1v-3h-2v2z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 0,
+    "rangeMin": 0,
+    "rangeMax": 1,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42 24v-1h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1z\"/><path d=\"M41 25v2h1v-2h-1zm-3-2v1h2v-1h-2zm-2 3v1h1v-2h-1v1zm2-1v2h2v-2h-2zm0 3v1h2v-1h-2z\" fill=\"#fff\"/><path d=\"M28 23h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1v-1z\"/><path d=\"M27 26v1h1v-2h-1v1zm-3-3v1h2v-1h-2zm-2 3v1h1v-2h-1v1zm2-1v2h2v-2h-2zm0 3v1h2v-1h-2z\" fill=\"#fff\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 30v-8h1v1h1v1h1v4h-1v1h-1v1z\"/><path d=\"M23,25h-1v2h1V25z\" fill=\"#fff\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 30v-8h-1v1h-1v1h-1v4h1v1h1v1z\"/><path d=\"M41 27h1v-2h-1v2z\" fill=\"#fff\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 1,
+    "rangeMin": 1,
+    "rangeMax": 2,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42 24v-1h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1z\"/><path d=\"M41 25v2h1v-2h-1zm-5 2h1v-2h-1v2zm2-2v2h2v-2h-2z\" fill=\"#fff\"/><path d=\"M28 23h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1v-1z\"/><path d=\"M27 27h1v-2h-1v2zm-5 0h1v-2h-1v2zm2-2v2h2v-2h-2z\" fill=\"#fff\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23,24v-1h-1v-1h-1v8h1v-1h1v-1h1v-4H23z\"/><path d=\"M22 25h1v2h-1z\" fill=\"#fff\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M40,24v4h1v1h1v1h1v-8h-1v1h-1v1H40z\"/><path d=\"M41 25h1v2h-1z\" fill=\"#fff\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 2,
+    "rangeMin": 2,
+    "rangeMax": 5,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 22h-1v1h1v-1zm0 5h-1v1h1v-1zm5-5h-1v1h1v-1zm0 5h-1v1h1v-1zm14 0h-1v1h1v-1zm0-5h-1v1h1v-1zm-5 0h-1v1h1v-1zm0 5h-1v1h1v-1z\" class=\"gotchi-primary\" /><g><path d=\"M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z\" /><path d=\"M25 23h-1v1h1v-1z\" /><path d=\"M25 24h-1v1h1v-1zm2 0h-1v1h1v-1zm-1 2h-1v1h1v-1z\" /><path d=\"M25 25h-1v1h1v-1z\" /><path d=\"M26 25h-1v1h1v-1zm-2 0h-1v1h1v-1zm2-2h-1v1h1v-1z\" /><path d=\"M26 24h-1v1h1v-1zm13 2h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z\" /><path d=\"M39 24h-1v1h1v-1z\" /><path d=\"M38 23h1v1h-1m0 1h-1v1h1v-1zm2 1h-1v1h1v-1z\" /><path d=\"M40 25h-1v1h1v-1z\" /><path d=\"M39 25h-1v1h1v-1zm2-1h-1v1h1v-1z\" /><path d=\"M40 23h-1v1h1v-1z\" /><path d=\"M40 24h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 23h1v1h-1v-1zm0 2h-1v-1h-1v4h1v-1h1v-2zm0 3h1v1h-1v-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42 24v1h-1v2h1v1h1v-4h-1zm-2 4h1v1h-1v-1zm0-5h1v1h-1v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 3,
+    "rangeMin": 5,
+    "rangeMax": 7,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><g><path d=\"M23 25h-1v1h1v-1z\" /><path d=\"M23 24h-1v1h1v-1zm4 2h-1v1h1v-1zm-3 0h-1v1h1v-1z\" /><path d=\"M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1zm3-1h-1v1h1v-1z\" /><path d=\"M28 24h-1v1h1v-1zm-3-1h-1v1h1v-1z\" /><path d=\"M27 24h-1v1h1v-1z\" /></g><path d=\"M27 28h-1v1h1v-1zm0-7h-1v1h1v-1zm-3 0h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M26 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-4 0h-1v1h1v-1zm0-2h-1v1h1v-1zm2 0h-1v1h1v-1z\" /><path d=\"M24 28h-1v1h1v-1z\" class=\"gotchi-primary\" /><g><path d=\"M42 25h-1v1h1v-1z\" /><path d=\"M42 24h-1v1h1v-1zm-5 1h-1v1h1v-1z\" /><path d=\"M39 26h-1v1h1v-1zm2-1h-1v1h1v-1z\" /><path d=\"M38 26h-1v1h1v-1zm-1-2h-1v1h1v-1z\" /><path d=\"M38 24h-1v1h1v-1zm3-1h-1v1h1v-1z\" /></g><path d=\"M38 28h-1v1h1v-1zm3 0h-1v1h1v-1z\" class=\"gotchi-primary\" /><path d=\"M38 23h1v1h-1\" /><path d=\"M38 21h-1v1h1v-1zm3 0h-1v1h1v-1z\" class=\"gotchi-primary\" /><g><path d=\"M38 25h-1v1h1v-1zm3 1h-1v1h1v-1z\" /><path d=\"M40 26h-1v1h1v-1zm-2-3h-1v1h1v-1zm3 1h-1v1h1v-1z\" /><path d=\"M40 23h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M22 29h1v1h-1v-1zm0-7h1v1h-1v-1zm1 3v-1h-2v1h1v2h-1v1h2v-1h1v-2h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M41 29h1v1h-1v-1zm0-7h1v1h-1v-1zm2 3v-1h-2v1h-1v2h1v1h2v-1h-1v-2h1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 4,
+    "rangeMin": 7,
+    "rangeMax": 10,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><g><path d=\"M25 24h-1v1h1v-1z\" /><path d=\"M25 25h-1v1h1v-1z\" /></g><g class=\"gotchi-primary\"><path d=\"M28 27h-1v1h1v-1z\" /><path d=\"M27 27h-1v1h1v-1zm1-5h-1v1h1v-1z\" /><path d=\"M27 22h-1v1h1v-1zm-4 0h-1v1h1v-1z\" /><path d=\"M24 22h-1v1h1v-1z\" /></g><g><path d=\"M26 24h-1v1h1v-1z\" /><path d=\"M26 25h-1v1h1v-1z\" /></g><g class=\"gotchi-primary\"><path d=\"M23 27h-1v1h1v-1z\" /><path d=\"M24 27h-1v1h1v-1z\" /></g><path d=\"M39 25h-1v1h1v-1z\" /><g class=\"gotchi-primary\"><path d=\"M38 27h-1v1h1v-1z\" /><path d=\"M37 27h-1v1h1v-1zm4 0h-1v1h1v-1z\" /><path d=\"M42 27h-1v1h1v-1z\" /></g><path d=\"M38 24h1v1h-1\" /><g class=\"gotchi-primary\"><path d=\"M38 22h-1v1h1v-1z\" /><path d=\"M37 22h-1v1h1v-1zm4 0h-1v1h1v-1z\" /><path d=\"M42 22h-1v1h1v-1z\" /></g><g><path d=\"M40 25h-1v1h1v-1z\" /><path d=\"M40 24h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 24h1v2h-1v-2zm1-2h2v1h-2v-1zm0 5h2v1h-2v-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42 24h1v2h-1v-2zm-2 3h2v1h-2v-1zm0-5h2v1h-2v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 5,
+    "rangeMin": 10,
+    "rangeMax": 15,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"21\" y=\"23\" width=\"8\" height=\"2\" class=\"gotchi-primary\" /><rect x=\"35\" y=\"23\" width=\"8\" height=\"2\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"25\" width=\"2\" height=\"2\" /><rect x=\"24\" y=\"25\" width=\"2\" height=\"2\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M25 26v-2h-4v2h4z\"/><path d=\"M21,26v2h1v-2H21z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 26v-2h-4v2h4z\"/><path d=\"M42,26v2h1v-2H42z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 6,
+    "rangeMin": 15,
+    "rangeMax": 20,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"21\" y=\"23\" width=\"8\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"2\" /><rect x=\"35\" y=\"23\" width=\"8\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"2\" /><rect x=\"37\" y=\"24\" width=\"4\" height=\"1\" /><rect x=\"23\" y=\"24\" width=\"4\" height=\"1\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M25 25v-1h-4v1h4z\"/><path d=\"M21,25v2h1v-1h1v-1H21z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 25v-1h-4v1h4z\"/><path d=\"M41,25v1h1v1h1v-2H41z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 7,
+    "rangeMin": 20,
+    "rangeMax": 25,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"23\" y=\"23\" width=\"4\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"2\" /><rect x=\"37\" y=\"23\" width=\"4\" height=\"1\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"2\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 25v-1h-2v1h2z\"/><path d=\"M21,25v2h1v-2H21z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 25v-1h-2v1h2z\"/><path d=\"M42,25v2h1v-2H42z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 8,
+    "rangeMin": 25,
+    "rangeMax": 42,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23 28V29V30H24H25H26H27V29V28H28H29V27V26V25V24H28H27V23V22H26H25H24H23V23V24H22H21V25V26V27V28H22H23Z\" /><path d=\"M35 24V25V26V27V28H36H37V29V30H38H39H40H41V29V28H42H43V27V26V25V24H42H41V23V22H40H39H38H37V23V24H36H35Z\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M22,24v-2h-1v8h1v-2h2v-4H22z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 30v-8h-1v2h-2v4h2v2h1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 9,
+    "rangeMin": 42,
+    "rangeMax": 58,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><rect x=\"22\" y=\"28\" width=\"6\" height=\"6\" transform=\"rotate(-90 22 28)\" /><rect x=\"36\" y=\"22\" width=\"6\" height=\"6\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21,22h3v6h-3V22z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M40,22h3v6h-3V22z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 10,
+    "rangeMin": 58,
+    "rangeMax": 75,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M28 22H27V21H26H25H24H23V22H22V23H21V24V25V26V27H22V28H23V29H24H25H26H27V28H28V27H29V26V25V24V23H28V22Z\" /><path d=\"M42 23V22H41V21H40H39H38H37V22H36V23H35V24V25V26V27H36V28H37V29H38H39H40H41V28H42V27H43V26V25V24V23H42Z\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M23,24v-1h-1v-1h-1v8h1v-1h1v-1h1v-4H23z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M43 30v-8h-1v1h-1v1h-1v4h1v1h1v1h1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 11,
+    "rangeMin": 75,
+    "rangeMax": 80,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M27 23H26H25H24H23H22H21V24V25H22H23H24H25H26H27H28H29V24V23H28H27Z\" class=\"gotchi-primary\" /><path d=\"M42 23H41H40H39H38H37H36H35V24V25H36H37H38H39H40H41H42H43V24V23H42Z\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"23\" width=\"2\" height=\"2\" /> <rect x=\"38\" y=\"23\" width=\"2\" height=\"2\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21,25h4v2h-4V25z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M38.6,25H43v2h-4.4V25z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 12,
+    "rangeMin": 80,
+    "rangeMax": 85,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M27 23H26H25H24H23H22H21V24H22H23H24V25H23H22H21V26H22H23H24H25H26H27H28H29V25H28H27H26V24H27H28H29V23H28H27Z\" class=\"gotchi-primary\" /><path d=\"M41 24H42H43V23H42H41H40H39H38H37H36H35V24H36H37H38V25H37H36H35V26H36H37H38H39H40H41H42H43V25H42H41H40V24H41Z\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"1\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"1\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 25h4v1h-4zm0 2h4v1h-4z\"/><path d=\"M21 26h1v1h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 25h4v1h-4zm0 2h4v1h-4z\"/><path d=\"M42 26h1v1h-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 13,
+    "rangeMin": 85,
+    "rangeMax": 90,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M27 23H26H25H24H23H22H21V24V25V26H22H23H24H25H26H27H28H29V25V24V23H28H27ZM23 25H22V24H23H24V25H23ZM28 25H27H26V24H27H28V25Z\" class=\"gotchi-primary\" /><rect x=\"24\" y=\"24\" width=\"2\" height=\"1\" /><path d=\"M42 23H41H40H39H38H37H36H35V24V25V26H36H37H38H39H40H41H42H43V25V24V23H42ZM37 25H36V24H37H38V25H37ZM42 25H41H40V24H41H42V25Z\" class=\"gotchi-primary\" /><rect x=\"38\" y=\"24\" width=\"2\" height=\"1\" /></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M24 27v-1h-3v-1h4v3h-4v-1z\"/><path d=\"M21 26h1v1h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M40 27v-1h3v-1h-4v3h4v-1z\"/><path d=\"M42 26h1v1h-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 14,
+    "rangeMin": 90,
+    "rangeMax": 93,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 23v1h-1v-1h1v-1h-2v1h-1v2h1v1h2v-1h1v-2h-1z\" /><g class=\"gotchi-primary\"><path d=\"M34 25h-1v1h1v-1zm7 0v1h1v-2h-1v1zm-4-2v-1h-2v1h2z\" /><path d=\"M44 21h-7v1h5v2h1v-1h1v-1h1v-1h-1zm-9 5h-1v1h2v-1h-1z\" /><path d=\"M38 27h-2v1h4v-1h-2zm-3-3v-1h-1v2h1v-1z\" /><path d=\"M41 26h-1v1h1v-1z\" /></g><path d=\"M27 22h-2v1h1v1h-1v-1h-1v2h1v1h2v-1h1v-2h-1v-1z\" /><g class=\"gotchi-primary\"><path d=\"M31 25h-1v1h1v-1zm-8-1h-1v2h1v-2z\" /><path d=\"M22 22h5v-1h-8v1h1v1h1v1h1v-2z\" /><path d=\"M28 23h1v-1h-2v1h1zm0 3v1h2v-1h-2z\" /><path d=\"M26 27h-2v1h4v-1h-2zm3-2h1v-2h-1v2z\" /><path d=\"M24 26h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M24 25h1v2h-1z\"/><path d=\"M21 22v1h4v2h1v-1h1v-1h1v-1zm0 6h2v1h-2z\"/><path d=\"M23 27h1v1h-1zm-1-3v1h-1v2h1v-1h1v-2z\"/><path d=\"M21 23h1v1h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 25h1v2h-1z\"/><path d=\"M43 23v-1h-7v1h1v1h1v1h1v-2zm-2 5h2v1h-2z\"/><path d=\"M40 27h1v1h-1zm2-4h1v1h-1z\"/><path d=\"M41 24v2h1v1h1v-2h-1v-1z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 15,
+    "rangeMin": 93,
+    "rangeMax": 95,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><path d=\"M39 23v2h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1z\" /><g class=\"gotchi-primary\"><path d=\"M36 22h-1v1h1v-1z\" /><path d=\"M35 25v-2h-1v4h1v-2z\" /><path d=\"M36 27h-1v1h1v-1zm5-5h-1v1h1v-1z\" /><path d=\"M41 23v4h1v-4h-1zm-3-1h2v-1h-4v1h2zm0 6h-2v1h4v-1h-2z\" /><path d=\"M41 27h-1v1h1v-1z\" /></g><path d=\"M27 24v1h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1v1z\" /><g class=\"gotchi-primary\"><path d=\"M24 22h-1v1h1v-1z\" /><path d=\"M23 25v-2h-1v4h1v-2z\" /><path d=\"M24 27h-1v1h1v-1zm5-5h-1v1h1v-1z\" /><path d=\"M29 24v3h1v-4h-1v1zm-3-2h2v-1h-4v1h2zm0 6h-2v1h4v-1h-2z\" /><path d=\"M29 27h-1v1h1v-1z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 23h1v1h-1z\"/><path d=\"M22 24v2h-1v2h1v-1h1v-3zm-1 5h2v1h-2z\"/><path d=\"M23 23h1v1h-1z\"/><path d=\"M24 24h1v4h-1z\"/><path d=\"M23 28h1v1h-1zm-2-6h2v1h-2z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M42,23v1h-1v3h1v1h1v-5H42z\"/><path d=\"M40 23h1v1h-1z\"/><path d=\"M39 24h1v4h-1z\"/><path d=\"M40 28h1v1h-1z\"/><path d=\"M41 29h2v1h-2zm0-7h2v1h-2z\"/></g>"
+    ]
+  },
+  {
+    "haunt": 2,
+    "id": 16,
+    "rangeMin": 95,
+    "rangeMax": 98,
+    "svgs": [
+      "<g class=\"gotchi-eyeColor\"><g><path d=\"M40 23v2h1v-2h-1z\" /><path d=\"M39 24v-1h-2v2h1v1h2v-1h-1v-1zm-13 0v1h1v-2h-1v1z\" /><path d=\"M25 24v-1h-2v2h1v1h2v-1h-1v-1z\" /></g><g class=\"gotchi-primary\"><path d=\"M35 23h-1v1h1v-1zm0 2h-1v1h1v-1zm9-2h-1v1h1v-1z\" /><path d=\"M45 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z\" /><path d=\"M34 24h-1v1h1v-1zm10 1h-1v1h1v-1z\" /><path d=\"M41 26h-6v1h8v-1h-2zm-20-3h-1v1h1v-1zm0 2h-1v1h1v-1zm9-2h-1v1h1v-1z\" /><path d=\"M31 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z\" /><path d=\"M20 24h-1v1h1v-1zm10 1h-1v1h1v-1z\" /><path d=\"M27 26h-6v1h8v-1h-2z\" /></g></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M21 27h4v1h-4zm4-3h1v1h-1z\"/><path d=\"M26 25h1v1h-1zm-5-2h4v1h-4z\"/><path d=\"M25 26h1v1h-1zm-4 0h1v1h-1z\"/><path d=\"M22 24h1v2h-1z\"/></g>",
+      "<g class=\"gotchi-eyeColor\"><path d=\"M38 26h1v1h-1zm0-2h1v1h-1z\"/><path d=\"M37 25h1v1h-1zm2 2h4v1h-4zm0-4h4v1h-4z\"/><path d=\"M41 26h1v1h1v-3h-2v2z\"/></g>"
+    ]
+  }
+]
