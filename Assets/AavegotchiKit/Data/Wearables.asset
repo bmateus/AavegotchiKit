@@ -3190,7 +3190,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 3fe7a5fd284636242b67e9f528d5a515, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: f69c2ad2a1083014cb3339a7cbe3b2c9, type: 3}
       - {fileID: 21300000, guid: a142d3489e51c0f4ca22a03668edfaa2, type: 3}
@@ -3211,7 +3211,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 51443f74a52002845beb3679f6f26ba7, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: 1187883b096c24643be45db2f4a467da, type: 3}
       - {fileID: 21300000, guid: 32c98d7e1b09964498bb430764876a4b, type: 3}
@@ -3232,7 +3232,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: a89ba074d37b74d40ba166b5ef3f9c7e, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: 4bf99edabbd23514f9bf05f830cdd63b, type: 3}
       - {fileID: 21300000, guid: facf9c9a998690645b3c7f534fbe8c77, type: 3}
@@ -3253,7 +3253,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 1fe4f3f71397cd84980b9a3abb34db42, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: a7e706772c3a88f4fbfd44cc20e0afa2, type: 3}
       - {fileID: 21300000, guid: 5153f1545b9132648967783d29fb04b1, type: 3}
@@ -3274,7 +3274,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: df6bc754c079ef14e905db2e3048a22b, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: 9c067007f2039bd47bee4691fcb30112, type: 3}
       - {fileID: 21300000, guid: edd5e4e4ca07ae047aa81b7900a0d114, type: 3}
@@ -3295,7 +3295,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 6fd469af0423a244281e338652fc843c, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: ae0732fa83b26994d9e050af32511646, type: 3}
       - {fileID: 21300000, guid: f5be0f55dd6ab16498e2365275755355, type: 3}
@@ -3316,7 +3316,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 5d9bfc12f32988241bb5e75f5d790f47, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: 4951072d91a04ac428f9979b1567b703, type: 3}
       - {fileID: 21300000, guid: 0f56c5c7e97ba33458c6dc6c39ce6ed0, type: 3}
@@ -3337,7 +3337,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 3d59d1b0802d14b479b1dd65081bf62d, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: 39db34e9df08fbd419dea6164eb92f08, type: 3}
       - {fileID: 21300000, guid: 9309012b8a1fe954a88e5f912dafb66b, type: 3}
@@ -3358,7 +3358,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: ce74f3471f6299842ac9672d1ce42fd7, type: 3}
+      - {fileID: 0}
       - {fileID: 0}
       - {fileID: 21300000, guid: e8e0201c6de8dff4f859ad76960559fb, type: 3}
       - {fileID: 21300000, guid: a625de24a23292540aa67767939be00f, type: 3}
@@ -3379,7 +3379,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 276f99255828aa34a95791fbef817536, type: 3}
+      - {fileID: 0}
       - {fileID: 21300000, guid: 662730058566a77419038a93b06c5f8e, type: 3}
       - {fileID: 21300000, guid: 657a0dc45027a494fa03476f8a4dec18, type: 3}
       - {fileID: 21300000, guid: ab768ca1cf03a904eb7026f8b4a98fff, type: 3}
@@ -3400,7 +3400,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: a8b5ae078609a1b4184078160ea3eb94, type: 3}
+      - {fileID: 0}
       - {fileID: 21300000, guid: 7a885dab4cf212d41b6cebc913eb71a2, type: 3}
       - {fileID: 21300000, guid: bf5991f1fde900c4d9e0e67765c97e6b, type: 3}
       - {fileID: 21300000, guid: ac2ea6dabea9efa4a9cb27527de1251b, type: 3}
@@ -3421,7 +3421,7 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 8d9c9473b50b5aa49a5cb0d69334a684, type: 3}
+      - {fileID: 0}
       - {fileID: 21300000, guid: 2e52faff150ac0f4fb8c03f1ad8fe88a, type: 3}
       - {fileID: 21300000, guid: 00caeb6d2028b584bb58469dbd6f58ff, type: 3}
       - {fileID: 21300000, guid: 22db2feca7d55a44498594764a4ff1e9, type: 3}
@@ -3442,10 +3442,10 @@ MonoBehaviour:
     allowedCollaterals: []
     poses:
     - sprites:
-      - {fileID: 21300000, guid: 3b53037aa1d8cd74a8fd893b6cfc0481, type: 3}
-      - {fileID: 21300000, guid: b7476cb742c5348409df1d37c5e050b0, type: 3}
-      - {fileID: 21300000, guid: 4415e3b6f40366948acd31089794ad34, type: 3}
-      - {fileID: 21300000, guid: a8b163e96f015a14f94749ec294dea9c, type: 3}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
       sleeves:
       - {fileID: 0}
       - {fileID: 0}
@@ -5210,6 +5210,1070 @@ MonoBehaviour:
       - {fileID: 21300000, guid: 02647579d7c2f9c4d848cb9b3a506fb2, type: 3}
       - {fileID: 21300000, guid: 3a51fa4d639d3e54ba035203678c5c3b, type: 3}
       - {fileID: 21300000, guid: abd8fe5de6a62524ca3e0412a21c9b7a, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 264
+    name: Aastronaut Crew Member
+    description: This baadge signifies that this is one of the original five Aavegotchis
+      to be bridged from Polygon to Ethereum. Dubbed the "Aastronauts" these pioneering
+      gotchis were fractionalized on the Unicly platform in the form of uGOTCHI tokens.
+      In October of 2021 the uGOTCHI collection was unlocked and all five Aastronauts
+      were auctioned to new owners.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 265
+    name: CHAAMPION of Rarity Farming SZN2 (Rarity)
+    description: Scored across all four rounds, this Aavegotchi is the ultimate chaampion
+      of rarity for Rarity Farming SZN 2. Aamazing! From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 266
+    name: CHAAMPION of Rarity Farming SZN2 (Kinship)
+    description: Scored across all four rounds, this Aavegotchi is the ultimate chaampion
+      of kinship for Rarity Farming SZN 2. Aamazing! From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 267
+    name: CHAAMPION of Rarity Farming SZN2 (XP)
+    description: Scored across all four rounds, this Aavegotchi is the ultimate chaampion
+      of XP for Rarity Farming SZN 2. Aamazing! From October 12 to Dec 7, 2021, the
+      second season of Rarity Farming distributed a staggering 2 million GHST. The
+      frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 268
+    name: Rarity Farming SZN2 RARITY 2nd Place
+    description: Scored across all four rounds, this Aavegotchi is the 2nd highest
+      ranked of all gotchis in the rarity category for Rarity Farming SZN 2. Incredible!
+      From October 12 to Dec 7, 2021, the second season of Rarity Farming distributed
+      a staggering 2 million GHST. The frenly competition featured three main leaderboards
+      that any summoned Aavegotchi could participate in plus two additional Rookie
+      Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 269
+    name: Rarity Farming SZN2 KINSHIP 2nd Place
+    description: Scored across all four rounds, this Aavegotchi is the 2nd highest
+      ranked of all gotchis in the kinship category for Rarity Farming SZN 2. Incredible!
+      From October 12 to Dec 7, 2021, the second season of Rarity Farming distributed
+      a staggering 2 million GHST. The frenly competition featured three main leaderboards
+      that any summoned Aavegotchi could participate in plus two additional Rookie
+      Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 270
+    name: Rarity Farming SZN2 XP 2nd Place
+    description: Scored across all four rounds, this Aavegotchi is the 2nd highest
+      ranked of all gotchis in the XP category for Rarity Farming SZN 2. Incredible!
+      From October 12 to Dec 7, 2021, the second season of Rarity Farming distributed
+      a staggering 2 million GHST. The frenly competition featured three main leaderboards
+      that any summoned Aavegotchi could participate in plus two additional Rookie
+      Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 271
+    name: Rarity Farming SZN2 RARITY 3rd Place
+    description: Scored across all four rounds, this Aavegotchi is the 3rd highest
+      ranked of all gotchis in the rarity category for Rarity Farming SZN 2. Impressive!
+      From October 12 to Dec 7, 2021, the second season of Rarity Farming distributed
+      a staggering 2 million GHST. The frenly competition featured three main leaderboards
+      that any summoned Aavegotchi could participate in plus two additional Rookie
+      Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 272
+    name: Rarity Farming SZN2 KINSHIP 3rd Place
+    description: Scored across all four rounds, this Aavegotchi is the 3rd highest
+      ranked of all gotchis in the kinship category for Rarity Farming SZN 2. Impressive!
+      From October 12 to Dec 7, 2021, the second season of Rarity Farming distributed
+      a staggering 2 million GHST. The frenly competition featured three main leaderboards
+      that any summoned Aavegotchi could participate in plus two additional Rookie
+      Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 273
+    name: Rarity Farming SZN2 XP 3rd Place
+    description: Scored across all four rounds, this Aavegotchi is the 3rd highest
+      ranked of all gotchis in the XP category for Rarity Farming SZN 2. Impressive!
+      From October 12 to Dec 7, 2021, the second season of Rarity Farming distributed
+      a staggering 2 million GHST. The frenly competition featured three main leaderboards
+      that any summoned Aavegotchi could participate in plus two additional Rookie
+      Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 274
+    name: Rarity Farming SZN2 Raanked
+    description: This Aavegotchi achieved leaderboard ranking in at least one category
+      during the second season of Rarity Farming. From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 275
+    name: Rarity Farming SZN2 ROOKIE OF THE YEAR
+    description: This Aavegotchi was the best performing of all Haunt 2 Aavegotchis
+      during Rarity Farming Season 2. This includes the gotchi's Base Rartity Score
+      and ranking on the Rookie Kinship and XP leaderboards. From October 12 to Dec
+      7, 2021, the second season of Rarity Farming distributed a staggering 2 million
+      GHST. The frenly competition featured three main leaderboards that any summoned
+      Aavegotchi could participate in plus two additional Rookie Leaderboards for
+      Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 276
+    name: CHAAMPION of Rarity Farming SZN2 (Rookie Kinship)
+    description: Scored across all four rounds, this Aavegotchi delivered the best
+      rookie kinship scores for Rarity Farming SZN 2! From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 277
+    name: CHAAMPION of Rarity Farming SZN2 (Rookie XP)
+    description: Scored across all four rounds, this Aavegotchi delivered the best
+      rookie XP scores for Rarity Farming SZN 2! From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 278
+    name: Rarity Farming SZN2 KINSHIP ROOKIE 2nd Place
+    description: Scored across all four rounds, this Aavegotchi ranked 2nd overall
+      for Rarity Farming SZN 2 rookie kinship scores! From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 279
+    name: Rarity Farming SZN2 XP ROOKIE 2nd Place
+    description: Scored across all four rounds, this Aavegotchi ranked 2nd overall
+      for Rarity Farming SZN 2 rookie XP scores! From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 280
+    name: Rarity Farming SZN2 KINSHIP ROOKIE 3rd Place
+    description: Scored across all four rounds, this Aavegotchi ranked 3rd overall
+      for Rarity Farming SZN 2 rookie kinship scores! From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 281
+    name: Rarity Farming SZN2 XP ROOKIE 3rd Place
+    description: Scored across all four rounds, this Aavegotchi ranked 3rd overall
+      for Rarity Farming SZN 2 rookie XP scores!   From October 12 to Dec 7, 2021,
+      the second season of Rarity Farming distributed a staggering 2 million GHST.
+      The frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 282
+    name: Rarity Farming SZN2 RARITY Top 10
+    description: This Aavegotchi achieved a rank in the top 10 of RARITY for Rarity
+      Farming SZN 2.  From October 12 to Dec 7, 2021, the second season of Rarity
+      Farming distributed a staggering 2 million GHST. The frenly competition featured
+      three main leaderboards that any summoned Aavegotchi could participate in plus
+      two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 283
+    name: Rarity Farming SZN2 KINSHIP Top 10
+    description: This Aavegotchi achieved a rank in the top 10 of KINSHIP for Rarity
+      Farming SZN 2.  From October 12 to Dec 7, 2021, the second season of Rarity
+      Farming distributed a staggering 2 million GHST. The frenly competition featured
+      three main leaderboards that any summoned Aavegotchi could participate in plus
+      two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 284
+    name: Rarity Farming SZN2 XP Top 10
+    description: This Aavegotchi achieved a rank in the top 10 of EXPERIENCE for
+      Rarity Farming SZN 2.  From October 12 to Dec 7, 2021, the second season of
+      Rarity Farming distributed a staggering 2 million GHST. The frenly competition
+      featured three main leaderboards that any summoned Aavegotchi could participate
+      in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 285
+    name: Rarity Farming SZN2 RARITY Top 100
+    description: This Aavegotchi achieved a rank in the top 100 of RARITY for Rarity
+      Farming SZN 2.  From October 12 to Dec 7, 2021, the second season of Rarity
+      Farming distributed a staggering 2 million GHST. The frenly competition featured
+      three main leaderboards that any summoned Aavegotchi could participate in plus
+      two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 286
+    name: Rarity Farming SZN2 KINSHIP Top 100
+    description: This Aavegotchi achieved a rank in the top 100 of KINSHIP for Rarity
+      Farming SZN 2.  From October 12 to Dec 7, 2021, the second season of Rarity
+      Farming distributed a staggering 2 million GHST. The frenly competition featured
+      three main leaderboards that any summoned Aavegotchi could participate in plus
+      two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 287
+    name: Rarity Farming SZN2 XP Top 100
+    description: This Aavegotchi achieved a rank in the top 100 of EXPERIENCE for
+      Rarity Farming SZN 2.  From October 12 to Dec 7, 2021, the second season of
+      Rarity Farming distributed a staggering 2 million GHST. The frenly competition
+      featured three main leaderboards that any summoned Aavegotchi could participate
+      in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 288
+    name: Rarity Farming SZN2 XP ROOKIE Top 10
+    description: This Aavegotchi achieved a rank in the top 10 on the ROOKIE XP leaderboard
+      for Rarity Farming SZN 2.  From October 12 to Dec 7, 2021, the second season
+      of Rarity Farming distributed a staggering 2 million GHST. The frenly competition
+      featured three main leaderboards that any summoned Aavegotchi could participate
+      in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 289
+    name: Rarity Farming SZN2 KINSHIP ROOKIE Top 10
+    description: This Aavegotchi achieved a rank in the top 10 of the ROOKIE KINSHIP
+      leaderboard for Rarity Farming SZN 2.  From October 12 to Dec 7, 2021, the
+      second season of Rarity Farming distributed a staggering 2 million GHST. The
+      frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 290
+    name: Rarity Farming SZN2 XP ROOKIE Top 100
+    description: This Aavegotchi achieved a rank in the top 100 on the ROOKIE XP
+      leaderboard for Rarity Farming SZN 2.  From October 12 to Dec 7, 2021, the
+      second season of Rarity Farming distributed a staggering 2 million GHST. The
+      frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 291
+    name: Rarity Farming SZN2 KINSHIP ROOKIE Top 100
+    description: This Aavegotchi achieved a rank in the top 100 of the ROOKIE KINSHIP
+      leaderboard for Rarity Farming SZN 2.  From October 12 to Dec 7, 2021, the
+      second season of Rarity Farming distributed a staggering 2 million GHST. The
+      frenly competition featured three main leaderboards that any summoned Aavegotchi
+      could participate in plus two additional Rookie Leaderboards for Haunt 2 Aavegotchis.
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 292
+    name: Brunette Ponytail
+    description: 
+    traitModifiers: 00000000ffffffff00000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 409d08d6afb12ba49acc48015adf1748, type: 3}
+      - {fileID: 21300000, guid: 1446beb5e846111419a21de519266def, type: 3}
+      - {fileID: 21300000, guid: 80968c1463d334145a7e32718afc7b3d, type: 3}
+      - {fileID: 21300000, guid: d357558a008a9554088692079fca60db, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 293
+    name: Leather Tunic
+    description: 
+    traitModifiers: ffffffff0000000000000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 0e825b01ca39a4849a19c7c00b4a66a3, type: 3}
+      - {fileID: 21300000, guid: c1011ac0c933c574fbe084482424b56b, type: 3}
+      - {fileID: 21300000, guid: 0f9aa5a829b4d4743b1fd0e9012e4184, type: 3}
+      - {fileID: 21300000, guid: fde6c2437650ae9478e0797967fff74a, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - sprites:
+      - {fileID: 21300000, guid: f18e94f55c14e964782225903dc230e8, type: 3}
+      - {fileID: 21300000, guid: 3ef9c7927c841e04c93528103b5f2912, type: 3}
+      - {fileID: 21300000, guid: b6885aa8c117b204d8581feca9e9a08b, type: 3}
+      - {fileID: 21300000, guid: 3ca5861c1d8c528448fd1d3aeb690efc, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 294
+    name: Bow and Arrow
+    description: 
+    traitModifiers: 00000000ffffffff00000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 5d8157e4a31eae6429a8da329b1a5e43, type: 3}
+      - {fileID: 21300000, guid: be7d114677e67944d9faa5c370bd84cb, type: 3}
+      - {fileID: 21300000, guid: 5ada0aaaf415bda45967e37832973317, type: 3}
+      - {fileID: 21300000, guid: 9f69313683609bd479e25a4f26c911cc, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 295
+    name: Forked Beard
+    description: 
+    traitModifiers: 000000000100000000000000000000000000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: b4f540bfa532dfb4a8de58ff49b6a8de, type: 3}
+      - {fileID: 21300000, guid: e326d6bc4d469a149a94a61a7210062a, type: 3}
+      - {fileID: 21300000, guid: ba79eec5e7dfe7748a56253e9200d213, type: 3}
+      - {fileID: 21300000, guid: abfbb790f2357654eabc5f7bdf67079e, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 296
+    name: Doublesided Axe
+    description: 
+    traitModifiers: 000000000100000000000000ffffffff0000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 1f661128cd542d04bad152cad2b67dbb, type: 3}
+      - {fileID: 21300000, guid: 1d6cc79f632cc234a8ff2f837ff687fb, type: 3}
+      - {fileID: 21300000, guid: 15db9d566208235439712d6f97abe239, type: 3}
+      - {fileID: 21300000, guid: c312d167759abbc489a79b50a93f6eb7, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 297
+    name: Animal Skins
+    description: 
+    traitModifiers: 000000000200000000000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 9b8162659443ac34b859924057dc7047, type: 3}
+      - {fileID: 21300000, guid: 41ddaf6cdd8682646994ae5d7661a437, type: 3}
+      - {fileID: 21300000, guid: f4ac2e7980beea74f813f3864699af86, type: 3}
+      - {fileID: 21300000, guid: 79731abd4ae6dea4d9720ae0ae786769, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - sprites:
+      - {fileID: 21300000, guid: d0fbbca139f79a043a4c90a424c77295, type: 3}
+      - {fileID: 21300000, guid: 185cc808a2f2cd5499f0016d3afe0f81, type: 3}
+      - {fileID: 21300000, guid: cb4c0c412ae02ef479000d51344452c9, type: 3}
+      - {fileID: 21300000, guid: 43a4e4ba25b042847b9fa08f1145ffea, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 298
+    name: Horned Helmet
+    description: 
+    traitModifiers: 000000000000000000000000ffffffff0000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: ad331f433cc4bec49960bdc62f4d8712, type: 3}
+      - {fileID: 21300000, guid: 2f6e5875d8a55614599f3282c063097b, type: 3}
+      - {fileID: 21300000, guid: ad6726d62f341884eb5ed29c9de91131, type: 3}
+      - {fileID: 21300000, guid: 700adca6d57fad340aa0cbcc9370413e, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 299
+    name: Longbow
+    description: 
+    traitModifiers: 00000000ffffffff00000000010000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 88465a38d31301644894c1b32b59dee1, type: 3}
+      - {fileID: 21300000, guid: 40115f65db4432747952b6fff662a1fa, type: 3}
+      - {fileID: 21300000, guid: 60124f6b55aa109428cf8dad91fcfe96, type: 3}
+      - {fileID: 21300000, guid: 1f5d67e5a84e88e45a6f698c38be0db1, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 300
+    name: Feathered Cap
+    description: 
+    traitModifiers: ffffffff00000000ffffffff000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: fad6fc8ec885bcb4cb2992b17910e38b, type: 3}
+      - {fileID: 21300000, guid: 63bf29c6ec09ba641819ab6d616b5a30, type: 3}
+      - {fileID: 21300000, guid: 5a0a256cd2ca1694c916d7c38e79b1c3, type: 3}
+      - {fileID: 21300000, guid: bed5ceb57962d1f4188e49a48f399549, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 301
+    name: Alluring Eyes
+    description: 
+    traitModifiers: 00000000feffffff00000000010000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: c00bc24beeb2a7745b33f9bb71ba4ed6, type: 3}
+      - {fileID: 21300000, guid: c65783f1f8690f44bb10e93e4a3bed26, type: 3}
+      - {fileID: 21300000, guid: d3ce2fe096575ac4c9822a498d62bd09, type: 3}
+      - {fileID: 21300000, guid: 1ff93c59b75d36548ab86f3faa846cde, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 302
+    name: Geisha Headpiece
+    description: 
+    traitModifiers: feffffffffffffff00000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: c0f0e1b893b116044bfe57c3a46d1e1e, type: 3}
+      - {fileID: 21300000, guid: c589c9f9d4e42254894469363a8c6782, type: 3}
+      - {fileID: 21300000, guid: b1a19aa249ad2cc4b89528948677765c, type: 3}
+      - {fileID: 21300000, guid: 275f8aa5bd8be77419807593b616edfc, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 303
+    name: Kimono
+    description: 
+    traitModifiers: fffffffffeffffff00000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: a02b1cab6aa0e52498134f3e21c51f12, type: 3}
+      - {fileID: 21300000, guid: 883fa491ff77f314a8ded4035914dc16, type: 3}
+      - {fileID: 21300000, guid: 9ad78748d7a926c4c88c2a34edc26c75, type: 3}
+      - {fileID: 21300000, guid: a7b29d2b2022f9144a17f80b5425134a, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - sprites:
+      - {fileID: 21300000, guid: 542c54d71b88d67468f643de2ea74871, type: 3}
+      - {fileID: 21300000, guid: fe4802cf5c4f00c4ea50940e2c71574e, type: 3}
+      - {fileID: 21300000, guid: cc3f1eb4376ba114889f0ba488f011e3, type: 3}
+      - {fileID: 21300000, guid: d568a07d3aa0c604db80c9ba0624ba65, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 304
+    name: Paper Fan
+    description: 
+    traitModifiers: 00000000fdffffff00000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 99be6a88c36c1364bb3111229c8ae64f, type: 3}
+      - {fileID: 21300000, guid: 96f8b3db36475244db8b84e22fa8c635, type: 3}
+      - {fileID: 21300000, guid: 543d1efbeb5f0a7478ce6510c45b0cef, type: 3}
+      - {fileID: 21300000, guid: 7b968c76dbca21141b19e8a0d8941c51, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 305
+    name: Sus Butterfly
+    description: 
+    traitModifiers: 000000000400000000000000000000000000000000000000
+    slotPositions: 00000000000001000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 81ab4c5902a20984b924c1f63047e390, type: 3}
+      - {fileID: 21300000, guid: d0c948d5ba0579542b05ffe4d8957592, type: 3}
+      - {fileID: 21300000, guid: 00e8ee31538aa01478ddc661976d90a3, type: 3}
+      - {fileID: 21300000, guid: 2648e7c6ef38e8349b2ab90ef965ddcb, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 306
+    name: Flower Studs
+    description: 
+    traitModifiers: feffffff00000000feffffff000000000000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 0061b25787408b649bb168703c6c854b, type: 3}
+      - {fileID: 21300000, guid: 9634991af1158e247aa0e841514321da, type: 3}
+      - {fileID: 21300000, guid: c826f0e9e64109f4aba49aec81d94e1e, type: 3}
+      - {fileID: 21300000, guid: 36c9b28bca1394342b853af9f30529cd, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 307
+    name: Fairy Wings
+    description: 
+    traitModifiers: feffffff00000000feffffff000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 8dff98dcfcb939e4f871796701feae21, type: 3}
+      - {fileID: 21300000, guid: 7f88adfa417fd4246927a9305eddfcab, type: 3}
+      - {fileID: 21300000, guid: 408e18d97a487644db7ff6079917cba1, type: 3}
+      - {fileID: 21300000, guid: 8947698684332d84898fc4ee0e897617, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - sprites:
+      - {fileID: 21300000, guid: 4d236889db12a2a4ba882da004c15dec, type: 3}
+      - {fileID: 21300000, guid: 03c22542f38c32443ac2a2a2e3643817, type: 3}
+      - {fileID: 21300000, guid: 5e6121b172f050144a13c2c065fed7db, type: 3}
+      - {fileID: 21300000, guid: 00b7d8ea6cc883d4285892217d864e29, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 308
+    name: Red Hair
+    description: 
+    traitModifiers: feffffff00000000feffffff000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: e120fcd35ddb4bb4f85dfadc6ffbbe34, type: 3}
+      - {fileID: 21300000, guid: ad975ea0693b25a4a90f1b2220c80af0, type: 3}
+      - {fileID: 21300000, guid: eeb1ba7694c1e094fb570c33c426451b, type: 3}
+      - {fileID: 21300000, guid: 96948c499cc839942b15576b2425ccbd, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 309
+    name: Citaadel Helm
+    description: 
+    traitModifiers: 03000000feffffff00000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: a6c784e44e8d5e946ad4a46941326d49, type: 3}
+      - {fileID: 21300000, guid: 549403b927362c542be80a39b410539b, type: 3}
+      - {fileID: 21300000, guid: 83ba23bf16cee484280a05d8333796d0, type: 3}
+      - {fileID: 21300000, guid: 828d2c15d66392041a06c73e3b93a997, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 310
+    name: Plate Armor
+    description: 
+    traitModifiers: 03000000feffffff00000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: ab2aee24ba68d4946852bd24a841c7b3, type: 3}
+      - {fileID: 21300000, guid: 2da6843abb9367743b99e6ad10b391e2, type: 3}
+      - {fileID: 21300000, guid: 81ed16c280769674a834568c48a35e94, type: 3}
+      - {fileID: 21300000, guid: f8645a51db2a93d418e592789aeb816e, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - sprites:
+      - {fileID: 21300000, guid: ca9464fe89fafbf4c86599b965d99d9f, type: 3}
+      - {fileID: 21300000, guid: f32be924c7fd8c644b8c2eee5ed6838a, type: 3}
+      - {fileID: 21300000, guid: c04ef4dcb10d1344aabdf558dcc9e2c5, type: 3}
+      - {fileID: 21300000, guid: ec99f4945a0a08f4c9b75c70259aeea1, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 311
+    name: Spirit Sword
+    description: 
+    traitModifiers: 02000000fdffffff00000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 66bb50eafa5d5e841a5fde778aa0a608, type: 3}
+      - {fileID: 21300000, guid: 2dc39c7bec224f74ca3e15466c61323d, type: 3}
+      - {fileID: 21300000, guid: 2d9b539e95380414b96e95ace928493c, type: 3}
+      - {fileID: 21300000, guid: a82c7d22dd58c2543a39eccb0b82f523, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 312
+    name: Plate Shield
+    description: 
+    traitModifiers: 00000000fbffffff00000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: a8118bce39131704f848aafe166e68d2, type: 3}
+      - {fileID: 21300000, guid: dc14d238711ef8e48a07973ea9f6a291, type: 3}
+      - {fileID: 21300000, guid: 7b5438dff06dcca4bb7838fa5a9fc3a2, type: 3}
+      - {fileID: 21300000, guid: 097e25e5865f1bb438a3d1b6947ac9a1, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 313
+    name: Kabuto Helmet
+    description: 
+    traitModifiers: 000000000300000003000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 94fec3f387490c446a20fd7cbae6b35b, type: 3}
+      - {fileID: 21300000, guid: d9ea406a34660ea4c848ca2fb30687e5, type: 3}
+      - {fileID: 21300000, guid: 7fd0d7374d5b5bf46b01dfb3b4906a08, type: 3}
+      - {fileID: 21300000, guid: a85e8bb442e30544bbe75b1d2d82857e, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 314
+    name: Yoroi Armor
+    description: 
+    traitModifiers: 000000000300000003000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 948ec7fec9efc164eb7816c0dedce809, type: 3}
+      - {fileID: 21300000, guid: b67474bcbdc83494992a3d1807022f40, type: 3}
+      - {fileID: 21300000, guid: a001b286e7190674997fed9a7cc0059a, type: 3}
+      - {fileID: 21300000, guid: 318e1c550afdeca4ca7559bcbe7c5352, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    - sprites:
+      - {fileID: 21300000, guid: a4495a58cbbbc174697ed9df92e1b67e, type: 3}
+      - {fileID: 21300000, guid: 2c0c9c1cdce2d8f44b1f059141c037cb, type: 3}
+      - {fileID: 21300000, guid: 033b274ed6e210245b2a55c2e9f76a18, type: 3}
+      - {fileID: 21300000, guid: e0539f43371a03548aace161ecfde30e, type: 3}
+      sleeves:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+  - id: 315
+    name: Haanzo Katana
+    description: 
+    traitModifiers: 000000000200000004000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    poses:
+    - sprites:
+      - {fileID: 21300000, guid: 25b4adcfc60b0714e9615ba0dcf7e66b, type: 3}
+      - {fileID: 21300000, guid: 6f442d50e5b6fb4468c941c7e72c9359, type: 3}
+      - {fileID: 21300000, guid: 7cb17783ed3ed1241883a0c5e6499bf9, type: 3}
+      - {fileID: 21300000, guid: 4f8012bdea162ec41b22054bac5e55e5, type: 3}
       sleeves:
       - {fileID: 0}
       - {fileID: 0}
