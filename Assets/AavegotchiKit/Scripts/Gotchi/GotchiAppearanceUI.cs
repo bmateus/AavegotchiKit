@@ -1,10 +1,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class GotchiAppearance : MonoBehaviour
+    public class GotchiAppearanceUI : MonoBehaviour
     {
         AavegotchiData.Facing facing = AavegotchiData.Facing.FRONT;
         AavegotchiData.HandPose handPose = AavegotchiData.HandPose.DOWN_CLOSED;
@@ -12,32 +13,32 @@ namespace PortalDefender.AavegotchiKit
         AavegotchiData.EyeExpression eyeExpression = AavegotchiData.EyeExpression.NONE;
 
         [SerializeField]
-        SpriteRenderer body;
+        Image body;
 
         [SerializeField]
-        SpriteRenderer hands;
+        Image hands;
 
         [SerializeField]
-        SpriteRenderer eyes;
-
+        Image eyes;
+        
         [SerializeField]
-        SpriteRenderer collateral;
-
+        Image collateral;
+        
         [SerializeField]
-        SpriteRenderer mouth;
-
+        Image mouth;
+        
         [SerializeField]
-        SpriteRenderer shadow;
+        Image shadow;
 
         [SerializeField]
         Transform floating;
 
-        class EquippedWearable
+        class EquippedWearableUI
         {
             public Wearable data;
-            public SpriteRenderer spriteRenderer;
+            public Image image;
             public GameObject gameObject;
-            public SpriteRenderer sleevesSpriteRenderer;
+            public Image sleevesImage;
             public GameObject sleevesGameObject;
         }
 
@@ -45,11 +46,11 @@ namespace PortalDefender.AavegotchiKit
 
         Collateral collateralData;
 
-        Dictionary<GotchiData.Slot, EquippedWearable> equippedWearables = new Dictionary<GotchiData.Slot, EquippedWearable>();
+        Dictionary<GotchiData.Slot, EquippedWearableUI> equippedWearables = new Dictionary<GotchiData.Slot, EquippedWearableUI>();
 
         MaterialPropertyBlock materialProperties;
 
-        private void Awake()
+        private void Start()
         {
             materialProperties = new MaterialPropertyBlock();
         }
@@ -62,8 +63,8 @@ namespace PortalDefender.AavegotchiKit
 
             //should it have open hands or close hands?
             handPose = AavegotchiData.HandPose.DOWN_CLOSED;
-            if (data.equippedWearables[(int)GotchiData.Slot.BODY] != 0
-                || data.equippedWearables[(int)GotchiData.Slot.HAND_LEFT] != 0
+            if (data.equippedWearables[(int)GotchiData.Slot.BODY] != 0 
+                || data.equippedWearables[(int)GotchiData.Slot.HAND_LEFT] != 0 
                 || data.equippedWearables[(int)GotchiData.Slot.HAND_RIGHT] != 0)
             {
                 handPose = AavegotchiData.HandPose.DOWN_OPEN;
@@ -77,7 +78,7 @@ namespace PortalDefender.AavegotchiKit
             }
             equippedWearables.Clear();
 
-            for (int i = 0; i < data.equippedWearables.Length; i++)
+            for (int i=0; i<data.equippedWearables.Length; i++)
             {
                 //ignore BG
                 if ((GotchiData.Slot)i == GotchiData.Slot.BG)
@@ -85,8 +86,8 @@ namespace PortalDefender.AavegotchiKit
 
                 if (data.equippedWearables[i] != 0)
                 {
-                    var equippedWearable = new EquippedWearable();
-
+                    var equippedWearable = new EquippedWearableUI();
+                    
                     var wearableData = AavegotchiData.Instance.GetWearable(data.equippedWearables[i]);
                     WearablePose pose = wearableData.poses[0];
                     if (handPose == AavegotchiData.HandPose.UP && wearableData.poses.Count > 1)
@@ -99,22 +100,22 @@ namespace PortalDefender.AavegotchiKit
                     var wearableObj = new GameObject(wearableData.name);
                     wearableObj.transform.SetParent(
                         (GotchiData.Slot)i == GotchiData.Slot.PET ? transform : floating, false);
-                    var wearableRenderer = wearableObj.AddComponent<SpriteRenderer>();
-                    wearableRenderer.sortingLayerName = "Characters";
-
+                    var wearableRenderer = wearableObj.AddComponent<Image>();
+                    //wearableRenderer.sortingLayerName = "Characters"; //ui is sorted in hierarchy order
+                    
                     equippedWearable.gameObject = wearableObj;
-                    equippedWearable.spriteRenderer = wearableRenderer;
+                    equippedWearable.image = wearableRenderer;
 
                     //check for sleeves
                     if (pose.sleeves[0] != null)
                     {
-                        var sleevesObj = new GameObject(wearableData.name + "_sleeves");
+                        var sleevesObj = new GameObject(wearableData.name+"_sleeves");
                         sleevesObj.transform.SetParent(floating, false);
-                        var sleevesRenderer = sleevesObj.AddComponent<SpriteRenderer>();
-                        sleevesRenderer.sortingLayerName = "Characters";
+                        var sleevesRenderer = sleevesObj.AddComponent<Image>();   
+                        //sleevesRenderer.sortingLayerName = "Characters";
 
                         equippedWearable.sleevesGameObject = sleevesObj;
-                        equippedWearable.sleevesSpriteRenderer = sleevesRenderer;
+                        equippedWearable.sleevesImage = sleevesRenderer;
                     }
 
                     equippedWearables.Add((GotchiData.Slot)i, equippedWearable);
@@ -139,7 +140,7 @@ namespace PortalDefender.AavegotchiKit
             hands.sprite = AavegotchiData.Instance.GetHandsSprite(handPose, facing);
             eyes.sprite = AavegotchiData.Instance.GetSpecialEyesSprite(
                 data.GetTraitValue(GotchiData.Trait.EyeShape),
-                collateralData,
+                collateralData, 
                 facing,
                 eyeExpression);
             collateral.sprite = collateralData.GetCollateralSprite(facing);
@@ -155,14 +156,18 @@ namespace PortalDefender.AavegotchiKit
                 {
                     pose = wearable.data.poses[1];
                 }
-                wearable.spriteRenderer.sprite = pose.sprites[(int)facing];
-                wearable.spriteRenderer.flipX =
+                wearable.image.sprite = pose.sprites[(int)facing];
+                
+                var flipX = 
                     (facing == AavegotchiData.Facing.BACK && slot == GotchiData.Slot.HAND_LEFT)
                     || (facing == AavegotchiData.Facing.FRONT && slot == GotchiData.Slot.HAND_RIGHT);
 
-                if (wearable.sleevesSpriteRenderer != null)
+                if (flipX)
+                    wearable.gameObject.transform.rotation = Quaternion.Euler(new Vector3(0, 180, 0));
+
+                if (wearable.sleevesImage != null)
                 {
-                    wearable.sleevesSpriteRenderer.sprite = pose.sleeves[(int)facing];
+                    wearable.sleevesImage.sprite = pose.sleeves[(int)facing];
                 }
             }
 
@@ -179,10 +184,10 @@ namespace PortalDefender.AavegotchiKit
 
             var c = collateralData.PrimaryColor;
             colors[1] = new Vector4(c.r, c.g, c.b, 0);
-
+            
             c = collateralData.SecondaryColor;
             colors[2] = new Vector4(c.r, c.g, c.b, 0);
-
+            
             c = collateralData.CheekColor;
             colors[3] = new Vector4(c.r, c.g, c.b, 0);
 
@@ -193,21 +198,21 @@ namespace PortalDefender.AavegotchiKit
             c = Color.white;
             colors[15] = new Vector4(c.r, c.g, c.b, 0);
 
-            body.GetPropertyBlock(materialProperties);
-            materialProperties.SetVectorArray("colorTable", colors);
-            body.SetPropertyBlock(materialProperties);
+            //body.GetPropertyBlock(materialProperties);
+            //materialProperties.SetVectorArray("colorTable", colors);
+            //body.SetPropertyBlock(materialProperties);
 
-            hands.GetPropertyBlock(materialProperties);
-            materialProperties.SetVectorArray("colorTable", colors);
-            hands.SetPropertyBlock(materialProperties);
+            //hands.GetPropertyBlock(materialProperties);
+            //materialProperties.SetVectorArray("colorTable", colors);
+            //hands.SetPropertyBlock(materialProperties);
 
-            eyes.GetPropertyBlock(materialProperties);
-            materialProperties.SetVectorArray("colorTable", colors);
-            eyes.SetPropertyBlock(materialProperties);
+            //eyes.GetPropertyBlock(materialProperties);
+            //materialProperties.SetVectorArray("colorTable", colors);
+            //eyes.SetPropertyBlock(materialProperties);
 
-            mouth.GetPropertyBlock(materialProperties);
-            materialProperties.SetVectorArray("colorTable", colors);
-            mouth.SetPropertyBlock(materialProperties);
+            //mouth.GetPropertyBlock(materialProperties);
+            //materialProperties.SetVectorArray("colorTable", colors);
+            //mouth.SetPropertyBlock(materialProperties);
 
         }
 
@@ -225,60 +230,60 @@ namespace PortalDefender.AavegotchiKit
                 var slot = entry.Key;
                 var wearable = entry.Value;
 
-                if (slot == GotchiData.Slot.BODY)
+                if (slot == GotchiData.Slot.BODY )
                 {
-                    if (wearable.sleevesSpriteRenderer != null)
+                    if (wearable.sleevesImage != null)
                     {
-                        wearable.sleevesSpriteRenderer.enabled = facing != AavegotchiData.Facing.BACK;
+                        wearable.sleevesImage.enabled = facing != AavegotchiData.Facing.BACK;
                     }
                 }
-
+                
                 if (slot == GotchiData.Slot.HAND_LEFT)
                 {
-                    wearable.spriteRenderer.enabled = facing != AavegotchiData.Facing.LEFT;
+                    wearable.image.enabled = facing != AavegotchiData.Facing.LEFT;
                 }
 
                 if (slot == GotchiData.Slot.HAND_RIGHT)
                 {
-                    wearable.spriteRenderer.enabled = facing != AavegotchiData.Facing.RIGHT;
+                    wearable.image.enabled = facing != AavegotchiData.Facing.RIGHT;
                 }
             }
         }
 
         void UpdateBaseSorting()
         {
-            switch (facing)
-            {
-                case AavegotchiData.Facing.FRONT:
-                    body.sortingOrder = 1;
-                    eyes.sortingOrder = 2;
-                    collateral.sortingOrder = 2;
-                    mouth.sortingOrder = 2;
-                    hands.sortingOrder = 4;
-                    shadow.sortingOrder = 1;
-                    break;
-                case AavegotchiData.Facing.LEFT:
-                    body.sortingOrder = 1;
-                    eyes.sortingOrder = 2;
-                    collateral.sortingOrder = 2;
-                    mouth.sortingOrder = 2;
-                    hands.sortingOrder = 8;
-                    shadow.sortingOrder = 1;
-                    break;
-                case AavegotchiData.Facing.RIGHT:
-                    body.sortingOrder = 1;
-                    eyes.sortingOrder = 2;
-                    collateral.sortingOrder = 2;
-                    mouth.sortingOrder = 2;
-                    hands.sortingOrder = 8;
-                    shadow.sortingOrder = 1;
-                    break;
-                case AavegotchiData.Facing.BACK:
-                    body.sortingOrder = 3;
-                    hands.sortingOrder = 2;
-                    shadow.sortingOrder = 1;
-                    break;
-            }
+            //switch(facing)
+            //{
+            //    case AavegotchiData.Facing.FRONT:
+            //        body.sortingOrder = 1;
+            //        eyes.sortingOrder = 2;
+            //        collateral.sortingOrder = 2;
+            //        mouth.sortingOrder = 2;
+            //        hands.sortingOrder = 4;
+            //        shadow.sortingOrder = 1;
+            //        break;
+            //    case AavegotchiData.Facing.LEFT:
+            //        body.sortingOrder = 1;
+            //        eyes.sortingOrder = 2;
+            //        collateral.sortingOrder = 2;
+            //        mouth.sortingOrder = 2;
+            //        hands.sortingOrder = 8;
+            //        shadow.sortingOrder = 1;
+            //        break;
+            //    case AavegotchiData.Facing.RIGHT:
+            //        body.sortingOrder = 1;
+            //        eyes.sortingOrder = 2;
+            //        collateral.sortingOrder = 2;
+            //        mouth.sortingOrder = 2;
+            //        hands.sortingOrder = 8;
+            //        shadow.sortingOrder = 1;
+            //        break;
+            //    case AavegotchiData.Facing.BACK:
+            //        body.sortingOrder = 3;
+            //        hands.sortingOrder = 2;
+            //        shadow.sortingOrder = 1;
+            //        break;
+            //}
         }
 
 
@@ -297,16 +302,16 @@ namespace PortalDefender.AavegotchiKit
 
         void UpdateWearableSorting()
         {
-            foreach (var entry in equippedWearables)
-            {
-                var slot = entry.Key;
-                var wearable = entry.Value;
-                wearable.spriteRenderer.sortingOrder = wearableSorting[slot][(int)facing];
-                if (wearable.sleevesSpriteRenderer != null)
-                {
-                    wearable.sleevesSpriteRenderer.sortingOrder = sleevesSorting[(int)facing];
-                }
-            }
+            //foreach (var entry in equippedWearables)
+            //{
+            //    var slot = entry.Key;
+            //    var wearable = entry.Value;
+            //    wearable.image.sortingOrder = wearableSorting[slot][(int)facing];
+            //    if ( wearable.sleevesImage != null )
+            //    {
+            //        wearable.sleevesImage.sortingOrder = sleevesSorting[(int)facing];
+            //    }
+            //}
         }
     }
 }
