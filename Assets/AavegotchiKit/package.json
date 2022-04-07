@@ -1,0 +1,27 @@
+{
+  "name": "portaldefender.aavegotchikit",
+  "version": "1.0.0",
+  "displayName": "Aavegotchi Kit",
+  "description": "Provides a way to get started using Aavegotchis in Unity.",
+  "unity": "2020.3",
+  "author": {
+    "name": "Bruno Mateus",
+    "url": "https://github.com/bmateus/"
+  },
+  "keywords": [
+    "aavegotchi",
+    "web3",
+    "NFT"
+  ],
+  "license": "MIT",
+  "category": "Tools",
+  "dependencies": {
+  },
+  "samples": [
+      {
+          "displayName": "Gotchi Browser",
+          "description": "Example UI to browse through Gotchi's",
+          "path": "Examples/GotchiBrowser"
+      }
+  ]
+}

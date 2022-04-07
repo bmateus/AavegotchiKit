@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace com.mycompany
+namespace PortalDefender.AavegotchiKit
 {
     public class GotchiBrowserUI : MonoBehaviour
     {

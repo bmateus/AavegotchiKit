@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace com.mycompany
+namespace PortalDefender.AavegotchiKit
 {
     [Serializable]
     public class WearablePose

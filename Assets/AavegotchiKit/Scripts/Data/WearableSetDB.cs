@@ -3,7 +3,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace com.mycompany
+namespace PortalDefender.AavegotchiKit
 {
     [Serializable]
     public class WearableSet

@@ -1,4 +1,4 @@
-namespace com.mycompany
+namespace PortalDefender.AavegotchiKit
 {
     [System.Serializable]
     public class GotchiData 

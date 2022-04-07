@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace com.mycompany
+namespace PortalDefender.AavegotchiKit
 {
     public class Gotchi : MonoBehaviour
     {

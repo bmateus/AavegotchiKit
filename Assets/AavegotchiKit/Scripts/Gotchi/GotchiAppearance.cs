@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace com.mycompany
+namespace PortalDefender.AavegotchiKit
 {
     public class GotchiAppearance : MonoBehaviour
     {
