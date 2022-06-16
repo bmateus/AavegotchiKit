@@ -6,7 +6,7 @@ namespace PortalDefender.AavegotchiKit
     {
         GotchiAppearance appearance;
 
-        AavegotchiData.Facing facing = AavegotchiData.Facing.FRONT;
+        GotchiFacing facing = GotchiFacing.FRONT;
 
         private void Awake()
         {
@@ -18,7 +18,7 @@ namespace PortalDefender.AavegotchiKit
             appearance.Init(data);
         }
 
-        public void SetFacing(AavegotchiData.Facing facing)
+        public void SetFacing(GotchiFacing facing)
         {
             this.facing = facing;
             appearance.SetFacing(facing);

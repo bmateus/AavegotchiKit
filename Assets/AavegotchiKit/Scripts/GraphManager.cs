@@ -1,6 +1,5 @@
 using Cysharp.Threading.Tasks;
 using SimpleGraphQL;
-using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
@@ -62,10 +61,6 @@ namespace PortalDefender.AavegotchiKit
 
             return resultObj.Gotchi;
         }
-
-
-
-
 
         #region Classes to handle results from Graph Queries
 

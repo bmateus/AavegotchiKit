@@ -21,17 +21,17 @@ namespace PortalDefender.AavegotchiKit
         public Sprite[] sprites;
         public Sprite[] eyeSprites;
 
-        public Sprite GetCollateralSprite(AavegotchiData.Facing facing)
+        public Sprite GetCollateralSprite(GotchiFacing facing)
         {
-            if (facing == AavegotchiData.Facing.BACK)
+            if (facing == GotchiFacing.BACK)
                 return null;
 
             return sprites[(int)facing];
         }
 
-        public Sprite GetCollateralEyeSprite(AavegotchiData.Facing facing)
+        public Sprite GetCollateralEyeSprite(GotchiFacing facing)
         {
-            if (facing == AavegotchiData.Facing.BACK)
+            if (facing == GotchiFacing.BACK)
                 return null;
 
             return eyeSprites[(int)facing];

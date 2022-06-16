@@ -1,7 +1,7 @@
 namespace PortalDefender.AavegotchiKit
 {
     [System.Serializable]
-    public class GotchiData 
+    public partial class GotchiData 
     {
         public int id;
         public int hauntId;
@@ -13,33 +13,9 @@ namespace PortalDefender.AavegotchiKit
         public int kinship;
         public int status;
 
-        public enum Trait: int
-        {
-            Energy = 0,
-            Aggressiveness,
-            Spookiness,
-            Brain,
-            EyeShape,
-            EyeColor
-        }
-
-        public int GetTraitValue(Trait trait)
+        public int GetTraitValue(GotchiTrait trait)
         {
             return  numericTraits[(int)trait];
         }
-
-        public enum Slot : int
-        {
-            BODY = 0,
-            FACE,
-            EYES,
-            HEAD,
-            HAND_LEFT,
-            HAND_RIGHT,
-            PET,
-            BG
-        }
-
-
     }
 }

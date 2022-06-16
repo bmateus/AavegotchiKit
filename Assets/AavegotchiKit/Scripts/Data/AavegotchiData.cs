@@ -3,23 +3,15 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class AavegotchiData : MonoBehaviour
+    public partial class AavegotchiData : MonoBehaviour
     {
         static AavegotchiData instance_;
         public static AavegotchiData Instance => instance_;
 
-        public enum Facing : int
-        {
-            FRONT,  //AKA SOUTH
-            LEFT,   //AKA WEST
-            RIGHT,  //AKA EAST
-            BACK    //AKA NORTH
-        }
-
         [SerializeField]
         Sprite[] body;
 
-        public Sprite GetBodySprite(Facing facing)
+        public Sprite GetBodySprite(GotchiFacing facing)
         {
             return body[(int)facing];
         }
@@ -31,36 +23,22 @@ namespace PortalDefender.AavegotchiKit
         [SerializeField]
         Sprite[] handsDownOpen;
 
-        public enum HandPose : int
-        {
-            DOWN_CLOSED,
-            DOWN_OPEN,
-            UP
-        }
-
-        public Sprite GetHandsSprite(HandPose pose, Facing facing)
+        public Sprite GetHandsSprite(GotchiHandPose pose, GotchiFacing facing)
         {
             switch (pose)
             {
-                case HandPose.DOWN_CLOSED: return handsDownClosed[(int)facing];
-                case HandPose.DOWN_OPEN: return handsDownOpen[(int)facing];
-                case HandPose.UP: return handsUp[(int)facing];
+                case GotchiHandPose.DOWN_CLOSED: return handsDownClosed[(int)facing];
+                case GotchiHandPose.DOWN_OPEN: return handsDownOpen[(int)facing];
+                case GotchiHandPose.UP: return handsUp[(int)facing];
                 default: return null;
             }
-        }
-
-
-        public enum MouthExpression : int
-        {
-            HAPPY,
-            NEUTRAL
         }
 
         [SerializeField]
         Sprite[] mouths;
 
         //mouths are only visible from the front
-        public Sprite GetMouthSprite(MouthExpression expression = MouthExpression.HAPPY)
+        public Sprite GetMouthSprite(GotchiMouthExpression expression = GotchiMouthExpression.HAPPY)
         {
             return mouths[(int)expression];
         }
@@ -86,9 +64,9 @@ namespace PortalDefender.AavegotchiKit
 
         int[] eyeShapeTraitTraitRange = { 0, 1, 2, 5, 7, 10, 15, 20, 25, 42, 58, 75, 80, 85, 90, 93, 95, 98 };
 
-        public Sprite GetEyeSprite(int eyeShapeTrait, Collateral collateral, Facing facing)
+        public Sprite GetEyeSprite(int eyeShapeTrait, Collateral collateral, GotchiFacing facing)
         {
-            if (facing == Facing.BACK)
+            if (facing == GotchiFacing.BACK)
                 return null;
 
             Sprite eyeSprite = null;
@@ -116,20 +94,12 @@ namespace PortalDefender.AavegotchiKit
             return eyeSprite;
         }
 
-        public enum EyeExpression : int
-        {
-            NONE,
-            HAPPY,
-            MAD,
-            SLEEPING
-        }
-
         [SerializeField]
         Sprite[] specialEyes;
 
-        public Sprite GetSpecialEyesSprite(int eyeShapeTrait, Collateral collateral, Facing facing, EyeExpression expression = EyeExpression.NONE)
+        public Sprite GetSpecialEyesSprite(int eyeShapeTrait, Collateral collateral, GotchiFacing facing, GotchiEyeExpression expression = GotchiEyeExpression.NONE)
         {
-            if (expression == EyeExpression.NONE || facing != Facing.FRONT)
+            if (expression == GotchiEyeExpression.NONE || facing != GotchiFacing.FRONT)
                 return GetEyeSprite(eyeShapeTrait, collateral, facing);
             return specialEyes[(int)expression];
         }
@@ -137,16 +107,16 @@ namespace PortalDefender.AavegotchiKit
         [SerializeField]
         Sprite[] shadows;
 
-        public Sprite GetShadowSprite(Facing facing)
+        public Sprite GetShadowSprite(GotchiFacing facing)
         {
             switch (facing)
             {
-                case Facing.FRONT:
-                case Facing.BACK:
+                case GotchiFacing.FRONT:
+                case GotchiFacing.BACK:
                 default:
                     return shadows[0];
-                case Facing.LEFT:
-                case Facing.RIGHT:
+                case GotchiFacing.LEFT:
+                case GotchiFacing.RIGHT:
                     return shadows[1];
             }
         }

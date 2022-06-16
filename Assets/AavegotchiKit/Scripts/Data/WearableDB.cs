@@ -92,7 +92,7 @@ namespace PortalDefender.AavegotchiKit
 
                 wearable.poses.Add(pose);
 
-                if ( wearable.slotPositions[(int)GotchiData.Slot.BODY])
+                if ( wearable.slotPositions[(int)GotchiEquipmentSlot.BODY])
                 {
                     // add sleeves up pose
                     pose = new WearablePose();
