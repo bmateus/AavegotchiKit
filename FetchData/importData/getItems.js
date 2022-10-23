@@ -138,9 +138,9 @@ const getCollateralInfo = async () =>
 
 db.wearables = []
 
-const getWearables = async () => {
+const getWearables = async (startingId = 1) => {
 	let done = false;
-	let wearableId = 1;
+	let wearableId = startingId;
 	while (!done)
 	{
 		try
@@ -605,25 +605,43 @@ const getSleeves = async (wearableId) =>
 provider.ready.then(async () => {
 
 	contract = new ethers.Contract(DIAMOND, abi, provider);
+	 
+	// 1) get sleeves
+	//await getSleevesSvgs();
 
-	await getCollateralInfo();
-	fs.writeFile('./aavegotchi_db_collaterals.json', JSON.stringify(db.collateralInfo), 'utf8', (err)=> console.log(err));
+	// 2) get everything else
+	// await getCollateralInfo();
+	// fs.writeFile('./aavegotchi_db_collaterals.json', JSON.stringify(db.collateralInfo), 'utf8', (err)=> console.log(err));
 
-	await getWearableSets();
-	fs.writeFile('./aavegotchi_db_wearable_sets.json', JSON.stringify(db.wearableSets), 'utf8', (err)=> console.log(err));
+	// await getWearableSets();
+	// fs.writeFile('./aavegotchi_db_wearable_sets.json', JSON.stringify(db.wearableSets), 'utf8', (err)=> console.log(err));
 
-	await getEyeShapes();
-	fs.writeFile('./aavegotchi_db_eye_shapes.json', JSON.stringify(db.eyeShapes), 'utf8', (err)=> console.log(err));
+	// await getEyeShapes();
+	// fs.writeFile('./aavegotchi_db_eye_shapes.json', JSON.stringify(db.eyeShapes), 'utf8', (err)=> console.log(err));
 
-	await getWearables();
-	fs.writeFile('./aavegotchi_db_wearables.json', JSON.stringify(db.wearables), 'utf8', (err)=> console.log(err));
+	// await getWearables();
+	// fs.writeFile('./aavegotchi_db_wearables.json', JSON.stringify(db.wearables), 'utf8', (err)=> console.log(err));
 	
-	await getGotchi();
-	fs.writeFile('./aavegotchi_db_main.json', JSON.stringify(db.gotchi), 'utf8', (err)=> console.log(err));
+	// await getGotchi();
+	// fs.writeFile('./aavegotchi_db_main.json', JSON.stringify(db.gotchi), 'utf8', (err)=> console.log(err));
+
+	// 3) test getting an object with sleeves
+	// const wearableId = 8  // 8 = Marine Jacket (body slot with sleeves)
+	// const info = await contract.getItemType(wearableId)
+	// console.log(info)
+	// await addWearable(wearableId, info)
+	// console.log(db.wearables[0])
+
+	// 4) Get new items
+	await getWearables(263);
+	fs.writeFile('./aavegotchi_db_wearables_2.json', JSON.stringify(db.wearables), 'utf8', (err)=> console.log(err));
+	
+
+
 });
 
 
-const printStorageSlots = () => {
+const printStorageSlots = async () => {
 
 	//print out Aavegotchi Diamond storage
 	for (let index = 0; index < 100; ++index)

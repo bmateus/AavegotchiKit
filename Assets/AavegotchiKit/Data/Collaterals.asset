@@ -14,258 +14,646 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 4900000, guid: 39181c68e9d46384691ababb284fe0e9, type: 3}
   collaterals:
-  - collateralType: 0xE0b22E0037B130A9F56bBb537684E6fA18192341
+  - name: maDAI
+    collateralType: 0xE0b22E0037B130A9F56bBb537684E6fA18192341
     modifiers: 010000000000000000000000000000000000000000000000
     primaryColor: 0xff7d00
     secondaryColor: 0xf9d792
     cheekColor: 0xf4af24
     haunt: 1
     svgId: 0
-    eyeShapeSvgId: 18
+    svgs:
+    - <g class="gotchi-collateral" fill="#ff7d00"><path d="M37 16v-1h-1v-1h-1v1h-6v-2h5v-1h-6v3h-1v1h1v1h-1v1h1v3h6v-1h-5v-2h6v1h1v-1h1v-1h-1v-1h1zm-2
+      1h-6v-1h6v1z"/><path d="M34 19h1v1h-1zm0-6h1v1h-1z"/></g>
+    - <g class="gotchi-collateral"><g fill="#ff7d00"><path d="M21 19h1v1h-1z"/><path
+      d="M24 16v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h1v-1h1v-1h-1v-1z"/></g></g>
+    - <g class="gotchi-collateral"><path d="M43 16v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v3h2v-1h-1v-2h1v-1h-1v-1z"
+      fill="#ff7d00"/></g>
+    - <g class="gotchi-collateral"><path d="M43 16v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v3h2v-1h-1v-2h1v-1h-1v-1z"
+      fill="#ff7d00"/></g>
     sprites:
     - {fileID: 21300000, guid: e7b4a1832131d444993a87eb17a33192, type: 3}
     - {fileID: 21300000, guid: bb870d3e9a8132a419e60cd4082aec99, type: 3}
     - {fileID: 21300000, guid: 3f45cf3419de2f24290dcdd2232611f8, type: 3}
+    eyeShapeSvgId: 18
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M29 22H28V23H27H26H25H24H23V22H24H25H26H27H28V21H27H26H25H24H23H22V22V23H21V24H22V25H21V26H22V27V28H23H24H25H26H27H28V27H27H26H25H24H23V26H24H25H26H27H28V27H29V26H30V25H29V24H30V23H29V22ZM28
+      25H27H26H25H24H23V24H24H25H26H27H28V25Z" /><path d="M43 24V23H42V22H41V23H40H39H38H37H36V22H37H38H39H40H41V21H40H39H38H37H36H35V22V23H34V24H35V25H34V26H35V27V28H36H37H38H39H40H41V27H40H39H38H37H36V26H37H38H39H40H41V27H42V26H43V25H42V24H43ZM41
+      25H40H39H38H37H36V24H37H38H39H40H41V25Z" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21 28h1v1h-1z"/><path d="M24 25v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h1v-1h1v-1h-1v-1z"/><path
+      d="M21 22h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 23v-1h-2v2h-1v1h1v1h-1v1h1v2h2v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 906c8720bc968144fb115fb39cf66d76, type: 3}
     - {fileID: 21300000, guid: 225c5e4c249647e498fa4b61cc2a3ece, type: 3}
     - {fileID: 21300000, guid: c38d771bce87a5f4193b19956633c632, type: 3}
-  - collateralType: 0x20D3922b4a1A8560E1aC99FBA4faDe0c849e2142
+  - name: maWETH
+    collateralType: 0x20D3922b4a1A8560E1aC99FBA4faDe0c849e2142
     modifiers: 000000000100000000000000000000000000000000000000
     primaryColor: 0x64438e
     secondaryColor: 0xedd3fd
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 1
-    eyeShapeSvgId: 19
+    svgs:
+    - <g class="gotchi-collateral"><g fill="#64438e"><path d="M29 17v-2h-1v4h1v-1z"/><path
+      d="M29 14h1v1h-1zm0 5h1v1h-1z"/><path d="M30 20h1v1h-1z"/><path d="M31 21v1h2v-1h-1zm-1-8h1v1h-1zm4
+      6h1v1h-1zm0-5h1v1h-1z"/><path d="M33 13v-1h-2v1h1zm0 7h1v1h-1z"/><path d="M33
+      13h1v1h-1zm2 2v4h1v-4z"/></g><path d="M34 17h-2v4h1v-1h1v-1h1v-2z" fill="#c260ff"/><g
+      fill="#dea8ff"><path d="M30 17h-1v2h1v1h1v1h1v-4h-1z"/><path d="M34 15v-1h-1v-1h-1v4h3v-2z"/></g><path
+      d="M31 17h1v-4h-1v1h-1v1h-1v2h1z" fill="#edd3fd"/></g>
+    - <g class="gotchi-collateral"><path d="M23 15v-1h-2v7h1v-1h1v-1h1v-4z" fill="#64438e"/><path
+      d="M22 15v-1h-1v6h1v-1h1v-4z" fill="#c260ff"/><path d="M22,15v-1h-1v3h2v-2H22z"
+      fill="#dea8ff"/></g>
+    - <g class="gotchi-collateral"><path d="M41 14v1h-1v4h1v1h1v1h1v-7z" fill="#64438e"/><path
+      d="M42 14v1h-1v4h1v1h1v-6z" fill="#dea8ff"/><path d="M42,14v1h-1v2h2v-3H42z"
+      fill="#c260ff"/></g>
+    - <g class="gotchi-collateral"><path d="M41 14v1h-1v4h1v1h1v1h1v-7z" /><path
+      d="M42 14v1h-1v4h1v1h1v-6z" fill="#dea8ff"/><path d="M42,14v1h-1v2h2v-3H42z"
+      /></g>
     sprites:
     - {fileID: 21300000, guid: 6c6c4b75a7d59fc4da905750d4ed80d1, type: 3}
     - {fileID: 21300000, guid: 3ad1c799f874d83468d7352854a369b8, type: 3}
     - {fileID: 21300000, guid: 354ac5ef90632034e81bd9e968684932, type: 3}
+    eyeShapeSvgId: 19
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><g class="gotchi-primary"><path d="M24 21h1v1h-1z"
+      /><path d="M23 22h1v1h-1z" /><path d="M22 23h1v1h-1z" /><path d="M21 24h1v1h-1z"
+      /><path d="M22 24h1v1h-1z" /><path d="M23 24h1v1h-1z" /><path d="M24 24h1v1h-1z"
+      /><path d="M24 23h1v1h-1z" /><path d="M24 22h1v1h-1z" /><path d="M23 23h1v1h-1zm15-2h1v1h-1z"
+      /><path d="M37 22h1v1h-1z" /><path d="M36 23h1v1h-1z" /><path d="M35 24h1v1h-1z"
+      /><path d="M36 24h1v1h-1z" /><path d="M37 24h1v1h-1z" /><path d="M38 24h1v1h-1z"
+      /><path d="M38 23h1v1h-1z" /><path d="M38 22h1v1h-1z" /><path d="M37 23h1v1h-1z"
+      /></g><g><path d="M21 26v-1h1v1z" /><path d="M22 27v-1h1v1z" /><path d="M23
+      28v-1h1v1z" /><path d="M24 29v-1h1v1z" /><path d="M24 28v-1h1v1z" /><path d="M24
+      27v-1h1v1z" /><path d="M24 26v-1h1v1z" /><path d="M23 26v-1h1v1z" /><path d="M22
+      26v-1h1v1z" /><path d="M23 27v-1h1v1zm12-1v-1h1v1z" /><path d="M36 27v-1h1v1z"
+      /><path d="M37 28v-1h1v1z" /><path d="M38 29v-1h1v1z" /><path d="M38 28v-1h1v1z"
+      /><path d="M38 27v-1h1v1z" /><path d="M38 26v-1h1v1z" /><path d="M37 26v-1h1v1z"
+      /><path d="M36 26v-1h1v1z" /><path d="M37 27v-1h1v1z" /></g><g class="gotchi-primary"><path
+      d="M26 29h-1v-1h1z" /><path d="M27 28h-1v-1h1z" /><path d="M28 27h-1v-1h1z"
+      /><path d="M29 26h-1v-1h1z" /><path d="M28 26h-1v-1h1z" /><path d="M27 26h-1v-1h1z"
+      /><path d="M26 26h-1v-1h1z" /><path d="M26 27h-1v-1h1z" /><path d="M26 28h-1v-1h1z"
+      /><path d="M27 27h-1v-1h1zm13 2h-1v-1h1z" /><path d="M41 28h-1v-1h1z" /><path
+      d="M42 27h-1v-1h1z" /><path d="M43 26h-1v-1h1z" /><path d="M42 26h-1v-1h1z"
+      /><path d="M41 26h-1v-1h1z" /><path d="M40 26h-1v-1h1z" /><path d="M40 27h-1v-1h1z"
+      /><path d="M40 28h-1v-1h1z" /><path d="M41 27h-1v-1h1z" /></g><g><path d="M29
+      24v1h-1v-1z" /><path d="M28 23v1h-1v-1z" /><path d="M27 22v1h-1v-1z" /><path
+      d="M26 21v1h-1v-1z" /><path d="M26 22v1h-1v-1z" /><path d="M26 23v1h-1v-1z"
+      /><path d="M26 24v1h-1v-1z" /><path d="M27 24v1h-1v-1z" /><path d="M28 24v1h-1v-1z"
+      /><path d="M27 23v1h-1v-1zm16 1v1h-1v-1z" /><path d="M42 23v1h-1v-1z" /><path
+      d="M41 22v1h-1v-1z" /><path d="M40 21v1h-1v-1z" /><path d="M40 22v1h-1v-1z"
+      /><path d="M40 23v1h-1v-1z" /><path d="M40 24v1h-1v-1z" /><path d="M41 24v1h-1v-1z"
+      /><path d="M42 24v1h-1v-1z" /><path d="M41 23v1h-1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M24 25v-1h-1v-1h-1v-1h-1v4h4v-1h-1z"/><path
+      d="M21 26v4h1v-1h1v-1h1v-1h1v-1h-4z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 22v1h-1v1h-1v1h-1v1h4v-4h-1z"/><path
+      d="M39 26v1h1v1h1v1h1v1h1v-4h-4z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: ddfc620bf674b074e9e1c7387c8af18a, type: 3}
     - {fileID: 21300000, guid: 7310c3e749d221e4584f3bd72fd37450, type: 3}
     - {fileID: 21300000, guid: c521b2dfed0d0cf4a8d4e2b977940969, type: 3}
-  - collateralType: 0x823CD4264C1b951C9209aD0DeAea9988fE8429bF
+  - name: maAAVE
+    collateralType: 0x823CD4264C1b951C9209aD0DeAea9988fE8429bF
     modifiers: 000000000000000001000000000000000000000000000000
     primaryColor: 0xb6509e
     secondaryColor: 0xcfeef4
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 2
-    eyeShapeSvgId: 17
+    svgs:
+    - <g class="gotchi-collateral" fill="#a73796"><path d="M30.5 15h1v-2h-1z"/><path
+      d="M31.5 12h1v1h-1z"/><path d="M33.5 13h-1v2h1zm-4 3h-2v1h1v2h1v-2h2v-1h-1v-1h-1z"/><path
+      d="M34.5 15h-1v2h1z"/><path d="M35.5 17h-1v2h1zm-8 4h1v-2h-1z"/><path d="M35.5
+      19v2h1v-2z"/></g>
+    - <g class="gotchi-collateral"><path d="M21 15h1v2h-1z" fill="#a73796"/><path
+      d="M22 17h1v2h-1z" fill="#a73796"/><path d="M23 19h1v2h-1z" fill="#a73796"/></g>
+    - <g class="gotchi-collateral"><path d="M42 15v1h-2v1h1v2h1v-2h1v-2z" fill="#a73796"/><path
+      d="M40 19h1v2h-1z" fill="#a73796"/></g>
+    - <g class="gotchi-collateral"><path d="M42 15v1h-2v1h1v2h1v-2h1v-2z"/><path
+      d="M40 19h1v2h-1z"/></g>
     sprites:
     - {fileID: 21300000, guid: ac78057140794394482fb7dde0191763, type: 3}
     - {fileID: 21300000, guid: 6ec63c8a2ff334e4fa419b69010340a7, type: 3}
     - {fileID: 21300000, guid: ac79275d943ff3d4da1114e5c5cb1747, type: 3}
+    eyeShapeSvgId: 17
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M37 23V24H38V22H37V23Z" /><path d="M38
+      21H39V22H38V21Z" /><path d="M40 22H39V24H40V23V22ZM36 25H34V26H35V28H36V26H38V25H37V24H36V25Z"
+      /><path d="M41 24H40V26H41V25V24Z" /><path d="M42 26H41V28H42V27V26ZM34 29V30H35V28H34V29Z"
+      /><path d="M42 28V30H43V28H42Z" /><path d="M24 23V24H25V22H24V23Z" /><path
+      d="M25 21H26V22H25V21Z" /><path d="M27 22H26V24H27V23V22ZM23 25H21V26H22V28H23V26H25V25H24V24H23V25Z"
+      /><path d="M28 24H27V26H28V25V24Z" /><path d="M29 26H28V28H29V27V26ZM21 29V30H22V28H21V29Z"
+      /><path d="M29 28V30H30V28H29Z" /></g>
+    - <g class="gotchi-eyeColor"><path d="M22 22h-1v2h1v-2z"/><path d="M23 24h-1v2h1v-2z"/><path
+      d="M24 26h-1v2h1v-2z"/><path d="M24 28v2h1v-2h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 22v2h1v-2h-1z"/><path d="M41 25h-2v1h1v2h1v-2h2v-1h-1v-1h-1v1z"/><path
+      d="M39 29v1h1v-2h-1v1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 1d946cf241f8ffa4c98c594883474d91, type: 3}
     - {fileID: 21300000, guid: 0d0746469238e9440bbc0452a171ee0c, type: 3}
     - {fileID: 21300000, guid: 40e628610814edf4bacf330a28a0306f, type: 3}
-  - collateralType: 0x98ea609569bD25119707451eF982b90E3eb719cD
+  - name: maLINK
+    collateralType: 0x98ea609569bD25119707451eF982b90E3eb719cD
     modifiers: 000000000000000000000000010000000000000000000000
     primaryColor: 0x0000b9
     secondaryColor: 0xd4def8
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 3
-    eyeShapeSvgId: 20
+    svgs:
+    - <g class="gotchi-collateral"><path d="M34 13v-1h-4v1h-1v1h-1v1h-1v4h1v1h1v1h1v1h4v-1h1v-1h1v-1h1v-4h-1v-1h-1v-1h-1zm-2
+      1h1v1h1v1h1v2h-1v1h-1v1h-2v-1h-1v-1h-1v-2h1v-1h1v-1h1z" fill="#0000b9"/></g>
+    - <g class="gotchi-collateral"><path d="M23 15v-1h-2v2h1v2h-1v3h1v-1h1v-1h1v-4z"
+      fill="#0000b9"/></g>
+    - <g class="gotchi-collateral"><path d="M41 14v1h-1v4h1v1h1v1h1v-3h-1v-2h1v-2z"
+      fill="#0000b9"/></g>
+    - <g class="gotchi-collateral"><path d="M41 14v1h-1v4h1v1h1v1h1v-3h-1v-2h1v-2z"
+      fill="#0000b9"/></g>
     sprites:
     - {fileID: 21300000, guid: 4c84c5d6acb67be4290584b01c9a0b4f, type: 3}
     - {fileID: 21300000, guid: 85d554bf903d2394085f63b69624eba0, type: 3}
     - {fileID: 21300000, guid: cb17867ce6de7a34a8c0964b84c397a7, type: 3}
+    eyeShapeSvgId: 20
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M28 22H27V21H26H25H24H23V22H22V23H21V24V25V26V27H22V28H23V29H24H25H26H27V28H28V27H29V26V25V24V23H28V22ZM27
+      24V25V26H26V27H25H24V26H23V25V24H24V23H25H26V24H27Z" /><path d="M42 23V22H41V21H40H39H38H37V22H36V23H35V24V25V26V27H36V28H37V29H38H39H40H41V28H42V27H43V26V25V24V23H42ZM41
+      25V26H40V27H39H38V26H37V25V24H38V23H39H40V24H41V25Z" /></g>
+    - <g class="gotchi-eyeColor"><path d="M23 24v-1h-1v-1h-1v3h1v2h-1v3h1v-1h1v-1h1v-4h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 22v1h-1v1h-1v4h1v1h1v1h1v-3h-1v-2h1v-3h-1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 32c2473e5f690334f8b24e303582ee22, type: 3}
     - {fileID: 21300000, guid: 0f76df144728e4e4794d3200fff6314b, type: 3}
     - {fileID: 21300000, guid: 9aceb5719e248fb4d9bc581e050a9d6d, type: 3}
-  - collateralType: 0xDAE5F1590db13E3B40423B5b5c5fbf175515910b
+  - name: maUSDT
+    collateralType: 0xDAE5F1590db13E3B40423B5b5c5fbf175515910b
     modifiers: 00000000ffffffff00000000000000000000000000000000
     primaryColor: 0x26a17b
     secondaryColor: 0xaedcce
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 4
-    eyeShapeSvgId: 25
+    svgs:
+    - <g class="gotchi-collateral" fill="#26a17b"><path d="M31 19h2v3h-2zm0-2v1h2v-1h3v-1h-3v-1h2v-2h-6v2h2v1h-3v1z"/><path
+      d="M27 17h1v1h-1z"/><path d="M28 18h3v1h-3zm8-1h1v1h-1z"/><path d="M33 18h3v1h-3z"/></g>
+    - <g class="gotchi-collateral"><path d="M21 19h1v3h-1zm4-2v-1h-3v-1h2v-2h-1v1h-2v4h1v-1z"
+      fill="#26a17b"/><path d="M25 17h1v1h-1z" fill="#26a17b"/><path d="M22 18h3v1h-3z"
+      fill="#26a17b"/></g>
+    - <g class="gotchi-collateral"><path d="M42 19h1v3h-1zm-1-5v-1h-1v2h2v1h-3v1h3v1h1v-4z"
+      fill="#26a17b"/><path d="M38 17h1v1h-1z" fill="#26a17b"/><path d="M39 18h3v1h-3z"
+      fill="#26a17b"/></g>
+    - <g class="gotchi-collateral"><path d="M42 19h1v3h-1zm-1-5v-1h-1v2h2v1h-3v1h3v1h1v-4z"/><path
+      d="M38 17h1v1h-1z"/><path d="M39 18h3v1h-3z"/></g>
     sprites:
     - {fileID: 21300000, guid: 609376a40001e9d4da7f84b149117a5a, type: 3}
     - {fileID: 21300000, guid: b70648c87c78b7f4ca31dc72a51f9ff3, type: 3}
     - {fileID: 21300000, guid: 8a092d0d98621394283b9b78a521e2fb, type: 3}
+    eyeShapeSvgId: 25
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor gotchi-primary"><path d="M38 27h2v3h-2zm0-2v1h2v-1h3v-1h-3v-1h2v-2h-6v2h2v1h-3v1z"/><path
+      d="M34 25h1v1h-1z"/><path d="M35 26h3v1h-3zm8-1h1v1h-1z"/><path d="M40 26h3v1h-3zm-16
+      1h2v3h-2zm0-2v1h2v-1h3v-1h-3v-1h2v-2h-6v2h2v1h-3v1z"/><path d="M20 25h1v1h-1z"/><path
+      d="M21 26h3v1h-3zm8-1h1v1h-1z"/><path d="M26 26h3v1h-3z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M21 28v2h1v-3h-1v1zm2-3h2v-1h-3v-1h2v-2h-3v5h1v-1h1z"/><path
+      d="M25 25h1v1h-1z"/><path d="M23 26h-1v1h3v-1h-2z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 29v1h1v-3h-1v2zm-4-4h1v1h-1z"/><path
+      d="M40 26h-1v1h3v-1h-2z"/><path d="M42 21h-2v2h2v1h-3v1h3v1h1v-5h-1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: e68e445018f017249b4caec1edc0f879, type: 3}
     - {fileID: 21300000, guid: 58827bc52d40e904fb4ae6bbf4b66cff, type: 3}
     - {fileID: 21300000, guid: b646142cc0d462742b99ff7bbb973885, type: 3}
-  - collateralType: 0x9719d867A500Ef117cC201206B8ab51e794d3F82
+  - name: maUSDC
+    collateralType: 0x9719d867A500Ef117cC201206B8ab51e794d3F82
     modifiers: 0000000000000000ffffffff000000000000000000000000
     primaryColor: 0x2664ba
     secondaryColor: 0xd4e0f1
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 5
-    eyeShapeSvgId: 21
+    svgs:
+    - <g class="gotchi-collateral" fill="#2664ba"><path d="M30 15v2h3v1h-3v1h1.5v1h1v-1H34v-3h-3v-1h3v-1h-1.5v-1h-1v1H30zm4
+      5h1v1h-1z"/><path d="M35 19h1v1h-1z"/><path d="M36 16v3h1v-5h-1v1zm-2-4h1v1h-1z"/><path
+      d="M35 13h1v1h-1zm-7 5v-4h-1v5h1zm1 2h1v1h-1z"/><path d="M28 19h1v1h-1zm1-7h1v1h-1z"/><path
+      d="M28 13h1v1h-1z"/></g>
+    - <g class="gotchi-collateral"><path d="M21 20h1v1h-1z" fill="#2664ba"/><path
+      d="M22 19h1v1h-1z" fill="#2664ba"/><path d="M23 14h1v5h-1z" fill="#2664ba"/></g>
+    - <g class="gotchi-collateral"><path d="M42 20h1v1h-1zm-2-6h1v5h-1z" fill="#2664ba"/><path
+      d="M41 19h1v1h-1z" fill="#2664ba"/></g>
+    - <g class="gotchi-collateral"><path d="M42 20h1v1h-1zm-2-6h1v5h-1z"/><path d="M41
+      19h1v1h-1z"/></g>
     sprites:
     - {fileID: 21300000, guid: 52e11bb589b23a3448c08b6d72628df3, type: 3}
     - {fileID: 21300000, guid: 11d41e26cee2d2c44896c088a8a676fb, type: 3}
     - {fileID: 21300000, guid: 868997c7cf6a9ec45812b1eb3679029d, type: 3}
+    eyeShapeSvgId: 21
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M41 25h-3v-1h3v-1h-1.5v-1h-1v1H37v3h3v1h-3v1h1.5v1h1v-1H41zm0
+      4h1v1h-1z"/><path d="M42 28h1v1h-1z"/><path d="M43 23h1v5h-1zm-2-2h1v1h-1z"/><path
+      d="M42 22h1v1h-1zm-6 7h1v1h-1zm-2-6h1v5h-1z"/><path d="M35 28h1v1h-1zm1-7h1v1h-1z"/><path
+      d="M35 22h1v1h-1zm-8 3h-3v-1h3v-1h-1.5v-1h-1v1H23v3h3v1h-3v1h1.5v1h1v-1H27zm0
+      4h1v1h-1z"/><path d="M28 28h1v1h-1z"/><path d="M29 23h1v5h-1zm-2-2h1v1h-1z"/><path
+      d="M28 22h1v1h-1zm-6 7h1v1h-1zm-2-6h1v5h-1z"/><path d="M21 28h1v1h-1zm1-7h1v1h-1z"/><path
+      d="M21 22h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M22 27v-2h-1v3h1v-1zm-1-4h1v1h-1zm1 6h1v1h-1z"/><path
+      d="M23 28h1v1h-1z"/><path d="M24 23v5h1v-5h-1zm-2-2h1v1h-1z"/><path d="M23
+      22h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 27h1v1h-1zm0-4v3h1v-3h-1zm-1 6h1v1h-1zm-1-3v-3h-1v5h1v-2z"/><path
+      d="M40 28h1v1h-1zm1-7h1v1h-1z"/><path d="M40 22h1v1h-1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: bf0e0156f8478bd4690510e20c62c7bc, type: 3}
     - {fileID: 21300000, guid: d9e1a93064bdbd540b744f03a8a7493e, type: 3}
     - {fileID: 21300000, guid: 82d75b64fa44cfe4489c3393c91eb3b8, type: 3}
-  - collateralType: 0xF4b8888427b00d7caf21654408B7CBA2eCf4EbD9
+  - name: maTUSD
+    collateralType: 0xF4b8888427b00d7caf21654408B7CBA2eCf4EbD9
     modifiers: 0000000000000000ffffffff000000000000000000000000
     primaryColor: 0x282473
     secondaryColor: 0x489ff8
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 8
-    eyeShapeSvgId: 24
+    svgs:
+    - <g class="gotchi-collateral"><g fill="#282473"><path d="M37 15h-1v4h1zm-3 5h1v1h-1z"/><path
+      d="M35 19h1v1h-1zm-6 1h1v1h-1z"/><path d="M34 22v-1h-4v1z"/></g><g fill="#489ff8"><path
+      d="M30.5 15v1h1v3h1v-3h1v-1zm-.5-3v1h4v-1z"/><path d="M34 13h1v1h-1zm-7 6h1v-4h-1zm2-6h1v1h-1z"/><path
+      d="M28 14h1v1h-1z"/></g></g>
+    - <g class="gotchi-collateral"><path d="M21 20h1v1h-1z" fill="#282473"/><path
+      d="M22 19h1v1h-1z" fill="#282473"/><path d="M23 15h1v4h-1z" fill="#282473"/></g>
+    - <g class="gotchi-collateral"><path d="M42 20h1v1h-1zm-2-5h1v4h-1z" fill="#489ff8"/><path
+      d="M41 14h1v1h-1z" fill="#489ff8"/></g>
+    - <g class="gotchi-collateral"><path d="M42 20h1v1h-1zm-2-5h1v4h-1z"/><path d="M41
+      14h1v1h-1z"/></g>
     sprites:
     - {fileID: 21300000, guid: ea0ea3294283c3e4285699b1d779deae, type: 3}
     - {fileID: 21300000, guid: 5f51ae92e1b68884a935ee065cd36cc7, type: 3}
     - {fileID: 21300000, guid: e62da57ca5bab4a42a9c27922ce7c8d9, type: 3}
+    eyeShapeSvgId: 24
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor gotchi-primary"><path d="M39.5 28v-3h1v-1h-3v1h1v3zm1.5
+      1h1v1h-1z"/><path d="M42 28h1v1h-1z"/><path d="M43 24h1v4h-1zm-7 5h1v1h-1z"/><path
+      d="M37 30h4v1h-4zm4-8h1v1h-1z"/><path d="M37 21h4v1h-4zm-3 3h1v4h-1z"/><path
+      d="M36 22h1v1h-1z"/><path d="M35 23h1v1h-1zm-9.5 5v-3h1v-1h-3v1h1v3zm1.5 1h1v1h-1z"/><path
+      d="M28 28h1v1h-1z"/><path d="M29 24h1v4h-1zm-7 5h1v1h-1z"/><path d="M23 30h4v1h-4zm4-8h1v1h-1z"/><path
+      d="M23 21h4v1h-4zm-3 3h1v4h-1z"/><path d="M22 22h1v1h-1z"/><path d="M21 23h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M21 24h1v1h-1zm1 5h1v1h-1z"/><path d="M23
+      28h1v1h-1z"/><path d="M24 24v4h1v-4h-1zm-3 6h1v1h-1zm0-9h1v1h-1z"/><path d="M22
+      22h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 24h1v1h-1zm-1 5h1v1h-1z"/><path d="M42
+      30h1v1h-1zm0-9h1v1h-1z"/><path d="M39 25v3h1v-4h-1v1zm2-3h1v1h-1z"/><path d="M40
+      23h1v1h-1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: d11c077426d0c9443b3506933e8d94e2, type: 3}
     - {fileID: 21300000, guid: 9c52a9c498338594aa041981426faaac, type: 3}
     - {fileID: 21300000, guid: 3beb8bcf62ac9ca46b3972ef470f7501, type: 3}
-  - collateralType: 0x8c8bdBe9CeE455732525086264a4Bf9Cf821C498
+  - name: maUNI
+    collateralType: 0x8c8bdBe9CeE455732525086264a4Bf9Cf821C498
     modifiers: 0000000000000000ffffffff000000000000000000000000
     primaryColor: 0xff2a7a
     secondaryColor: 0xffc3df
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 6
-    eyeShapeSvgId: 23
+    svgs:
+    - <g class="gotchi-collateral"><path d="M30 9V8h-1v1h-1v2h1v1h2V9z" fill="#ffc2db"/><path
+      d="M28 7V6h-1v2h2V7z" fill="#ffdeec"/><path d="M26 5h1v1h-1z" fill="#fff"/><path
+      d="M33 13v-2h-1v1h-1v1h-2v1h1v1h4v-2z" fill="#ff88b8"/><g fill="#ff3085"><path
+      d="M27 5V4h-1V3h-1v3h1V5z"/><path d="M27 5h1v1h-1z"/><path d="M28 6h1v1h-1z"/><path
+      d="M29 7h1v1h-1z"/><path d="M30 8h1v1h-1zm-2 1h1V8h-2v3h1z"/><path d="M31 13v-1h-2v-1h-1v3h1v-1z"/><path
+      d="M31 12h1v-1h1v-1h-1V9h-1z"/><path d="M34 12v-1h-1v2h1v2h1v-3z"/><path d="M30
+      15v-1h-1v2h5v-1zm-4-9h1v2h-1z"/></g></g>
+    - <g class="gotchi-collateral"><path d="M17 3v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v3h-1v1h-5v-2h-1v-3h-1V8h-1V6h-1V3z"
+      fill="#ff3085"/><path d="M21,9V8h-1v1h-1v2h1v1h2V9H21z" fill="#ffc2db"/><path
+      d="M19,7V6h-1v2h2V7H19z" fill="#ffdeec"/><path d="M17,5h1v1h-1V5z" fill="#fff"/><path
+      d="M24,13v-2h-1v1h-1v1h-2v1h1v1h4v-2H24z" fill="#ff88b8"/></g>
+    - <g class="gotchi-collateral"><path d="M47 3v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v3h1v1h5v-2h1v-3h1V8h1V6h1V3z"
+      fill="#ff3085"/><path d="M42,9v3h2v-1h1V9h-1V8h-1v1H42z" fill="#ffc2db"/><path
+      d="M44,7v1h2V6h-1v1H44z" fill="#ffdeec"/><path d="M47,6h-1V5h1V6z" fill="#fff"/><path
+      d="M39,13v2h4v-1h1v-1h-2v-1h-1v-1h-1v2H39z" fill="#ff88b8"/></g>
+    - <g class="gotchi-collateral"><path d="M47 3v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v3h1v1h5v-2h1v-3h1V8h1V6h1V3z"
+      fill="#ff3085"/><path d="M42,9v3h2v-1h1V9h-1V8h-1v1H42z" fill="#ffc2db"/><path
+      d="M44,7v1h2V6h-1v1H44z" fill="#ffdeec"/><path d="M47,6h-1V5h1V6z" fill="#fff"/><path
+      d="M39,13v2h4v-1h1v-1h-2v-1h-1v-1h-1v2H39z" fill="#ff88b8"/></g>
     sprites:
     - {fileID: 21300000, guid: bacb149e144149543a7ea0bdba58311d, type: 3}
     - {fileID: 21300000, guid: b89f9f2a6fec08f46a7afa3586581c48, type: 3}
     - {fileID: 21300000, guid: bc5f35d4f74f9e14ab76c9f7abff089f, type: 3}
+    eyeShapeSvgId: 23
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M35,20h1v1h-1V20z" fill="#fff"/><path d="M37
+      22v-1h-1v2h2v-1zm0" fill="#ffdeec"/><g><path d="M36 20v-1h-1v-1h-1v3h1v-1z"/><path
+      d="M36 20h1v1h-1z"/><path d="M37 21h1v1h-1z"/><path d="M40 24v-1h-1v-1h-1v1h-2v3h1v2h3v-1h1v-3h-1zm-3"/><path
+      d="M35 21h1v2h-1z"/></g><path d="M22,20h1v1h-1V20z" fill="#fff"/><path d="M24
+      22v-1h-1v2h2v-1zm0" fill="#ffdeec"/><g><path d="M23 20v-1h-1v-1h-1v3h1v-1z"/><path
+      d="M23 20h1v1h-1z"/><path d="M24 21h1v1h-1z"/><path d="M27 24v-1h-1v-1h-1v1h-2v3h1v2h3v-1h1v-3h-1zm-3"/><path
+      d="M22 21h1v2h-1z"/></g></g>
+    - <g class="gotchi-eyeColor"><path d="M18 18v1h1v1h1v1h1v1h1v1h1v1h1v3h-1v1h-3v-2h-1v-3h-1v-2h-1v-3z"/><path
+      d="M18,20h1v1h-1V20z" fill="#fff"/><path d="M20 22v-1h-1v2h2v-1h-1zm1 3h-1v-1h1v1z"
+      fill="#e1e1e1"/></g>
+    - <g class="gotchi-eyeColor"><path d="M46 18v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v3h1v1h3v-2h1v-3h1v-2h1v-3z"/><path
+      d="M46 21h-1v-1h1v1z" fill="#fff"/><path d="M43 22v1h2v-2h-1v1h-1zm0 2h1v1h-1v-1z"
+      fill="#e1e1e1"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 58c4546edff9d304787059d83253edba, type: 3}
     - {fileID: 21300000, guid: 9fb105774433a7a4b8d00f8f10e1e3b6, type: 3}
     - {fileID: 21300000, guid: 427a765de4bfdbb409a722bf74e90974, type: 3}
-  - collateralType: 0xe20f7d1f0eC39C4d5DB01f53554F2EF54c71f613
+  - name: maYFI
+    collateralType: 0xe20f7d1f0eC39C4d5DB01f53554F2EF54c71f613
     modifiers: 000000000000000000000000010000000000000000000000
     primaryColor: 0x0074f9
     secondaryColor: 0xc8e1fd
     cheekColor: 0xf696c6
     haunt: 1
     svgId: 7
-    eyeShapeSvgId: 22
+    svgs:
+    - <g class="gotchi-collateral" fill="#0074f9"><path d="M30 16h1v1h-1zm4 1h1v1h-1z"/><path
+      d="M33 16h1v1h-1zm1 2h1v1h-1z"/><path d="M34 19h1v1h-1z"/><path d="M34 20h1v1h-1zm-2
+      1h1v1h-1z"/><path d="M33 21h1v1h-1zm-2 0h1v1h-1z"/><path d="M30 21h1v1h-1z"/><path
+      d="M29 20h1v1h-1z"/><path d="M30 19h1v1h-1z"/><path d="M30 18h1v1h-1z"/><path
+      d="M29 18h1v1h-1zm4-7h1v1h-1zm-2 0h1v1h-1z"/><path d="M30 11h1v1h-1zm2 0h1v1h-1zm-3
+      4h1v1h-1zm0-2h1v1h-1z"/><path d="M29 12h1v1h-1zm0 2h1v1h-1zm5-2h1v1h-1zm-1
+      2h1v1h-1z"/><path d="M34 14h1v1h-1z"/><path d="M33 13h1v1h-1zm-1.5 2h1v1h-1z"/><path
+      d="M31.5 14h1v1h-1z"/><path d="M31.5 13h1v1h-1zm0 3h1v1h-1zm0 2h1v1h-1z"/><path
+      d="M31.5 19h1v1h-1zm0-2h1v1h-1z"/></g>
+    - <g class="gotchi-collateral"><path d="M23 17h1v4h-1z" fill="#0074f9"/><path
+      d="M22 16h1v1h-1zm-1 5h2v1h-2zm2-9h1v1h-1zm-1 2h2v1h-2zm-1.5 0h1v6h-1z" fill="#0074f9"/></g>
+    - <g class="gotchi-collateral"><path d="M41 16h1v1h-1zm0 5h2v1h-2z" fill="#0074f9"/><path
+      d="M40 20h1v1h-1z" fill="#0074f9"/><path d="M42 18h-2v1h1v1h1zm-2-6h1v4h-1zm2.5
+      2h1v6h-1z" fill="#0074f9"/></g>
+    - <g class="gotchi-collateral"><path d="M41 16h1v1h-1zm0 5h2v1h-2z"/><path d="M40
+      20h1v1h-1z"/><path d="M42 18h-2v1h1v1h1zm-2-6h1v4h-1zm2.5 2h1v6h-1z"/></g>
     sprites:
     - {fileID: 21300000, guid: 0696691562256454194636f4213e762c, type: 3}
     - {fileID: 21300000, guid: 37cc8a0ea4dade94885e7f6e0d4d49a5, type: 3}
     - {fileID: 21300000, guid: 7ea6b4b8a6d5204448058a50f4e88ef4, type: 3}
+    eyeShapeSvgId: 22
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M40 26h1v1h-1z"/><path d="M41 27h1v3h-1z"/><path
+      d="M37 30h4v1h-4z"/><path d="M36 29h1v1h-1z"/><path d="M38 27h-2v1h1v1h1zm-1-6h4v1h-4zm0
+      4h1v1h-1z"/><path d="M36 22h1v3h-1zm5 0h1v1h-1z"/><path d="M40 23v2h2v-1h-1v-1zm-1.5
+      0h1v6h-1zM26 26h1v1h-1z"/><path d="M27 27h1v3h-1z"/><path d="M23 30h4v1h-4z"/><path
+      d="M22 29h1v1h-1z"/><path d="M24 27h-2v1h1v1h1zm-1-6h4v1h-4zm0 4h1v1h-1z"/><path
+      d="M22 22h1v3h-1zm5 0h1v1h-1z"/><path d="M26 25h2v-1h-1v-1h-1zm-1.5-2h1v6h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M21 26h1v1h-1z"/><path d="M22 28v2h1v-3h-1v1z"/><path
+      d="M21 30h1v1h-1zm2-8h-1v-1h-1v1h1v1h1z"/><path d="M21 23v2h2v-1h-1v-1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 30h1v1h-1z"/><path d="M41 29h1v1h-1z"/><path
+      d="M41 27v1h1v1h1v-2h-2zm1-6h1v1h-1zm0 4h1v1h-1z"/><path d="M42 23v-1h-1v3h1v-2z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: fe4ba1ec8667601409118d32e9ac296e, type: 3}
     - {fileID: 21300000, guid: c0229b7671a62ef429dddadd5de8e09a, type: 3}
     - {fileID: 21300000, guid: 3fd577cc53cb1a1468e8d59bdf1cd068, type: 3}
-  - collateralType: 0x27F8D03b3a2196956ED754baDc28D73be8830A6e
+  - name: amDAI
+    collateralType: 0x27F8D03b3a2196956ED754baDc28D73be8830A6e
     modifiers: 010000000000000000000000000000000000000000000000
     primaryColor: 0xff7d00
     secondaryColor: 0xf9d792
     cheekColor: 0xf4af24
     haunt: 2
     svgId: 0
-    eyeShapeSvgId: 18
+    svgs:
+    - <g class="gotchi-collateral" fill="#ff7d00"><path d="M37 16v-1h-1v-1h-1v1h-6v-2h5v-1h-6v3h-1v1h1v1h-1v1h1v3h6v-1h-5v-2h6v1h1v-1h1v-1h-1v-1h1zm-2
+      1h-6v-1h6v1z"/><path d="M34 19h1v1h-1zm0-6h1v1h-1z"/></g>
+    - <g class="gotchi-collateral"><g fill="#ff7d00"><path d="M21 19h1v1h-1z"/><path
+      d="M24 16v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h1v-1h1v-1h-1v-1z"/></g></g>
+    - <g class="gotchi-collateral"><path d="M43 16v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v3h2v-1h-1v-2h1v-1h-1v-1z"
+      fill="#ff7d00"/></g>
+    - <g class="gotchi-collateral"><path d="M43 16v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v3h2v-1h-1v-2h1v-1h-1v-1z"
+      fill="#ff7d00"/></g>
     sprites:
     - {fileID: 21300000, guid: e7b4a1832131d444993a87eb17a33192, type: 3}
     - {fileID: 21300000, guid: bb870d3e9a8132a419e60cd4082aec99, type: 3}
     - {fileID: 21300000, guid: 3f45cf3419de2f24290dcdd2232611f8, type: 3}
+    eyeShapeSvgId: 18
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M29 22H28V23H27H26H25H24H23V22H24H25H26H27H28V21H27H26H25H24H23H22V22V23H21V24H22V25H21V26H22V27V28H23H24H25H26H27H28V27H27H26H25H24H23V26H24H25H26H27H28V27H29V26H30V25H29V24H30V23H29V22ZM28
+      25H27H26H25H24H23V24H24H25H26H27H28V25Z" /><path d="M43 24V23H42V22H41V23H40H39H38H37H36V22H37H38H39H40H41V21H40H39H38H37H36H35V22V23H34V24H35V25H34V26H35V27V28H36H37H38H39H40H41V27H40H39H38H37H36V26H37H38H39H40H41V27H42V26H43V25H42V24H43ZM41
+      25H40H39H38H37H36V24H37H38H39H40H41V25Z" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21 28h1v1h-1z"/><path d="M24 25v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h1v-1h1v-1h-1v-1z"/><path
+      d="M21 22h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 23v-1h-2v2h-1v1h1v1h-1v1h1v2h2v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 906c8720bc968144fb115fb39cf66d76, type: 3}
     - {fileID: 21300000, guid: 225c5e4c249647e498fa4b61cc2a3ece, type: 3}
     - {fileID: 21300000, guid: c38d771bce87a5f4193b19956633c632, type: 3}
-  - collateralType: 0x28424507fefb6f7f8E9D3860F56504E4e5f5f390
+  - name: amWETH
+    collateralType: 0x28424507fefb6f7f8E9D3860F56504E4e5f5f390
     modifiers: 000000000100000000000000000000000000000000000000
     primaryColor: 0x000000
     secondaryColor: 0xfbdfeb
     cheekColor: 0xf696c6
     haunt: 2
     svgId: 9
-    eyeShapeSvgId: 19
+    svgs:
+    - <g class="gotchi-collateral"><path d="M35.5 20h1v-1h1v-5h-1v-1h-1v-1h-1v-1h-5v1h-1v1h-1v1h-1v5h1v1h1v1h1v1h5v-1h1v-1zm0-2h-1v1h-4v-1h-1v-3h1v-1h4v1h1v3z"/><path
+      d="M28.5 15h1v-1h1v-1h3v-1h-4v1h-1v1h-1v5h1v1h1v1h4v-1h-3v-1h-1v-1h-1v-3z"
+      fill="#e51b6d"/></g>
+    - <g class="gotchi-collateral"><path d="M23 14h-2v6h1v-1h1v-5z"/></g>
+    - <g class="gotchi-collateral"><path d="M42 14v1h-1v4h1v1h1v-6h-1z"/><path d="M42
+      15v4h1v-4h-1z" fill="#e51b6d"/></g>
+    - <g class="gotchi-collateral"><path d="M43 16v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v3h2v-1h-1v-2h1v-1h-1v-1z"
+      fill="#ff7d00"/></g>
     sprites:
     - {fileID: 21300000, guid: 3c9446ebe4902ff49892fae43e1d965a, type: 3}
     - {fileID: 21300000, guid: 5bf6d02f625998c4ea1ed3b166216d71, type: 3}
     - {fileID: 21300000, guid: 5229eb2e60522f44bbdbca6db611e24f, type: 3}
+    eyeShapeSvgId: 19
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M43 22h-1v-1h-5v1h-1v1h-1v5h1v1h1v1h5v-1h1v-1h1v-5h-1v-1zm-1
+      5h-4v-3h4v3z"/><path d="M36 24h1v-1h1v-1h3v-1h-4v1h-1v1h-1v5h1v1h1v1h4v-1h-3v-1h-1v-1h-1v-3z"
+      fill="#e51b6d"/><path d="M28 22h-1v-1h-5v1h-1v1h-1v5h1v1h1v1h5v-1h1v-1h1v-5h-1v-1zm-1
+      5h-4v-3h4v3z"/><path d="M22 21v1h-1v1h-1v5h1v1h1v1h4v-1h-3v-1h-1v-1h-1v-3h1v-1h1v-1h3v-1h-4z"
+      fill="#e51b6d"/></g>
+    - <g class="gotchi-eyeColor"><path d="M24 23v-1h-1v-1h-2v3h2v3h-2v3h2v-1h1v-1h1v-5h-1z"/><path
+      d="M21 21h1v1h-1zm0 8h1v1h-1z" fill="#e51b6d"/></g>
+    - <g class="gotchi-eyeColor"><path d="M41 21v1h-1v1h-1v5h1v1h1v1h2v-3h-1v-3h1v-3h-2z"/><path
+      d="M40 25v-1h1v-1h1v-1h1v-1h-2v1h-1v1h-1v5h1v1h1v1h2v-1h-1v-1h-1v-1h-1v-2z"
+      fill="#e51b6d"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: ddfc620bf674b074e9e1c7387c8af18a, type: 3}
     - {fileID: 21300000, guid: 7310c3e749d221e4584f3bd72fd37450, type: 3}
     - {fileID: 21300000, guid: c521b2dfed0d0cf4a8d4e2b977940969, type: 3}
-  - collateralType: 0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360
+  - name: amAAVE
+    collateralType: 0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360
     modifiers: 000000000000000001000000000000000000000000000000
     primaryColor: 0xb6509e
     secondaryColor: 0xcfeef4
     cheekColor: 0xf696c6
     haunt: 2
     svgId: 2
-    eyeShapeSvgId: 17
+    svgs:
+    - <g class="gotchi-collateral" fill="#a73796"><path d="M30.5 15h1v-2h-1z"/><path
+      d="M31.5 12h1v1h-1z"/><path d="M33.5 13h-1v2h1zm-4 3h-2v1h1v2h1v-2h2v-1h-1v-1h-1z"/><path
+      d="M34.5 15h-1v2h1z"/><path d="M35.5 17h-1v2h1zm-8 4h1v-2h-1z"/><path d="M35.5
+      19v2h1v-2z"/></g>
+    - <g class="gotchi-collateral"><path d="M21 15h1v2h-1z" fill="#a73796"/><path
+      d="M22 17h1v2h-1z" fill="#a73796"/><path d="M23 19h1v2h-1z" fill="#a73796"/></g>
+    - <g class="gotchi-collateral"><path d="M42 15v1h-2v1h1v2h1v-2h1v-2z" fill="#a73796"/><path
+      d="M40 19h1v2h-1z" fill="#a73796"/></g>
+    - <g class="gotchi-collateral"><path d="M42 15v1h-2v1h1v2h1v-2h1v-2z"/><path
+      d="M40 19h1v2h-1z"/></g>
     sprites:
     - {fileID: 21300000, guid: ac78057140794394482fb7dde0191763, type: 3}
     - {fileID: 21300000, guid: 6ec63c8a2ff334e4fa419b69010340a7, type: 3}
     - {fileID: 21300000, guid: ac79275d943ff3d4da1114e5c5cb1747, type: 3}
+    eyeShapeSvgId: 17
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M37 23V24H38V22H37V23Z" /><path d="M38
+      21H39V22H38V21Z" /><path d="M40 22H39V24H40V23V22ZM36 25H34V26H35V28H36V26H38V25H37V24H36V25Z"
+      /><path d="M41 24H40V26H41V25V24Z" /><path d="M42 26H41V28H42V27V26ZM34 29V30H35V28H34V29Z"
+      /><path d="M42 28V30H43V28H42Z" /><path d="M24 23V24H25V22H24V23Z" /><path
+      d="M25 21H26V22H25V21Z" /><path d="M27 22H26V24H27V23V22ZM23 25H21V26H22V28H23V26H25V25H24V24H23V25Z"
+      /><path d="M28 24H27V26H28V25V24Z" /><path d="M29 26H28V28H29V27V26ZM21 29V30H22V28H21V29Z"
+      /><path d="M29 28V30H30V28H29Z" /></g>
+    - <g class="gotchi-eyeColor"><path d="M22 22h-1v2h1v-2z"/><path d="M23 24h-1v2h1v-2z"/><path
+      d="M24 26h-1v2h1v-2z"/><path d="M24 28v2h1v-2h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 22v2h1v-2h-1z"/><path d="M41 25h-2v1h1v2h1v-2h2v-1h-1v-1h-1v1z"/><path
+      d="M39 29v1h1v-2h-1v1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 1d946cf241f8ffa4c98c594883474d91, type: 3}
     - {fileID: 21300000, guid: 0d0746469238e9440bbc0452a171ee0c, type: 3}
     - {fileID: 21300000, guid: 40e628610814edf4bacf330a28a0306f, type: 3}
-  - collateralType: 0x60D55F02A771d515e077c9C2403a1ef324885CeC
+  - name: amUSDT
+    collateralType: 0x60D55F02A771d515e077c9C2403a1ef324885CeC
     modifiers: 00000000ffffffff00000000000000000000000000000000
     primaryColor: 0x26a17b
     secondaryColor: 0xaedcce
     cheekColor: 0xf696c6
     haunt: 2
     svgId: 4
-    eyeShapeSvgId: 20
+    svgs:
+    - <g class="gotchi-collateral" fill="#26a17b"><path d="M31 19h2v3h-2zm0-2v1h2v-1h3v-1h-3v-1h2v-2h-6v2h2v1h-3v1z"/><path
+      d="M27 17h1v1h-1z"/><path d="M28 18h3v1h-3zm8-1h1v1h-1z"/><path d="M33 18h3v1h-3z"/></g>
+    - <g class="gotchi-collateral"><path d="M21 19h1v3h-1zm4-2v-1h-3v-1h2v-2h-1v1h-2v4h1v-1z"
+      fill="#26a17b"/><path d="M25 17h1v1h-1z" fill="#26a17b"/><path d="M22 18h3v1h-3z"
+      fill="#26a17b"/></g>
+    - <g class="gotchi-collateral"><path d="M42 19h1v3h-1zm-1-5v-1h-1v2h2v1h-3v1h3v1h1v-4z"
+      fill="#26a17b"/><path d="M38 17h1v1h-1z" fill="#26a17b"/><path d="M39 18h3v1h-3z"
+      fill="#26a17b"/></g>
+    - <g class="gotchi-collateral"><path d="M42 19h1v3h-1zm-1-5v-1h-1v2h2v1h-3v1h3v1h1v-4z"/><path
+      d="M38 17h1v1h-1z"/><path d="M39 18h3v1h-3z"/></g>
     sprites:
     - {fileID: 21300000, guid: 609376a40001e9d4da7f84b149117a5a, type: 3}
     - {fileID: 21300000, guid: b70648c87c78b7f4ca31dc72a51f9ff3, type: 3}
     - {fileID: 21300000, guid: 8a092d0d98621394283b9b78a521e2fb, type: 3}
+    eyeShapeSvgId: 20
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor gotchi-primary"><path d="M38 27h2v3h-2zm0-2v1h2v-1h3v-1h-3v-1h2v-2h-6v2h2v1h-3v1z"/><path
+      d="M34 25h1v1h-1z"/><path d="M35 26h3v1h-3zm8-1h1v1h-1z"/><path d="M40 26h3v1h-3zm-16
+      1h2v3h-2zm0-2v1h2v-1h3v-1h-3v-1h2v-2h-6v2h2v1h-3v1z"/><path d="M20 25h1v1h-1z"/><path
+      d="M21 26h3v1h-3zm8-1h1v1h-1z"/><path d="M26 26h3v1h-3z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M21 28v2h1v-3h-1v1zm2-3h2v-1h-3v-1h2v-2h-3v5h1v-1h1z"/><path
+      d="M25 25h1v1h-1z"/><path d="M23 26h-1v1h3v-1h-2z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 29v1h1v-3h-1v2zm-4-4h1v1h-1z"/><path
+      d="M40 26h-1v1h3v-1h-2z"/><path d="M42 21h-2v2h2v1h-3v1h3v1h1v-5h-1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 32c2473e5f690334f8b24e303582ee22, type: 3}
     - {fileID: 21300000, guid: 0f76df144728e4e4794d3200fff6314b, type: 3}
     - {fileID: 21300000, guid: 9aceb5719e248fb4d9bc581e050a9d6d, type: 3}
-  - collateralType: 0x1a13F4Ca1d028320A707D99520AbFefca3998b7F
+  - name: amUSDC
+    collateralType: 0x1a13F4Ca1d028320A707D99520AbFefca3998b7F
     modifiers: 0000000000000000ffffffff000000000000000000000000
     primaryColor: 0x2664ba
     secondaryColor: 0xd4e0f1
     cheekColor: 0xf696c6
     haunt: 2
     svgId: 5
-    eyeShapeSvgId: 21
+    svgs:
+    - <g class="gotchi-collateral" fill="#2664ba"><path d="M30 15v2h3v1h-3v1h1.5v1h1v-1H34v-3h-3v-1h3v-1h-1.5v-1h-1v1H30zm4
+      5h1v1h-1z"/><path d="M35 19h1v1h-1z"/><path d="M36 16v3h1v-5h-1v1zm-2-4h1v1h-1z"/><path
+      d="M35 13h1v1h-1zm-7 5v-4h-1v5h1zm1 2h1v1h-1z"/><path d="M28 19h1v1h-1zm1-7h1v1h-1z"/><path
+      d="M28 13h1v1h-1z"/></g>
+    - <g class="gotchi-collateral"><path d="M21 20h1v1h-1z" fill="#2664ba"/><path
+      d="M22 19h1v1h-1z" fill="#2664ba"/><path d="M23 14h1v5h-1z" fill="#2664ba"/></g>
+    - <g class="gotchi-collateral"><path d="M42 20h1v1h-1zm-2-6h1v5h-1z" fill="#2664ba"/><path
+      d="M41 19h1v1h-1z" fill="#2664ba"/></g>
+    - <g class="gotchi-collateral"><path d="M42 20h1v1h-1zm-2-6h1v5h-1z"/><path d="M41
+      19h1v1h-1z"/></g>
     sprites:
     - {fileID: 21300000, guid: 52e11bb589b23a3448c08b6d72628df3, type: 3}
     - {fileID: 21300000, guid: 11d41e26cee2d2c44896c088a8a676fb, type: 3}
     - {fileID: 21300000, guid: 868997c7cf6a9ec45812b1eb3679029d, type: 3}
+    eyeShapeSvgId: 21
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M41 25h-3v-1h3v-1h-1.5v-1h-1v1H37v3h3v1h-3v1h1.5v1h1v-1H41zm0
+      4h1v1h-1z"/><path d="M42 28h1v1h-1z"/><path d="M43 23h1v5h-1zm-2-2h1v1h-1z"/><path
+      d="M42 22h1v1h-1zm-6 7h1v1h-1zm-2-6h1v5h-1z"/><path d="M35 28h1v1h-1zm1-7h1v1h-1z"/><path
+      d="M35 22h1v1h-1zm-8 3h-3v-1h3v-1h-1.5v-1h-1v1H23v3h3v1h-3v1h1.5v1h1v-1H27zm0
+      4h1v1h-1z"/><path d="M28 28h1v1h-1z"/><path d="M29 23h1v5h-1zm-2-2h1v1h-1z"/><path
+      d="M28 22h1v1h-1zm-6 7h1v1h-1zm-2-6h1v5h-1z"/><path d="M21 28h1v1h-1zm1-7h1v1h-1z"/><path
+      d="M21 22h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M22 27v-2h-1v3h1v-1zm-1-4h1v1h-1zm1 6h1v1h-1z"/><path
+      d="M23 28h1v1h-1z"/><path d="M24 23v5h1v-5h-1zm-2-2h1v1h-1z"/><path d="M23
+      22h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 27h1v1h-1zm0-4v3h1v-3h-1zm-1 6h1v1h-1zm-1-3v-3h-1v5h1v-2z"/><path
+      d="M40 28h1v1h-1zm1-7h1v1h-1z"/><path d="M40 22h1v1h-1z"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: bf0e0156f8478bd4690510e20c62c7bc, type: 3}
     - {fileID: 21300000, guid: d9e1a93064bdbd540b744f03a8a7493e, type: 3}
     - {fileID: 21300000, guid: 82d75b64fa44cfe4489c3393c91eb3b8, type: 3}
-  - collateralType: 0x5c2ed810328349100A66B82b78a1791B101C9D61
+  - name: amWBTC
+    collateralType: 0x5c2ed810328349100A66B82b78a1791B101C9D61
     modifiers: 000000000100000000000000000000000000000000000000
     primaryColor: 0xff5e00
     secondaryColor: 0xffcaa2
     cheekColor: 0xf696c6
     haunt: 2
     svgId: 10
-    eyeShapeSvgId: 22
+    svgs:
+    - <g class="gotchi-collateral"><path d="M30 11v1h4v-1h-4z"/><path d="M29 12h1v1h-1zm7.5
+      2.5v4h1v-4h-1zm-10 4h1v-4h-1v4z"/><path d="M27.5 13.5h1v1h-1zm8 5h1v1h-1zm0-5h1v1h-1zM34
+      12h1v1h-1zm-5 8h1v1h-1zm-1.5-1.5h1v1h-1zM34 20h1v1h-1z"/><path d="M30 21v1h4v-1h-4z"/><g
+      fill="#ff5e00"><path d="M32.5 16h-1v-1h2v-1h-1v-1h-1v1h-2v1h1v3h-1v1h2v1h1v-1h1v-1h-2v-1h2v-1h-1z"/><path
+      d="M33.5 17h1v1h-1zm0-2h1v1h-1z"/></g></g>
+    - <g class="gotchi-collateral"><path d="M22 15v4h1v-4h-1z"/><path d="M21 19h1v1h-1zm0-5h1v1h-1z"/><path
+      d="M21 17.5h1v1h-1zm0-2h1v1h-1z" fill="#ff5e00"/></g>
+    - <g class="gotchi-collateral"><path d="M42 14v1h-1v4h1v1h1v-2h-1v-2h1v-2h-1z"/><path
+      d="M42 15h1v1h-1zm0 3h1v1h-1z" fill="#ff5e00"/></g>
+    - <g class="gotchi-collateral"><path d="M41 14v1h-1v4h1v1h1v1h1v-7z" /><path
+      d="M42 14v1h-1v4h1v1h1v-6z" fill="#dea8ff"/><path d="M42,14v1h-1v2h2v-3H42z"
+      /></g>
     sprites:
     - {fileID: 21300000, guid: aa101ba90f1cf804fa3d16d8c43137f3, type: 3}
     - {fileID: 21300000, guid: 2445a1d05a7550444ac332a29146c5c6, type: 3}
     - {fileID: 21300000, guid: 3a2068bc86fa9a446a62df5a0c88789f, type: 3}
+    eyeShapeSvgId: 22
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M24 25v-1h2v-1h-1v-1h-1v1h-2v1h1v3h-1v1h2v1h1v-1h1v-1h-2v-1h2v-1h-2z"/><path
+      d="M26 26h1v1h-1zm0-2h1v1h-1zm13 1v-1h2v-1h-1v-1h-1v1h-2v1h1v3h-1v1h2v1h1v-1h1v-1h-2v-1h2v-1h-2z"/><path
+      d="M41 26h1v1h-1zm0-2h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M21 27v2h1v-1h1v-1h-2zm0-2v1h2v-1h-2z"/><path
+      d="M23 26h1v1h-1zm-1-3v-1h-1v2h2v-1h-1z"/><path d="M23 24h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 22v1h-2v1h1v3h-1v1h2v1h1v-2h-1v-1h1v-1h-1v-1h1v-2h-1z"
+      fill="#ff5e00"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: fe4ba1ec8667601409118d32e9ac296e, type: 3}
     - {fileID: 21300000, guid: c0229b7671a62ef429dddadd5de8e09a, type: 3}
     - {fileID: 21300000, guid: 3fd577cc53cb1a1468e8d59bdf1cd068, type: 3}
-  - collateralType: 0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4
+  - name: amWMATIC
+    collateralType: 0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4
     modifiers: 000000000000000000000000010000000000000000000000
     primaryColor: 0x824ee2
     secondaryColor: 0xe6dcf9
     cheekColor: 0xf696c6
     haunt: 2
     svgId: 11
-    eyeShapeSvgId: 23
+    svgs:
+    - <g class="gotchi-collateral"><path d="M37.25 17.04v-.75h-.75v-.75h-.75v-.75H33.5v.75h-.75v.75h-1.5v.75h-.75v.75h-2.25v-.75h-.75v-2.25h.75v-.75h2.25v.75h.75v.75H32v-1.5h-.75v-.75h-.75v-.75h-2.25v.75h-.75v.75h-.75v.75H26v2.25h.75v.75h.75v.75h.75v.75h2.25v-.75h.75v-.75h1.5v-.75h.75v-.75h2.25v.75h.75v2.25h-.75v.75H33.5v-.75h-.75v-.75H32v1.5h.75v.75h.75v.75h2.25v-.75h.75v-.75h.75v-.75H38v-2.25h-.75z"
+      fill="#824ee2"/></g>
+    - <g class="gotchi-collateral"><path d="M22.5 16.2v-.8h-.8v-.8H21v1.5h.8v2.2H21v1.5h.8V19h.8v-.8h.8V16h-.9z"
+      fill="#824ee2"/></g>
+    - <g class="gotchi-collateral"><path d="M43 19.2v-1.5h-.8v-2.2h.8V14h-.8v.8h-.8v.8h-.8v2.2h.8v.8h.8v.8h.8z"
+      fill="#824ee2"/></g>
+    - <g class="gotchi-collateral"><path d="M42 15v1h-2v1h1v2h1v-2h1v-2z"/><path
+      d="M40 19h1v2h-1z"/></g>
     sprites:
     - {fileID: 21300000, guid: b5667e99a980ba645b06065640658a17, type: 3}
     - {fileID: 21300000, guid: 052812b82749a984bab15ee93a7cfba8, type: 3}
     - {fileID: 21300000, guid: 74f3642c9189ee6439b91e6c5a7518ec, type: 3}
+    eyeShapeSvgId: 23
+    eyeShapeSvgs:
+    - <g class="gotchi-eyeColor"><path d="M43.46 23.91v-.64h-.64v-.64h-.64V22h-1.91v.64h-.64v.64H39v1.28h.64v-.64h.64v-.64h1.91v.64h.64v1.91h-.64v.64h-1.91v-.64h-.64v-.64h-1.28v-.64h-.64v-.64h-1.91v.64h-.64v.64h-.64v.64h-.63v1.91h.64v.64h.64v.64h.64v.64h1.91v-.64h.64v-.64H39V27.1h-.64v.64h-.64v.64h-1.91v-.64h-.64v-1.91h.64v-.64h1.91v.64h.64v.64h1.28v.64h.64v.64h1.91v-.65h.64v-.64h.64v-.64h.64v-1.91h-.65zm-14-.64h-.64v-.64h-.64V22h-1.91v.64h-.64v.64H25v1.28h.64v-.64h.64v-.64h1.91v.64h.64v1.91h-.64v.64h-1.91v-.64h-.64v-.64h-1.28v-.64h-.64v-.64h-1.91v.64h-.64v.64h-.64v.64h-.63v1.91h.64v.64h.64v.64h.64v.64h1.91v-.64h.64v-.64H25V27.1h-.64v.64h-.64v.64h-1.91v-.64h-.64v-1.91h.64v-.64h1.91v.64h.64v.64h1.28v.64h.64v.64h1.91v-.65h.64v-.64h.64v-.64h.64v-1.91h-.64v-.64z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M24.2 23.9v-.6h-.6v-.6H23V22h-1.9v1.3H23v.6h.6v1.9H23v.6h-1.9v1.3H23v-.6h.6v-.6h.6v-.6h.6V24h-.6z"
+      fill="#824ee2"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 29.6v-1.3h-1.9v-.6h-.6v-1.9h.6v-.6H43v-1.3h-1.9v.6h-.6v.6h-.6v.6h-.6v1.9h.6v.6h.6v.8h.6v.6H43z"
+      fill="#824ee2"/></g>
     eyeSprites:
     - {fileID: 21300000, guid: 58c4546edff9d304787059d83253edba, type: 3}
     - {fileID: 21300000, guid: 9fb105774433a7a4b8d00f8f10e1e3b6, type: 3}

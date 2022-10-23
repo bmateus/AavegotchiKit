@@ -1,7 +1,7 @@
 namespace PortalDefender.AavegotchiKit
 {
     [System.Serializable]
-    public partial class GotchiData 
+    public class GotchiData 
     {
         public int id;
         public int hauntId;
@@ -12,6 +12,19 @@ namespace PortalDefender.AavegotchiKit
         public int level;
         public int kinship;
         public int status;
+
+        public GotchiData()
+        {
+            id = 0;
+            hauntId = 1;
+            name = "Default";
+            collateral = "0xE0b22E0037B130A9F56bBb537684E6fA18192341";
+            numericTraits = new int[6];
+            equippedWearables = new int[8];
+            level = 1;
+            kinship = 0;
+            status = 0;
+        }
 
         public int GetTraitValue(GotchiTrait trait)
         {

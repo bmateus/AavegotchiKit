@@ -22,6 +22,15 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 86d833f096dec9c4b8edf8368e22a388, type: 3}
     - {fileID: 21300000, guid: 9618aa3e17e18754abbba1e1723ac7d1, type: 3}
     - {fileID: 21300000, guid: b00443c99ea3b54409322dc5f1bf7d78, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M25 22h2v-1h-4v1h2z" class="gotchi-primary"
+      /><path d="M27 25h-6v1h8v-1h-2zm0-2h-6v1h8v-1h-2z" /><path d="M26 27h-4v1h6v-1h-2z"
+      class="gotchi-primary" /><path d="M41 25h-6v1h8v-1h-2zm1-2h-7v1h8v-1h-1z" /><path
+      d="M39 22h2v-1h-4v1h2zm1 5h-4v1h6v-1h-2z" class="gotchi-primary" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21 22h2v1h-2v-1zm0 4h4v1h-4v-1zm0-2h4v1h-4v-1zm0
+      4h3v1h-3v-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M39 26h4v1h-4v-1zm2-4h2v1h-2v-1zm-2 2h4v1h-4v-1zm1
+      4h3v1h-3v-1z"/></g>
   - id: 1
     haunt: 1
     rangeMin: 1
@@ -30,6 +39,36 @@ MonoBehaviour:
     - {fileID: 21300000, guid: e8c076bdb3241624a8fe964933a43ad7, type: 3}
     - {fileID: 21300000, guid: 74849f9417159584e9a130042ba0e688, type: 3}
     - {fileID: 21300000, guid: 44ed1f867041da24c8dbef3c499de9d5, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><g class="gotchi-primary"><path d="M23 22h-1v1h1v-1zm5
+      5h-1v1h1v-1zm-5-1h-1v1h1v-1z" /><path d="M22 25h-1v1h1v-1zm0-2h-1v1h1v-1z"
+      /></g><path d="M23 24h-1v1h1v-1z" /><path d="M27 22h-1v1h1v-1z" class="gotchi-primary"
+      /><path d="M25 22h-1v1h1v-1zm2 4h-1v1h1v-1z" /><path d="M29 26h-1v1h1v-1z"
+      class="gotchi-primary" /><path d="M25 26h-1v1h1v-1z" /><path d="M29 24h-1v1h1v-1z"
+      class="gotchi-primary" /><path d="M25 24h-1v1h1v-1zm2 0h-1v1h1v-1z" /><path
+      d="M27 28h-1v1h1v-1zm-2 0h-1v1h1v-1zm1-7h-1v1h1v-1zm-2 0h-1v1h1v-1z" class="gotchi-primary"
+      /><path d="M28 25h-1v1h1v-1zm-2 0h-1v1h1v-1zm-2 0h-1v1h1v-1z" /><path d="M28
+      23h-1v1h1v-1z" class="gotchi-primary" /><path d="M24 23h-1v1h1v-1zm2 0h-1v1h1v-1zm0
+      4h-1v1h1v-1z" /><g class="gotchi-primary"> <path d="M24 27h-1v1h1v-1zm18-5h-1v1h1v-1zm-5
+      5h-1v1h1v-1zm5-1h-1v1h1v-1z" /><path d="M43 25h-1v1h1v-1z" /></g> <path d="M42
+      24h-1v1h1v-1z" /><path d="M43 23h-1v1h1v-1zm-5-1h-1v1h1v-1z" class="gotchi-primary"
+      /><g> <path d="M37 25h-1v1h1v-1zm4 0h-1v1h1v-1z" /><path d="M38 26h-1v1h1v-1z"
+      /></g> <path d="M37 23h-1v1h1v-1z" class="gotchi-primary" /><path d="M38 24h-1v1h1v-1zm3-1h-1v1h1v-1z"
+      /><path d="M38 28h-1v1h1v-1z" class="gotchi-primary" /><path d="M39 23h-1v1h1v-1z"
+      /><path d="M39 21h-1v1h1v-1z" class="gotchi-primary" /><path d="M40 22h-1v1h1v-1z"
+      /><path d="M41 21h-1v1h1v-1z" class="gotchi-primary" /><g> <path d="M40 26h-1v1h1v-1z"
+      /><path d="M39 25h-1v1h1v-1z" /></g> <path d="M36 26h-1v1h1v-1zm0-2h-1v1h1v-1z"
+      class="gotchi-primary" /><path d="M40 24h-1v1h1v-1z" /><g class="gotchi-primary">
+      <path d="M41 27h-1v1h1v-1z" /><path d="M40 28h-1v1h1v-1z" /></g> <path d="M39
+      27h-1v1h1v-1z" /></g>
+    - <g class="gotchi-eyeColor"><path d="M23 23h1v1h-1v-1zm0 4h1v1h-1v-1z"/><path
+      d="M24,26h1v1h-1V26z"/><path d="M23,25h1v1h-1V25z"/><path d="M24 24h1v1h-1v-1zm-2
+      2h1v1h-1v-1zm0-2h1v1h-1v-1z"/><path d="M21,23h1v1h-1V23z"/><path d="M22 22h1v1h-1v-1zm-1
+      5h1v1h-1v-1z"/><path d="M21 25h1v1h-1v-1zm1 3h1v1h-1v-1z"/><path d="M21,29h1v1h-1V29z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M40 23h1v1h-1v-1zm0 4h1v1h-1v-1z"/><path
+      d="M39 26h1v1h-1v-1zm0-2h1v1h-1v-1z"/><path d="M40 25h1v1h-1v-1zm2-2h1v1h-1v-1zm0
+      4h1v1h-1v-1zm0-2h1v1h-1v-1zm0 4h1v1h-1v-1z"/><path d="M41 22h1v1h-1v-1zm0 4h1v1h-1v-1zm0-2h1v1h-1v-1zm0
+      4h1v1h-1v-1z"/></g>
   - id: 2
     haunt: 1
     rangeMin: 2
@@ -38,6 +77,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 4717c89f99fd1f043ba0e64f346cd297, type: 3}
     - {fileID: 21300000, guid: aa773f69380211241b254450a30d86bc, type: 3}
     - {fileID: 21300000, guid: 27601c4f38e35634f844c01ab4dfccb1, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M23 22h-1v1h1v-1zm0 5h-1v1h1v-1zm5-5h-1v1h1v-1zm0
+      5h-1v1h1v-1zm14 0h-1v1h1v-1zm0-5h-1v1h1v-1zm-5 0h-1v1h1v-1zm0 5h-1v1h1v-1z"
+      class="gotchi-primary" /><g><path d="M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z"
+      /><path d="M25 23h-1v1h1v-1z" /><path d="M25 24h-1v1h1v-1zm2 0h-1v1h1v-1zm-1
+      2h-1v1h1v-1z" /><path d="M25 25h-1v1h1v-1z" /><path d="M26 25h-1v1h1v-1zm-2
+      0h-1v1h1v-1zm2-2h-1v1h1v-1z" /><path d="M26 24h-1v1h1v-1zm13 2h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z"
+      /><path d="M39 24h-1v1h1v-1z" /><path d="M38 23h1v1h-1m0 1h-1v1h1v-1zm2 1h-1v1h1v-1z"
+      /><path d="M40 25h-1v1h1v-1z" /><path d="M39 25h-1v1h1v-1zm2-1h-1v1h1v-1z"
+      /><path d="M40 23h-1v1h1v-1z" /><path d="M40 24h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M23 23h1v1h-1v-1zm0 2h-1v-1h-1v4h1v-1h1v-2zm0
+      3h1v1h-1v-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 24v1h-1v2h1v1h1v-4h-1zm-2 4h1v1h-1v-1zm0-5h1v1h-1v-1z"/></g>
   - id: 3
     haunt: 1
     rangeMin: 5
@@ -46,6 +98,22 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1c0e873e13b542743b54599e90cfd6d8, type: 3}
     - {fileID: 21300000, guid: 2cee86a2eb0d4de4abde722a53002d89, type: 3}
     - {fileID: 21300000, guid: fc37718176954e544b166b995e36b3fd, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><g><path d="M23 25h-1v1h1v-1z" /><path d="M23 24h-1v1h1v-1zm4
+      2h-1v1h1v-1zm-3 0h-1v1h1v-1z" /><path d="M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1zm3-1h-1v1h1v-1z"
+      /><path d="M28 24h-1v1h1v-1zm-3-1h-1v1h1v-1z" /><path d="M27 24h-1v1h1v-1z"
+      /></g><path d="M27 28h-1v1h1v-1zm0-7h-1v1h1v-1zm-3 0h-1v1h1v-1z" class="gotchi-primary"
+      /><path d="M26 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-4 0h-1v1h1v-1zm0-2h-1v1h1v-1zm2
+      0h-1v1h1v-1z" /><path d="M24 28h-1v1h1v-1z" class="gotchi-primary" /><g><path
+      d="M42 25h-1v1h1v-1z" /><path d="M42 24h-1v1h1v-1zm-5 1h-1v1h1v-1z" /><path
+      d="M39 26h-1v1h1v-1zm2-1h-1v1h1v-1z" /><path d="M38 26h-1v1h1v-1zm-1-2h-1v1h1v-1z"
+      /><path d="M38 24h-1v1h1v-1zm3-1h-1v1h1v-1z" /></g><path d="M38 28h-1v1h1v-1zm3
+      0h-1v1h1v-1z" class="gotchi-primary" /><path d="M38 23h1v1h-1" /><path d="M38
+      21h-1v1h1v-1zm3 0h-1v1h1v-1z" class="gotchi-primary" /><g><path d="M38 25h-1v1h1v-1zm3
+      1h-1v1h1v-1z" /><path d="M40 26h-1v1h1v-1zm-2-3h-1v1h1v-1zm3 1h-1v1h1v-1z"
+      /><path d="M40 23h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M22 29h1v1h-1v-1zm0-7h1v1h-1v-1zm1 3v-1h-2v1h1v2h-1v1h2v-1h1v-2h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M41 29h1v1h-1v-1zm0-7h1v1h-1v-1zm2 3v-1h-2v1h-1v2h1v1h2v-1h-1v-2h1z"/></g>
   - id: 4
     haunt: 1
     rangeMin: 7
@@ -54,6 +122,20 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ed4e6ae3db28115469d21ae7b736ab02, type: 3}
     - {fileID: 21300000, guid: 9c13f1063a41273429a87c2507d9dd45, type: 3}
     - {fileID: 21300000, guid: cf832c62d7daaf3488a6f72171f49389, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><g><path d="M25 24h-1v1h1v-1z" /><path d="M25 25h-1v1h1v-1z"
+      /></g><g class="gotchi-primary"><path d="M28 27h-1v1h1v-1z" /><path d="M27
+      27h-1v1h1v-1zm1-5h-1v1h1v-1z" /><path d="M27 22h-1v1h1v-1zm-4 0h-1v1h1v-1z"
+      /><path d="M24 22h-1v1h1v-1z" /></g><g><path d="M26 24h-1v1h1v-1z" /><path
+      d="M26 25h-1v1h1v-1z" /></g><g class="gotchi-primary"><path d="M23 27h-1v1h1v-1z"
+      /><path d="M24 27h-1v1h1v-1z" /></g><path d="M39 25h-1v1h1v-1z" /><g class="gotchi-primary"><path
+      d="M38 27h-1v1h1v-1z" /><path d="M37 27h-1v1h1v-1zm4 0h-1v1h1v-1z" /><path
+      d="M42 27h-1v1h1v-1z" /></g><path d="M38 24h1v1h-1" /><g class="gotchi-primary"><path
+      d="M38 22h-1v1h1v-1z" /><path d="M37 22h-1v1h1v-1zm4 0h-1v1h1v-1z" /><path
+      d="M42 22h-1v1h1v-1z" /></g><g><path d="M40 25h-1v1h1v-1z" /><path d="M40 24h-1v1h1v-1z"
+      /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M21 24h1v2h-1v-2zm1-2h2v1h-2v-1zm0 5h2v1h-2v-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 24h1v2h-1v-2zm-2 3h2v1h-2v-1zm0-5h2v1h-2v-1z"/></g>
   - id: 5
     haunt: 1
     rangeMin: 10
@@ -62,6 +144,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 8d7a2fbe27d0283489df66d9c3002c5d, type: 3}
     - {fileID: 21300000, guid: 130183d48083ab349b24e000a45f5fa3, type: 3}
     - {fileID: 21300000, guid: e8c050abda6b55d408182e8970ed3619, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="21" y="23" width="8" height="2" class="gotchi-primary"
+      /><rect x="35" y="23" width="8" height="2" class="gotchi-primary" /><rect x="38"
+      y="25" width="2" height="2" /><rect x="24" y="25" width="2" height="2" /></g>
+    - <g class="gotchi-eyeColor"><path d="M25 26v-2h-4v2h4z"/><path d="M21,26v2h1v-2H21z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 26v-2h-4v2h4z"/><path d="M42,26v2h1v-2H42z"/></g>
   - id: 6
     haunt: 1
     rangeMin: 15
@@ -70,6 +158,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 69cc8fc6f687d0e44b8a71f3817900af, type: 3}
     - {fileID: 21300000, guid: 832c55ab2b68ef44ea5305d33186ea8b, type: 3}
     - {fileID: 21300000, guid: 27e11312df0c43146b99c45bb7f17c71, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="21" y="23" width="8" height="1" class="gotchi-primary"
+      /><rect x="24" y="24" width="2" height="2" /><rect x="35" y="23" width="8"
+      height="1" class="gotchi-primary" /><rect x="38" y="24" width="2" height="2"
+      /><rect x="37" y="24" width="4" height="1" /><rect x="23" y="24" width="4"
+      height="1" /></g>
+    - <g class="gotchi-eyeColor"><path d="M25 25v-1h-4v1h4z"/><path d="M21,25v2h1v-1h1v-1H21z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 25v-1h-4v1h4z"/><path d="M41,25v1h1v1h1v-2H41z"/></g>
   - id: 7
     haunt: 1
     rangeMin: 20
@@ -78,6 +174,13 @@ MonoBehaviour:
     - {fileID: 21300000, guid: a79e9db0493c86146acb8bd0fb6d7c11, type: 3}
     - {fileID: 21300000, guid: 9d10c4e21a6a8ce438dee61bfdcc2dfe, type: 3}
     - {fileID: 21300000, guid: 19542d7c04a1ddc4abe8fa975c52bdfa, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="23" y="23" width="4" height="1" class="gotchi-primary"
+      /><rect x="24" y="24" width="2" height="2" /><rect x="37" y="23" width="4"
+      height="1" class="gotchi-primary" /><rect x="38" y="24" width="2" height="2"
+      /></g>
+    - <g class="gotchi-eyeColor"><path d="M23 25v-1h-2v1h2z"/><path d="M21,25v2h1v-2H21z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 25v-1h-2v1h2z"/><path d="M42,25v2h1v-2H42z"/></g>
   - id: 8
     haunt: 1
     rangeMin: 25
@@ -86,6 +189,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 952bf975821003c409ae8626ff102f42, type: 3}
     - {fileID: 21300000, guid: 2ca5f73a2258bd6499e907ce65c61a07, type: 3}
     - {fileID: 21300000, guid: f6c825cd03477644aa6cf11c3cf4b353, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M23 28V29V30H24H25H26H27V29V28H28H29V27V26V25V24H28H27V23V22H26H25H24H23V23V24H22H21V25V26V27V28H22H23Z"
+      /><path d="M35 24V25V26V27V28H36H37V29V30H38H39H40H41V29V28H42H43V27V26V25V24H42H41V23V22H40H39H38H37V23V24H36H35Z"
+      /></g>
+    - <g class="gotchi-eyeColor"><path d="M22,24v-2h-1v8h1v-2h2v-4H22z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 30v-8h-1v2h-2v4h2v2h1z"/></g>
   - id: 9
     haunt: 1
     rangeMin: 42
@@ -94,6 +203,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 26c0a1252a9126b4eb05ab60b341482e, type: 3}
     - {fileID: 21300000, guid: f37e2b45236e0f442971691a1f848935, type: 3}
     - {fileID: 21300000, guid: f9903c7d5d3c5bb40bcb70d7e9213e6b, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="22" y="28" width="6" height="6" transform="rotate(-90
+      22 28)" /><rect x="36" y="22" width="6" height="6" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21,22h3v6h-3V22z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M40,22h3v6h-3V22z"/></g>
   - id: 10
     haunt: 1
     rangeMin: 58
@@ -102,6 +216,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: fae04992331c19040b3167f1388af0b9, type: 3}
     - {fileID: 21300000, guid: 474555c2e4c69a04292e3397b2ca51e3, type: 3}
     - {fileID: 21300000, guid: ffffafd616adba4418f8121b5a9862ef, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M28 22H27V21H26H25H24H23V22H22V23H21V24V25V26V27H22V28H23V29H24H25H26H27V28H28V27H29V26V25V24V23H28V22Z"
+      /><path d="M42 23V22H41V21H40H39H38H37V22H36V23H35V24V25V26V27H36V28H37V29H38H39H40H41V28H42V27H43V26V25V24V23H42Z"
+      /></g>
+    - <g class="gotchi-eyeColor"><path d="M23,24v-1h-1v-1h-1v8h1v-1h1v-1h1v-4H23z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 30v-8h-1v1h-1v1h-1v4h1v1h1v1h1z"/></g>
   - id: 11
     haunt: 1
     rangeMin: 75
@@ -110,6 +230,13 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 6ba4e87a05ad0404799c126af279f477, type: 3}
     - {fileID: 21300000, guid: a392087d1a4d3914a8be7bdeaf273173, type: 3}
     - {fileID: 21300000, guid: 9cfec3bab45c5e1498f422717c6aa2e0, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M27 23H26H25H24H23H22H21V24V25H22H23H24H25H26H27H28H29V24V23H28H27Z"
+      class="gotchi-primary" /><path d="M42 23H41H40H39H38H37H36H35V24V25H36H37H38H39H40H41H42H43V24V23H42Z"
+      class="gotchi-primary" /><rect x="24" y="23" width="2" height="2" /> <rect
+      x="38" y="23" width="2" height="2" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21,25h4v2h-4V25z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M38.6,25H43v2h-4.4V25z"/></g>
   - id: 12
     haunt: 1
     rangeMin: 80
@@ -118,6 +245,15 @@ MonoBehaviour:
     - {fileID: 21300000, guid: c512aa7c2f5677240a829b84286d6544, type: 3}
     - {fileID: 21300000, guid: a14d0174f29d48048ba5d3a2dd3dd7b5, type: 3}
     - {fileID: 21300000, guid: 70ff142d379ff354ea4bfb40fa9e4fcf, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M27 23H26H25H24H23H22H21V24H22H23H24V25H23H22H21V26H22H23H24H25H26H27H28H29V25H28H27H26V24H27H28H29V23H28H27Z"
+      class="gotchi-primary" /><path d="M41 24H42H43V23H42H41H40H39H38H37H36H35V24H36H37H38V25H37H36H35V26H36H37H38H39H40H41H42H43V25H42H41H40V24H41Z"
+      class="gotchi-primary" /><rect x="24" y="24" width="2" height="1" /><rect x="38"
+      y="24" width="2" height="1" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21 25h4v1h-4zm0 2h4v1h-4z"/><path d="M21
+      26h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M39 25h4v1h-4zm0 2h4v1h-4z"/><path d="M42
+      26h1v1h-1z"/></g>
   - id: 13
     haunt: 1
     rangeMin: 85
@@ -126,6 +262,16 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 7a2ad97c8f59b8e46ae9d746ecb6160c, type: 3}
     - {fileID: 21300000, guid: a12f934603de7f04fb1c5d3bb8601515, type: 3}
     - {fileID: 21300000, guid: c537c9c654ac2aa45855869fe9f5e931, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M27 23H26H25H24H23H22H21V24V25V26H22H23H24H25H26H27H28H29V25V24V23H28H27ZM23
+      25H22V24H23H24V25H23ZM28 25H27H26V24H27H28V25Z" class="gotchi-primary" /><rect
+      x="24" y="24" width="2" height="1" /><path d="M42 23H41H40H39H38H37H36H35V24V25V26H36H37H38H39H40H41H42H43V25V24V23H42ZM37
+      25H36V24H37H38V25H37ZM42 25H41H40V24H41H42V25Z" class="gotchi-primary" /><rect
+      x="38" y="24" width="2" height="1" /></g>
+    - <g class="gotchi-eyeColor"><path d="M24 27v-1h-3v-1h4v3h-4v-1z"/><path d="M21
+      26h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M40 27v-1h3v-1h-4v3h4v-1z"/><path d="M42
+      26h1v1h-1z"/></g>
   - id: 14
     haunt: 1
     rangeMin: 90
@@ -134,6 +280,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: c534b42dcbb98f44dbca8d36e9273ad9, type: 3}
     - {fileID: 21300000, guid: 6c87c3de2b823c442b28bbbf6cc5066e, type: 3}
     - {fileID: 21300000, guid: 3e0abb91dbc4b2941a1ff5497862b7bc, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M39 23v1h-1v-1h1v-1h-2v1h-1v2h1v1h2v-1h1v-2h-1z"
+      /><g class="gotchi-primary"><path d="M34 25h-1v1h1v-1zm7 0v1h1v-2h-1v1zm-4-2v-1h-2v1h2z"
+      /><path d="M44 21h-7v1h5v2h1v-1h1v-1h1v-1h-1zm-9 5h-1v1h2v-1h-1z" /><path d="M38
+      27h-2v1h4v-1h-2zm-3-3v-1h-1v2h1v-1z" /><path d="M41 26h-1v1h1v-1z" /></g><path
+      d="M27 22h-2v1h1v1h-1v-1h-1v2h1v1h2v-1h1v-2h-1v-1z" /><g class="gotchi-primary"><path
+      d="M31 25h-1v1h1v-1zm-8-1h-1v2h1v-2z" /><path d="M22 22h5v-1h-8v1h1v1h1v1h1v-2z"
+      /><path d="M28 23h1v-1h-2v1h1zm0 3v1h2v-1h-2z" /><path d="M26 27h-2v1h4v-1h-2zm3-2h1v-2h-1v2z"
+      /><path d="M24 26h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M24 25h1v2h-1z"/><path d="M21 22v1h4v2h1v-1h1v-1h1v-1zm0
+      6h2v1h-2z"/><path d="M23 27h1v1h-1zm-1-3v1h-1v2h1v-1h1v-2z"/><path d="M21 23h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M39 25h1v2h-1z"/><path d="M43 23v-1h-7v1h1v1h1v1h1v-2zm-2
+      5h2v1h-2z"/><path d="M40 27h1v1h-1zm2-4h1v1h-1z"/><path d="M41 24v2h1v1h1v-2h-1v-1z"/></g>
   - id: 15
     haunt: 1
     rangeMin: 93
@@ -142,6 +301,20 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 36ed023aef7ea1544af1ef24685e8bee, type: 3}
     - {fileID: 21300000, guid: fbebe61bcd6bec44bad951f5dfa5f57b, type: 3}
     - {fileID: 21300000, guid: d3b83f57786606740a9774ae0d076488, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M39 23v2h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1z"
+      /><g class="gotchi-primary"><path d="M36 22h-1v1h1v-1z" /><path d="M35 25v-2h-1v4h1v-2z"
+      /><path d="M36 27h-1v1h1v-1zm5-5h-1v1h1v-1z" /><path d="M41 23v4h1v-4h-1zm-3-1h2v-1h-4v1h2zm0
+      6h-2v1h4v-1h-2z" /><path d="M41 27h-1v1h1v-1z" /></g><path d="M27 24v1h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1v1z"
+      /><g class="gotchi-primary"><path d="M24 22h-1v1h1v-1z" /><path d="M23 25v-2h-1v4h1v-2z"
+      /><path d="M24 27h-1v1h1v-1zm5-5h-1v1h1v-1z" /><path d="M29 24v3h1v-4h-1v1zm-3-2h2v-1h-4v1h2zm0
+      6h-2v1h4v-1h-2z" /><path d="M29 27h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M21 23h1v1h-1z"/><path d="M22 24v2h-1v2h1v-1h1v-3zm-1
+      5h2v1h-2z"/><path d="M23 23h1v1h-1z"/><path d="M24 24h1v4h-1z"/><path d="M23
+      28h1v1h-1zm-2-6h2v1h-2z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42,23v1h-1v3h1v1h1v-5H42z"/><path d="M40
+      23h1v1h-1z"/><path d="M39 24h1v4h-1z"/><path d="M40 28h1v1h-1z"/><path d="M41
+      29h2v1h-2zm0-7h2v1h-2z"/></g>
   - id: 16
     haunt: 1
     rangeMin: 95
@@ -150,6 +323,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ac1d203a551a9f34f885f40c3bdafb39, type: 3}
     - {fileID: 21300000, guid: 3f855b600740cca458e93732c4495b17, type: 3}
     - {fileID: 21300000, guid: a771d77e9c8aaf548a4ea3e629cd7f6d, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><g><path d="M40 23v2h1v-2h-1z" /><path d="M39 24v-1h-2v2h1v1h2v-1h-1v-1zm-13
+      0v1h1v-2h-1v1z" /><path d="M25 24v-1h-2v2h1v1h2v-1h-1v-1z" /></g><g class="gotchi-primary"><path
+      d="M35 23h-1v1h1v-1zm0 2h-1v1h1v-1zm9-2h-1v1h1v-1z" /><path d="M45 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z"
+      /><path d="M34 24h-1v1h1v-1zm10 1h-1v1h1v-1z" /><path d="M41 26h-6v1h8v-1h-2zm-20-3h-1v1h1v-1zm0
+      2h-1v1h1v-1zm9-2h-1v1h1v-1z" /><path d="M31 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z"
+      /><path d="M20 24h-1v1h1v-1zm10 1h-1v1h1v-1z" /><path d="M27 26h-6v1h8v-1h-2z"
+      /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M21 27h4v1h-4zm4-3h1v1h-1z"/><path d="M26
+      25h1v1h-1zm-5-2h4v1h-4z"/><path d="M25 26h1v1h-1zm-4 0h1v1h-1z"/><path d="M22
+      24h1v2h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M38 26h1v1h-1zm0-2h1v1h-1z"/><path d="M37
+      25h1v1h-1zm2 2h4v1h-4zm0-4h4v1h-4z"/><path d="M41 26h1v1h1v-3h-2v2z"/></g>
   - id: 0
     haunt: 2
     rangeMin: 0
@@ -158,6 +344,16 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 349d8beede8ebbe409aea76e7a2ce9a0, type: 3}
     - {fileID: 21300000, guid: f107ba0a31e66d547826740b32731997, type: 3}
     - {fileID: 21300000, guid: 0302bbe8616e3cb4280c03794d4233cc, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M42 24v-1h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1z"/><path
+      d="M41 25v2h1v-2h-1zm-3-2v1h2v-1h-2zm-2 3v1h1v-2h-1v1zm2-1v2h2v-2h-2zm0 3v1h2v-1h-2z"
+      fill="#fff"/><path d="M28 23h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1v-1z"/><path
+      d="M27 26v1h1v-2h-1v1zm-3-3v1h2v-1h-2zm-2 3v1h1v-2h-1v1zm2-1v2h2v-2h-2zm0 3v1h2v-1h-2z"
+      fill="#fff"/></g>
+    - <g class="gotchi-eyeColor"><path d="M21 30v-8h1v1h1v1h1v4h-1v1h-1v1z"/><path
+      d="M23,25h-1v2h1V25z" fill="#fff"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 30v-8h-1v1h-1v1h-1v4h1v1h1v1z"/><path
+      d="M41 27h1v-2h-1v2z" fill="#fff"/></g>
   - id: 1
     haunt: 2
     rangeMin: 1
@@ -166,6 +362,15 @@ MonoBehaviour:
     - {fileID: 21300000, guid: eae197be7ae80fd42a86293d69d5dabf, type: 3}
     - {fileID: 21300000, guid: ce72f085b8000bd4eb9367cab64d5923, type: 3}
     - {fileID: 21300000, guid: ac10c1504d50cfb4e9c10e3d0a7630b9, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M42 24v-1h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1z"/><path
+      d="M41 25v2h1v-2h-1zm-5 2h1v-2h-1v2zm2-2v2h2v-2h-2z" fill="#fff"/><path d="M28
+      23h-1v-1h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1v-4h-1v-1z"/><path d="M27 27h1v-2h-1v2zm-5
+      0h1v-2h-1v2zm2-2v2h2v-2h-2z" fill="#fff"/></g>
+    - <g class="gotchi-eyeColor"><path d="M23,24v-1h-1v-1h-1v8h1v-1h1v-1h1v-4H23z"/><path
+      d="M22 25h1v2h-1z" fill="#fff"/></g>
+    - <g class="gotchi-eyeColor"><path d="M40,24v4h1v1h1v1h1v-8h-1v1h-1v1H40z"/><path
+      d="M41 25h1v2h-1z" fill="#fff"/></g>
   - id: 2
     haunt: 2
     rangeMin: 2
@@ -174,6 +379,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: f96568ebf54bd6044925a27c06b5c3e2, type: 3}
     - {fileID: 21300000, guid: ef679e94ac0738a43abd183a739371cc, type: 3}
     - {fileID: 21300000, guid: 1d631923dc1a2384091822101df64bff, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M23 22h-1v1h1v-1zm0 5h-1v1h1v-1zm5-5h-1v1h1v-1zm0
+      5h-1v1h1v-1zm14 0h-1v1h1v-1zm0-5h-1v1h1v-1zm-5 0h-1v1h1v-1zm0 5h-1v1h1v-1z"
+      class="gotchi-primary" /><g><path d="M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z"
+      /><path d="M25 23h-1v1h1v-1z" /><path d="M25 24h-1v1h1v-1zm2 0h-1v1h1v-1zm-1
+      2h-1v1h1v-1z" /><path d="M25 25h-1v1h1v-1z" /><path d="M26 25h-1v1h1v-1zm-2
+      0h-1v1h1v-1zm2-2h-1v1h1v-1z" /><path d="M26 24h-1v1h1v-1zm13 2h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1z"
+      /><path d="M39 24h-1v1h1v-1z" /><path d="M38 23h1v1h-1m0 1h-1v1h1v-1zm2 1h-1v1h1v-1z"
+      /><path d="M40 25h-1v1h1v-1z" /><path d="M39 25h-1v1h1v-1zm2-1h-1v1h1v-1z"
+      /><path d="M40 23h-1v1h1v-1z" /><path d="M40 24h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M23 23h1v1h-1v-1zm0 2h-1v-1h-1v4h1v-1h1v-2zm0
+      3h1v1h-1v-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 24v1h-1v2h1v1h1v-4h-1zm-2 4h1v1h-1v-1zm0-5h1v1h-1v-1z"/></g>
   - id: 3
     haunt: 2
     rangeMin: 5
@@ -182,6 +400,22 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 0a70a6b03aa2fd44ebc35fb1550f6e89, type: 3}
     - {fileID: 21300000, guid: d5c57283eb454864787e6bfb455b796f, type: 3}
     - {fileID: 21300000, guid: 7af8a1640cadf5748aaf3b54ca16ea5e, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><g><path d="M23 25h-1v1h1v-1z" /><path d="M23 24h-1v1h1v-1zm4
+      2h-1v1h1v-1zm-3 0h-1v1h1v-1z" /><path d="M25 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-3-1h-1v1h1v-1zm3-1h-1v1h1v-1z"
+      /><path d="M28 24h-1v1h1v-1zm-3-1h-1v1h1v-1z" /><path d="M27 24h-1v1h1v-1z"
+      /></g><path d="M27 28h-1v1h1v-1zm0-7h-1v1h1v-1zm-3 0h-1v1h1v-1z" class="gotchi-primary"
+      /><path d="M26 26h-1v1h1v-1zm2-1h-1v1h1v-1zm-4 0h-1v1h1v-1zm0-2h-1v1h1v-1zm2
+      0h-1v1h1v-1z" /><path d="M24 28h-1v1h1v-1z" class="gotchi-primary" /><g><path
+      d="M42 25h-1v1h1v-1z" /><path d="M42 24h-1v1h1v-1zm-5 1h-1v1h1v-1z" /><path
+      d="M39 26h-1v1h1v-1zm2-1h-1v1h1v-1z" /><path d="M38 26h-1v1h1v-1zm-1-2h-1v1h1v-1z"
+      /><path d="M38 24h-1v1h1v-1zm3-1h-1v1h1v-1z" /></g><path d="M38 28h-1v1h1v-1zm3
+      0h-1v1h1v-1z" class="gotchi-primary" /><path d="M38 23h1v1h-1" /><path d="M38
+      21h-1v1h1v-1zm3 0h-1v1h1v-1z" class="gotchi-primary" /><g><path d="M38 25h-1v1h1v-1zm3
+      1h-1v1h1v-1z" /><path d="M40 26h-1v1h1v-1zm-2-3h-1v1h1v-1zm3 1h-1v1h1v-1z"
+      /><path d="M40 23h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M22 29h1v1h-1v-1zm0-7h1v1h-1v-1zm1 3v-1h-2v1h1v2h-1v1h2v-1h1v-2h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M41 29h1v1h-1v-1zm0-7h1v1h-1v-1zm2 3v-1h-2v1h-1v2h1v1h2v-1h-1v-2h1z"/></g>
   - id: 4
     haunt: 2
     rangeMin: 7
@@ -190,6 +424,20 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 0509f7815de94f04bba310523143bb76, type: 3}
     - {fileID: 21300000, guid: 8a276c1c01a366b4dbd004cf82c60f15, type: 3}
     - {fileID: 21300000, guid: f2e7950d720051e4da8015f2e653352a, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><g><path d="M25 24h-1v1h1v-1z" /><path d="M25 25h-1v1h1v-1z"
+      /></g><g class="gotchi-primary"><path d="M28 27h-1v1h1v-1z" /><path d="M27
+      27h-1v1h1v-1zm1-5h-1v1h1v-1z" /><path d="M27 22h-1v1h1v-1zm-4 0h-1v1h1v-1z"
+      /><path d="M24 22h-1v1h1v-1z" /></g><g><path d="M26 24h-1v1h1v-1z" /><path
+      d="M26 25h-1v1h1v-1z" /></g><g class="gotchi-primary"><path d="M23 27h-1v1h1v-1z"
+      /><path d="M24 27h-1v1h1v-1z" /></g><path d="M39 25h-1v1h1v-1z" /><g class="gotchi-primary"><path
+      d="M38 27h-1v1h1v-1z" /><path d="M37 27h-1v1h1v-1zm4 0h-1v1h1v-1z" /><path
+      d="M42 27h-1v1h1v-1z" /></g><path d="M38 24h1v1h-1" /><g class="gotchi-primary"><path
+      d="M38 22h-1v1h1v-1z" /><path d="M37 22h-1v1h1v-1zm4 0h-1v1h1v-1z" /><path
+      d="M42 22h-1v1h1v-1z" /></g><g><path d="M40 25h-1v1h1v-1z" /><path d="M40 24h-1v1h1v-1z"
+      /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M21 24h1v2h-1v-2zm1-2h2v1h-2v-1zm0 5h2v1h-2v-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42 24h1v2h-1v-2zm-2 3h2v1h-2v-1zm0-5h2v1h-2v-1z"/></g>
   - id: 5
     haunt: 2
     rangeMin: 10
@@ -198,6 +446,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: eecb7784a34239f4688d55b4dd25a66b, type: 3}
     - {fileID: 21300000, guid: 23741a1dd7d069e468e355dd9e939640, type: 3}
     - {fileID: 21300000, guid: 556c429a6ab66a047b886fc7e9da4cd7, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="21" y="23" width="8" height="2" class="gotchi-primary"
+      /><rect x="35" y="23" width="8" height="2" class="gotchi-primary" /><rect x="38"
+      y="25" width="2" height="2" /><rect x="24" y="25" width="2" height="2" /></g>
+    - <g class="gotchi-eyeColor"><path d="M25 26v-2h-4v2h4z"/><path d="M21,26v2h1v-2H21z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 26v-2h-4v2h4z"/><path d="M42,26v2h1v-2H42z"/></g>
   - id: 6
     haunt: 2
     rangeMin: 15
@@ -206,6 +460,14 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 38d57258242cd4c408f096fb60cd1eb1, type: 3}
     - {fileID: 21300000, guid: 1a45a8948f4806649a02f9798db196a2, type: 3}
     - {fileID: 21300000, guid: 8af6aa4faef80214f83db9d6fb822bc8, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="21" y="23" width="8" height="1" class="gotchi-primary"
+      /><rect x="24" y="24" width="2" height="2" /><rect x="35" y="23" width="8"
+      height="1" class="gotchi-primary" /><rect x="38" y="24" width="2" height="2"
+      /><rect x="37" y="24" width="4" height="1" /><rect x="23" y="24" width="4"
+      height="1" /></g>
+    - <g class="gotchi-eyeColor"><path d="M25 25v-1h-4v1h4z"/><path d="M21,25v2h1v-1h1v-1H21z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 25v-1h-4v1h4z"/><path d="M41,25v1h1v1h1v-2H41z"/></g>
   - id: 7
     haunt: 2
     rangeMin: 20
@@ -214,6 +476,13 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 42a09d7de39b3524f9bb0285855be610, type: 3}
     - {fileID: 21300000, guid: 83cc249bda14a1748b234476f609d2bd, type: 3}
     - {fileID: 21300000, guid: 1c565b77378956849945d04ec5e533ad, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="23" y="23" width="4" height="1" class="gotchi-primary"
+      /><rect x="24" y="24" width="2" height="2" /><rect x="37" y="23" width="4"
+      height="1" class="gotchi-primary" /><rect x="38" y="24" width="2" height="2"
+      /></g>
+    - <g class="gotchi-eyeColor"><path d="M23 25v-1h-2v1h2z"/><path d="M21,25v2h1v-2H21z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 25v-1h-2v1h2z"/><path d="M42,25v2h1v-2H42z"/></g>
   - id: 8
     haunt: 2
     rangeMin: 25
@@ -222,6 +491,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 949b605e988aa5f4a8b0bd05aa36b962, type: 3}
     - {fileID: 21300000, guid: eefdaabb072aac5499a070107c9cd90c, type: 3}
     - {fileID: 21300000, guid: e8842cd235379ce4c92ac4d324c0549c, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M23 28V29V30H24H25H26H27V29V28H28H29V27V26V25V24H28H27V23V22H26H25H24H23V23V24H22H21V25V26V27V28H22H23Z"
+      /><path d="M35 24V25V26V27V28H36H37V29V30H38H39H40H41V29V28H42H43V27V26V25V24H42H41V23V22H40H39H38H37V23V24H36H35Z"
+      /></g>
+    - <g class="gotchi-eyeColor"><path d="M22,24v-2h-1v8h1v-2h2v-4H22z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 30v-8h-1v2h-2v4h2v2h1z"/></g>
   - id: 9
     haunt: 2
     rangeMin: 42
@@ -230,6 +505,11 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 5c1d69acde6b906409b5e93af8daca26, type: 3}
     - {fileID: 21300000, guid: dc8c9bc015de19546b884934233b22d9, type: 3}
     - {fileID: 21300000, guid: fc2c9f9a21f55814683c89243fbecd3b, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><rect x="22" y="28" width="6" height="6" transform="rotate(-90
+      22 28)" /><rect x="36" y="22" width="6" height="6" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21,22h3v6h-3V22z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M40,22h3v6h-3V22z"/></g>
   - id: 10
     haunt: 2
     rangeMin: 58
@@ -238,6 +518,12 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 1465f545b38bc554da2959003e18c838, type: 3}
     - {fileID: 21300000, guid: 8007310c39e4ea142b35fbd6c8d29ca0, type: 3}
     - {fileID: 21300000, guid: 8f9c6f83a232cb5498f260c094731f52, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M28 22H27V21H26H25H24H23V22H22V23H21V24V25V26V27H22V28H23V29H24H25H26H27V28H28V27H29V26V25V24V23H28V22Z"
+      /><path d="M42 23V22H41V21H40H39H38H37V22H36V23H35V24V25V26V27H36V28H37V29H38H39H40H41V28H42V27H43V26V25V24V23H42Z"
+      /></g>
+    - <g class="gotchi-eyeColor"><path d="M23,24v-1h-1v-1h-1v8h1v-1h1v-1h1v-4H23z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M43 30v-8h-1v1h-1v1h-1v4h1v1h1v1h1z"/></g>
   - id: 11
     haunt: 2
     rangeMin: 75
@@ -246,6 +532,13 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 3b393c6314abe544db2d6c1fd33f952b, type: 3}
     - {fileID: 21300000, guid: 5aab9c20e525f734aab64aef5f07955f, type: 3}
     - {fileID: 21300000, guid: 8aa781e9656053440be1980f304178f3, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M27 23H26H25H24H23H22H21V24V25H22H23H24H25H26H27H28H29V24V23H28H27Z"
+      class="gotchi-primary" /><path d="M42 23H41H40H39H38H37H36H35V24V25H36H37H38H39H40H41H42H43V24V23H42Z"
+      class="gotchi-primary" /><rect x="24" y="23" width="2" height="2" /> <rect
+      x="38" y="23" width="2" height="2" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21,25h4v2h-4V25z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M38.6,25H43v2h-4.4V25z"/></g>
   - id: 12
     haunt: 2
     rangeMin: 80
@@ -254,6 +547,15 @@ MonoBehaviour:
     - {fileID: 21300000, guid: ac438d0a99b203e479147b23d143966e, type: 3}
     - {fileID: 21300000, guid: d2c5343678f636c4a8baf3d8d0769b65, type: 3}
     - {fileID: 21300000, guid: b3f8c0d1b0dc8ce459930df2a7e3b284, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M27 23H26H25H24H23H22H21V24H22H23H24V25H23H22H21V26H22H23H24H25H26H27H28H29V25H28H27H26V24H27H28H29V23H28H27Z"
+      class="gotchi-primary" /><path d="M41 24H42H43V23H42H41H40H39H38H37H36H35V24H36H37H38V25H37H36H35V26H36H37H38H39H40H41H42H43V25H42H41H40V24H41Z"
+      class="gotchi-primary" /><rect x="24" y="24" width="2" height="1" /><rect x="38"
+      y="24" width="2" height="1" /></g>
+    - <g class="gotchi-eyeColor"><path d="M21 25h4v1h-4zm0 2h4v1h-4z"/><path d="M21
+      26h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M39 25h4v1h-4zm0 2h4v1h-4z"/><path d="M42
+      26h1v1h-1z"/></g>
   - id: 13
     haunt: 2
     rangeMin: 85
@@ -262,6 +564,16 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 6408877026b6d2c4abece40029faa1f9, type: 3}
     - {fileID: 21300000, guid: 8d683940a6d73a543b9aa43c8439de25, type: 3}
     - {fileID: 21300000, guid: 336d0d1d2590e19419c6be96e525da60, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M27 23H26H25H24H23H22H21V24V25V26H22H23H24H25H26H27H28H29V25V24V23H28H27ZM23
+      25H22V24H23H24V25H23ZM28 25H27H26V24H27H28V25Z" class="gotchi-primary" /><rect
+      x="24" y="24" width="2" height="1" /><path d="M42 23H41H40H39H38H37H36H35V24V25V26H36H37H38H39H40H41H42H43V25V24V23H42ZM37
+      25H36V24H37H38V25H37ZM42 25H41H40V24H41H42V25Z" class="gotchi-primary" /><rect
+      x="38" y="24" width="2" height="1" /></g>
+    - <g class="gotchi-eyeColor"><path d="M24 27v-1h-3v-1h4v3h-4v-1z"/><path d="M21
+      26h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M40 27v-1h3v-1h-4v3h4v-1z"/><path d="M42
+      26h1v1h-1z"/></g>
   - id: 14
     haunt: 2
     rangeMin: 90
@@ -270,6 +582,19 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 6e25134bd934d0c49b2cb5d93daa6fb5, type: 3}
     - {fileID: 21300000, guid: a8e1b54ba05f5a24099cf6847ba95edb, type: 3}
     - {fileID: 21300000, guid: d9e54f0e1d1b71d4ab72da0d3089fdf5, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M39 23v1h-1v-1h1v-1h-2v1h-1v2h1v1h2v-1h1v-2h-1z"
+      /><g class="gotchi-primary"><path d="M34 25h-1v1h1v-1zm7 0v1h1v-2h-1v1zm-4-2v-1h-2v1h2z"
+      /><path d="M44 21h-7v1h5v2h1v-1h1v-1h1v-1h-1zm-9 5h-1v1h2v-1h-1z" /><path d="M38
+      27h-2v1h4v-1h-2zm-3-3v-1h-1v2h1v-1z" /><path d="M41 26h-1v1h1v-1z" /></g><path
+      d="M27 22h-2v1h1v1h-1v-1h-1v2h1v1h2v-1h1v-2h-1v-1z" /><g class="gotchi-primary"><path
+      d="M31 25h-1v1h1v-1zm-8-1h-1v2h1v-2z" /><path d="M22 22h5v-1h-8v1h1v1h1v1h1v-2z"
+      /><path d="M28 23h1v-1h-2v1h1zm0 3v1h2v-1h-2z" /><path d="M26 27h-2v1h4v-1h-2zm3-2h1v-2h-1v2z"
+      /><path d="M24 26h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M24 25h1v2h-1z"/><path d="M21 22v1h4v2h1v-1h1v-1h1v-1zm0
+      6h2v1h-2z"/><path d="M23 27h1v1h-1zm-1-3v1h-1v2h1v-1h1v-2z"/><path d="M21 23h1v1h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M39 25h1v2h-1z"/><path d="M43 23v-1h-7v1h1v1h1v1h1v-2zm-2
+      5h2v1h-2z"/><path d="M40 27h1v1h-1zm2-4h1v1h-1z"/><path d="M41 24v2h1v1h1v-2h-1v-1z"/></g>
   - id: 15
     haunt: 2
     rangeMin: 93
@@ -278,6 +603,20 @@ MonoBehaviour:
     - {fileID: 21300000, guid: 7ef2098d1560ec9498814a2bf2bd7ae1, type: 3}
     - {fileID: 21300000, guid: e56822202db28c84daed99fe048f0051, type: 3}
     - {fileID: 21300000, guid: 6d346eba1a658794fb7f70df4d71f260, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><path d="M39 23v2h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1z"
+      /><g class="gotchi-primary"><path d="M36 22h-1v1h1v-1z" /><path d="M35 25v-2h-1v4h1v-2z"
+      /><path d="M36 27h-1v1h1v-1zm5-5h-1v1h1v-1z" /><path d="M41 23v4h1v-4h-1zm-3-1h2v-1h-4v1h2zm0
+      6h-2v1h4v-1h-2z" /><path d="M41 27h-1v1h1v-1z" /></g><path d="M27 24v1h-1v-2h1v-1h-2v1h-1v3h1v1h2v-1h1v-3h-1v1z"
+      /><g class="gotchi-primary"><path d="M24 22h-1v1h1v-1z" /><path d="M23 25v-2h-1v4h1v-2z"
+      /><path d="M24 27h-1v1h1v-1zm5-5h-1v1h1v-1z" /><path d="M29 24v3h1v-4h-1v1zm-3-2h2v-1h-4v1h2zm0
+      6h-2v1h4v-1h-2z" /><path d="M29 27h-1v1h1v-1z" /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M21 23h1v1h-1z"/><path d="M22 24v2h-1v2h1v-1h1v-3zm-1
+      5h2v1h-2z"/><path d="M23 23h1v1h-1z"/><path d="M24 24h1v4h-1z"/><path d="M23
+      28h1v1h-1zm-2-6h2v1h-2z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M42,23v1h-1v3h1v1h1v-5H42z"/><path d="M40
+      23h1v1h-1z"/><path d="M39 24h1v4h-1z"/><path d="M40 28h1v1h-1z"/><path d="M41
+      29h2v1h-2zm0-7h2v1h-2z"/></g>
   - id: 16
     haunt: 2
     rangeMin: 95
@@ -286,3 +625,16 @@ MonoBehaviour:
     - {fileID: 21300000, guid: cffa80170472a914395107acd263fe67, type: 3}
     - {fileID: 21300000, guid: 76abcec2dac7d6542bdcada4063b5aa1, type: 3}
     - {fileID: 21300000, guid: 8f7f3c3fca903e14baef3e5074fba564, type: 3}
+    svgs:
+    - <g class="gotchi-eyeColor"><g><path d="M40 23v2h1v-2h-1z" /><path d="M39 24v-1h-2v2h1v1h2v-1h-1v-1zm-13
+      0v1h1v-2h-1v1z" /><path d="M25 24v-1h-2v2h1v1h2v-1h-1v-1z" /></g><g class="gotchi-primary"><path
+      d="M35 23h-1v1h1v-1zm0 2h-1v1h1v-1zm9-2h-1v1h1v-1z" /><path d="M45 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z"
+      /><path d="M34 24h-1v1h1v-1zm10 1h-1v1h1v-1z" /><path d="M41 26h-6v1h8v-1h-2zm-20-3h-1v1h1v-1zm0
+      2h-1v1h1v-1zm9-2h-1v1h1v-1z" /><path d="M31 24h-1v1h1v-1zm-8-1h6v-1h-8v1h2z"
+      /><path d="M20 24h-1v1h1v-1zm10 1h-1v1h1v-1z" /><path d="M27 26h-6v1h8v-1h-2z"
+      /></g></g>
+    - <g class="gotchi-eyeColor"><path d="M21 27h4v1h-4zm4-3h1v1h-1z"/><path d="M26
+      25h1v1h-1zm-5-2h4v1h-4z"/><path d="M25 26h1v1h-1zm-4 0h1v1h-1z"/><path d="M22
+      24h1v2h-1z"/></g>
+    - <g class="gotchi-eyeColor"><path d="M38 26h1v1h-1zm0-2h1v1h-1z"/><path d="M37
+      25h1v1h-1zm2 2h4v1h-4zm0-4h4v1h-4z"/><path d="M41 26h1v1h1v-3h-2v2z"/></g>

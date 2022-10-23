@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" width="64" height="64">
+    <g class="gotchi-eyeColor">
+        <path d="M25 22h2v-1h-4v1h2z" class="gotchi-primary" />
+        <path d="M27 25h-6v1h8v-1h-2zm0-2h-6v1h8v-1h-2z" />
+        <path d="M26 27h-4v1h6v-1h-2z" class="gotchi-primary" />
+        <path d="M41 25h-6v1h8v-1h-2zm1-2h-7v1h8v-1h-1z" />
+        <path d="M39 22h2v-1h-4v1h2zm1 5h-4v1h6v-1h-2z" class="gotchi-primary" />
+    </g>
+</svg>

@@ -1,6 +1,8 @@
 using System;
 using System.Linq;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
@@ -13,6 +15,7 @@ namespace PortalDefender.AavegotchiKit
         public int rangeMin;
         public int rangeMax;
         public Sprite[] sprites;
+        public string[] svgs;
     }
 
     [Serializable]
@@ -28,6 +31,26 @@ namespace PortalDefender.AavegotchiKit
         TextAsset source;
 
         public EyeShape[] eyeShapes;
+
+        public Sprite GetEyeShapeSprite(int shapeIndex, Color eyeColor, Collateral collateral, GotchiFacing facing)
+        {
+            var eyeShape = eyeShapes[shapeIndex];
+
+#if USE_VECTOR_GFX
+            return SvgLoader.GetSvgLayerSprite($"eyes-{shapeIndex}-{facing}",
+                eyeShape.svgs[(int)facing],
+                new SvgLoader.Options
+                {
+                    primary = collateral.PrimaryColor,
+                    secondary = collateral.SecondaryColor,
+                    cheeks = collateral.CheekColor,
+                    eyes = eyeColor
+                }
+               );
+#else
+            return eyeShape.sprites[(int)facing];
+#endif
+        }
 
 #if UNITY_EDITOR
         Sprite GetSpriteAsset(string spritename)

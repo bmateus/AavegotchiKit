@@ -1,5 +1,6 @@
 using Cysharp.Threading.Tasks;
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using TMPro;
 using UnityEngine;
@@ -8,7 +9,7 @@ using UnityEngine.UI;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class GotchiBrowserUI : MonoBehaviour
+    public class GotchiBrowser : MonoBehaviour
     {
         [SerializeField]
         Gotchi gotchi;
@@ -28,6 +29,14 @@ namespace PortalDefender.AavegotchiKit
         [SerializeField]
         TMP_Text nameLabel;
 
+        [SerializeField]
+        TMP_Dropdown eyeExpressionDropdown;
+
+        [SerializeField]
+        TMP_Dropdown mouthExpressionDropdown;
+
+        [SerializeField]
+        TMP_Dropdown handposeDropdown;
 
         [SerializeField]
         int currentGotchi;
@@ -39,15 +48,33 @@ namespace PortalDefender.AavegotchiKit
             nextButton.onClick.AddListener(setNext);
             prevButton.onClick.AddListener(setPrev);
             turnButton.onClick.AddListener(turn);
-            loadGotchi();
+            loadGotchi().Forget();
 
             idField.text = $"{currentGotchi}";
             idField.onEndEdit.AddListener((val) =>
             {
                 if (int.TryParse(val, out currentGotchi))
                 {
-                    loadGotchi();
+                    loadGotchi().Forget();
                 }
+            });
+
+            handposeDropdown.AddOptions(new List<string> { "Down Closed", "Down Open", "Up" });
+            handposeDropdown.value = (int)gotchi.State.HandPose;
+            handposeDropdown.onValueChanged.AddListener(v => {
+                gotchi.State.HandPose = (GotchiHandPose)v;
+            });
+            
+            eyeExpressionDropdown.AddOptions(new List<string> { "None", "Happy", "Mad", "Sleeping" });
+            eyeExpressionDropdown.value = (int)gotchi.State.EyeExpression;
+            eyeExpressionDropdown.onValueChanged.AddListener(v => {
+                gotchi.State.EyeExpression = (GotchiEyeExpression)v;
+            });
+
+            mouthExpressionDropdown.AddOptions(new List<string> { "Happy", "Neutral" });
+            mouthExpressionDropdown.value = (int)gotchi.State.MouthExpression;
+            mouthExpressionDropdown.onValueChanged.AddListener(v => {
+                gotchi.State.MouthExpression = (GotchiMouthExpression)v;
             });
         }
 
@@ -57,7 +84,7 @@ namespace PortalDefender.AavegotchiKit
 
             idField.text = $"{currentGotchi}";
 
-            loadGotchi();
+            loadGotchi().Forget();
         }
 
         void setPrev()
@@ -68,7 +95,7 @@ namespace PortalDefender.AavegotchiKit
 
             idField.text = $"{currentGotchi}";
 
-            loadGotchi();
+            loadGotchi().Forget();
         }
 
 
@@ -78,17 +105,17 @@ namespace PortalDefender.AavegotchiKit
             facing = (facing + 1) % 4;
             switch(facing)
             {
-                case 0: gotchi.SetFacing(AavegotchiData.Facing.FRONT); break;
-                case 1: gotchi.SetFacing(AavegotchiData.Facing.LEFT); break;
-                case 2: gotchi.SetFacing(AavegotchiData.Facing.BACK); break;
-                case 3: gotchi.SetFacing(AavegotchiData.Facing.RIGHT); break;
+                case 0: gotchi.State.Facing = GotchiFacing.FRONT; break;
+                case 1: gotchi.State.Facing = GotchiFacing.LEFT; break;
+                case 2: gotchi.State.Facing = GotchiFacing.BACK; break;
+                case 3: gotchi.State.Facing = GotchiFacing.RIGHT; break;
             }   
         }
 
 
         CancellationTokenSource cts;
 
-        async void loadGotchi()
+        async UniTaskVoid loadGotchi()
         {
             if (cts != null)
             {
@@ -105,6 +132,10 @@ namespace PortalDefender.AavegotchiKit
                     gotchi.gameObject.SetActive(true);
                     gotchi.Init(gotchiData);
                     nameLabel.text = gotchiData.name;
+
+                    handposeDropdown.value = (int)gotchi.State.HandPose;
+                    eyeExpressionDropdown.value = (int)gotchi.State.EyeExpression;
+                    mouthExpressionDropdown.value = (int)gotchi.State.MouthExpression;
                 }
                 else
                 {
@@ -112,9 +143,13 @@ namespace PortalDefender.AavegotchiKit
                     gotchi.gameObject.SetActive(false);
                 }
             }
-            catch (OperationCanceledException ex)
+            catch (OperationCanceledException ocex)
             {
-                Debug.LogError(ex.Message);
+                Debug.LogException(ocex);
+            }
+            catch (Exception ex)
+            {
+                Debug.LogException(ex);
             }
         }
 

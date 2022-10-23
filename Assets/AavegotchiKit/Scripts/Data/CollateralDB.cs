@@ -1,13 +1,17 @@
 using System;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
+
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 namespace PortalDefender.AavegotchiKit
 {
     [Serializable]
     public class Collateral
     {
+        public string name;
         public string collateralType;
         public int[] modifiers;
         public string primaryColor;
@@ -16,9 +20,11 @@ namespace PortalDefender.AavegotchiKit
         public int haunt;
 
         public int svgId;
-        public int eyeShapeSvgId;
-
+        public string[] svgs;
         public Sprite[] sprites;
+
+        public int eyeShapeSvgId;
+        public string[] eyeShapeSvgs;
         public Sprite[] eyeSprites;
 
         public Sprite GetCollateralSprite(GotchiFacing facing)
@@ -26,15 +32,37 @@ namespace PortalDefender.AavegotchiKit
             if (facing == GotchiFacing.BACK)
                 return null;
 
+#if USE_VECTOR_GFX
+            return SvgLoader.GetSvgLayerSprite($"collateral-{collateralType}-{facing}",
+                svgs[(int)facing],
+                new SvgLoader.Options
+                {
+                    primary = PrimaryColor,
+                    secondary = SecondaryColor,
+                    cheeks = CheekColor
+                });
+#else
             return sprites[(int)facing];
+#endif
         }
 
-        public Sprite GetCollateralEyeSprite(GotchiFacing facing)
+        public Sprite GetCollateralEyeSprite(Color eyeColor, GotchiFacing facing)
         {
             if (facing == GotchiFacing.BACK)
                 return null;
-
+#if USE_VECTOR_GFX
+            return SvgLoader.GetSvgLayerSprite($"eye-{collateralType}-{facing}",
+                eyeShapeSvgs[(int)facing],
+                new SvgLoader.Options
+                {
+                    primary = PrimaryColor,
+                    secondary = SecondaryColor,
+                    cheeks = CheekColor,
+                    eyes = eyeColor
+                });
+#else
             return eyeSprites[(int)facing];
+#endif
         }
 
         static Color parseColor(string color)

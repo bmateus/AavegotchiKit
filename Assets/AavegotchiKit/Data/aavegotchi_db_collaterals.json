@@ -19,7 +19,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M21 28h1v1h-1z\"/><path d=\"M24 25v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h1v-1h1v-1h-1v-1z\"/><path d=\"M21 22h1v1h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M43 23v-1h-2v2h-1v1h1v1h-1v1h1v2h2v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maDAI"
     },
     {
       "collateralType": "0x20D3922b4a1A8560E1aC99FBA4faDe0c849e2142",
@@ -40,7 +41,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M24 25v-1h-1v-1h-1v-1h-1v4h4v-1h-1z\"/><path d=\"M21 26v4h1v-1h1v-1h1v-1h1v-1h-4z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 22v1h-1v1h-1v1h-1v1h4v-4h-1z\"/><path d=\"M39 26v1h1v1h1v1h1v1h1v-4h-4z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maWETH"
     },
     {
       "collateralType": "0x823CD4264C1b951C9209aD0DeAea9988fE8429bF",
@@ -61,7 +63,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M22 22h-1v2h1v-2z\"/><path d=\"M23 24h-1v2h1v-2z\"/><path d=\"M24 26h-1v2h1v-2z\"/><path d=\"M24 28v2h1v-2h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 22v2h1v-2h-1z\"/><path d=\"M41 25h-2v1h1v2h1v-2h2v-1h-1v-1h-1v1z\"/><path d=\"M39 29v1h1v-2h-1v1z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maAAVE"
     },
     {
       "collateralType": "0x98ea609569bD25119707451eF982b90E3eb719cD",
@@ -82,7 +85,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M23 24v-1h-1v-1h-1v3h1v2h-1v3h1v-1h1v-1h1v-4h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 22v1h-1v1h-1v4h1v1h1v1h1v-3h-1v-2h1v-3h-1z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maLINK"
     },
     {
       "collateralType": "0xDAE5F1590db13E3B40423B5b5c5fbf175515910b",
@@ -103,7 +107,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M21 28v2h1v-3h-1v1zm2-3h2v-1h-3v-1h2v-2h-3v5h1v-1h1z\"/><path d=\"M25 25h1v1h-1z\"/><path d=\"M23 26h-1v1h3v-1h-2z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 29v1h1v-3h-1v2zm-4-4h1v1h-1z\"/><path d=\"M40 26h-1v1h3v-1h-2z\"/><path d=\"M42 21h-2v2h2v1h-3v1h3v1h1v-5h-1z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maUSDT"
     },
     {
       "collateralType": "0x9719d867A500Ef117cC201206B8ab51e794d3F82",
@@ -124,7 +129,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M22 27v-2h-1v3h1v-1zm-1-4h1v1h-1zm1 6h1v1h-1z\"/><path d=\"M23 28h1v1h-1z\"/><path d=\"M24 23v5h1v-5h-1zm-2-2h1v1h-1z\"/><path d=\"M23 22h1v1h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 27h1v1h-1zm0-4v3h1v-3h-1zm-1 6h1v1h-1zm-1-3v-3h-1v5h1v-2z\"/><path d=\"M40 28h1v1h-1zm1-7h1v1h-1z\"/><path d=\"M40 22h1v1h-1z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maUSDC"
     },
     {
       "collateralType": "0xF4b8888427b00d7caf21654408B7CBA2eCf4EbD9",
@@ -145,7 +151,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M21 24h1v1h-1zm1 5h1v1h-1z\"/><path d=\"M23 28h1v1h-1z\"/><path d=\"M24 24v4h1v-4h-1zm-3 6h1v1h-1zm0-9h1v1h-1z\"/><path d=\"M22 22h1v1h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 24h1v1h-1zm-1 5h1v1h-1z\"/><path d=\"M42 30h1v1h-1zm0-9h1v1h-1z\"/><path d=\"M39 25v3h1v-4h-1v1zm2-3h1v1h-1z\"/><path d=\"M40 23h1v1h-1z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maTUSD"
     },
     {
       "collateralType": "0x8c8bdBe9CeE455732525086264a4Bf9Cf821C498",
@@ -166,7 +173,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M18 18v1h1v1h1v1h1v1h1v1h1v1h1v3h-1v1h-3v-2h-1v-3h-1v-2h-1v-3z\"/><path d=\"M18,20h1v1h-1V20z\" fill=\"#fff\"/><path d=\"M20 22v-1h-1v2h2v-1h-1zm1 3h-1v-1h1v1z\" fill=\"#e1e1e1\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M46 18v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v3h1v1h3v-2h1v-3h1v-2h1v-3z\"/><path d=\"M46 21h-1v-1h1v1z\" fill=\"#fff\"/><path d=\"M43 22v1h2v-2h-1v1h-1zm0 2h1v1h-1v-1z\" fill=\"#e1e1e1\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maUNI"
     },
     {
       "collateralType": "0xe20f7d1f0eC39C4d5DB01f53554F2EF54c71f613",
@@ -187,7 +195,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M21 26h1v1h-1z\"/><path d=\"M22 28v2h1v-3h-1v1z\"/><path d=\"M21 30h1v1h-1zm2-8h-1v-1h-1v1h1v1h1z\"/><path d=\"M21 23v2h2v-1h-1v-1h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 30h1v1h-1z\"/><path d=\"M41 29h1v1h-1z\"/><path d=\"M41 27v1h1v1h1v-2h-2zm1-6h1v1h-1zm0 4h1v1h-1z\"/><path d=\"M42 23v-1h-1v3h1v-2z\"/></g>"
       ],
-      "haunt": 1
+      "haunt": 1,
+      "name": "maYFI"
     },
     {
       "collateralType": "0x27F8D03b3a2196956ED754baDc28D73be8830A6e",
@@ -208,7 +217,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M21 28h1v1h-1z\"/><path d=\"M24 25v-1h-1v-1h-1v1h-1v1h1v1h-1v1h1v1h1v-1h1v-1h-1v-1z\"/><path d=\"M21 22h1v1h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M43 23v-1h-2v2h-1v1h1v1h-1v1h1v2h2v-1h-1v-1h1v-1h-1v-1h1v-1h-1v-1h1z\"/></g>"
       ],
-      "haunt": 2
+      "haunt": 2,
+      "name": "amDAI"
     },
     {
       "collateralType": "0x28424507fefb6f7f8E9D3860F56504E4e5f5f390",
@@ -229,7 +239,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M24 23v-1h-1v-1h-2v3h2v3h-2v3h2v-1h1v-1h1v-5h-1z\"/><path d=\"M21 21h1v1h-1zm0 8h1v1h-1z\" fill=\"#e51b6d\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M41 21v1h-1v1h-1v5h1v1h1v1h2v-3h-1v-3h1v-3h-2z\"/><path d=\"M40 25v-1h1v-1h1v-1h1v-1h-2v1h-1v1h-1v5h1v1h1v1h2v-1h-1v-1h-1v-1h-1v-2z\" fill=\"#e51b6d\"/></g>"
       ],
-      "haunt": 2
+      "haunt": 2,
+      "name": "amWETH"
     },
     {
       "collateralType": "0x1d2a0E5EC8E5bBDCA5CB219e649B565d8e5c3360",
@@ -250,7 +261,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M22 22h-1v2h1v-2z\"/><path d=\"M23 24h-1v2h1v-2z\"/><path d=\"M24 26h-1v2h1v-2z\"/><path d=\"M24 28v2h1v-2h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 22v2h1v-2h-1z\"/><path d=\"M41 25h-2v1h1v2h1v-2h2v-1h-1v-1h-1v1z\"/><path d=\"M39 29v1h1v-2h-1v1z\"/></g>"
       ],
-      "haunt": 2
+      "haunt": 2,
+      "name": "amAAVE"
     },
     {
       "collateralType": "0x60D55F02A771d515e077c9C2403a1ef324885CeC",
@@ -271,7 +283,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M21 28v2h1v-3h-1v1zm2-3h2v-1h-3v-1h2v-2h-3v5h1v-1h1z\"/><path d=\"M25 25h1v1h-1z\"/><path d=\"M23 26h-1v1h3v-1h-2z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 29v1h1v-3h-1v2zm-4-4h1v1h-1z\"/><path d=\"M40 26h-1v1h3v-1h-2z\"/><path d=\"M42 21h-2v2h2v1h-3v1h3v1h1v-5h-1z\"/></g>"
       ],
-      "haunt": 2
+      "haunt": 2,
+      "name": "amUSDT"
     },
     {
       "collateralType": "0x1a13F4Ca1d028320A707D99520AbFefca3998b7F",
@@ -292,7 +305,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M22 27v-2h-1v3h1v-1zm-1-4h1v1h-1zm1 6h1v1h-1z\"/><path d=\"M23 28h1v1h-1z\"/><path d=\"M24 23v5h1v-5h-1zm-2-2h1v1h-1z\"/><path d=\"M23 22h1v1h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 27h1v1h-1zm0-4v3h1v-3h-1zm-1 6h1v1h-1zm-1-3v-3h-1v5h1v-2z\"/><path d=\"M40 28h1v1h-1zm1-7h1v1h-1z\"/><path d=\"M40 22h1v1h-1z\"/></g>"
       ],
-      "haunt": 2
+      "haunt": 2,
+      "name": "amUSDC"
     },
     {
       "collateralType": "0x5c2ed810328349100A66B82b78a1791B101C9D61",
@@ -313,7 +327,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M21 27v2h1v-1h1v-1h-2zm0-2v1h2v-1h-2z\"/><path d=\"M23 26h1v1h-1zm-1-3v-1h-1v2h2v-1h-1z\"/><path d=\"M23 24h1v1h-1z\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M42 22v1h-2v1h1v3h-1v1h2v1h1v-2h-1v-1h1v-1h-1v-1h1v-2h-1z\" fill=\"#ff5e00\"/></g>"
       ],
-      "haunt": 2
+      "haunt": 2,
+      "name": "amWBTC"
     },
     {
       "collateralType": "0x8dF3aad3a84da6b69A4DA8aeC3eA40d9091B2Ac4",
@@ -334,7 +349,8 @@
         "<g class=\"gotchi-eyeColor\"><path d=\"M24.2 23.9v-.6h-.6v-.6H23V22h-1.9v1.3H23v.6h.6v1.9H23v.6h-1.9v1.3H23v-.6h.6v-.6h.6v-.6h.6V24h-.6z\" fill=\"#824ee2\"/></g>",
         "<g class=\"gotchi-eyeColor\"><path d=\"M43 29.6v-1.3h-1.9v-.6h-.6v-1.9h.6v-.6H43v-1.3h-1.9v.6h-.6v.6h-.6v.6h-.6v1.9h.6v.6h.6v.8h.6v.6H43z\" fill=\"#824ee2\"/></g>"
       ],
-      "haunt": 2
+      "haunt": 2,
+      "name": "amWMATIC"
     }
   ]
 }
