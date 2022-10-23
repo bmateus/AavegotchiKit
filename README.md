@@ -23,15 +23,11 @@ poorly with many different gotchi simultaneously. It would also be nice to build
 Aavegotchi games for any platform, not just webGL
 
 This new approach uses a javascript / python toolchain to pull all the Aavegotchi data 
-from the blockchain and render all the SVGs into PNGs which can then all be packed together 
-into a sprite atlas.
+from the blockchain. Unity's Vector Graphics package is used to and render everything as
+meshes. 
 
 As new assets get added, the sprites will need to be updated; 
 I'll add the tool I created to import the assets after I clean it up a bit.
-
-There is a custom shader that can take a base aavegotchi and set it's colors based on its 
-collateral type (This currently breaks draw call batching as well and am working on 
-improving that).
 
 The kit also includes a way to query a users gotchi from theGraph and also get an 
 Aavegotchi's stats for a given gotchi id. This doesn't preclude using the kit to make 
@@ -39,6 +35,8 @@ custom gotchi (like setting up NPC gotchi for example)
 
 The GotchiBrowser scene contains an example of how to set up a scene to be able to load 
 up an Aavegotchi from theGraph.
+
+The WearableBrowser scene contains an example of how to set up a game UI
 
 There are probably a bunch of weirds cases where things might look wrong; 
 Please feel free to report any issues or fix them and submit a pull request!
