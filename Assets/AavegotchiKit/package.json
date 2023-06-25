@@ -18,10 +18,15 @@
   "dependencies": {
   },
   "samples": [
-      {
-          "displayName": "Gotchi Browser",
-          "description": "Example UI to browse through Gotchi's",
-          "path": "Examples/GotchiBrowser"
-      }
+    {
+        "displayName": "Gotchi Browser",
+        "description": "Example UI to browse through Gotchi's",
+        "path": "Examples/GotchiBrowser"
+    },
+    {
+        "displayName": "Nethereum Tests",
+        "description": "Test interacting with the blockchain using Nethereum",
+        "path": "Examples/NethereumTest"
+    }
   ]
 }
