@@ -29,6 +29,9 @@ namespace PortalDefender.AavegotchiKit
         [SerializeField]
         Transform floating;
 
+        [SerializeField]
+        Material material_;
+
         class EquippedWearable
         {
             public Wearable data;
@@ -73,6 +76,7 @@ namespace PortalDefender.AavegotchiKit
                     wearableObj.transform.SetParent(
                         (GotchiEquipmentSlot)i == GotchiEquipmentSlot.PET ? transform : floating, false);
                     var wearableRenderer = wearableObj.AddComponent<SpriteRenderer>();
+                    wearableRenderer.material = material_;
                     wearableRenderer.sortingLayerName = "Characters";
 
                     equippedWearable.gameObject = wearableObj;
@@ -84,6 +88,7 @@ namespace PortalDefender.AavegotchiKit
                         var sleevesObj = new GameObject(wearableData.name + "_sleeves");
                         sleevesObj.transform.SetParent(floating, false);
                         var sleevesRenderer = sleevesObj.AddComponent<SpriteRenderer>();
+                        sleevesRenderer.material = material_;
                         sleevesRenderer.sortingLayerName = "Characters";
 
                         equippedWearable.sleevesGameObject = sleevesObj;
@@ -106,8 +111,6 @@ namespace PortalDefender.AavegotchiKit
         GotchiHandPose HandPose => gotchi.State.HandPose;
         GotchiEyeExpression EyeExpression => gotchi.State.EyeExpression;
         GotchiMouthExpression MouthExpression => gotchi.State.MouthExpression;
-
-
 
         void Refresh()
         {
@@ -233,7 +236,6 @@ namespace PortalDefender.AavegotchiKit
                     break;
             }
         }
-
 
         static Dictionary<GotchiEquipmentSlot, int[]> wearableSorting = new Dictionary<GotchiEquipmentSlot, int[]>()
         {
