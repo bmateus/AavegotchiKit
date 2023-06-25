@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.IO;
 using Unity.VectorGraphics;
@@ -162,10 +163,18 @@ public class SvgLoader
         //int windowWidth = 0;
         //int windowHeight = 0;
 
+        /*
         float stepDistance = 100.0f;
+        float samplingStepSize = 0.01f;
         float maxCoordDeviation = 0.5f; //0.01
         float maxTanAngleDeviation = 0.1f;
-        float samplingStepSize = 0.01f;
+        */
+
+        float stepDistance = 10.0f;
+        float samplingStepSize = 100.0f;
+        float maxCoordDeviation = float.MaxValue;
+        float maxTanAngleDeviation = Mathf.PI * 0.5f;
+        
 
         float svgPixelsPerUnit = 75f; //100 
         //note: 75 = (300/4): 300 is the PPU set in the sprite import settings and they were exported from 64x64 to 256x256 a factor of 4
@@ -175,19 +184,22 @@ public class SvgLoader
             alignment = VectorUtils.Alignment.Custom;
         //Vector2 customPivot = Vector2.zero;
 
-        ushort gradientResolution = 64;
+        ushort gradientResolution = 256;
         bool flipYAxis = true;
 
         //var sceneInfo = SVGParser.ImportSVG(new StringReader(data));
-        var sceneInfo = SVGParser.ImportSVG(new StringReader(data), viewportOptions);
+        var sceneInfo = SVGParser.ImportSVG(new StringReader(data), viewportOptions, 0, 1, 100, 100);
         //var sceneInfo = SVGParser.ImportSVG(new StringReader(data), viewportOptions, dpi, pixelsPerUnit, windowWidth, windowHeight);
+
+        if (sceneInfo.Scene == null || sceneInfo.Scene.Root == null)
+            throw new Exception("Wowzers!");
 
         var tessOptions = new VectorUtils.TessellationOptions()
         {
             StepDistance = stepDistance,
+            SamplingStepSize = samplingStepSize,
             MaxCordDeviation = maxCoordDeviation,
             MaxTanAngleDeviation = maxTanAngleDeviation,
-            SamplingStepSize = samplingStepSize
         };
 
         var geoms = VectorUtils.TessellateScene(sceneInfo.Scene, tessOptions, sceneInfo.NodeOpacity);

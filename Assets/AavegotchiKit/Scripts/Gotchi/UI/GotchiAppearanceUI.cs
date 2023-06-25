@@ -31,6 +31,9 @@ namespace PortalDefender.AavegotchiKit
         [SerializeField]
         Transform floating;
 
+        [SerializeField]
+        Material material_;
+
         class EquippedWearableUI
         {
             public Wearable data;
@@ -82,6 +85,7 @@ namespace PortalDefender.AavegotchiKit
                     wearableObj.transform.SetParent(
                         (GotchiEquipmentSlot)i == GotchiEquipmentSlot.PET ? transform : floating, false);
                     var wearableRenderer = wearableObj.AddComponent<Image>();
+                    wearableRenderer.material = material_;
 
                     equippedWearable.gameObject = wearableObj;
                     equippedWearable.image = wearableRenderer;
@@ -91,6 +95,7 @@ namespace PortalDefender.AavegotchiKit
                         var sleevesObj = new GameObject(wearableData.name + "-sleeves");
                         sleevesObj.transform.SetParent(floating, false);
                         var sleevesRenderer = sleevesObj.AddComponent<Image>();
+                        sleevesRenderer.material = material_;
 
                         equippedWearable.sleevesGameObject = sleevesObj;
                         equippedWearable.sleevesImage = sleevesRenderer;
