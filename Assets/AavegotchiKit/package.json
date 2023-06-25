@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "displayName": "Aavegotchi Kit",
   "description": "Provides a way to get started using Aavegotchis in Unity.",
-  "unity": "2020.3",
+  "unity": "2022.3",
   "author": {
     "name": "Bruno Mateus",
     "url": "https://github.com/bmateus/"
@@ -16,7 +16,6 @@
   "license": "MIT",
   "category": "Tools",
   "dependencies": {
-    "com.unity.vectorgraphics" : "2.0.0-preview.19"
   },
   "samples": [
       {
