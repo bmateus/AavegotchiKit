@@ -1,60 +1,298 @@
-using System;
-using UnityEngine;
-using Aavegotchi.AavegotchiDiamond.Service;
 using Aavegotchi.AavegotchiDiamond.ContractDefinition;
-using Nethereum.Web3;
+using Aavegotchi.AavegotchiDiamond.Service;
 using Cysharp.Threading.Tasks;
 using Nethereum.Unity.Rpc;
-using Unity.VectorGraphics;
+using Nethereum.Web3;
+using System;
+using System.Linq;
+using System.Text;
 using TMPro;
+using Unity.VectorGraphics;
+using UnityEngine;
 
-public class TestNethereum : MonoBehaviour
+namespace PortalDefender.AavegotchiKit.Examples
 {
-    [SerializeField]
-    SVGImage img;
-
-    [SerializeField]
-    TMP_InputField gotchiId;
-
-    private void Start()
+    public class TestNethereum : MonoBehaviour
     {
-        gotchiId.text = "23202"; //Portal Defender
-    }
+        [SerializeField]
+        SVGImage[] images;
 
-    public void GetAavegotchiSvg()
-    {
-        Debug.Log($"GetAavegotchiSvg({gotchiId.text})");
-        GetAavegotchiSvgAsync().Forget();        
-    }
+        [SerializeField]
+        TMP_InputField gotchiId;
 
-    async UniTaskVoid GetAavegotchiSvgAsync()
-    {
-        var rpc = "https://rpc-mainnet.matic.quiknode.pro";
-        
-        var web3 = new Web3(new UnityWebRequestRpcTaskClient(new Uri(rpc)));
+        [SerializeField]
+        TMP_Dropdown collateralDropdown;
 
-        var tokenId = int.Parse(gotchiId.text);
+        [SerializeField]
+        TMP_InputField[] traits;
 
-        var getAavegotchiSvg = new GetAavegotchiSvgFunction { TokenId = tokenId };
+        [SerializeField]
+        TMP_InputField[] equippedWearables;
 
-        var AAVEGOTCHI_DIAMOND_ADDRESS = "0x86935F11C86623deC8a25696E1C19a8659CbF95d";
+        [SerializeField]
+        TMP_InputField itemId;
 
-        var svc = new AavegotchiDiamondService(web3, AAVEGOTCHI_DIAMOND_ADDRESS);
+        [SerializeField]
+        string rpc = "https://rpc-mainnet.matic.quiknode.pro";
 
-        try
-        {            
-            if (img)
+        private Web3 web3_ = null;
+
+        Web3 web3 => web3_ ??= new Web3(new UnityWebRequestRpcTaskClient(new Uri(rpc)));
+
+        string AAVEGOTCHI_DIAMOND_ADDRESS = "0x86935F11C86623deC8a25696E1C19a8659CbF95d";
+
+        private AavegotchiDiamondService svc_ = null;
+
+        AavegotchiDiamondService svc => svc_ ??= new AavegotchiDiamondService(web3, AAVEGOTCHI_DIAMOND_ADDRESS);
+
+
+        private void Start()
+        {
+            gotchiId.text = "23202"; //Portal Defender
+
+            collateralDropdown.ClearOptions();
+            collateralDropdown.AddOptions(GotchiDataProvider.Instance.collateralDB.collaterals
+                .Select(c => new TMP_Dropdown.OptionData() { text = c.name }).ToList());
+
+            foreach (var trait in traits)
             {
-                img.sprite = null;
-                var svg = await svc.GetAavegotchiSvgQueryAsync(getAavegotchiSvg);
-                //Debug.Log("Got SVG: " + svg);
-                var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
-                img.sprite = sprite;
+                trait.text = "50";
             }
         }
-        catch (Exception e)
+
+        void ClearImages()
         {
-            Debug.Log("Error: " + e.Message);
+            for (int i = 0; i < images.Length; i++)
+            {
+                images[i].sprite = null;
+            }
         }
+
+        #region Styling
+
+        //TODO: another bug :(
+        //This is how the SVG's are styled in the minigame template
+        // See: https://github.com/aavegotchi/aavegotchi-minigame-template/blob/main/app/src/helpers/aavegotchi/index.ts
+        // Unfortunately, Unity doesn't like it when a style is used before it's defined
+        // We could fix this by moving the style to the top of the SVG
+        // OR we can fix the style code
+
+        static string RemoveBG(string svg)
+        {
+            return svg.Replace("<style>", "<style>.gotchi-bg,.wearable-bg{display:none;}");
+        }
+
+        static string RemoveShadow(string svg)
+        {
+            return svg.Replace("<style>", "<style>.gotchi-shadow{display:none;}");
+        }
+
+        #endregion Styling
+
+        public void GetAavegotchiSvg()
+        {
+            Debug.Log($"GetAavegotchiSvg({gotchiId.text})");
+            GetAavegotchiSvgAsync().Forget();
+        }
+
+        async UniTaskVoid GetAavegotchiSvgAsync()
+        {
+            var tokenId = int.Parse(gotchiId.text);
+
+            var getAavegotchiSvg = new GetAavegotchiSvgFunction { TokenId = tokenId };
+
+            try
+            {
+                ClearImages();
+                var svg = await svc.GetAavegotchiSvgQueryAsync(getAavegotchiSvg);
+                //Debug.Log("Got SVG: " + svg);
+                svg = RemoveBG(svg);
+                var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
+                images[0].sprite = sprite;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+        }
+
+        public void PreviewAavegotchi()
+        {
+            Debug.Log($"PreviewAavegotchi()");
+            PreviewAavegotchiAsync().Forget();
+        }
+
+        async UniTaskVoid PreviewAavegotchiAsync()
+        {
+            var previewAavegotchi = new PreviewAavegotchiFunction
+            {
+                HauntId = 1,
+                CollateralType = GotchiDataProvider.Instance.collateralDB.collaterals[collateralDropdown.value].collateralType,
+                NumericTraits = traits.Select(x => short.Parse(x.text)).ToList(),
+                EquippedWearables = equippedWearables.Select(x => ushort.Parse(x.text)).Concat(new ushort[8]).ToList(), //pad it out to 16
+            };
+
+            try
+            {
+                ClearImages();
+                var svg = await svc.PreviewAavegotchiQueryAsync(previewAavegotchi);
+                //Debug.Log("Got SVG: " + svg);
+                var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
+                images[0].sprite = sprite;
+
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+        }
+
+        //TODO: this is still pretty verbose, can we make it simpler?
+        //Also, we should probably cache the SVGs so we don't have to keep fetching them
+        //It's not my personal preference, but using the SVGs this way is do-able. 
+        //We need a nice way to set the styles
+        //Another thing to note is that Unity's SVG lib doesn't support all SVG features including animations
+
+        public void GetAavegotchiSideSvgs()
+        {
+            Debug.Log($"GetAavegotchiSideSvgs({gotchiId.text})");
+            GetAavegotchiSideSvgsAsync().Forget();
+        }
+
+        async UniTaskVoid GetAavegotchiSideSvgsAsync()
+        {
+            var tokenId = int.Parse(gotchiId.text);
+
+            var getAavegotchiSideSvgs = new GetAavegotchiSideSvgsFunction { TokenId = tokenId };
+
+            try
+            {
+                ClearImages();
+                var svgs = await svc.GetAavegotchiSideSvgsQueryAsync(getAavegotchiSideSvgs);
+                for (int i = 0; i < svgs.Count; i++)
+                {
+                    var svg = svgs[i];
+                    var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
+                    images[i].sprite = sprite;
+                }
+
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+        }
+
+        public void PreviewSideAavegotchi()
+        {
+            Debug.Log($"PreviewAavegotchi()");
+            PreviewSideAavegotchiAsync().Forget();
+        }
+
+        async UniTaskVoid PreviewSideAavegotchiAsync()
+        {
+            var previewAavegotchi = new PreviewSideAavegotchiFunction
+            {
+                HauntId = 1,
+                CollateralType = GotchiDataProvider.Instance.collateralDB.collaterals[collateralDropdown.value].collateralType,
+                NumericTraits = traits.Select(x => short.Parse(x.text)).ToList(),
+                EquippedWearables = equippedWearables.Select(x => ushort.Parse(x.text)).Concat(new ushort[8]).ToList(), //pad it out to 16
+            };
+
+            try
+            {
+                ClearImages();
+                var svgs = await svc.PreviewSideAavegotchiQueryAsync(previewAavegotchi);
+                for (int i = 0; i < svgs.Count; i++)
+                {
+                    var svg = svgs[i];
+                    var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
+                    images[i].sprite = sprite;
+                }
+
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+        }
+
+        public void GetSvg()
+        {
+            Debug.Log($"GetSvg()");
+            GetSvgAsync().Forget();
+        }
+
+        async UniTaskVoid GetSvgAsync()
+        {
+            var getSvg = new GetSvgFunction { SvgType = Encoding.UTF8.GetBytes("portal-closed"), ItemId = 1 };
+
+            try
+            {
+                ClearImages();
+                var svg = await svc.GetSvgQueryAsync(getSvg);
+                Debug.Log("Got SVG: " + svg);
+                var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
+                images[0].sprite = sprite;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+        }
+
+
+        public void GetItemSvg()
+        {
+            Debug.Log($"GetItemSvg()");
+            GetItemSvgAsync().Forget();
+        }
+
+        async UniTaskVoid GetItemSvgAsync()
+        {
+            var getItemSvg = new GetItemSvgFunction { ItemId = int.Parse(itemId.text) };
+
+            try
+            {
+                ClearImages();
+                var svg = await svc.GetItemSvgQueryAsync(getItemSvg);
+                Debug.Log("Got SVG: " + svg);
+                var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
+                images[0].sprite = sprite;
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+        }
+
+        public void GetItemSvgs()
+        {
+            Debug.Log($"GetItemSideSvgs()");
+            GetItemSvgsAsync().Forget();
+        }
+
+        async UniTaskVoid GetItemSvgsAsync()
+        {
+            var getItemSvgs = new GetItemSvgsFunction { ItemId = int.Parse(itemId.text) };
+
+            try
+            {
+                ClearImages();
+                var svgs = await svc.GetItemSvgsQueryAsync(getItemSvgs);
+                for (int i = 0; i < svgs.Count; i++)
+                {
+                    var svg = svgs[i];
+                    Debug.Log("Got SVG: " + svg);
+                    var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
+                    images[i].sprite = sprite;
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+        }
+
     }
 }

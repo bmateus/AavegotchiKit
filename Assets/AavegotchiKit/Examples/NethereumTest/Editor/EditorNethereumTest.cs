@@ -5,30 +5,34 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-public class EditorTestNethereum : MonoBehaviour
+namespace PortalDefender.AavegotchiKit.Examples
 {
-    [MenuItem("AavegotchiKit/Examples/Test/EditorTestNethereum")]
-    static async void DoStuff()
+
+    public class EditorTestNethereum : MonoBehaviour
     {
-        Debug.Log("EditorTestNethereum.DoStuff()");
-
-        var web3 = new Web3("https://rpc-mainnet.matic.quiknode.pro");
-
-        var getAavegotchiSvg = new GetAavegotchiSvgFunction { TokenId = 100 };
-
-        var AAVEGOTCHI_DIAMOND_ADDRESS = "0x86935F11C86623deC8a25696E1C19a8659CbF95d";
-
-        var svc = new AavegotchiDiamondService(web3, AAVEGOTCHI_DIAMOND_ADDRESS);
-
-        try
+        [MenuItem("AavegotchiKit/Examples/Test/EditorTestNethereum")]
+        static async void DoStuff()
         {
-            var svg = await svc.GetAavegotchiSvgQueryAsync(getAavegotchiSvg);
-            Debug.Log("SVG: " + svg);
-        }
-        catch (Exception e)
-        {
-            Debug.Log("Error: " + e.Message);
-        }
+            Debug.Log("EditorTestNethereum.DoStuff()");
 
+            var web3 = new Web3("https://rpc-mainnet.matic.quiknode.pro");
+
+            var getAavegotchiSvg = new GetAavegotchiSvgFunction { TokenId = 100 };
+
+            var AAVEGOTCHI_DIAMOND_ADDRESS = "0x86935F11C86623deC8a25696E1C19a8659CbF95d";
+
+            var svc = new AavegotchiDiamondService(web3, AAVEGOTCHI_DIAMOND_ADDRESS);
+
+            try
+            {
+                var svg = await svc.GetAavegotchiSvgQueryAsync(getAavegotchiSvg);
+                Debug.Log("SVG: " + svg);
+            }
+            catch (Exception e)
+            {
+                Debug.Log("Error: " + e.Message);
+            }
+
+        }
     }
 }
