@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7544f1907c44b1394f70c35d12caec5, type: 3}
   m_Name: AavegotchiCore_GraphConfig
   m_EditorClassIdentifier: 
-  Endpoint: https://api.thegraph.com/subgraphs/name/aavegotchi/aavegotchi-core-matic
+  Endpoint: https://subgraph.satsuma-prod.com/tWYl5n5y04oz/aavegotchi/aavegotchi-core-matic/api
   Files:
   - {fileID: -2997410325540601474, guid: c4e8b542a4dc362479c8d525cdf99abb, type: 3}
   - {fileID: -2997410325540601474, guid: b90c344d0af15184f8bf0cc8e763ddfa, type: 3}
