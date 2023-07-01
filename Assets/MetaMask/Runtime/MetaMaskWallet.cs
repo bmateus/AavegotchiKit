@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -660,20 +661,30 @@ namespace MetaMask
         /// <summary>Handles the event that is fired when an Account changed event is received.</summary>
         /// <param name="data">The event data.</param>
         protected void OnAccountsChanged(JsonElement accounts)
-        {
-            MetaMaskDebug.Log("Account changed");
+        {            
+            MetaMaskDebug.Log("Account changed:" + accounts.ToString());
             try
             {
+                this.selectedAddress = string.Empty;
+                
                 this.selectedAddress = accounts[0].ToString();
+                
                 AccountChanged?.Invoke(this, EventArgs.Empty);
+
                 if (this.paused)
                 {
                     OnWalletReady();
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                this.selectedAddress = string.Empty;
+                MetaMaskDebug.LogException(ex);
+
+                //Fix: don't set the address to empty here!
+                //If something in the callbacks throws an exception
+                //The address gets cleared and it's really hard to find out why
+
+                //this.selectedAddress = string.Empty;
             }
         }
 
