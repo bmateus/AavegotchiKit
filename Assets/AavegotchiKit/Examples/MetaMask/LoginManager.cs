@@ -64,6 +64,8 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 
         public static event Action<LoginState> LoginStateChanged;
 
+        public bool IsLoggedIn => state_ == LoginState.LoggedIn;
+
         // Only used for Android and iOS
 #pragma warning disable CS0067
         public static event Action ShowConnectMobile; //TODO: additional flow for mobile
