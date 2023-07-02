@@ -633,8 +633,8 @@ provider.ready.then(async () => {
 	// console.log(db.wearables[0])
 
 	// 4) Get new items
-	await getWearables(263);
-	fs.writeFile('./aavegotchi_db_wearables_2.json', JSON.stringify(db.wearables), 'utf8', (err)=> console.log(err));
+	await getWearables(315);
+	fs.writeFile('./aavegotchi_db_wearables_3.json', JSON.stringify(db.wearables), 'utf8', (err)=> console.log(err));
 	
 
 
