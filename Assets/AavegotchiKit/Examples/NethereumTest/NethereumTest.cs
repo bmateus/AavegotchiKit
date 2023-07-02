@@ -45,6 +45,7 @@ namespace PortalDefender.AavegotchiKit.Examples
 
         AavegotchiDiamondService svc => svc_ ??= new AavegotchiDiamondService(web3, AAVEGOTCHI_DIAMOND_ADDRESS);
 
+        GotchiSvgStyling styling_;
 
         private void Start()
         {
@@ -58,6 +59,9 @@ namespace PortalDefender.AavegotchiKit.Examples
             {
                 trait.text = "50";
             }
+
+            styling_ = new GotchiSvgStyling() { RemoveShadow = true, RemoveBackground = true };
+
         }
 
         void ClearImages()
@@ -67,27 +71,6 @@ namespace PortalDefender.AavegotchiKit.Examples
                 images[i].sprite = null;
             }
         }
-
-        #region Styling
-
-        //TODO: another bug :(
-        //This is how the SVG's are styled in the minigame template
-        // See: https://github.com/aavegotchi/aavegotchi-minigame-template/blob/main/app/src/helpers/aavegotchi/index.ts
-        // Unfortunately, Unity doesn't like it when a style is used before it's defined
-        // We could fix this by moving the style to the top of the SVG
-        // OR we can fix the style code
-
-        static string RemoveBG(string svg)
-        {
-            return svg.Replace("<style>", "<style>.gotchi-bg,.wearable-bg{display:none;}");
-        }
-
-        static string RemoveShadow(string svg)
-        {
-            return svg.Replace("<style>", "<style>.gotchi-shadow{display:none;}");
-        }
-
-        #endregion Styling
 
         public void GetAavegotchiSvg()
         {
@@ -105,8 +88,8 @@ namespace PortalDefender.AavegotchiKit.Examples
             {
                 ClearImages();
                 var svg = await svc.GetAavegotchiSvgQueryAsync(getAavegotchiSvg);
-                //Debug.Log("Got SVG: " + svg);
-                svg = RemoveBG(svg);
+                //Debug.Log("Got SVG: " + svg);                 
+                svg = styling_.CustomizeSVG(svg);
                 var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                 images[0].sprite = sprite;
             }
@@ -137,6 +120,7 @@ namespace PortalDefender.AavegotchiKit.Examples
                 ClearImages();
                 var svg = await svc.PreviewAavegotchiQueryAsync(previewAavegotchi);
                 //Debug.Log("Got SVG: " + svg);
+                svg = styling_.CustomizeSVG(svg);
                 var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                 images[0].sprite = sprite;
 
@@ -172,6 +156,7 @@ namespace PortalDefender.AavegotchiKit.Examples
                 for (int i = 0; i < svgs.Count; i++)
                 {
                     var svg = svgs[i];
+                    svg = styling_.CustomizeSVG(svg);
                     var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                     images[i].sprite = sprite;
                 }
@@ -206,6 +191,7 @@ namespace PortalDefender.AavegotchiKit.Examples
                 for (int i = 0; i < svgs.Count; i++)
                 {
                     var svg = svgs[i];
+                    svg = styling_.CustomizeSVG(svg);
                     var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                     images[i].sprite = sprite;
                 }
