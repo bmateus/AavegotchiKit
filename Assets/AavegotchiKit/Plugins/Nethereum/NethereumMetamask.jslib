@@ -19,7 +19,7 @@
             return null;
         }
     },
-    EthereumInit: function(gameObjectName, callBackAccountChange, callBackChainChange){
+     EthereumInit: function(gameObjectName, callBackAccountChange, callBackChainChange){
         const parsedObjectName = UTF8ToString(gameObjectName);
         const parsedCallbackAccountChange = UTF8ToString(callBackAccountChange);
         const parsedCallbackChainChange = UTF8ToString(callBackChainChange);
@@ -29,8 +29,8 @@
                 function (accounts) {
                     //console.log(accounts[0]);
                     let account = "";
-                    if(account[0] !== undefined){
-                        account = account[0];
+                    if(accounts[0] !== undefined){
+                        account = accounts[0];
                     }
                     nethereumUnityInstance.SendMessage(parsedObjectName, parsedCallbackAccountChange, account);
                 });
@@ -74,7 +74,7 @@
         const parsedFallback = UTF8ToString(fallback);
         let parsedMessage = JSON.parse(parsedMessageStr);
         try {
-            //console.log(parsedMessage);
+            console.log(parsedMessage);
             const response = await ethereum.request(parsedMessage);
             let rpcResponse = {
                 jsonrpc: "2.0",
@@ -82,7 +82,7 @@
                 id: parsedMessage.id,
                 error: null
             }
-            //console.log(rpcResponse);
+            console.log(rpcResponse);
 
             var json = JSON.stringify(rpcResponse);
             //console.log(json);
@@ -101,14 +101,35 @@
             return json;
         }
     },
-
+     EthereumInitRpcClientCallback: function(callBackAccountChange, callBackChainChange) {   
+        ethereum.on("accountsChanged",
+                function (accounts) {
+                    let account = "";
+                    if(accounts[0] !== undefined){
+                        account = accounts[0];
+                    }
+                    var len = lengthBytesUTF8(account) + 1;
+                    var strPtr = _malloc(len);
+                    stringToUTF8(account, strPtr, len);
+                    Module.dynCall_vi(callBackAccountChange, strPtr);
+                });
+        ethereum.on("chainChanged",
+                function (chainId) {
+                    var len = lengthBytesUTF8(chainId.toString()) + 1;
+                    var strPtr = _malloc(len);
+                    stringToUTF8(chainId.toString(), strPtr, len);
+                    Module.dynCall_vi(callBackChainChange, strPtr);
+                });
+    },
     RequestRpcClientCallback: async function (callback, message) {
         const parsedMessageStr = UTF8ToString(message);
         const parsedCallback = UTF8ToString(callback);
+      
+        console.log(parsedCallback);
         let parsedMessage = JSON.parse(parsedMessageStr);
         try {
             
-            //console.log(parsedMessage);
+            console.log(parsedMessage);
             const response = await ethereum.request(parsedMessage);
             let rpcResponse = {
                 jsonrpc: "2.0",
@@ -116,19 +137,18 @@
                 id: parsedMessage.id,
                 error: null
             }
-            //console.log(rpcResponse);
+            console.log(rpcResponse);
 
             var json = JSON.stringify(rpcResponse);
-            //console.log(json);
+            console.log(json);
            
             var len = lengthBytesUTF8(json) + 1;
             var strPtr = _malloc(len);
             stringToUTF8(json, strPtr, len);
             Module.dynCall_vi(callback, strPtr);
 
-            return json;
         } catch (e) {
-            //console.log(e);
+            console.log(e);
             let rpcResonseError = {
                 jsonrpc: "2.0",
                 id: parsedMessage.id,
@@ -137,7 +157,7 @@
                 }
             }
             var json = JSON.stringify(rpcResonseError);
-            //console.log(json);
+            console.log(json);
             var len = lengthBytesUTF8(json) + 1;
             var strPtr = _malloc(len);
             stringToUTF8(json, strPtr, len);
@@ -145,5 +165,4 @@
             Module.dynCall_vi(callback, strPtr);
         }
     }
-
 });

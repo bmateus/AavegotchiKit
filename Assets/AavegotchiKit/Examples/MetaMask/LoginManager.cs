@@ -12,6 +12,9 @@ using Cysharp.Threading.Tasks;
 using Nethereum.Web3;
 using MetaMask.NEthereum;
 using Nethereum.Hex.HexTypes;
+using Nethereum.Unity.Metamask;
+using Nethereum.Metamask;
+using SimpleGraphQL;
 
 namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 {
@@ -67,21 +70,66 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 #pragma warning restore CS0067
 
         //Login Manager events to listen for
-        public static event Action<string> WalletReceived;
-        public static event Action<string> BalanceReceived;
+        public static event Action<string> WalletChanged;
+        public static event Action<string> BalanceChanged;
         public static event Action LoggedIn;
         public static event Action LoggedOut;
         public static event Action<string> LoginError;
+        public static event Action<string> ChainChanged;
 
         [Header("MetaMask")]
         [SerializeField]
         private MetaMaskUnity MetaMaskObj;
-                
+
+        private MetamaskHostProvider MetaMaskHost_;
+
         [SerializeField]
         GameObject LoginScreen;
 
         //true if using the browser extension flow for metamask
         private bool usingExtensionFlow_ = false;
+        
+        private string selectedAddress_;
+        public string SelectedAddress
+        {
+            get
+            {
+                if (usingExtensionFlow_)
+                    return selectedAddress_;
+                else
+                    return MetaMaskObj.Wallet.SelectedAddress;
+            }
+        }
+
+
+        private string selectedChainId_;
+        public string SelectedChainId
+        {
+            get
+            {
+                if (usingExtensionFlow_)
+                    return selectedChainId_;
+                else
+                    return MetaMaskObj.Wallet.SelectedChainId;
+            }
+        }
+
+        private IWeb3 web3_;
+        public async UniTask<IWeb3> GetWeb3Async()
+        {
+            if (web3_ == null)
+            {
+                if (usingExtensionFlow_)
+                {
+                    await MetaMaskHost_.EnableProviderAsync();
+                    web3_ = await MetaMaskHost_.GetWeb3Async();
+                        
+                }
+                else
+                    web3_ = MetaMaskObj.Wallet.CreateWeb3();
+            }
+            return web3_;   
+        }
 
         private LoginData loginData_;
 
@@ -107,6 +155,13 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
                 Debug.LogError("LoginData not found!");
             }
 
+#if UNITY_WEBGL && !UNITY_EDITOR
+            MetaMaskHost_ = MetamaskWebglHostProvider.CreateOrGetCurrentInstance();
+            MetaMaskHost_.SelectedAccountChanged += MetaMaskHost_SelectedAccountChanged;
+            MetaMaskHost_.NetworkChanged += MetaMaskHost_NetworkChanged;
+            MetaMaskHost_.AvailabilityChanged += MetaMaskHost_AvailabilityChanged;
+            MetaMaskHost_.EnabledChanged += MetaMaskHost_EnabledChanged;
+#endif
             // Sign up for wallet events
             MetaMaskObj.Initialize();
             MetaMaskObj.Wallet.WalletConnected += WalletConnected;
@@ -147,7 +202,7 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
             if (MetamaskWebglInterop.IsMetamaskAvailable()) //is the browser extension installed?
             {
                 usingExtensionFlow_ = true;
-                MetamaskWebglInterop.EnableEthereum(gameObject.name, nameof(EthereumEnabled), nameof(DisplayError));
+                MetamaskWebglInterop.EnableEthereum(gameObject.name, nameof(cbEthereumEnabled), nameof(cbDisplayError));
             }
 #endif
             if (!usingExtensionFlow_)
@@ -161,10 +216,10 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
             Debug.Log("LoginManager::LogOut");
 
 #if UNITY_WEBGL && !UNITY_EDITOR
-            if (usingExtensionFlow_)
-            {
-                MetamaskWebglInterop.DisableEthereum(gameObject.name, nameof(DisplayError));
-            }
+            //if (usingExtensionFlow_)
+            //{
+            //    MetamaskWebglInterop.DisableEthereum(gameObject.name, nameof(DisplayError));
+            //}
 #endif
             if (!usingExtensionFlow_)
             {
@@ -175,26 +230,68 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
         #region WebGL Extension Methods
 
 #if UNITY_WEBGL && !UNITY_EDITOR
+        
+        //MetamaskWebglInterop callback for EnableEthereum
+        public void cbEthereumEnabled(string addressSelected)
+        {            
+            selectedAddress_ = addressSelected;
+            WalletChanged?.Invoke(selectedAddress_);
+            //set up callbacks for ethereum events
+            MetamaskWebglInterop.EthereumInit(gameObject.name, nameof(cbWalletChanged), nameof(cbChainChanged));
+            MetamaskWebglInterop.GetChainId(gameObject.name, nameof(cbChainChanged), nameof(cbDisplayError));
 
-        public void DisplayError(string errorMessage)
+            SendBalanceRequest().Forget();
+            SendSignRequest().Forget();
+        }
+
+        public void cbDisplayError(string errorMessage)
         {
+            Debug.LogError($"LoginManager::DisplayError {errorMessage}");
             LoginError?.Invoke(errorMessage);
         }
 
-        public void EthereumEnabled(string addressSelected)
+        public void cbWalletChanged(string walletAddress)
         {
-            if (!_isMetamaskInitialised)
-            {
-                MetamaskWebglInterop.EthereumInit(gameObject.name, nameof(NewAccountSelected), nameof(ChainChanged));
-                MetamaskWebglInterop.GetChainId(gameObject.name, nameof(ChainChanged), nameof(DisplayError));
-                _isMetamaskInitialised = true;
-            }
-            NewAccountSelected(addressSelected);
+            Debug.Log($">>>>> LoginManager::_WalletChanged {walletAddress}");
+            WalletChanged?.Invoke(walletAddress);
+        }
+
+        public void cbChainChanged(string chainId)
+        {
+            selectedChainId_ = chainId;
+            Debug.Log($">>>>> LoginManager::_ChainChanged {chainId}");
+            ChainChanged?.Invoke(chainId);
+        }
+
+        Task MetaMaskHost_SelectedAccountChanged(string account)
+        {
+            selectedAddress_ = account;
+            WalletChanged?.Invoke(selectedAddress_);
+            Debug.Log($">>>>> LoginManager::MetaMaskHost_SelectedAccountChanged {account}");
+            return Task.CompletedTask;
+        }
+
+        Task MetaMaskHost_NetworkChanged(long network)
+        {
+            Debug.Log($">>>>> LoginManager::MetaMaskHost_NetworkChanged {network}");
+            return Task.CompletedTask;
+        }
+
+        Task MetaMaskHost_AvailabilityChanged(bool available)
+        {
+            Debug.Log($">>>>> LoginManager::MetaMaskHost_AvailabilityChanged {available}");
+            return Task.CompletedTask;
+        }
+
+        Task MetaMaskHost_EnabledChanged(bool enabled)
+        {
+            Debug.Log($">>>>> LoginManager::MetaMaskHost_EnabledChanged {enabled}");
+            return Task.CompletedTask;
         }
 
 #endif
 
-#endregion WebGL Extension Methods
+        #endregion WebGL Extension Methods
 
         private void InitializeLoginScreen()
         {       
@@ -303,7 +400,7 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
         {
             Debug.Log($">>>>> LoginManager::AccountChanged: " + MetaMaskObj.Wallet.SelectedAddress);
 
-            WalletReceived?.Invoke(MetaMaskObj.Wallet.SelectedAddress);
+            WalletChanged?.Invoke(MetaMaskObj.Wallet.SelectedAddress);
             //TODO: re-sign?
         }   
 
@@ -312,94 +409,36 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 
         private async UniTaskVoid SendSignRequest()
         {
-            // Wait until the MetaMask SDK will set the wallet address 
-            // TODO: why!? it should be ready!!
-            while (string.IsNullOrEmpty(MetaMaskObj.Wallet.SelectedAddress))
+            var signMessage = new SendSignRequest(SelectedAddress, 
+                loginData_.GetSignMessageJson(SelectedAddress, ChainId));
+
+            var web3 = await GetWeb3Async();
+            if (await signMessage.Send(web3))
             {
-                Debug.Log("Waiting for MetaMask SDK to set the wallet address");
-                await Task.Delay(100);
-            }
-
-            Debug.Log("LoginManager::SendSignRequest");
-
-            // Getting the EIP-712: Typed structured data for the signing message
-            string signingMessage = loginData_.GetSignMessageJson(MetaMaskObj.Wallet.SelectedAddress, ChainId);
-
-            object paramsArray = new[] { MetaMaskObj.Wallet.SelectedAddress, signingMessage };
-
-            var request = new MetaMaskEthereumRequest
-            {
-                Method = "eth_signTypedData_v4",
-                Parameters = paramsArray,
-            };
-
-            var response = await MetaMaskObj.Wallet.Request(request);
-
-            try
-            {
-                var success = ValidateSignTransaction(signingMessage, response.ToString());
-                if (!success)
-                {
-                    Debug.LogError("Unable to validate sign transaction message");
-                    return;
-                }
-
                 state_ = LoginState.LoggedIn;
                 LoginStateChanged?.Invoke(state_);
 
                 LoggedIn?.Invoke();
-
             }
-            catch (Exception ex) 
-            { 
-                Debug.LogException(ex);
-            }
-        }
-
-        private bool ValidateSignTransaction(string message, string signature)
-        {
-            var addressRecovered = Eip712TypedDataSigner.Current.RecoverFromSignatureV4(message, signature).ToLower();
-
-            if (addressRecovered == MetaMaskObj.Wallet.SelectedAddress)
+            else
             {
-                return true;
+                Debug.LogError("Unable to validate sign transaction message");
             }
 
-            Debug.LogError($"The message was signed by the wrong person.\n" +
-                           $"Expected wallet: {MetaMaskObj.Wallet.SelectedAddress}\n" +
-                           $"Recovered: {addressRecovered}");
-            return false;
         }
+
+       
 
         private async UniTaskVoid SendBalanceRequest()
         {
-            // Wait until the MetaMask SDK will set the wallet address 
-            // TODO: why!? it should be ready!!
-            while (string.IsNullOrEmpty(MetaMaskObj.Wallet.SelectedAddress))
             {
-                Debug.Log("Waiting for MetaMask SDK to set the wallet address");
-                await Task.Delay(100);
+                var balanceRequest = new SendBalanceRequest(SelectedAddress);
+                var web3 = await GetWeb3Async();
+                var balance = await balanceRequest.Send(web3);
+                BalanceChanged?.Invoke(balance.ToString());
             }
 
-            try
-            {
-                //Try doing it with Nethereum
-
-                Web3 web3 = MetaMaskObj.Wallet.CreateWeb3();
-                Debug.Log("Try to get balance of " + MetaMaskObj.Wallet.SelectedAddress);
-                var result = await web3.Eth.GetBalance.SendRequestAsync(MetaMaskObj.Wallet.SelectedAddress);
-                Debug.Log("Got result: " + result.ToString());
-                var balance = Web3.Convert.FromWei(result);
-                Debug.Log($"LoginManager::WalletReady - Balance: {balance}");
-                BalanceReceived?.Invoke(balance.ToString());
-                
-            }
-            catch(Exception ex)
-            {
-                Debug.LogError($"LoginManager::WalletReady - Error getting balance: {ex.Message}");
-                Debug.LogException(ex);
-            }
-
+            /*
             await UniTask.Delay(1000);
 
             try
@@ -418,13 +457,14 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
                 // to get the real value
                 Debug.Log("Got response: " + response.ToString());
                 var balance = Web3.Convert.FromWei(new HexBigInteger(response.ToString())); 
-                BalanceReceived?.Invoke(balance.ToString());
+                BalanceChanged?.Invoke(balance.ToString());
             }
             catch (Exception ex)
             {
                 Debug.LogError($"Exception was caught while getting balance response.\n{ex.Message}");
-                BalanceReceived?.Invoke("0");
+                BalanceChanged?.Invoke("0");
             }
+            */
         }
         
         private void EthereumRequestResultReceived(object sender, MetaMaskEthereumRequestResultEventArgs e)

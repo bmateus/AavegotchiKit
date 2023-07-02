@@ -27,12 +27,12 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
             LoginManager.LoggedIn += () => SetLoggedIn(true);
             LoginManager.LoggedOut += () => SetLoggedIn(false);
 
-            LoginManager.WalletReceived += (wallet) =>
+            LoginManager.WalletChanged += (wallet) =>
             {
                 address_.text = wallet.Substring(2,6) + "..." + wallet.Substring(wallet.Length-4);
             };
 
-            LoginManager.BalanceReceived += (balance) =>
+            LoginManager.BalanceChanged += (balance) =>
             {
                 //display balance to two decimals
                 balance_.text = balance.Substring(0, balance.IndexOf(".") == -1 ? balance.Length : balance.IndexOf(".") + 3);
