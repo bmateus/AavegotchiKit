@@ -1339,9 +1339,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Eyes
-
-'
+  m_text: Slot 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
   m_sharedMaterial: {fileID: 5458507968645339621, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
@@ -1645,7 +1643,7 @@ GameObject:
   - component: {fileID: 145378762}
   - component: {fileID: 145378764}
   m_Layer: 5
-  m_Name: InputField - R Hand
+  m_Name: InputField - Slot 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3606,7 +3604,7 @@ GameObject:
   - component: {fileID: 434325654}
   - component: {fileID: 434325652}
   m_Layer: 5
-  m_Name: InputField - BG
+  m_Name: InputField - Slot 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4909,7 +4907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'L Hand
+  m_text: 'slot 5
 
 '
   m_isRightToLeft: 0
@@ -5136,7 +5134,7 @@ GameObject:
   - component: {fileID: 706429815}
   - component: {fileID: 706429814}
   m_Layer: 5
-  m_Name: Slot - L Hand
+  m_Name: Slot - 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5363,7 +5361,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'BG
+  m_text: 'Slot 8
 
 '
   m_isRightToLeft: 0
@@ -6118,7 +6116,7 @@ GameObject:
   - component: {fileID: 811120932}
   - component: {fileID: 811120931}
   m_Layer: 5
-  m_Name: Slot - Body
+  m_Name: Slot - 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6503,9 +6501,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Head
-
-'
+  m_text: Slot 4
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
   m_sharedMaterial: {fileID: 5458507968645339621, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
@@ -7232,7 +7228,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Pet
+  m_text: 'Slot 7
 
 '
   m_isRightToLeft: 0
@@ -7911,7 +7907,7 @@ GameObject:
   - component: {fileID: 982212446}
   - component: {fileID: 982212445}
   m_Layer: 5
-  m_Name: Slot - Head
+  m_Name: Slot - 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8733,7 +8729,7 @@ GameObject:
   - component: {fileID: 1069807517}
   - component: {fileID: 1069807516}
   m_Layer: 5
-  m_Name: Slot - Face
+  m_Name: Slot - 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9059,7 +9055,7 @@ GameObject:
   - component: {fileID: 1119039030}
   - component: {fileID: 1119039032}
   m_Layer: 5
-  m_Name: InputField - Head
+  m_Name: InputField - Slot 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9363,7 +9359,7 @@ GameObject:
   - component: {fileID: 1182624460}
   - component: {fileID: 1182624459}
   m_Layer: 5
-  m_Name: Slot - Eyes
+  m_Name: Slot - 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10346,7 +10342,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'R Hand
+  m_text: 'Slot 6
 
 '
   m_isRightToLeft: 0
@@ -11134,7 +11130,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Face
+  m_text: Slot 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
   m_sharedMaterial: {fileID: 5458507968645339621, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
@@ -11403,7 +11399,7 @@ GameObject:
   - component: {fileID: 1449679689}
   - component: {fileID: 1449679691}
   m_Layer: 5
-  m_Name: InputField - L Hand
+  m_Name: InputField - Slot 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12113,7 +12109,7 @@ GameObject:
   - component: {fileID: 1530177463}
   - component: {fileID: 1530177462}
   m_Layer: 5
-  m_Name: Slot - R Hand
+  m_Name: Slot - 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12530,7 +12526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Body
+  m_text: Slot 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
   m_sharedMaterial: {fileID: 5458507968645339621, guid: 8749851d95a2a8b4dbaf660c87f2def2, type: 2}
@@ -13520,7 +13516,7 @@ GameObject:
   - component: {fileID: 1735679361}
   - component: {fileID: 1735679360}
   m_Layer: 5
-  m_Name: Slot - Pet
+  m_Name: Slot - 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13622,7 +13618,7 @@ GameObject:
   - component: {fileID: 1737717966}
   - component: {fileID: 1737717968}
   m_Layer: 5
-  m_Name: InputField - Eyes
+  m_Name: InputField - Slot 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14376,7 +14372,7 @@ GameObject:
   - component: {fileID: 1842943666}
   - component: {fileID: 1842943665}
   m_Layer: 5
-  m_Name: Slot - BG
+  m_Name: Slot - 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15840,7 +15836,7 @@ GameObject:
   - component: {fileID: 2043700507}
   - component: {fileID: 2043700509}
   m_Layer: 5
-  m_Name: InputField - Face
+  m_Name: InputField - Slot 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16327,7 +16323,7 @@ GameObject:
   - component: {fileID: 2062308059}
   - component: {fileID: 2062308061}
   m_Layer: 5
-  m_Name: InputField - Pet
+  m_Name: InputField - Slot 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17103,7 +17099,7 @@ GameObject:
   - component: {fileID: 2132580795}
   - component: {fileID: 2132580797}
   m_Layer: 5
-  m_Name: InputField - Body
+  m_Name: InputField - Slot 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
