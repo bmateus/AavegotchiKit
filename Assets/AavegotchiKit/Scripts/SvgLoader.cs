@@ -194,6 +194,7 @@ public class SvgLoader
         if (sceneInfo.Scene == null || sceneInfo.Scene.Root == null)
             throw new Exception("Wowzers!");
 
+
         var tessOptions = new VectorUtils.TessellationOptions()
         {
             StepDistance = stepDistance,
@@ -203,6 +204,13 @@ public class SvgLoader
         };
 
         var geoms = VectorUtils.TessellateScene(sceneInfo.Scene, tessOptions, sceneInfo.NodeOpacity);
+
+        if (geoms.Count == 0)
+        {
+            //Debug.Log("No Geoms?");
+            //Unity doesn't like making sprites with no geometry
+            return null;
+        }
 
         Sprite sprite = null;
         //if (preserveViewPort)

@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
@@ -134,10 +133,17 @@ namespace PortalDefender.AavegotchiKit
                 var PPU = 75.0f; //SVG pixels per unit should match what is in SvgLoader
 
                 var sprite = wearable.data.GetSprite(HandPose, Facing);
+                
+                wearable.spriteRenderer.sprite = sprite;
+
+                if (sprite == null)
+                {
+                    // Some sprites might be null if they are not supported for the current hand pose and facing
+                    continue;
+                }
+
                 var halfSpriteWidth = sprite.rect.width / 2f;
                 var halfSpriteHeight = sprite.rect.height / 2f;
-
-                wearable.spriteRenderer.sprite = sprite;
 
                 var offset = wearable.data.GetOffset(Facing); //offset from TOP LEFT
                 var offsetX = (-32f + offset.x + halfSpriteWidth) / PPU;

@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AavegotchiKit/Examples/NethereumTest/NethereumTest.unity
     guid: be7edd5ce5d0f3d43b385deed6f5d0c8
+  - enabled: 1
+    path: Assets/AavegotchiKit/Examples/GotchiController/GotchiController.unity
+    guid: ab7288a4649ca0e48b3e0612d0f7706b
+  - enabled: 1
+    path: Assets/AavegotchiKit/Examples/MetaMask/Metamask.unity
+    guid: 3a32397e35f26214db990c40fe772798
   m_configObjects: {}

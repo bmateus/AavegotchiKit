@@ -1,8 +1,10 @@
-using System;
 using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
+    // This class represents a gotchi in the game;
+    // It is the main interface for the game to interact with the gotchi
+    // A gotchi needs to be initialized with a GotchiData object before it can be used
     public class Gotchi : MonoBehaviour
     {
         GotchiData data;
