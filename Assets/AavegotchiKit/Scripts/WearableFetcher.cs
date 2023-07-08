@@ -23,12 +23,10 @@ namespace PortalDefender.AavegotchiKit
     {
         Web3 web3_;
 
-        Web3 Web3 => web3_ ??= new Web3("https://rpc-mainnet.matic.quiknode.pro");
-
-        string AAVEGOTCHI_DIAMOND_ADDRESS = "0x86935F11C86623deC8a25696E1C19a8659CbF95d";
+        Web3 Web3 => web3_ ??= new Web3(Constants.DefaultPolygonRPC);
 
         AavegotchiDiamondService diamondSvc_;
-        AavegotchiDiamondService GotchiDiamond => diamondSvc_ ??= new AavegotchiDiamondService(Web3, AAVEGOTCHI_DIAMOND_ADDRESS);
+        AavegotchiDiamondService GotchiDiamond => diamondSvc_ ??= new AavegotchiDiamondService(Web3, Constants.AavegotchiDiamondAddress);
 
         private async UniTask<string[]> GetWearableSvgs(int wearableId, uint svgId)
         {
@@ -99,13 +97,13 @@ namespace PortalDefender.AavegotchiKit
             return offsets.ToArray();
         }
 
-        // reads from sleeves in LibAppStorage
+        // reads from sleeves in AavegotchiDiamond's LibAppStorage
         //  mapping(uint256 => uint256) sleeves;
         private async UniTask<int> GetSleevesSvgId(int wearableId)
         {
             int SLEEVES_SLOT = 58;
             BigInteger position = new ABIEncode().GetSha3ABIEncoded(new ABIValue("int", wearableId), new ABIValue("int", SLEEVES_SLOT)).ToHex().HexToBigInteger(false);
-            var result = await Web3.Eth.GetStorageAt.SendRequestAsync(AAVEGOTCHI_DIAMOND_ADDRESS, position.ToHexBigInteger());
+            var result = await Web3.Eth.GetStorageAt.SendRequestAsync(Constants.AavegotchiDiamondAddress, position.ToHexBigInteger());
             return (int)new IntTypeDecoder().DecodeBigInteger(result);
         }
 
@@ -140,15 +138,15 @@ namespace PortalDefender.AavegotchiKit
                 wearable.id = wearableId;
                 wearable.name = itemData.Name;
                 wearable.description = itemData.Description;
-                //wearable.author = itemData.Author; //TODO: add
+                wearable.author = itemData.Author;
                 wearable.traitModifiers = Array.ConvertAll(itemData.TraitModifiers.ToArray(), Convert.ToInt32);
                 wearable.slotPositions = itemData.SlotPositions.ToArray();
                 //wearable.allowedCollaterals = itemData.AllowedCollaterals.ToArray(); //TODO:??investigate
                 wearable.dimensions = new int[] { itemData.Dimensions.X, itemData.Dimensions.Y, itemData.Dimensions.Width, itemData.Dimensions.Height }; //TODO: make this nicer
-                //wearable.rarity = (GotchiWearableRarity)item.RarityScoreModifier; //TODO: add
-                //wearable.minLevel = itemData.MinLevel; //TODO: add
+                wearable.rarity = (GotchiWearableRarity)itemData.RarityScoreModifier;
+                wearable.minLevel = itemData.MinLevel;
                 //wearable.svgId = itemData.SvgId; //only used for grabbing svgs
-                //wearable.category = itemData.Category; //TODO: add
+                wearable.category = itemData.Category;
                 wearable.svgs = await GetWearableSvgs(wearableId, itemData.SvgId);
                 wearable.offsets = await GetWearableOffsets(wearableId);
 

@@ -13,6 +13,7 @@ namespace PortalDefender.AavegotchiKit.Examples
         Vector2 currentVelocity_;
         Vector2 targetVelocity_;
 
+        float moveTime_;
         float decisionTime_;
 
         [SerializeField]
@@ -26,9 +27,18 @@ namespace PortalDefender.AavegotchiKit.Examples
 
         private void Update()
         {
+            if (moveTime_ > 0f)
+            {
+                moveTime_ -= Time.deltaTime;
+                if (moveTime_ <= 0f)
+                {
+                    targetVelocity_ = Vector2.zero;
+                }
+            }
+
             if (decisionTime_ <= 0f)
             {
-                decisionTime_ = Random.Range(0.5f, 2f);
+                decisionTime_ = Random.Range(0.5f, 1f);
 
                 bool shouldMove = Random.Range(0f, 1f) > 0.5f;
 
@@ -40,6 +50,8 @@ namespace PortalDefender.AavegotchiKit.Examples
 
                     //save the movement vector
                     targetVelocity_ = new Vector3(horizontal * speed_, vertical * speed_);
+
+                    moveTime_ = Random.Range(0.5f, 1f);
                 }
                 else
                 {

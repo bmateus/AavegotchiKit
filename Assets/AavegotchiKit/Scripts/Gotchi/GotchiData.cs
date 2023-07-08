@@ -12,6 +12,7 @@ namespace PortalDefender.AavegotchiKit
         public int level;
         public int kinship;
         public int status;
+        public string lastInteracted;
 
         public GotchiData()
         {

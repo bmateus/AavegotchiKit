@@ -21,6 +21,7 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
             {
                 if (state == LoginManager.LoginState.LoggedIn)
                 {
+                    //hide this once we're logged in
                     gameObject.SetActive(false);
                 }
                 else
@@ -31,6 +32,7 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
                 }
             };
 
+            //hide on startup
             gameObject.SetActive(false);
         }
         

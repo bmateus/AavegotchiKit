@@ -15,13 +15,11 @@ namespace PortalDefender.AavegotchiKit.Examples
         {
             Debug.Log("EditorTestNethereum.DoStuff()");
 
-            var web3 = new Web3("https://rpc-mainnet.matic.quiknode.pro");
+            var web3 = new Web3(Constants.DefaultPolygonRPC);
 
             var getAavegotchiSvg = new GetAavegotchiSvgFunction { TokenId = 100 };
 
-            var AAVEGOTCHI_DIAMOND_ADDRESS = "0x86935F11C86623deC8a25696E1C19a8659CbF95d";
-
-            var svc = new AavegotchiDiamondService(web3, AAVEGOTCHI_DIAMOND_ADDRESS);
+            var svc = new AavegotchiDiamondService(web3, Constants.AavegotchiDiamondAddress);
 
             try
             {

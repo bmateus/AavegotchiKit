@@ -32,18 +32,13 @@ namespace PortalDefender.AavegotchiKit.Examples
         [SerializeField]
         TMP_InputField itemId;
 
-        [SerializeField]
-        string rpc = "https://rpc-mainnet.matic.quiknode.pro";
-
         private Web3 web3_ = null;
 
-        Web3 web3 => web3_ ??= new Web3(new UnityWebRequestRpcTaskClient(new Uri(rpc)));
-
-        string AAVEGOTCHI_DIAMOND_ADDRESS = "0x86935F11C86623deC8a25696E1C19a8659CbF95d";
+        Web3 web3 => web3_ ??= new Web3(new UnityWebRequestRpcTaskClient(new Uri(Constants.DefaultPolygonRPC)));
 
         private AavegotchiDiamondService svc_ = null;
 
-        AavegotchiDiamondService svc => svc_ ??= new AavegotchiDiamondService(web3, AAVEGOTCHI_DIAMOND_ADDRESS);
+        AavegotchiDiamondService svc => svc_ ??= new AavegotchiDiamondService(web3, Constants.AavegotchiDiamondAddress);
 
         GotchiSvgStyling styling_;
 
