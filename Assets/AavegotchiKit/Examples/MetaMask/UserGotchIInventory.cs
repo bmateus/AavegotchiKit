@@ -58,7 +58,11 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
             }
             else
             {
-                LoginManager.LoggedIn += () => Populate().Forget();
+                LoginManager.LoggedIn += () =>
+                {
+                    selectedAddress_ = LoginManager.Instance.SelectedAddress;
+                    Populate().ContinueWith(CheckBlockNumber).Forget();
+                };
             }
 
             StartCoroutine(CheckBlockNumberLoop().ToCoroutine());
@@ -90,7 +94,7 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
         {
             var web3 = await GetWeb3();
             var blockNumber = await web3.Eth.Blocks.GetBlockNumber.SendRequestAsync();
-            Debug.Log("Current block number: " + blockNumber.ToString());
+            //Debug.Log("Current block number: " + blockNumber.ToString());
             
             //display it on the UI
             blockNumberLabel_.text = blockNumber.ToString();
@@ -137,18 +141,16 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
                 IWeb3 web3 = await LoginManager.Instance.GetWeb3Async();
                 //need a web3 that we can sign with
                 var diamondService = new AavegotchiDiamondService(web3, Constants.AavegotchiDiamondAddress);
-                var receipt = await diamondService.InteractRequestAndWaitForReceiptAsync(
-                    new InteractFunction
-                    {
-                        TokenIds = tokens
-                    });
+                var transactionId = await diamondService.InteractRequestAsync(tokens);
+                Debug.Log("Petting result: " + transactionId);
 
-                //if everything is ok, we can refresh the UI
-                if (receipt.Succeeded())
-                {
-                    //after we get the result, the graph might take a bit to catch up
-                    Populate().Forget();
-                }
+                //TODO: show a toast with the transaction info
+                
+                //if everything is ok, we can refresh the UI                
+                //TODO: after we get the result, the graph might take a bit to catch up
+                
+                Populate().Forget();
+                
             }
             catch (Exception e)
             {

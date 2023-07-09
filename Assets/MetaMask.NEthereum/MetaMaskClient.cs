@@ -34,15 +34,27 @@ namespace MetaMask.NEthereum
         {
             // Regenerate the NEthereum json-rpc id
             var id = GenerateRpcId();
-            var mapParameters = message.RawParameters as Dictionary<string, object>;
-            var arrayParameters = message.RawParameters as object[];
-            var rawParameters = message.RawParameters;
 
-            var rpcRequestMessage = mapParameters != null
-                ? new RpcRequestMessage(id, message.Method, mapParameters)
-                : arrayParameters != null
-                    ? new RpcRequestMessage(id, message.Method, arrayParameters)
-                    : new RpcRequestMessage(id, message.Method, rawParameters);
+            RpcRequestMessage rpcRequestMessage = null;
+
+            if (message.Method == "eth_signTypedData_v4" || message.Method == "personal_sign")
+            {
+                var arrayParameters = message.RawParameters as object[];
+                var parameters = new object[] { _metaMask.SelectedAddress, arrayParameters[0] };
+                rpcRequestMessage = new RpcRequestMessage(id, message.Method, parameters);
+            }
+            else
+            {
+                var mapParameters = message.RawParameters as Dictionary<string, object>;
+                var arrayParameters = message.RawParameters as object[];
+                var rawParameters = message.RawParameters;
+
+                rpcRequestMessage = mapParameters != null
+                    ? new RpcRequestMessage(id, message.Method, mapParameters)
+                    : arrayParameters != null
+                        ? new RpcRequestMessage(id, message.Method, arrayParameters)
+                        : new RpcRequestMessage(id, message.Method, rawParameters);
+            }
 
 
             try

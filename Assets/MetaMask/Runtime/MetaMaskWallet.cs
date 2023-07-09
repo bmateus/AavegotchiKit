@@ -265,15 +265,16 @@ namespace MetaMask
             };
             SendMessage(requestInfo, true);
 
-            var analyticsInfo = new MetaMaskAnalyticsInfo
-            {
-                Id = this.session.Data.ChannelId,
-                Event = TrackingEventRequest,
-                CommunicationLayerPreference = "socket",
-                SdkVersion = "0.2.0",
-                OriginatorInfo = originatorInfo
-            };
-            SendAnalytics(analyticsInfo);
+            
+            //var analyticsInfo = new MetaMaskAnalyticsInfo
+            //{
+            //    Id = this.session.Data.ChannelId,
+            //    Event = TrackingEventRequest,
+            //    CommunicationLayerPreference = "socket",
+            //    SdkVersion = "0.2.0",
+            //    OriginatorInfo = originatorInfo
+            //};
+            //SendAnalytics(analyticsInfo);
         }
 
         /// <summary>Called when the wallet is paused.</summary>
@@ -453,7 +454,7 @@ namespace MetaMask
             {
                 try
                 {
-                    MetaMaskDebug.Log("Encrypted message received");
+                    MetaMaskDebug.Log("Encrypted message received: " + message.ToString());
                     string decryptedJson;
                     try
                     {
@@ -469,7 +470,7 @@ namespace MetaMask
                         throw;
                     }
 
-                    MetaMaskDebug.Log(decryptedJson);
+                    MetaMaskDebug.Log("Decrypted JSON: " + decryptedJson);
                     var decryptedMessage = JsonDocument.Parse(decryptedJson).RootElement;
                     var decryptedMessageType = decryptedMessage.TryGetProperty("type", out var type)
                         ? type.ToString()
