@@ -12,10 +12,10 @@
             var bufferSize = lengthBytesUTF8(accounts[0]) + 1;
             var buffer = _malloc(bufferSize);
             stringToUTF8(accounts[0], buffer, bufferSize);
-            nethereumUnityInstance.SendMessage(parsedObjectName, parsedCallback, accounts[0]);
+            SendMessage(parsedObjectName, parsedCallback, accounts[0]);
             return buffer;
         } catch (error) {
-            nethereumUnityInstance.SendMessage(parsedObjectName, parsedFallback, error.message);
+            SendMessage(parsedObjectName, parsedFallback, error.message);
             return null;
         }
     },
@@ -32,12 +32,12 @@
                     if(accounts[0] !== undefined){
                         account = accounts[0];
                     }
-                    nethereumUnityInstance.SendMessage(parsedObjectName, parsedCallbackAccountChange, account);
+                    SendMessage(parsedObjectName, parsedCallbackAccountChange, account);
                 });
         ethereum.on("chainChanged",
                 function (chainId) {
                     // console.log(chainId);
-                    nethereumUnityInstance.SendMessage(parsedObjectName, parsedCallbackChainChange, chainId.toString());
+                    SendMessage(parsedObjectName, parsedCallbackChainChange, chainId.toString());
                 });
     },
     GetChainId: async function(gameObjectName, callback, fallback) {
@@ -47,10 +47,10 @@
           try {
            
             const chainId = await ethereum.request({ method: 'eth_chainId' });
-            nethereumUnityInstance.SendMessage(parsedObjectName, parsedCallback, chainId.toString());
+            SendMessage(parsedObjectName, parsedCallback, chainId.toString());
 
           } catch (error) {
-            nethereumUnityInstance.SendMessage(parsedObjectName, parsedFallback, error.message);
+            SendMessage(parsedObjectName, parsedFallback, error.message);
             return null;
          }
     },
@@ -86,7 +86,7 @@
 
             var json = JSON.stringify(rpcResponse);
             //console.log(json);
-            nethereumUnityInstance.SendMessage(parsedObjectName, parsedCallback, json);
+            SendMessage(parsedObjectName, parsedCallback, json);
             return json;
         } catch (e) {
             let rpcResonseError = {
@@ -97,7 +97,7 @@
                 }
             }
             var json =  JSON.stringify(rpcResonseError);
-            nethereumUnityInstance.SendMessage(parsedObjectName, parsedFallback, json);
+            SendMessage(parsedObjectName, parsedFallback, json);
             return json;
         }
     },

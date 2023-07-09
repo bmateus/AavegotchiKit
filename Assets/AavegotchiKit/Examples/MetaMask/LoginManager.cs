@@ -433,40 +433,10 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 
         private async UniTaskVoid SendBalanceRequest()
         {
-            {
-                var balanceRequest = new SendBalanceRequest(SelectedAddress);
-                var web3 = await GetWeb3Async();
-                var balance = await balanceRequest.Send(web3);
-                BalanceChanged?.Invoke(balance.ToString());
-            }
-
-            /*
-            await UniTask.Delay(1000);
-
-            try
-            {
-                //Try it with Wallet directly
-
-                var request = new MetaMaskEthereumRequest
-                {
-                    Method = "eth_getBalance",
-                    Parameters = new object[] { MetaMaskObj.Wallet.SelectedAddress, "latest" }
-                };
-
-                var response = await MetaMaskUnity.Instance.Wallet.Request(request);
-
-                // Convert balance response to string and shift it by 18 decimal points to the left
-                // to get the real value
-                Debug.Log("Got response: " + response.ToString());
-                var balance = Web3.Convert.FromWei(new HexBigInteger(response.ToString())); 
-                BalanceChanged?.Invoke(balance.ToString());
-            }
-            catch (Exception ex)
-            {
-                Debug.LogError($"Exception was caught while getting balance response.\n{ex.Message}");
-                BalanceChanged?.Invoke("0");
-            }
-            */
+            var balanceRequest = new SendBalanceRequest(SelectedAddress);
+            var web3 = await GetWeb3Async();
+            var balance = await balanceRequest.Send(web3);
+            BalanceChanged?.Invoke(balance.ToString());   
         }
         
         private void EthereumRequestResultReceived(object sender, MetaMaskEthereumRequestResultEventArgs e)
