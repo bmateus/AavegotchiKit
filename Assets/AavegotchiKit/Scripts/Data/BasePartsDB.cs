@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -33,7 +32,7 @@ namespace PortalDefender.AavegotchiKit
         
         public Sprite GetBodySprite(Collateral collateral, GotchiFacing facing)
         {
-            return SvgLoader.GetSvgLayerSprite($"body-{collateral.collateralType}-{facing}",
+            var sprite = SvgLoader.GetSvgLayerSprite($"body-{collateral.collateralType}-{facing}",
                 baseParts.body[(int)facing],
                 new SvgLoader.Options
                 {
@@ -44,11 +43,16 @@ namespace PortalDefender.AavegotchiKit
                     hideMouth = true,
                     hideShadow = true,
                 });
+
+            if (sprite == null)
+                Debug.LogError($"Failed to load body sprite for body-{collateral.collateralType}-{facing}!");
+
+            return sprite;
         }
 
         public Sprite GetHandsSprite(Collateral collateral, GotchiHandPose pose, GotchiFacing facing)
         {
-            return SvgLoader.GetSvgLayerSprite($"hands-{collateral.collateralType}-{pose}-{facing}",
+            var sprite = SvgLoader.GetSvgLayerSprite($"hands-{collateral.collateralType}-{pose}-{facing}",
                 baseParts.hands[(int)facing],
                 new SvgLoader.Options
                 {
@@ -59,6 +63,11 @@ namespace PortalDefender.AavegotchiKit
                     hideHandsDownClosed = pose != GotchiHandPose.DOWN_CLOSED,
                     hideHandsDownOpen = pose != GotchiHandPose.DOWN_OPEN
                 });
+
+            if (sprite == null)
+                Debug.LogError($"Failed to load hands sprite for hands-{collateral.collateralType}-{pose}-{facing}!");
+
+            return sprite;
         }
 
         //mouths are only visible from the front
@@ -75,13 +84,18 @@ namespace PortalDefender.AavegotchiKit
                     break;
             }
 
-            return SvgLoader.GetSvgLayerSprite($"mouth-{expression}-{collateral.collateralType}",
+            var sprite = SvgLoader.GetSvgLayerSprite($"mouth-{expression}-{collateral.collateralType}",
                 mouth[0],
                 new SvgLoader.Options
                 {
                     primary = collateral.PrimaryColor,
                     secondary = collateral.SecondaryColor
                 });
+
+            if (sprite == null)
+                Debug.LogError($"Failed to load mouth sprite for mouth-{expression}-{collateral.collateralType}!");
+
+            return sprite;
         }
 
         public Sprite GetSpecialEyes(Collateral collateral, GotchiEyeExpression expression)
@@ -102,13 +116,18 @@ namespace PortalDefender.AavegotchiKit
                     break;
             }
 
-            return SvgLoader.GetSvgLayerSprite($"specialEyes-{expression}-{collateral.collateralType}",
+            var sprite = SvgLoader.GetSvgLayerSprite($"specialEyes-{expression}-{collateral.collateralType}",
                 special[0],
                 new SvgLoader.Options
                 {
                     primary = collateral.PrimaryColor,
                     secondary = collateral.SecondaryColor
                 }) ;
+
+            if (sprite == null)
+                Debug.LogError($"Failed to load special eyes sprite for specialEyes-{expression}-{collateral.collateralType}!");
+
+            return sprite;
         }
 
         public Sprite GetShadowSprite(GotchiFacing facing)
@@ -118,12 +137,17 @@ namespace PortalDefender.AavegotchiKit
                 shadowIndex = 1;
 
 
-            return SvgLoader.GetSvgLayerSprite($"shadow-{shadowIndex}",
+            var sprite = SvgLoader.GetSvgLayerSprite($"shadow-{shadowIndex}",
                 baseParts.shadow[shadowIndex],
                 new SvgLoader.Options
                 { 
                     //customPivot = new Vector2(0.5f, 0.08f)
                 });
+
+            if (sprite == null)
+                Debug.LogError($"Failed to load shadow sprite for shadow-{shadowIndex}!");
+
+            return sprite;
         }
 
         [ContextMenu("Import Data")]

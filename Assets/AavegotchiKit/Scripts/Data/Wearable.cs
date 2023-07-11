@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using System;
 using UnityEngine;
 
@@ -16,7 +15,6 @@ namespace PortalDefender.AavegotchiKit
         public bool[] slotPositions;
         public string[] allowedCollaterals;
         public GotchiWearableRarity rarity;
-        public List<WearablePose> poses;
         public Vector2[] offsets;
         public int[] dimensions;
         public int minLevel;

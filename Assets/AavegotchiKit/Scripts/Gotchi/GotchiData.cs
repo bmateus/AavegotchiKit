@@ -11,7 +11,7 @@ namespace PortalDefender.AavegotchiKit
         public int[] equippedWearables;
         public int level;
         public int kinship;
-        public int status;
+        public int status; // 0 == portal, 1 == VRF_PENDING, 2 == open portal, 3 == Aavegotchi
         public string lastInteracted;
 
         public GotchiData()

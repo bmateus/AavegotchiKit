@@ -42,15 +42,22 @@ namespace PortalDefender.AavegotchiKit.WearableBrowser
             if (wearableData.HasSleeves)
             {
                 var sleevesSprite = wearableData.GetSleeveSprite(GotchiHandPose.DOWN_OPEN, GotchiFacing.FRONT);
-                sleeves.sprite = sleevesSprite;
-                sleeves.gameObject.SetActive(true);
-                var sleevesRectTransform = sleeves.rectTransform;
-                sleevesRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, sleevesSprite.rect.width * scaleFactorX);
-                sleevesRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, sleevesSprite.rect.height * scaleFactorY);
-                sleevesRectTransform.pivot = new Vector2(0.0f, 1.0f); //TOP LEFT
-                sleevesRectTransform.anchorMin = new Vector2(0.0f, 1.0f);
-                sleevesRectTransform.anchorMax = new Vector2(0.0f, 1.0f);
-                sleevesRectTransform.anchoredPosition = new Vector3(offset.x * scaleFactorX, offset.y * -scaleFactorY, 0);
+                if (sleevesSprite != null)
+                {
+                    sleeves.sprite = sleevesSprite;
+                    sleeves.gameObject.SetActive(true);
+                    var sleevesRectTransform = sleeves.rectTransform;
+                    sleevesRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, sleevesSprite.rect.width * scaleFactorX);
+                    sleevesRectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, sleevesSprite.rect.height * scaleFactorY);
+                    sleevesRectTransform.pivot = new Vector2(0.0f, 1.0f); //TOP LEFT
+                    sleevesRectTransform.anchorMin = new Vector2(0.0f, 1.0f);
+                    sleevesRectTransform.anchorMax = new Vector2(0.0f, 1.0f);
+                    sleevesRectTransform.anchoredPosition = new Vector3(offset.x * scaleFactorX, offset.y * -scaleFactorY, 0);
+                }
+                else
+                {
+                    Debug.LogError($"Sleeves sprite not found for {wearableData.name} ({wearableData.id})");
+                }
             }
             else
             {

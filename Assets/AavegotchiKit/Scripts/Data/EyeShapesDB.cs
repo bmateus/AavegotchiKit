@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -36,8 +35,7 @@ namespace PortalDefender.AavegotchiKit
         {
             var eyeShape = eyeShapes[shapeIndex];
 
-#if USE_VECTOR_GFX
-            return SvgLoader.GetSvgLayerSprite($"eyes-{shapeIndex}-{facing}",
+            var sprite = SvgLoader.GetSvgLayerSprite($"eyes-{shapeIndex}-{facing}",
                 eyeShape.svgs[(int)facing],
                 new SvgLoader.Options
                 {
@@ -47,26 +45,12 @@ namespace PortalDefender.AavegotchiKit
                     eyes = eyeColor
                 }
                );
-#else
-            return eyeShape.sprites[(int)facing];
-#endif
-        }
 
-#if UNITY_EDITOR
-        Sprite GetSpriteAsset(string spritename)
-        {
-            try
-            {
-                var guid = AssetDatabase.FindAssets(spritename).First();
-                return AssetDatabase.LoadAssetAtPath<Sprite>(AssetDatabase.GUIDToAssetPath(guid));
-            }
-            catch (Exception ex)
-            {
-                Debug.LogException(ex);
-                return null;
-            }
+            if (sprite == null)
+                Debug.LogError($"Failed to load eye shape sprite for eyes-{shapeIndex}-{facing}!");
+
+            return sprite;
         }
-#endif
 
         [ContextMenu("Import Data")]
         void Import()

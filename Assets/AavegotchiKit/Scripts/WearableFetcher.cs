@@ -40,8 +40,8 @@ namespace PortalDefender.AavegotchiKit
 
             //Method A:
 
-            string[] svgs = new string[4];
-            for (int i = 0; i < 4; ++i)
+            string[] svgs = new string[types.Length];
+            for (int i = 0; i < types.Length; ++i)
             {
                 svgs[i] = await GotchiDiamond.GetSvgQueryAsync(new GetSvgFunction() { SvgType = types[i], ItemId = svgId });
             }
@@ -117,8 +117,8 @@ namespace PortalDefender.AavegotchiKit
                 Encoding.UTF8.GetBytes("sleeves-back")
             };
 
-            string[] svgs = new string[4];
-            for (int i = 0; i < 4; ++i)
+            string[] svgs = new string[types.Length];
+            for (int i = 0; i < types.Length; ++i)
             {
                 svgs[i] = await GotchiDiamond.GetSvgQueryAsync(new GetSvgFunction() { SvgType = types[i], ItemId = sleevedSvgId });
             }

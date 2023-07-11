@@ -45,7 +45,7 @@ namespace PortalDefender.AavegotchiKit
         public void Init(Gotchi gotchi)
         {
             this.gotchi = gotchi;
-            this.gotchi.State.PropertyChanged += State_PropertyChanged; ;
+            this.gotchi.State.PropertyChanged += State_PropertyChanged;
 
 
             //Init wearables
@@ -178,6 +178,8 @@ namespace PortalDefender.AavegotchiKit
             collateral.enabled = Facing != GotchiFacing.BACK;
             eyes.enabled = Facing != GotchiFacing.BACK;
             mouth.enabled = Facing == GotchiFacing.FRONT;
+            hands.enabled = (HandPose == GotchiHandPose.DOWN_CLOSED && Facing == GotchiFacing.FRONT)
+                || (HandPose != GotchiHandPose.DOWN_CLOSED);
         }
 
         void UpdateWearableVisibility()

@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 7046568704541285084}
   - component: {fileID: 2950216173545261489}
   - component: {fileID: 6825472276231750340}
+  - component: {fileID: -7756426192841315125}
   m_Layer: 10
   m_Name: GotchiBase
   m_TagString: Untagged
@@ -244,6 +245,18 @@ MonoBehaviour:
   shadow: {fileID: 2466700801379567289}
   floating: {fileID: 4358310922320706986}
   material_: {fileID: 2100000, guid: 137d858a4eae4d34298f3cdcd31f5e0b, type: 2}
+--- !u!210 &-7756426192841315125
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541452628501661682}
+  m_Enabled: 1
+  m_SortingLayerID: 676285551
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_SortAtRoot: 0
 --- !u!1 &3527769311407666692
 GameObject:
   m_ObjectHideFlags: 0
