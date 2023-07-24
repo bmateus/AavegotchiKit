@@ -1,8 +1,10 @@
+using PortalDefender.AavegotchiKit;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using Unity.VectorGraphics;
 using UnityEngine;
+using static UnityEditor.Graphs.EdgeGUI;
 
 public class SvgLoader
 {
@@ -10,6 +12,8 @@ public class SvgLoader
 
     public struct Options
     {
+        public int id;
+
         public Color primary;
         public Color secondary;
         public Color cheeks;
@@ -17,12 +21,9 @@ public class SvgLoader
 
         public bool hideMouth;
         public bool hideSleeves;
-        public bool hideSleevesUp;
-        public bool hideSleevesDown;
-        public bool hideHandsUp;
-        public bool hideHandsDownOpen;
-        public bool hideHandsDownClosed;
         public bool hideShadow;
+
+        public GotchiHandPose handPose;
 
         public Vector2 offset;
         public Vector2 size;
@@ -59,6 +60,11 @@ public class SvgLoader
 
     static string CreateStyle(SvgLoader.Options options)
     {
+        //note:
+        // - in SvgFacet, a gotchi has closed hands if they dont have anything equipped in the
+        //   body slot or in their hands. Otherwise they have open hands
+        // - the tags "gotchi-sleeves-left" and "gotchi-sleeves-right" aren't used in code at all
+
         var style = "<style>";
         style += $".gotchi-primary{{fill:#{ColorUtility.ToHtmlStringRGB(options.primary)};}}";
         style += $".gotchi-secondary{{fill:#{ColorUtility.ToHtmlStringRGB(options.secondary)};}}";
@@ -67,49 +73,48 @@ public class SvgLoader
 
         if (options.hideMouth)
         {
-            style += $".gotchi-primary-mouth{{display:none;}}";
+            style += ".gotchi-primary-mouth{display:none;}";
         }
 
-        if (options.hideSleeves)
+        if (options.hideSleeves || options.handPose == GotchiHandPose.DOWN_CLOSED)
         {
-            style += $".gotchi-sleeves{{display:none;}}";
+            style += ".gotchi-sleeves{display:none;}";
         }
         else
         {
-            style += $".gotchi-sleeves{{display:block;}}";
+            style += ".gotchi-sleeves{display:block;}";
         }
         
-        if (options.hideSleevesUp)
+        switch (options.handPose)
         {
-            style += $".gotchi-sleeves-up{{display:none;}}";
-        }
-        else
-        {
-            style += $".gotchi-sleeves-up{{display:block;}}";
-        }
-
-        if (options.hideSleevesDown)
-        {
-            style += $".gotchi-sleeves-down{{display:none;}}";
-        }
-        else
-        {
-            style += $".gotchi-sleeves-down{{display:block;}}";
-        }
-
-        if (options.hideHandsUp)
-        {
-            style += $".gotchi-handsUp{{display:none;}}";
-        }
-
-        if (options.hideHandsDownOpen)
-        {
-            style += $".gotchi-handsDownOpen{{display:none;}}";
-        }
-
-        if (options.hideHandsDownClosed)
-        {
-            style += $".gotchi-handsDownClosed{{display:none;}}";
+            case GotchiHandPose.DOWN_CLOSED:
+                style += ".gotchi-handsDownOpen{display:none;}";
+                style += ".gotchi-handsDownClosed{display:block;}";
+                style += ".gotchi-handsUp{display:none;}";
+                style += ".gotchi-sleeves-up{display:none;}";
+                style += ".gotchi-sleeves-down{display:none;}";
+                break;
+            case GotchiHandPose.DOWN_OPEN:
+                style += ".gotchi-handsDownOpen{display:block;}";
+                style += ".gotchi-handsDownClosed{display:none;}";
+                style += ".gotchi-handsUp{display:none;}";
+                style += ".gotchi-sleeves-up{display:none;}";
+                style += ".gotchi-sleeves-down{display:block;}";
+                break;
+            case GotchiHandPose.UP:
+                style += ".gotchi-handsDownOpen{display:none;}";
+                style += ".gotchi-handsDownClosed{display:none;}";
+                style += ".gotchi-handsUp{display:block;}";
+                if (!options.hideSleeves)
+                    style += ".gotchi-sleeves-up{display:block;}";
+                else
+                    style += ".gotchi-sleeves-up{display:none;}";
+                style += ".gotchi-sleeves-down{display:none;}";
+                // some additional styling for hands up see:
+                // https://github.com/aavegotchi/aavegotchi-minigame-template/blob/main/app/src/helpers/aavegotchi/index.ts
+                style += ".wearable-hand {transform: translateY(var(--hand_translateY, -4px));}";
+                // todo: special styling for wearable id 207, 217, 223
+                break;
         }
 
         if (options.hideShadow)
@@ -125,7 +130,7 @@ public class SvgLoader
 
     public static Sprite GetSvgLayerSprite(string name, string layerData, SvgLoader.Options options)
     {
-        var cachedName = $"{name}-{options.GetHashCode()}";
+        var cachedName = $"{name}-0x{options.GetHashCode():X}";
 
         if (_cached.TryGetValue(cachedName, out var sprite))
         {
@@ -135,10 +140,11 @@ public class SvgLoader
         var style = CreateStyle(options);
 
         //wrap the layer data
-        var wrappedData = $"<svg xmlns=\"http://www.w3.org/2000/svg\" shape-rendering=\"crispEdges\" width=\"{64-options.size.x}\" height=\"{64-options.size.y}\" >"
+        var wrappedData = $"<svg xmlns=\"http://www.w3.org/2000/svg\" shape-rendering=\"crispEdges\" width=\"64\" height=\"64\" >"
+            + $"<svg x=\"{options.offset.x}\" y=\"{options.offset.y}\">"
             + style
             + layerData
-            + "</svg>";
+            + "</svg></svg>";
 
         return GetSvgSprite(cachedName, wrappedData, options.customPivot);
     }
@@ -152,8 +158,6 @@ public class SvgLoader
 
         try
         {
-            // the sprites were exported from 64x64 => to 256x256
-
             ViewportOptions viewportOptions = ViewportOptions.PreserveViewport;
             if (!preserveViewport)
             {
@@ -177,21 +181,19 @@ public class SvgLoader
             float maxCoordDeviation = float.MaxValue;
             float maxTanAngleDeviation = Mathf.PI * 0.5f;
 
+            float svgPixelsPerUnit = 64f;
 
-            float svgPixelsPerUnit = 75f; //100 
-                                          //note: 75 = (300/4): 300 is the PPU set in the sprite import settings and they were exported from 64x64 to 256x256 a factor of 4
             VectorUtils.Alignment alignment = VectorUtils.Alignment.Center;
 
             if (customPivot != Vector2.zero)
                 alignment = VectorUtils.Alignment.Custom;
+
             //Vector2 customPivot = Vector2.zero;
 
             ushort gradientResolution = 256;
             bool flipYAxis = true;
 
-            //var sceneInfo = SVGParser.ImportSVG(new StringReader(data));
-            var sceneInfo = SVGParser.ImportSVG(new StringReader(data), viewportOptions, 0, 1, 100, 100);
-            //var sceneInfo = SVGParser.ImportSVG(new StringReader(data), viewportOptions, dpi, pixelsPerUnit, windowWidth, windowHeight);
+            var sceneInfo = SVGParser.ImportSVG(new StringReader(data), viewportOptions, 0, 1, 64, 64);            
 
             if (sceneInfo.Scene == null || sceneInfo.Scene.Root == null)
                 throw new Exception("Wowzers!");
@@ -217,7 +219,8 @@ public class SvgLoader
             Sprite sprite = null;
             //if (preserveViewPort)
             {
-                sprite = VectorUtils.BuildSprite(geoms, sceneInfo.SceneViewport, svgPixelsPerUnit, alignment, customPivot, gradientResolution, flipYAxis);
+                sprite = VectorUtils.BuildSprite(geoms, sceneInfo.SceneViewport, svgPixelsPerUnit, 
+                    alignment, customPivot, gradientResolution, flipYAxis);
             }
             //else
             //{

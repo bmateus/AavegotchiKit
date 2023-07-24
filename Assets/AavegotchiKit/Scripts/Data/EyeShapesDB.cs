@@ -39,6 +39,7 @@ namespace PortalDefender.AavegotchiKit
                 eyeShape.svgs[(int)facing],
                 new SvgLoader.Options
                 {
+                    size = new Vector2(64, 64),
                     primary = collateral.PrimaryColor,
                     secondary = collateral.SecondaryColor,
                     cheeks = collateral.CheekColor,

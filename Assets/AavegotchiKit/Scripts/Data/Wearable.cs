@@ -1,3 +1,5 @@
+using Cysharp.Threading.Tasks;
+using Sirenix.OdinInspector;
 using System;
 using UnityEngine;
 
@@ -15,35 +17,25 @@ namespace PortalDefender.AavegotchiKit
         public bool[] slotPositions;
         public string[] allowedCollaterals;
         public GotchiWearableRarity rarity;
-        public Vector2[] offsets;
-        public int[] dimensions;
         public int minLevel;
 
         public string[] svgs;
         public string[] sleeves;
 
+        public GotchiWearableDimensions[] dimensions;
+
         public string note; // any special notes about this wearable
 
         public bool HasSleeves => sleeves.Length > 0;
 
-        public Vector2 GetOffset(GotchiFacing facing)
+        public GotchiWearableDimensions GetDimensions(GotchiFacing facing)
         {
-            return offsets[(int)facing];
+            return dimensions[(int)facing];
         }
 
         public Sprite GetSprite(GotchiHandPose handPose, GotchiFacing facing)
         {
-            Vector2 offset = offsets[(int)facing];
-            //Vector2 size;
-
-            //if (facing == GotchiFacing.FRONT || facing == GotchiFacing.BACK)
-            //{
-            //    size = new Vector2(dimensions[0], dimensions[1]); //i think these are wrong
-            //}
-            //else
-            //{
-            //    size = new Vector2(dimensions[2], dimensions[3]);
-            //}
+            var dimensions = GetDimensions(facing);
 
             //Unity's SVG Library can't handle this: need to explicitly offset it
             //string data = $"<svg x=\"{offset.x}\" y=\"{offset.y}\">" + svgs[(int)facing] + "</svg>";
@@ -54,10 +46,11 @@ namespace PortalDefender.AavegotchiKit
                 data,
                 new SvgLoader.Options()
                 {
-                    hideSleeves = true,
-                    hideSleevesUp = true,//handPose != GotchiHandPose.UP,
-                    hideSleevesDown = true,//handPose != GotchiHandPose.DOWN_OPEN,
-                    size = offset
+                    id = id,
+                    hideSleeves = false,
+                    handPose = handPose,
+                    offset = new Vector2(dimensions.X, dimensions.Y),
+                    size = new Vector2(dimensions.Width, dimensions.Height)
                 });
         }
 
@@ -66,27 +59,47 @@ namespace PortalDefender.AavegotchiKit
             if (!HasSleeves)
                 return null;
 
-            Vector2 size;
-
-            if (facing == GotchiFacing.FRONT || facing == GotchiFacing.BACK)
-            {
-                size = new Vector2(dimensions[0], dimensions[1]);
-            }
-            else
-            {
-                size = new Vector2(dimensions[2], dimensions[3]);
-            }
+            var dimensions = GetDimensions(facing);
 
             return SvgLoader.GetSvgLayerSprite($"wearable-{id}-sleeves-{facing}-{handPose}",
                 HasSleeves ? sleeves[(int)facing] : svgs[(int)facing],
                 new SvgLoader.Options()
                 {
+                    id = id,
                     hideSleeves = false,
-                    hideSleevesUp = handPose != GotchiHandPose.UP,
-                    hideSleevesDown = handPose != GotchiHandPose.DOWN_OPEN,
-                    size = size
+                    handPose = handPose,
+                    offset = new Vector2(dimensions.X, dimensions.Y),
+                    size = new Vector2(dimensions.Width, dimensions.Height)
                 });
         }
+
+        [Button]
+        public async UniTask RefreshData()
+        {
+            Debug.Log("RefreshData");
+
+            if (id > 0)
+            {
+                WearableFetcher fetcher = new WearableFetcher();
+                var w = await fetcher.GetWearable(id);
+                if (w != null)
+                {
+                    name = w.name;
+                    description = w.description;
+                    author = w.author;
+                    category = w.category;
+                    traitModifiers = w.traitModifiers;
+                    slotPositions = w.slotPositions;
+                    allowedCollaterals = w.allowedCollaterals;
+                    rarity = w.rarity;
+                    minLevel = w.minLevel;
+                    svgs = w.svgs;
+                    sleeves = w.sleeves;
+                    dimensions = w.dimensions;
+                }
+            }
+        }
+
 
     }
 

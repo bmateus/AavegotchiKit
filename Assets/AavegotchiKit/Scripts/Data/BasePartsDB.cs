@@ -8,19 +8,6 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    [Serializable]
-    public class BaseParts
-    {
-        public string[] body;
-        public string[] hands;
-        public string[] mouth_neutral;
-        public string[] mouth_happy;
-        public string[] eyes_mad;
-        public string[] eyes_happy;
-        public string[] eyes_sleepy;
-        public string[] shadow;
-    }
-
     [CreateAssetMenu(fileName = "BasePartsDB", menuName = "Aavegotchi/BasePartsDB")]
     public class BasePartsDB : ScriptableObject
     {
@@ -36,6 +23,7 @@ namespace PortalDefender.AavegotchiKit
                 baseParts.body[(int)facing],
                 new SvgLoader.Options
                 {
+                    size = new Vector2(64, 64),
                     primary = collateral.PrimaryColor,
                     secondary = collateral.SecondaryColor,
                     cheeks = collateral.CheekColor,
@@ -50,22 +38,23 @@ namespace PortalDefender.AavegotchiKit
             return sprite;
         }
 
-        public Sprite GetHandsSprite(Collateral collateral, GotchiHandPose pose, GotchiFacing facing)
+        public Sprite GetHandsSprite(Collateral collateral, GotchiHandPose handPose, GotchiFacing facing)
         {
-            var sprite = SvgLoader.GetSvgLayerSprite($"hands-{collateral.collateralType}-{pose}-{facing}",
+            if (handPose == GotchiHandPose.DOWN_CLOSED && facing == GotchiFacing.BACK)
+                return null;
+
+            var sprite = SvgLoader.GetSvgLayerSprite($"hands-{collateral.collateralType}-{handPose}-{facing}",
                 baseParts.hands[(int)facing],
                 new SvgLoader.Options
                 {
+                    size = new Vector2(64, 64),
                     primary = collateral.PrimaryColor,
                     secondary = collateral.SecondaryColor,
-                    hideSleevesUp = pose != GotchiHandPose.UP,
-                    hideHandsUp = pose != GotchiHandPose.UP,
-                    hideHandsDownClosed = pose != GotchiHandPose.DOWN_CLOSED,
-                    hideHandsDownOpen = pose != GotchiHandPose.DOWN_OPEN
+                    handPose = handPose,
                 });
 
             if (sprite == null)
-                Debug.LogError($"Failed to load hands sprite for hands-{collateral.collateralType}-{pose}-{facing}!");
+                Debug.LogError($"Failed to load hands sprite for hands-{collateral.collateralType}-{handPose}-{facing}!");
 
             return sprite;
         }
@@ -88,6 +77,7 @@ namespace PortalDefender.AavegotchiKit
                 mouth[0],
                 new SvgLoader.Options
                 {
+                    size = new Vector2(64, 64),
                     primary = collateral.PrimaryColor,
                     secondary = collateral.SecondaryColor
                 });
@@ -120,6 +110,7 @@ namespace PortalDefender.AavegotchiKit
                 special[0],
                 new SvgLoader.Options
                 {
+                    size = new Vector2(64, 64),
                     primary = collateral.PrimaryColor,
                     secondary = collateral.SecondaryColor
                 }) ;
@@ -140,7 +131,8 @@ namespace PortalDefender.AavegotchiKit
             var sprite = SvgLoader.GetSvgLayerSprite($"shadow-{shadowIndex}",
                 baseParts.shadow[shadowIndex],
                 new SvgLoader.Options
-                { 
+                {
+                    size = new Vector2(64, 64),
                     //customPivot = new Vector2(0.5f, 0.08f)
                 });
 

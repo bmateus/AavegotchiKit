@@ -7,7 +7,10 @@ namespace PortalDefender.AavegotchiKit
         GotchiFacing _facing;
         public GotchiFacing Facing {
             get { return _facing; }
-            set { 
+            set {
+                if (_facing == value)
+                    return;
+                
                 _facing = value;
                 RaisePropertyChanged("Facing");
             }
@@ -17,6 +20,9 @@ namespace PortalDefender.AavegotchiKit
         public GotchiHandPose HandPose {
             get { return _handPose; }
             set {
+                if (_handPose == value)
+                    return;
+
                 _handPose = value;
                 RaisePropertyChanged("HandPose");
             } 
@@ -28,6 +34,9 @@ namespace PortalDefender.AavegotchiKit
             get { return _mouthExpression; }
             set
             {
+                if (_mouthExpression == value)
+                    return;
+
                 _mouthExpression = value;
                 RaisePropertyChanged("MouthExpression");
             }
@@ -39,6 +48,9 @@ namespace PortalDefender.AavegotchiKit
             get { return _eyeExpression; }
             set
             {
+                if (_eyeExpression == value)
+                    return;
+
                 _eyeExpression = value;
                 RaisePropertyChanged("EyeExpression");
             }

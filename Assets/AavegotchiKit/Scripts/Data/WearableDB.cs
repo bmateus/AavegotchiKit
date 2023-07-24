@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using System;
 #if UNITY_EDITOR
 using UnityEditor;
@@ -32,5 +33,21 @@ namespace PortalDefender.AavegotchiKit
             AssetDatabase.SaveAssetIfDirty(this);
 #endif
         }
+
+        [ContextMenu("Refresh Wearables")]
+        async UniTask RefreshAll()
+        {
+#if UNITY_EDITOR
+            for(int i=0; i < wearables.Length; i++)
+            {
+                var wearable = wearables[i];
+                EditorUtility.DisplayProgressBar("Refreshing Wearables", $"Refreshing {wearable.name}...", i / (float)wearables.Length);
+                await wearable.RefreshData();
+            }
+
+            EditorUtility.ClearProgressBar();
+#endif
+        }
+
     }
 }

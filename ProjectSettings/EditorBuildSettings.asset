@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/AavegotchiKit/Examples/MetaMask/Metamask.unity
     guid: 3a32397e35f26214db990c40fe772798
+  - enabled: 1
+    path: Assets/AavegotchiKit/Examples/GotchiStressTest/GotchiStressTest.unity
+    guid: 6a10a90c2226b4d4c8cf4fa281a40350
   m_configObjects: {}
