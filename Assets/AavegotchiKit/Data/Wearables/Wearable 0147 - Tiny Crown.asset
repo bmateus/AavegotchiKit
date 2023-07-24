@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0147 - Tiny Crown
+  m_EditorClassIdentifier: 
+  data:
+    id: 147
+    name: Tiny Crown
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: ffffffff0000000000000000ffffffff0000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M11 1V0H9v1H7V0H5v1H3V0H1v1H0v1h1v2h1v1h1v1h6V5h1V4h1V2h1V1z"/><path
+      d="M10 1H9v1H7V1H5v1H3V1H1v1h1v2h2v2h4V4h2V2h1V1z" fill="#ffc03c"/><path d="M1
+      1v1h2V1H2zm4 0v1h2V1H6zm5 0H9v1h2V1z" fill="#ffe600"/><path d="M7 4H4v2h4V4z"
+      fill="#ff9600"/>
+    - <path d="M9 4V2h1V1H9V0H7v1H6V0H4v1H3V0H1v1H0v1h1v2h1v2h6V4h1z"/><path d="M7
+      1v1H6V1H4v1H3V1H1v1h1v2h1v2h4V4h1V2h1V1H7z" fill="#ff9600"/><path d="M1 1v1h2V1H1zm3
+      0v1h2V1H4zm3 0v1h2V1H7z" fill="#ffe600"/><path d="M2 2v2h6V2H2z" fill="#ffc03c"/>
+    - <path d="M9 4V2h1V1H9V0H7v1H6V0H4v1H3V0H1v1H0v1h1v2h1v2h6V4h1z"/><path d="M7
+      1v1H6V1H4v1H3V1H1v1h1v2h1v2h4V4h1V2h1V1H7z" fill="#ff9600"/><path d="M1 1v1h2V1H1zm3
+      0v1h2V1H4zm3 0v1h2V1H7z" fill="#ffe600"/><path d="M2 2v2h6V2H2z" fill="#ffc03c"/>
+    - <path d="M11 1V0H9v1H7V0H5v1H3V0H1v1H0v1h1v2h1v1h1v1h6V5h1V4h1V2h1V1z"/><path
+      d="M10 1H9v1H7V1H5v1H3V1H1v1h1v2h2v2h4V4h2V2h1V1z" fill="#ffc03c"/><path d="M1
+      1v1h2V1H2zm4 0v1h2V1H6zm5 0H9v1h2V1z" fill="#ffe600"/><path d="M7 4H4v2h4V4z"
+      fill="#ff9600"/>
+    sleeves: []
+    dimensions:
+    - X: 26
+      Y: 4
+      Width: 12
+      Height: 6
+    - X: 27
+      Y: 4
+      Width: 10
+      Height: 6
+    - X: 27
+      Y: 4
+      Width: 10
+      Height: 6
+    - X: 26
+      Y: 4
+      Width: 12
+      Height: 6
+    note: 

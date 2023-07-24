@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0301 - Alluring Eyes
+  m_EditorClassIdentifier: 
+  data:
+    id: 301
+    name: Alluring Eyes
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 00000000feffffff00000000010000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M20 0v1h-.5v.5H19v.3h-1.5V2H16v2h-1v2h-2V4h-1V2h-1.5v-.2H9v-.3h-.5V1H8V0H0v13h13V8h2v5h12V0z"
+      fill="#fff"/><path d="M24 5v1h-1V5h-1v1h-1V5h-1v1h-1V5h-1v1h-1v1h1v1h6V7h1V5h-1zM10
+      5H9v1H8V5H7v1H6V5H5v1H4V5H3v2h1v1h6V7h1V6h-1V5z"/>
+    - <path d="M0,0h4.4v11H0V0z" fill="#fff"/><path d="M2,3.5v1H1v-1H0v3h2v-1h1v-2H2z"/>
+    - <path d="M4.4 11H0V0h4.4v11z" fill="#fff"/><path d="M1.4 3.5v2h1v1h2v-3h-1v1h-1v-1h-1z"/>
+    - <g></g>
+    sleeves: []
+    dimensions:
+    - X: 18
+      Y: 19
+      Width: 27
+      Height: 13
+    - X: 21
+      Y: 21
+      Width: 4
+      Height: 10
+    - X: 39
+      Y: 21
+      Width: 4
+      Height: 10
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    note: 

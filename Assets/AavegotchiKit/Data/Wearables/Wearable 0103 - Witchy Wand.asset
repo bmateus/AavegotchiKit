@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0103 - Witchy Wand
+  m_EditorClassIdentifier: 
+  data:
+    id: 103
+    name: Witchy Wand
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000200000002000000010000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M0 0h2v2H0z" fill="#ff8700"/><g fill="#ffaa4a"><path d="M1,0h1v1H1V0z"/><path
+      d="M0,1h1v1H0V1z"/></g><path d="M0,0h1v1H0V0z" fill="#ffc88a"/><path d="M6
+      6h1v1H6z"/><path d="M5 5h1v1H5z"/><path d="M4 4h1v1H4z"/><path d="M3 3h1v1H3z"/><path
+      d="M2 2h1v1H2zm5 5h1v1H7z"/><path d="M8 8h1v1H8z"/><path d="M9 9h1v1H9z"/><path
+      d="M10 10h1v1h-1z"/>
+    - <path d="M0,0h2v2H0V0z" fill="#ff8700"/><g fill="#ffaa4a"><path d="M1,0h1v1H1V0z"/><path
+      d="M0,1h1v1H0V1z"/></g><path d="M0,0h1v1H0V0z" fill="#ffc88a"/><path d="M6,6h1v1H6V6z"/><path
+      d="M5,5h1v1H5V5z"/><path d="M4,4h1v1H4V4z"/><path d="M3,3h1v1H3V3z"/><path
+      d="M2 2h1v1H2V2zm5 5h1v1H7V7z"/><path d="M8,8h1v1H8V8z"/><path d="M9,9h1v1H9V9z"/><path
+      d="M10,10h1v1h-1V10z"/>
+    - <path d="M11,2H9V0h2V2z" fill="#ff8700"/><g fill="#ffaa4a"><path d="M10,1H9V0h1V1z"/><path
+      d="M11,2h-1V1h1V2z"/></g><path d="M11,1h-1V0h1V1z" fill="#ffc88a"/><path d="M5,7H4V6h1V7z"/><path
+      d="M6,6H5V5h1V6z"/><path d="M7,5H6V4h1V5z"/><path d="M8,4H7V3h1V4z"/><path
+      d="M9 3H8V2h1v1zM4 8H3V7h1v1z"/><path d="M3,9H2V8h1V9z"/><path d="M2 10H1V9h1v1z"/><path
+      d="M1 11H0v-1h1v1z"/>
+    - <path d="M0,0h2v2H0V0z" fill="#ff8700"/><g fill="#ffaa4a"><path d="M1,0h1v1H1V0z"/><path
+      d="M0,1h1v1H0V1z"/></g><path d="M0,0h1v1H0V0z" fill="#ffc88a"/><path d="M6,6h1v1H6V6z"/><path
+      d="M5,5h1v1H5V5z"/><path d="M4,4h1v1H4V4z"/><path d="M3,3h1v1H3V3z"/><path
+      d="M2 2h1v1H2V2zm5 5h1v1H7V7z"/><path d="M8,8h1v1H8V8z"/><path d="M9,9h1v1H9V9z"/><path
+      d="M10,10h1v1h-1V10z"/>
+    sleeves: []
+    dimensions:
+    - X: 3
+      Y: 33
+      Width: 11
+      Height: 11
+    - X: 18
+      Y: 33
+      Width: 11
+      Height: 11
+    - X: 35
+      Y: 33
+      Width: 11
+      Height: 11
+    - X: 3
+      Y: 33
+      Width: 11
+      Height: 11
+    note: 

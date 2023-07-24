@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0111 - Hazmat Hood
+  m_EditorClassIdentifier: 
+  data:
+    id: 111
+    name: Hazmat Hood
+    description: 
+    author: ShadowLord Obeesus
+    category: 0
+    traitModifiers: 01000000ffffffff02000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="17" y1="31.624" x2="17"
+      y2="8.796"><stop offset="0" stop-color="#e1e1e1"/><stop offset="1" stop-color="#fff"
+      stop-opacity="0"/></linearGradient><path d="M29 13v14h-2v1h-2v1h-2v2H11v-2H9v-1H7v-1H5V13h2v-1h2v-1h2V9h12v2h2v1h2v1h2z"
+      fill="url(#A)"/><path d="M32 8V6h-2V4h-4V2h-4V0H12v2H8v2H4v2H2v2H0v20h3v4h1v1h5v1h16v-1h5v-1h1v-4h3V8h-2zm-9
+      21v2H11v-2H9v-1H7v-1H5V13h2v-1h2v-1h2V9h12v2h2v1h2v1h2v14h-2v1h-2v1h-2z" fill="#d8d800"/><path
+      d="M13 1v1h-1v1H9v1H8v1H5v1H4v1H3v1H2v1H1v17h1v1h2v4h1v1h4v1h16v-1h4v-1h1v-4h2v-1h1V9h-1V8h-1V7h-1V6h-1V5h-3V4h-1V3h-3V2h-1V1h-8zm8
+      9v1h1v1h3v1h2v1h1v12h-1v1h-2v1h-2v1h-2v1h-8v-1h-2v-1H9v-1H7v-1H6V14h1v-1h2v-1h3v-1h1v-1h8z"
+      fill="#ff0"/><g fill="#fff"><path d="M24 4h1v1h-1V4zm2 1h1v1h-1V5zm2 1h1v1h-1V6z"/><path
+      d="M28,8V7h-2V6h-2V5h-2V4h-3v1h2v1h1v1h2v1h2v1h4V8H28z"/></g><path d="M12 11h1v-1h8v1h1v1h3v-1h-2V9H11v2H9v1h3v-1zM7
+      27h2v1H7v-1z"/><path d="M25 12h2v1h-2v-1zm0 15h2v1h-2v-1zM6 26V14h1v-1H5v14h2v-1H6z"/><path
+      d="M7 12h2v1H7v-1zm2 16h2v1H9v-1z"/><path d="M27 13v1h1v12h-1v1h2V13h-2zm-6
+      17h-8v-1h-2v2h12v-2h-2v1z"/><path d="M23,28h2v1h-2V28z"/>,
+    - <linearGradient id="A" gradientUnits="userSpaceOnUse" x1="-2890.955" y1="-4661.722"
+      x2="-2868.097" y2="-4661.722" gradientTransform="matrix(3.928452e-11 -0.875
+      0.2727 1.224330e-11 1274.7498 -2498.6331)"><stop offset="0" stop-color="#e3dedb"/><stop
+      offset="1" stop-color="#e3dedb" stop-opacity="0"/></linearGradient><path d="M6
+      28H4v1H3v1H0V10h3v1h1v1h2v1h1v14H6v1z" fill="url(#A)"/><path d="M1 8V6h2V4h2V2h4V0h6v2h4v2h2v2h2v2h1v22h-8v-2H8v2H5v2H4v1H2v1H0v-5h3v-1h1v-1h2V13H4v-1H3v-1H0V8h1z"
+      fill="#d8d800"/><path d="M9.998 1v1h-1v1h-3v1h-1v1h-1v1h-1v1h-1v1h-1v2h2v1h1v1h2v1h1v13
+      1h-1v1h-2v1h-1v1h-2v3h1v-1h2v-2h1v-1h2v-1h1v-1h9v2h6V8h-1V7h-1V6h-1V5h-1V4h-1V3h-3V2h-1V1h-4z"
+      fill="#ff0"/><path d="M2.998 10v1h-3v-1h3zm1 1v1h-1v-1h1zm2 1v1h-2v-1h2zm1
+      1v14h-1V13h1zm-1 15h-2v-1h2v1zm-2 1h-1v-1h1v1zm-1 1h-3v-1h3v1z"/>,
+    - <path d="M23,8V6h-2V4h-2V2h-4V0H9v2H5v2H3v2H1v2H0v22h8v-2h8v2h3v2h1v1h2v1h2v-5h-3v-1h-1v-1h-2V13h2v-1h1v-1h3V8H23z"
+      fill="#d8d800"/><g transform="translate(8.998 25)"><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="-2899.953" y1="-4686.707" x2="-2877.095" y2="-4686.707" gradientTransform="matrix(0
+      -0.875 -0.2727 0 -1266.5652 -2531.5063)"><stop offset="0" stop-color="#e3dedb"/><stop
+      offset="1" stop-color="#e3dedb" stop-opacity="0"/></linearGradient><path d="M9
+      2H8v-14h1v-1h2v-1h1v-1h3V5h-3V4h-1V3H9V2z" fill="url(#A)"/><path d="M5-24v1h1v1h3v1h1v1h1v1h1v1h1v1h1v2h-2v1h-1v1H9v1H8V1v1h1v1h2v1h1v1h2v3h-1V7h-2V5h-1V4H8V3H7V2h-9v2h-6v-21h1v-1h1v-1h1v-1h1v-1h1v-1h3v-1h1v-1h4z"
+      fill="#ff0"/><path d="M15-15v1h-3v-1h3zm-3 1v1h-1v-1h1zm-1 1v1H9v-1h2zm-2 1V2H8v-14h1zM9
+      2h2v1H9V2zm2 1h1v1h-1V3zm1 1h3v1h-3V4z"/></g>,
+    - <path d="M35 27V8h-2V6h-2V4h-4V2h-4V0H13v2H9v2H5v2H3v2H1v19H0v1h4v2h28v-2h4v-1h-1z"
+      fill="#d8d800"/><path d="M14 1v1h-1v1h-3v1H9v1H6v1H5v1H4v1H3v1H2v17h1v1h2v2h26v-2h2v-1h1V9h-1V8h-1V7h-1V6h-1V5h-3V4h-1V3h-3V2h-1V1h-8z"
+      fill="#ff0"/><path d="M10 4v1h1V4h-1zm1 1v1H9v1H7v1H5v1h3V8h2V7h2V6h2V5h2V4h-3v1h-2zM7
+      7V6H6v1h1zm2-1V5H8v1h1z" fill="#fff"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 6
+      Width: 34
+      Height: 34
+    - X: 20
+      Y: 6
+      Width: 24
+      Height: 34
+    - X: 20
+      Y: 6
+      Width: 24
+      Height: 34
+    - X: 14
+      Y: 6
+      Width: 36
+      Height: 30
+    note: 

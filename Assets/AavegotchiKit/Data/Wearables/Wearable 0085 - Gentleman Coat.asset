@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0085 - Gentleman Coat
+  m_EditorClassIdentifier: 
+  data:
+    id: 85
+    name: Gentleman Coat
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: fffffffffdffffff00000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M35 1v1h-2v1h-2v1h-2v1h-2v1h-2v1H15V6h-2V5h-2V4H9V3H7V2H5V1H3v22h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V1z"/><g
+      fill="#fff"><path d="M32,9h1v1h-1V9z"/><path d="M30 8v1h-1v1h2V9h1V8h-2zm-11
+      8v1h2v-1h-2zm6-11v1h2V5h-2zM13 5v1h2V5h-2z"/><path d="M25,6h-3v2h-1v6h-2V8h-1V6h-3v1h2v2h1v6h4V9h1V7h2V6z"/></g>
+    - <g><path d="M12,0v2h-2v1H8v1H6v1H4v1H2v1H0v16h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V0H12z"/><g
+      fill="#fff"><path d="M1,9h1v1H1V9z"/><path d="M0,8h1v1H0V8z"/></g></g>
+    - <g><path d="M22,7V6h-2V5h-2V4h-2V3h-2V2h-2V0H0v23h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V7H22z"/></g>
+    - <g><path d="M3,1v23h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V1H3z"/><g class="gotchi-sleeves
+      gotchi-sleeves-left gotchi-sleeves-up"><path d="M2,1V0H0v7h1v1h1v1h1.5V1H2z"/></g><path
+      d="M3,0H1v1h1v1H1v1H0v7h2V9h1.5V1H3V0z"/><g class="gotchi-sleeves gotchi-sleeves-right
+      gotchi-sleeves-up"><path d="M38,0v1h-1.5v8H38V8h1V7h1V0H38z"/></g><path d="M37
+      1h-.5v8H38v1h2V3h-1V2h-1V1h1V0h-2v1z"/></g>,
+    sleeves:
+    - <g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-up"><path d="M36.5,9H38V8h1V7h1V0h-2v1h-1.5V9z"/></g><g
+      class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-down"><path d="M37
+      1h-.5v8H38v1h2V3h-1V2h-1V1h1V0h-2v1z"/></g><g class="gotchi-sleeves gotchi-sleeves-right
+      gotchi-sleeves-up"><path d="M3.5,1H2V0H0v7h1v1h1v1h1.5V1z"/></g><g class="gotchi-sleeves
+      gotchi-sleeves-right gotchi-sleeves-down"><path d="M3,0H1v1h1v1H1v1H0v7h2V9h1.5V1H3V0z"/></g></g>,
+    - <g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-up"><path d="M13,1H6v2h1v1h1v1h7V3h-1V2h-1V1z"/></g><g
+      class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-down"><path d="M9,5v7h2v-1h1v-1h1.2V3H11v1h-1v1H9z"/></g></g>,
+    - <g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path d="M11,2h-1v1H9v2h7V4h1V3h1V1h-7V2z"/></g><g
+      class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-down"><path d="M14,5V4h-1V3h-2.2v7H12v1h1v1h2V5H14z"/></g></g>,
+    - <g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path d="M12,1h-1v1h-1v1H9v2h7V4h1V3h1V1h1V0h-7V1z"
+      fill="#00002d"/><path d="M11,3h-1v2h5V4h1V3h1V2h-6V3z" fill="#000046"/><path
+      d="M12,1h7V0h-7V1z" fill="#205fec"/></g><g class="gotchi-sleeves gotchi-sleeves-right
+      gotchi-sleeves-down"><path d="M15,6V5h-1V4h-1V3h-2.1v7H12v1h1v1h2v1h1V6H15z"
+      fill="#00002d"/><path d="M13 5V4h-2V3h-.2v7h.2V9h1v1h1v1h1V5h-1z" fill="#000046"/><path
+      d="M15,6v7h1V6H15z" fill="#205fec"/></g></g>,
+    dimensions:
+    - X: 12
+      Y: 32
+      Width: 40
+      Height: 23
+    - X: 20
+      Y: 32
+      Width: 4
+      Height: 9
+    - X: 20
+      Y: 32
+      Width: 4
+      Height: 9
+    - X: 12
+      Y: 32
+      Width: 34
+      Height: 23
+    note: 

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0051 - Mudgen Diamond
+  m_EditorClassIdentifier: 
+  data:
+    id: 51
+    name: Mudgen Diamond
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000000000000000000050000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M12 2V1h-1V0H2v1H1v1H0v2h1v1h1v1h1v1h1v1h1v1h1v1h1V9h1V8h1V7h1V6h1V5h1V4h1V2z"/><path
+      d="M2 4v1h1v1h1v1h1v1h1v1h1V8h1V7h1V6h1V5h1V4z" fill="#46a7c0"/><g fill="#0ff"><path
+      d="M9 2H8V1H5v1H4v1H3v2h1v1h1v1h1v1h1V7h1V6h1V5h1V3H9zm2 0h1v1h-1z"/><path
+      d="M10 1h1v1h-1zM2 1h1v1H2z"/><path d="M1 2h1v1H1z"/></g><g fill="#fff"><path
+      d="M11 3h1v1h-1V3zM1 3h1v1H1V3zm8-2h1v1H9V1zM8 3V2H7V1H6v1H5v1H3v1h7V3H8z"/><path
+      d="M10 2h1v1h-1V2zM2 2h1v1H2V2z"/><path d="M3,1h1v1H3V1z"/></g>
+    - <path d="M10,2V1H9V0H2v1H1v1H0v2h1v1h1v1h1v1h1v1h1v1h1V8h1V7h1V6h1V5h1V4h1V2H10z"/><g
+      fill="#0ff"><path d="M9,2V1H7v1h1v1h1v1h1V2H9z"/><path d="M8,3H7V2H6V1H5v1H4v1H3v1H2v1h1v1h1v1h1v1h1V7h1V6h1V5h1V4H8V3z"/><path
+      d="M3,3V2h1V1H2v1H1v2h1V3H3z"/></g><g fill="#46a7c0"><path d="M6,6h1v1H6V6z"/><path
+      d="M7,5h1v1H7V5z"/><path d="M8 4h1v1H8V4zM5 7h1v1H5V7z"/><path d="M4,6h1v1H4V6z"/><path
+      d="M3,5h1v1H3V5z"/><path d="M2,4h1v1H2V4z"/></g><g fill="#fff"><path d="M9
+      3h1v1H9V3zM1 3h1v1H1V3zm6-2h1v1H7V1zM6 3V2H5v1H3v1h5V3H6z"/><path d="M8 2h1v1H8V2zM2
+      2h1v1H2V2z"/><path d="M3,1h1v1H3V1z"/></g>
+    - <path d="M10,2V1H9V0H2v1H1v1H0v2h1v1h1v1h1v1h1v1h1v1h1V8h1V7h1V6h1V5h1V4h1V2H10z"/><g
+      fill="#0ff"><path d="M9,2V1H7v1h1v1h1v1h1V2H9z"/><path d="M8,3H7V2H6V1H5v1H4v1H3v1H2v1h1v1h1v1h1v1h1V7h1V6h1V5h1V4H8V3z"/><path
+      d="M3,3V2h1V1H2v1H1v2h1V3H3z"/></g><g fill="#46a7c0"><path d="M6,6h1v1H6V6z"/><path
+      d="M7,5h1v1H7V5z"/><path d="M8 4h1v1H8V4zM5 7h1v1H5V7z"/><path d="M4,6h1v1H4V6z"/><path
+      d="M3,5h1v1H3V5z"/><path d="M2,4h1v1H2V4z"/></g><g fill="#fff"><path d="M9
+      3h1v1H9V3zM1 3h1v1H1V3zm6-2h1v1H7V1zM6 3V2H5v1H3v1h5V3H6z"/><path d="M8 2h1v1H8V2zM2
+      2h1v1H2V2z"/><path d="M3,1h1v1H3V1z"/></g>
+    - <path d="M12,2V1h-1V0H2v1H1v1H0v2h1v1h1v1h1v1h1v1h1v1h1v1h1V9h1V8h1V7h1V6h1V5h1V4h1V2H12z"/><path
+      d="M2,4v1h1v1h1v1h1v1h1v1h1V8h1V7h1V6h1V5h1V4H2z" fill="#46a7c0"/><g fill="#0ff"><path
+      d="M9 2H8V1H5v1H4v1H3v2h1v1h1v1h1v1h1V7h1V6h1V5h1V3H9V2zm2 0h1v1h-1V2z"/><path
+      d="M10 1h1v1h-1V1zM2 1h1v1H2V1z"/><path d="M1,2h1v1H1V2z"/></g><g fill="#fff"><path
+      d="M11 3h1v1h-1V3zM1 3h1v1H1V3zm8-2h1v1H9V1zM8 3V2H7V1H6v1H5v1H3v1h7V3H8z"/><path
+      d="M10 2h1v1h-1V2zM2 2h1v1H2V2z"/><path d="M3,1h1v1H3V1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 33
+      Width: 13
+      Height: 10
+    - X: 20
+      Y: 33
+      Width: 11
+      Height: 9
+    - X: 33
+      Y: 33
+      Width: 11
+      Height: 9
+    - X: 0
+      Y: 33
+      Width: 13
+      Height: 10
+    note: 

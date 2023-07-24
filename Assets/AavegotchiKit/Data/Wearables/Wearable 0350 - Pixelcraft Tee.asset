@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0350 - Pixelcraft Tee
+  m_EditorClassIdentifier: 
+  data:
+    id: 350
+    name: Pixelcraft Tee
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 010000000000000000000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M34 1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-2v1h-3v1h-8V8h-3V7h-2V6h-1V5H9V4H8V3H7V2H6V1H3v20h34V1h-3z"/><linearGradient
+      id="A" gradientUnits="userSpaceOnUse" x1="9.769" y1="24.403" x2="30.231" y2="-2.403"><stop
+      offset="0" stop-color="#ff0"/><stop offset=".8" stop-color="#f0f"/></linearGradient><path
+      d="M36 2v18H4V2h2v1h1v1h1v1h1v1h1v1h1v1h2v1h3v1h8V9h3V8h2V7h1V6h1V5h1V4h1V3h1V2h2z"
+      fill="url(#A)"/><path d="M16.6 10.8h1.5v1.5h-1.5zm2.9 1.5v1.5H21v1.4h-1.5v-1.4H18v4.4h1.5v-1.5h2.9v-4.4z"
+      fill="#fff"/>
+    - <g><path d="M1 6h1V5h1V4h1V3h1V2h1V1h1V0h17v20H0V6h1z"/><linearGradient id="A"
+      gradientUnits="userSpaceOnUse" x1="20.759" y1="21.474" x2="5.818" y2="1.902"><stop
+      offset="0" stop-color="#ff0"/><stop offset="1" stop-color="#f0f"/></linearGradient><path
+      d="M0 7h2V6h1V5h1V4h1V3h1V2h1V1h17v18H0V7z" fill="url(#A)"/></g>
+    - <g><path d="M23 6h-1V5h-1V4h-1V3h-1V2h-1V1h-1V0H0v20h24V6h-1z"/><linearGradient
+      id="A" gradientUnits="userSpaceOnUse" x1="3.241" y1="21.474" x2="18.182" y2="1.902"><stop
+      offset="0" stop-color="#f0f"/><stop offset="1" stop-color="#ff0"/></linearGradient><path
+      d="M24 19H0V1h17v1h1v1h1v1h1v1h1v1h1v1h2v12z" fill="url(#A)"/></g>
+    - <g><path d="M3 1v20h34V1H3z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="30.231" y1="24.403" x2="9.769" y2="-2.403"><stop offset="0" stop-color="#ff0"/><stop
+      offset=".8" stop-color="#f0f"/></linearGradient><path d="M36,2v18H4V2H36z"
+      fill="url(#A)"/><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-up"><path
+      d="M2 9V8H1V7H0V0h2v1h1.5v8H2z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="-.056" y1="1.806" x2="4.056" y2="7.194"><stop offset="0" stop-color="#ff0"/><stop
+      offset=".8" stop-color="#f0f"/></linearGradient><path d="M2 7H1V1h1v1h1v6H2V7z"
+      fill="url(#A)"/></g><path d="M2 1v1H1v1H0v7h2V9h1.5V1H2z"/><linearGradient
+      id="A" gradientUnits="userSpaceOnUse" x1="-.056" y1="8.194" x2="4.056" y2="2.806"><stop
+      offset="0" stop-color="#ff0"/><stop offset=".8" stop-color="#f0f"/></linearGradient><path
+      d="M2 3H1v6h1V8h1V2H2v1z" fill="url(#A)"/><g class="gotchi-sleeves gotchi-sleeves-right
+      gotchi-sleeves-up"><path d="M38 9V8h1V7h1V0h-2v1h-1.5v8H38z"/><linearGradient
+      id="A" gradientUnits="userSpaceOnUse" x1="40.056" y1="1.806" x2="35.944" y2="7.194"><stop
+      offset="0" stop-color="#ff0"/><stop offset=".8" stop-color="#f0f"/></linearGradient><path
+      d="M38 7h1V1h-1v1h-1v6h1V7z" fill="url(#A)"/></g><path d="M38 1v1h1v1h1v7h-2V9h-1.5V1H38z"/><linearGradient
+      id="A" gradientUnits="userSpaceOnUse" x1="40.056" y1="8.194" x2="35.944" y2="2.806"><stop
+      offset="0" stop-color="#ff0"/><stop offset=".8" stop-color="#f0f"/></linearGradient><path
+      d="M38 3h1v6h-1V8h-1V2h1v1z" fill="url(#A)"/></g>
+    sleeves:
+    - <g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-up"><path d="M38
+      9V8h1V7h1V0h-2v1h-1.5v8H38z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="40.056" y1="1.806" x2="35.944" y2="7.194"><stop offset="0" stop-color="#ff0"/><stop
+      offset=".8" stop-color="#f0f"/></linearGradient><path d="M38 7h1V1h-1v1h-1v6h1V7z"
+      fill="url(#A)"/></g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-down"><path
+      d="M38 1v1h1v1h1v7h-2V9h-1.5V1H38z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="40.056" y1="8.194" x2="35.944" y2="2.806"><stop offset="0" stop-color="#ff0"/><stop
+      offset=".8" stop-color="#f0f"/></linearGradient><path d="M38 3h1v6h-1V8h-1V2h1v1z"
+      fill="url(#A)"/></g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path
+      d="M2 9V8H1V7H0V0h2v1h1.5v8H2z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="-.056" y1="1.806" x2="4.056" y2="7.194"><stop offset="0" stop-color="#ff0"/><stop
+      offset=".8" stop-color="#f0f"/></linearGradient><path d="M2 7H1V1h1v1h1v6H2V7z"
+      fill="url(#A)"/></g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-down"><path
+      d="M2 1v1H1v1H0v7h2V9h1.5V1H2z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="-.056" y1="8.194" x2="4.056" y2="2.806"><stop offset="0" stop-color="#ff0"/><stop
+      offset=".8" stop-color="#f0f"/></linearGradient><path d="M2 3H1v6h1V8h1V2H2v1z"
+      fill="url(#A)"/></g></g>
+    - <g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-up"><path d="M13
+      1h1v1h1v2.1h-1V4H9v.1H8V3H7V2H6V0h7v1z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="-39.262" y1="319.163" x2="-34.736" y2="325.093" gradientTransform="matrix(0
+      1 1 0 -311.4375 39.3125)"><stop offset="0" stop-color="#ff0"/><stop offset="1"
+      stop-color="#f0f"/></linearGradient><path d="M13 2V1H7v1h1v1h1v1.1h5V2z" fill="url(#A)"/></g><g
+      class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-down"><path d="M10
+      4V3h1V2h2.1v1H13v5h.1v1H12v1h-1v1H9V4h1z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="9.05" y1="9.275" x2="13.577" y2="3.345"><stop offset="0" stop-color="#ff0"/><stop
+      offset="1" stop-color="#f0f"/></linearGradient><path d="M11 4h-1v6h1V9h1V8h1.1V3H11z"
+      fill="url(#A)"/></g></g>
+    - <g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path d="M11
+      1h-1v1H9v2.1h1V4h5v.1h1V3h1V2h1V0h-7v1z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="16.275" y1=".05" x2="10.345" y2="4.577"><stop offset="0" stop-color="#f0f"/><stop
+      offset="1" stop-color="#ff0"/></linearGradient><path d="M11 2V1h6v1h-1v1h-1v1.1h-5V2z"
+      fill="url(#A)"/></g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-down"><path
+      d="M14 4V3h-1V2h-2.1v1h.1v5h-.1v1H12v1h1v1h2V4h-1z"/><linearGradient id="A"
+      gradientUnits="userSpaceOnUse" x1="14.95" y1="9.275" x2="10.423" y2="3.345"><stop
+      offset="0" stop-color="#f0f"/><stop offset="1" stop-color="#ff0"/></linearGradient><path
+      d="M13 4h1v6h-1V9h-1V8h-1.1V3H13z" fill="url(#A)"/></g></g>
+    - <g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path d="M11
+      1h-1v1H9v2.1h1V4h5v.1h1V3h1V2h1V0h-7v1z"/><linearGradient id="A" gradientUnits="userSpaceOnUse"
+      x1="16.275" y1=".05" x2="10.345" y2="4.577"><stop offset="0" stop-color="#f0f"/><stop
+      offset="1" stop-color="#ff0"/></linearGradient><path d="M11 2V1h6v1h-1v1h-1v1.1h-5V2z"
+      fill="url(#A)"/></g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-down"><path
+      d="M14 4V3h-1V2h-2.1v1h.1v5h-.1v1H12v1h1v1h2V4h-1z"/><linearGradient id="A"
+      gradientUnits="userSpaceOnUse" x1="14.95" y1="9.275" x2="10.423" y2="3.345"><stop
+      offset="0" stop-color="#f0f"/><stop offset="1" stop-color="#ff0"/></linearGradient><path
+      d="M13 4h1v6h-1V9h-1V8h-1.1V3H13z" fill="url(#A)"/></g></g>
+    dimensions:
+    - X: 12
+      Y: 32
+      Width: 40
+      Height: 21
+    - X: 20
+      Y: 33
+      Width: 24
+      Height: 20
+    - X: 20
+      Y: 33
+      Width: 24
+      Height: 20
+    - X: 12
+      Y: 32
+      Width: 40
+      Height: 21
+    note: 

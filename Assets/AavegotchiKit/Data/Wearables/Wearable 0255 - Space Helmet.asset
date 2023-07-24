@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0255 - Space Helmet
+  m_EditorClassIdentifier: 
+  data:
+    id: 255
+    name: Space Helmet
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 02000000feffffff00000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M30,12v-1h-1v-1h-2V9H9v1H7v1H6v1H5v1H4v13h1v1h1v1h1v1h2v1h18v-1h2v-1h1v-1h1v-1h1V13h-1v-1H30z"
+      opacity=".75" fill="#005bff" enable-background="new"/><path d="M35 9V7h-1V6h-1V5h-1V4h-1V3h-1V2h-2V1h-2V0H10v1H8v1H6v1H5v1H4v1H3v1H2v1H1v2H0v18h1v2h1v1h1v1h1v1h1v1h2v1h2v1h18v-1h2v-1h2v-1h1v-1h1v-1h1v-1h1v-2h1V9h-1zm-4
+      16v1h-1v1h-1v1h-2v1H9v-1H7v-1H6v-1H5V13h1v-1h1v-1h2v-1h18v1h2v1h1v1h1v12z"/><g
+      fill="#fff"><path d="M34 9V7h-1V6h-1V5h-1V4h-1V3h-2V2h-2V1H10v1H8v1H6v1H5v1H4v1H3v1H2v2H1v18h1v2h1v1h1v1h1v1h2v1h2v1h18v-1h2v-1h2v-1h1v-1h1v-1h1v-2h1V9h-1zm-3
+      17v1h-1v1h-1v1h-2v1H9v-1H7v-1H6v-1H5v-1H4V13h1v-1h1v-1h1v-1h2V9h18v1h2v1h1v1h1v1h1v13h-1zm-3-12v2h1v-2h-1z"/><path
+      d="M26,13v1h2v-1H26z"/></g>
+    - <path d="M2,9v1h2v1h1v1h1v1h1v13H6v1H5v1H4v1H2v1H0V9H2z" opacity=".75" fill="#0076ff"
+      enable-background="new"/><path d="M1 6V5h1V4h2V3h2V2h2V1h2V0h6v1h2v1h2v1h2v1h2v1h1v1h1v23H9v1H8v1H7v1H6v1H4v1H2v1H0v-6h2v-1h2v-1h1v-1h1V13H5v-1H4v-1H2v-1H0V6h1z"/><g
+      fill="#fff"><path d="M1 7V6h1V5h2V4h2V3h2V2h2V1h6v1h2v1h2v1h2v1h2v1h1v22H9v1H8v1H7v1H6v1H4v1H2v1H0v-4h2v-1h2v-1h1v-1h1v-1h1V13H6v-1H5v-1H4v-1H2V9H0V7h1zm2
+      7v2h1v-2H3z"/><path d="M1,13v1h2v-1H1z"/></g>
+    - <path d="M26 9v21h-2v-1h-2v-1h-1v-1h-1v-1h-1V13h1v-1h1v-1h1v-1h2V9h2z" opacity=".75"
+      fill="#0076ff" enable-background="new"/><path d="M25 6V5h-1V4h-2V3h-2V2h-2V1h-2V0h-6v1H8v1H6v1H4v1H2v1H1v1H0v23h17v1h1v1h1v1h1v1h2v1h2v1h2v-6h-2v-1h-2v-1h-1v-1h-1V13h1v-1h1v-1h2v-1h2V6h-1z"/><path
+      d="M25 7V6h-1V5h-2V4h-2V3h-2V2h-2V1h-6v1H8v1H6v1H4v1H2v1H1v22h16v1h1v1h1v1h1v1h2v1h2v1h2v-4h-2v-1h-2v-1h-1v-1h-1v-1h-1V13h1v-1h1v-1h1v-1h2V9h2V7h-1z"
+      fill="#fff"/>
+    - <path d="M35 9V7h-1V6h-1V5h-1V4h-1V3h-1V2h-2V1h-2V0H10v1H8v1H6v1H5v1H4v1H3v1H2v1H1v2H0v18h1v1h1v1h32v-1h1v-1h1V9h-1z"/><path
+      d="M34 9V7h-1V6h-1V5h-1V4h-1V3h-2V2h-2V1H10v1H8v1H6v1H5v1H4v1H3v1H2v2H1v18h1v1h32v-1h1V9h-1z"
+      fill="#fff"/><path d="M22 13v-1h-1v-1h-6v1h-1v1h-1v5h1v1h1v1h6v-1h1v-1h1v-5h-1z"
+      fill="#00adef"/><g fill="#fff"><path d="M18.5 16h0 1v-1h1v-1h-1v1h-1 0-1v-1h2v-1h-1v-1h-1v1h-2v1h1v3h-1v1h2v1h1v-1h1v-1h-2v-1h1z"/><path
+      d="M19.5 16h1v1h-1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 14
+      Y: 5
+      Width: 36
+      Height: 35
+    - X: 19
+      Y: 5
+      Width: 26
+      Height: 35
+    - X: 19
+      Y: 5
+      Width: 26
+      Height: 35
+    - X: 14
+      Y: 5
+      Width: 36
+      Height: 29
+    note: 

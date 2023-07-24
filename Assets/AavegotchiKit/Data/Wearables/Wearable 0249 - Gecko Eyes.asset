@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0249 - Gecko Eyes
+  m_EditorClassIdentifier: 
+  data:
+    id: 249
+    name: Gecko Eyes
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000feffffffffffffff0000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M25 4V3h-1V2h-1V1h-1V0h-4v1h-1v1h-1v1h-1v1h-1v4h1v1h1v1h1v1h1v1h4v-1h1v-1h1V9h1V8h1V4h-1z"
+      fill="#326400"/><path d="M24 4V3h-1V2h-1V1h-4v1h-1v1h-1v1h-1v4h1v1h1v1h1v1h4v-1h1V9h1V8h1V4h-1z"
+      fill="#8bc53f"/><path d="M23 4V3h-1V2h-4v1h-1v1h-1v4h1v1h1v1h4V9h1V8h1V4h-1z"
+      fill="#f9e988"/><path d="M22 4V3h-4v1h-1v4h1v1h4V8h1V4h-1z" fill="#fff"/><path
+      d="M20 3h-1v6h2V3h-1z" fill="#58595b"/><path d="M11 4V3h-1V2H9V1H8V0H4v1H3v1H2v1H1v1H0v4h1v1h1v1h1v1h1v1h4v-1h1v-1h1V9h1V8h1V4h-1z"
+      fill="#326400"/><path d="M10 4V3H9V2H8V1H4v1H3v1H2v1H1v4h1v1h1v1h1v1h4v-1h1V9h1V8h1V4h-1z"
+      fill="#8bc53f"/><path d="M9 4V3H8V2H4v1H3v1H2v4h1v1h1v1h4V9h1V8h1V4H9z" fill="#f9e988"/><path
+      d="M8 4V3H4v1H3v4h1v1h4V8h1V4H8z" fill="#fff"/><path d="M6 3H5v6h2V3H6z" fill="#58595b"/>
+    - <path d="M2 0v1h1v1h1v1h1v1h1v4H5v1H4v1H3v1H2v1H0V0h2z" fill="#326400"/><path
+      d="M2 1v1h1v1h1v1h1v4H4v1H3v1H2v1H0V1h2z" fill="#8bc53f"/><path d="M2 2v1h1v1h1v4H3v1H2v1H0V2h2z"
+      fill="#f9e988"/><path d="M1 3h1v1h1v4H2v1H0V3h1z" fill="#fff"/><path d="M1
+      3v6H0V3h1z" fill="#58595b"/>
+    - <path d="M4 0v1H3v1H2v1H1v1H0v4h1v1h1v1h1v1h1v1h2V0H4z" fill="#326400"/><path
+      d="M4 1v1H3v1H2v1H1v4h1v1h1v1h1v1h2V1H4z" fill="#8bc53f"/><path d="M4 2v1H3v1H2v4h1v1h1v1h2V2H4z"
+      fill="#f9e988"/><path d="M5 3H4v1H3v4h1v1h2V3H5z" fill="#fff"/><path d="M5
+      3v6h1V3H5z" fill="#58595b"/>
+    - 
+    sleeves: []
+    dimensions:
+    - X: 19
+      Y: 20
+      Width: 26
+      Height: 12
+    - X: 20
+      Y: 20
+      Width: 6
+      Height: 12
+    - X: 38
+      Y: 20
+      Width: 6
+      Height: 12
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    note: 

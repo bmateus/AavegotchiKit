@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0053 - All-Seeing Eyes
+  m_EditorClassIdentifier: 
+  data:
+    id: 53
+    name: All-Seeing Eyes
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: faffffff0000000000000000000000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 50
+    minLevel: 1
+    svgs:
+    - <path d="M27 3V2h-1V1h-1V0h-6v1h-1v1h-1v1h-1v6h1v1h1v1h1v1h6v-1h1v-1h1V9h1V3z"/><path
+      d="M26,3V2h-1V1h-6v1h-1v1h-1v6h1v1h1v1h6v-1h1V9h1V3H26z" fill="#0f0"/><path
+      d="M25 4V3h-1V2h-4v1h-1v1h-1v4h1v1h1v1h4V9h1V8h1V4z" fill="#ff0"/><path d="M24
+      4V3h-4v1h-1v4h1v1h4V8h1V4z" fill="#f0f"/><path d="M23 5V4h-2v1h-1v2h1v1h2V7h1V5z"
+      fill="#7d00ff"/><path d="M21,5h2v2h-2V5z" fill="#0ff"/><path d="M11 3V2h-1V1H9V0H3v1H2v1H1v1H0v6h1v1h1v1h1v1h6v-1h1v-1h1V9h1V3z"/><path
+      d="M10,3V2H9V1H3v1H2v1H1v6h1v1h1v1h6v-1h1V9h1V3H10z" fill="#0f0"/><path d="M9
+      4V3H8V2H4v1H3v1H2v4h1v1h1v1h4V9h1V8h1V4z" fill="#ff0"/><path d="M8 4V3H4v1H3v4h1v1h4V8h1V4z"
+      fill="#f0f"/><path d="M7 5V4H5v1H4v2h1v1h2V7h1V5z" fill="#7d00ff"/><path d="M5,5h2v2H5V5z"
+      fill="#0ff"/>
+    - <path d="M0 0v12h3v-1h1v-1h1V9h1V3H5V2H4V1H3V0H0z"/><path d="M3 1v1h1v1h1v6H4v1H3h0
+      0v1H0V1h3z" fill="#0f0"/><path d="M2 2v1h1v1h1v4H3v1H2v1H0V2h2z" fill="#ff0"/><path
+      d="M2 3v1h1v4H2v1H0V3h2z" fill="#f0f"/><path d="M1 4v1h1v2H1v1H0V4h1z" fill="#7d00ff"/><path
+      d="M1 5v2H0V5h1z" fill="#0ff"/>
+    - <path d="M3 0v1H2v1H1v1H0v6h1v1h1v1h1v1h3V0H3z"/><path d="M3 1v1H2v1H1v6h1v1h1
+      0 0v1h3V1H3z" fill="#0f0"/><path d="M4 2v1H3v1H2v4h1v1h1v1h2V2H4z" fill="#ff0"/><path
+      d="M4 3v1H3v4h1v1h2V3H4z" fill="#f0f"/><path d="M5 4v1H4v2h1v1h1V4H5z" fill="#7d00ff"/><path
+      d="M5 5v2h1V5H5z" fill="#0ff"/>
+    - 53_AllSeeingEyesBack
+    sleeves: []
+    dimensions:
+    - X: 18
+      Y: 19
+      Width: 28
+      Height: 12
+    - X: 20
+      Y: 19
+      Width: 6
+      Height: 12
+    - X: 38
+      Y: 19
+      Width: 6
+      Height: 12
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    note: 

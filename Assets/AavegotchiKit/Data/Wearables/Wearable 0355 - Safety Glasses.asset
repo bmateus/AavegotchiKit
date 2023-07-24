@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0355 - Safety Glasses
+  m_EditorClassIdentifier: 
+  data:
+    id: 355
+    name: Safety Glasses
+    description: 
+    author: THE FORGE
+    category: 0
+    traitModifiers: 010000000200000000000000000000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M0 0v2h1v1h2v1h1v3h1v2h2v1h8V9h1V8h2v1h1v1h8V9h2V7h1V4h1V3h2V2h1V0H0z"
+      opacity=".588" fill="#2aa4ff" enable-background="new"/><path d="M0 0v2h1v1h2v1h1V3h1V2h1V1h9v1h4V1h9v1h1v1h1v1h1V3h2V2h1V0H0z"/><g
+      fill="#fff"><path d="M7 2h1v1H7zm2 0h1v1H9zm11 0h1v1h-1zm2 0h1v1h-1z"/><path
+      d="M6 3h1v1H6zm2 0h1v1H8zm11 0h1v1h-1zm2 0h1v1h-1z"/><path d="M5 4h1v1H5zm2
+      0h1v1H7zm11 0h1v1h-1zm2 0h1v1h-1z"/></g><path d="M2 1v1h2V1H2zm28 0v1h2V1h-2z"
+      fill="#db3ffd"/>
+    - <path d="M25 0v1h-9v1h-3v1h-2v1h-1v3H9v2H7v1H0V0h25z" opacity=".588" fill="#2aa4ff"
+      enable-background="new"/><path d="M25 0v1h-9v1h-3v1h-2v1h-1V3H9V2H8V1H3v1H0V0h25z"/><path
+      d="M11 1v1H9V1h2z" fill="#db3ffd"/><g fill="#fff"><path d="M4 2h1v1H4zm2 0h1v1H6z"/><path
+      d="M3 3h1v1H3zm2 0h1v1H5z"/><path d="M2 4h1v1H2zm2 0h1v1H4z"/></g>
+    - <path d="M0 0v1h9v1h3v1h2v1h1v3h1v2h2v1h7V0H0z" opacity=".588" fill="#2aa4ff"
+      enable-background="new"/><g fill="#fff"><path d="M19 2h1v1h-1zm2 0h1v1h-1z"/><path
+      d="M18 3h1v1h-1zm2 0h1v1h-1z"/><path d="M17 4h1v1h-1zm2 0h1v1h-1z"/></g><path
+      d="M0 0v1h9v1h3v1h2v1h1V3h1V2h1V1h5v1h3V0H0z"/><path d="M14 1v1h2V1h-2z" fill="#db3ffd"/>
+    - <path d="M0 0v1h2V0H0zm32 0v1h2V0h-2z"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 21
+      Width: 34
+      Height: 10
+    - X: 19
+      Y: 21
+      Width: 25
+      Height: 10
+    - X: 20
+      Y: 21
+      Width: 25
+      Height: 10
+    - X: 15
+      Y: 21
+      Width: 34
+      Height: 1
+    note: 

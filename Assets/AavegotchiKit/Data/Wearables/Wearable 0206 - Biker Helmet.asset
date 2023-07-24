@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0206 - Biker Helmet
+  m_EditorClassIdentifier: 
+  data:
+    id: 206
+    name: Biker Helmet
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000200000000000000010000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M3 29h1v-1h1v-9h30v9h1v1h1v1h3v-6h-1v-7h-1v-6h-1V7h-2V5h-2V3h-2V2h-4V1h-4V0h-6v1h-4v1H9v1H7v2H5v2H3v4H2v6H1v7H0v6h3v-1h0z"/><g
+      fill="#232323"><path d="M5,18v1h30v-1H5z"/><path d="M4 27H3v2h1v-1h1v-9H4v8z"/><path
+      d="M2 29H1v1h2v-2H2v1zm36 0v-1h-1v-1h-1v-8h-1v9h1v1h1v1h2v-1h-1z"/></g><g fill="#646464"><path
+      d="M5,17v1h30v-1H5z"/><path d="M35 18h1v1h-1v-1zM4 18h1v1H4v-1z"/><path d="M3
+      27h1v-8H3v8zm34 0v-8h-1v8h1v1h1v-1h-1z"/><path d="M2 27h1v1H2v-1zm36 1h1v1h-1v-1z"/><path
+      d="M1 28h1v1H1v-1zm38 1h1v1h-1v-1z"/><path d="M0,29h1v1H0V29z"/></g><path d="M25.5
+      3v1h-1v1h-1v1h-1v1h-1v1h-1v1h3v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1V9h3V8h-1V7h-1V6h-1V5h-1V4h-1V3h-4v1h1v1h1v1h1v1h1v1h-3v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h3v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1V9h1V8h-3V7h1V6h1V5h1V4h1V3h-4z"
+      fill="#a000dc"/><path d="M25.5 3v1h-1v1h-1v1h-1v1h-1v1h-1v1h3v1h-1v1h-1v1h-1v1h-1v-1h-1v-1h-1v-1h-1V9h3V8h-1V7h-1V6h-1V5h-1V4h-1V3h-3v1h1v1h1v1h1v1h1v1h-3v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1V9h1V8h-3V7h1V6h1V5h1V4h1V3h-3z"
+      fill="#c02df0"/><g fill="#d778f5"><path d="M19.5,13h1v1h-1V13z"/><path d="M18.5,12h1v1h-1V12z"/><path
+      d="M17.5,11h1v1h-1V11z"/><path d="M16.5 10h1v1h-1v-1zm-3-7h1v1h-1V3z"/><path
+      d="M14.5,4h1v1h-1V4z"/><path d="M15.5,5h1v1h-1V5z"/><path d="M16.5,6h1v1h-1V6z"/><path
+      d="M17.5 7h1v1h-1V7zm-2 2h1v1h-1V9z"/><path d="M18.5 8h1v1h-1V8zm2 4h1v1h-1v-1z"/><path
+      d="M21.5,11h1v1h-1V11z"/><path d="M22.5 10h1v1h-1v-1zm3-7h1v1h-1V3z"/><path
+      d="M24.5,4h1v1h-1V4z"/><path d="M23.5,5h1v1h-1V5z"/><path d="M22.5,6h1v1h-1V6z"/><path
+      d="M21.5 7h1v1h-1V7zm2 2h1v1h-1V9z"/><path d="M20.5,8h1v1h-1V8z"/></g>
+    - <path d="M19 30h9v-1h1V6h-1V5h-1V4h-1V3h-1V2h-2V1h-2V0H8v1H6v1.01H4v1H3v1H2v1H1V6H0v13h17v9h1v1h1z"/><g
+      fill="#232323"><path d="M18 27h1v1h1v1h1v1h-2v-1h0 0-1v-1h-1v-9h1v8z"/><path
+      d="M17 18v1H0v-1h17z"/></g><g fill="#646464"><path d="M18 19h1v8h-1z"/><path
+      d="M19 27h1v1h-1z"/><path d="M20 28h1v1h-1zm-3-11v1h1v1h-1v-1H0v-1h17z"/></g><path
+      d="M1 13v-1h1v-1h1v-1h1V9H1V8h1V7h1V6h1V5h1V4h1V3h4v1H9v1H8v1H7v1H6v1h3v1H8v1H7v1H6v1H5v1H4v1H3v1H2v1H0v-3h1z"
+      fill="#a000dc"/><path d="M1 13v-1h1v-1h1v-1h1V9H1V8h1V7h1V6h1V5h1V4h1V3h3v1H8v1H7v1H6v1H5v1h3v1H7v1H6v1H5v1H4v1H3v1H2v1H1v1H0v-3h1z"
+      fill="#c02df0"/><g fill="#d778f5"><path d="M0 13h1v1H0z"/><path d="M1 12.01h1v1H1z"/><path
+      d="M2 11.01h1v1H2z"/><path d="M3 10.01h1v1H3zm3-7h1v1H6z"/><path d="M5 4.01h1v1H5z"/><path
+      d="M4 5.01h1v1H4z"/><path d="M3 6.01h1v1H3z"/><path d="M2 7.01h1v1H2zm2 2h1v1H4z"/><path
+      d="M1 8.01h1v1H1z"/></g>
+    - <path d="M10 30H1v-1H0V6h1V5h1V4h1V3h1V2h2V1h2V0h13v1h2v1.01h2v1h1v1h1v1h1V6h1v13H12v9h-1v1h-1z"/><g
+      fill="#232323"><path d="M11 27h-1v1H9v1H8v1h2v-1h0 0 1v-1h1v-9h-1v8z"/><path
+      d="M12 18v1h17v-1H12z"/></g><g fill="#646464"><path d="M10 19h1v8h-1z"/><path
+      d="M9 27h1v1H9z"/><path d="M8 28h1v1H8zm4-11v1h-1v1h1v-1h17v-1H12z"/></g><path
+      d="M28 13v-1h-1v-1h-1v-1h-1V9h3V8h-1V7h-1V6h-1V5h-1V4h-1V3h-4v1h1v1h1v1h1v1h1v1h-3v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h2v-3h-1z"
+      fill="#a000dc"/><path d="M28 13v-1h-1v-1h-1v-1h-1V9h3V8h-1V7h-1V6h-1V5h-1V4h-1V3h-3v1h1v1h1v1h1v1h1v1h-3v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v-3h-1z"
+      fill="#c02df0"/><g fill="#d778f5"><path d="M28 13h1v1h-1z"/><path d="M27 12.01h1v1h-1z"/><path
+      d="M26 11.01h1v1h-1z"/><path d="M25 10.01h1v1h-1zm-3-7h1v1h-1z"/><path d="M23
+      4.01h1v1h-1z"/><path d="M24 5.01h1v1h-1z"/><path d="M25 6.01h1v1h-1z"/><path
+      d="M26 7.01h1v1h-1zm-2 2h1v1h-1z"/><path d="M27 8.01h1v1h-1z"/></g>
+    - <path d="M17 0h6v1h4v1h4v1h2v2h2v2.01h2V11h1v6h1v7h1v6H0v-6h1v-7h1v-6h1V7h2V5h2V2.99h2V2h4V1h4z"/>
+    sleeves: []
+    dimensions:
+    - X: 12
+      Y: 2
+      Width: 40
+      Height: 30
+    - X: 18
+      Y: 2
+      Width: 29
+      Height: 30
+    - X: 17
+      Y: 2
+      Width: 29
+      Height: 30
+    - X: 12
+      Y: 2
+      Width: 40
+      Height: 30
+    note: 

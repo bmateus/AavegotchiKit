@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0084 - Gentleman Hat
+  m_EditorClassIdentifier: 
+  data:
+    id: 84
+    name: Gentleman Hat
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: fffffffffdffffff00000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M40 16V1h-2V0H8v1H6v15H0v2h46v-2z"/><path d="M40,14v-3H6v3H40z" fill="#282828"/>
+    - <path d="M32 1h-2V0H8v1H6v15H0v2h38v-2h-6V1z"/><path d="M6 11v3h26v-3H6z" fill="#282828"/>
+    - <path d="M32 1h-2V0H8v1H6v15H0v2h38v-2h-6V1z"/><path d="M6 11v3h26v-3H6z" fill="#282828"/>
+    - <path d="M40,16V1h-2V0H8v1H6v15H0v2h46v-2H40z"/><path d="M40,14v-3H6v3H40z"
+      fill="#282828"/>
+    sleeves: []
+    dimensions:
+    - X: 9
+      Y: 2
+      Width: 46
+      Height: 18
+    - X: 13
+      Y: 2
+      Width: 38
+      Height: 18
+    - X: 13
+      Y: 2
+      Width: 38
+      Height: 18
+    - X: 9
+      Y: 2
+      Width: 46
+      Height: 18
+    note: 

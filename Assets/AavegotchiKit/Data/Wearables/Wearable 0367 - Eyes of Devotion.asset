@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0367 - Eyes of Devotion
+  m_EditorClassIdentifier: 
+  data:
+    id: 367
+    name: Eyes of Devotion
+    description: 
+    author: THE FORGE
+    category: 0
+    traitModifiers: 0000000000000000fdfffffffdffffff0000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 50
+    minLevel: 1
+    svgs:
+    - <path d="M12 1h-1V0H8v1H7v1H6V1H5V0H2v1H1v1H0v5h1v1h1v1h1v1h1v1h1v1h3v-1h1v-1h1V9h1V8h1V7h1V2h-1V1zm15
+      1V1h-1V0h-3v1h-1v1h-1V1h-1V0h-3v1h-1v1h-1v5h1v1h1v1h1v1h1v1h1v1h3v-1h1v-1h1V9h1V8h1V7h1V2h-1z"
+      fill="#581693"/><path d="M11 1H8v1H7v1H6V2H5V1H2v1H1v5h1v1h1v1h1v1h1v1h3v-1h1V9h1V8h1V7h1V2h-1V1zm15
+      1V1h-3v1h-1v1h-1V2h-1V1h-3v1h-1v5h1v1h1v1h1v1h1v1h3v-1h1V9h1V8h1V7h1V2h-1z"
+      fill="#3a2e45"/><path d="M10 4H8V3H5v1H1v1h3v1H1v1h1v1h1v1h1v1h1v1h3v-1h1V9h1V8h1V7h1V6H9V5h3V4h-2zM5
+      5h1v1H5V5zm3 1H7V5h1v1zm17-1h2V4h-4V3h-3v1h-4v1h3v1h-3v1h1v1h1v1h1v1h1v1h3v-1h1V9h1V8h1V7h1V6h-3V5h1zm-5
+      0h1v1h-1V5zm3 1h-1V5h1v1z" fill="#6630eb"/><path d="M10 4H8V3H5v1H1v1h3v1H1v1h1v1h9V7h1V6H9V5h3V4h-2zM5
+      5h1v1H5V5zm3 1H7V5h1v1zm17-1h2V4h-4V3h-3v1h-4v1h3v1h-3v1h1v1h9V7h1V6h-3V5h1zm-5
+      0h1v1h-1V5zm3 1h-1V5h1v1z" fill="#d74eef"/><path d="M8 3H5v1H4v4h1V7h1v1h1V7h1v1h1V4H8V3zM5
+      6V5h1v1H5zm3 0H7V5h1v1zm15-2V3h-3v1h-1v4h1V7h1v1h1V7h1v1h1V4h-1zm-3 2V5h1v1h-1zm3
+      0h-1V5h1v1z" fill="#72f298"/>
+    - <path d="M1 2V1h1V0h3v1h1v1h1v5H6v1H5v1H4v1H3v1H2v1H0V2h1z" fill="#581693"/><path
+      d="M1 3V2h1V1h3v1h1v5H5v1H4v1H3v1H2v1H0V3h1z" fill="#3a2e45"/><path d="M0 3v8h2v-1h1V9h1V8h1V7h1V6H3V5h3V4H2V3H1
+      0zm1 2h1v1H1V5z" fill="#6630eb"/><path d="M0 3v5h5V7h1V6H3V5h3V4H2V3H1 0zm1
+      2h1v1H1V5z" fill="#d74eef"/><path d="M0 3v5h1V7h1v1h1V4H2V3H1 0zm1 2h1v1H1V5z"
+      fill="#72f298"/>
+    - <path d="M6 2V1H5V0H2v1H1v1H0v5h1v1h1v1h1v1h1v1h1v1h2V2H6z" fill="#581693"/><path
+      d="M6 3V2H5V1H2v1H1v5h1v1h1v1h1v1h1v1h2V3H6z" fill="#3a2e45"/><path d="M6 3H5v1H1v1h3v1H1v1h1v1h1v1h1v1h1v1h2V3H6zm0
+      3H5V5h1v1z" fill="#6630eb"/><path d="M6 3H5v1H1v1h3v1H1v1h1v1h5V3H6zm0 3H5V5h1v1z"
+      fill="#d74eef"/><path d="M6 3H5v1H4v4h1V7h1v1h1V3H6zm0 3H5V5h1v1z" fill="#72f298"/>
+    - 367_EyesofDevotionBack
+    sleeves: []
+    dimensions:
+    - X: 18
+      Y: 20
+      Width: 28
+      Height: 12
+    - X: 19
+      Y: 20
+      Width: 7
+      Height: 12
+    - X: 38
+      Y: 20
+      Width: 7
+      Height: 12
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    note: 

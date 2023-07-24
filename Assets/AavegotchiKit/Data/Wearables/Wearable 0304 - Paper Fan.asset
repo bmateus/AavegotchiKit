@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0304 - Paper Fan
+  m_EditorClassIdentifier: 
+  data:
+    id: 304
+    name: Paper Fan
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 00000000fdffffff00000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M17 4V3h-1V2h-2V1h-2V0H6v1H4v1H2v1H1v1H0v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h4v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h-1z"/><g
+      fill="red"><path d="M10 10h1v1h-1zm-3 0h1v1H7z"/><path d="M8 9v1h2V9H8z"/></g><path
+      d="M11 8V7H7v1H6v1h2V8h2v1h2V8h-1z" fill="#ff0"/><g fill="#fff"><path d="M6
+      2h1v1H6z"/><path d="M7 3h1v1H7zM5 3h1v1H5zM3 3h1v1H3z"/><path d="M4 4h1v1H4zm2
+      0h1v1H6z"/><path d="M5 5h1v1H5zm3-1v1h2V4H8z"/><path d="M10 3h1v1h-1z"/><path
+      d="M11 2h1v1h-1zm2 0h1v1h-1z"/><path d="M14 3h1v1h-1z"/><path d="M15 4v1h-1v1h-1v1h-1v1h2V7h1V6h1V5h1V4h-2z"/><path
+      d="M13 4h1v1h-1z"/><path d="M12 5h1v1h-1z"/><path d="M11 6h1v1h-1zm1-3h1v1h-1z"/><path
+      d="M11 4h1v1h-1z"/><path d="M10 5h1v1h-1zM7 5h1v1H7z"/><path d="M6 6h1v1H6z"/><path
+      d="M5 6H4V5H3V4H1v1h1v1h1v1h1v1h2V7H5V6zM4 2h1v1H4zm4 1h2V2h1V1H7v1h1v1z"/></g>
+    - <path d="M17 4V3h-1V2h-2V1h-2V0H6v1H4v1H2v1H1v1H0v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h4v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h-1z"/><g
+      fill="red"><path d="M10 10h1v1h-1zm-3 0h1v1H7z"/><path d="M8 9v1h2V9H8z"/></g><path
+      d="M11 8V7H7v1H6v1h2V8h2v1h2V8h-1z" fill="#ff0"/><g fill="#fff"><path d="M6
+      2h1v1H6z"/><path d="M7 3h1v1H7zM5 3h1v1H5zM3 3h1v1H3z"/><path d="M4 4h1v1H4zm2
+      0h1v1H6z"/><path d="M5 5h1v1H5zm3-1v1h2V4H8z"/><path d="M10 3h1v1h-1z"/><path
+      d="M11 2h1v1h-1zm2 0h1v1h-1z"/><path d="M14 3h1v1h-1z"/><path d="M15 4v1h-1v1h-1v1h-1v1h2V7h1V6h1V5h1V4h-2z"/><path
+      d="M13 4h1v1h-1z"/><path d="M12 5h1v1h-1z"/><path d="M11 6h1v1h-1zm1-3h1v1h-1z"/><path
+      d="M11 4h1v1h-1z"/><path d="M10 5h1v1h-1zM7 5h1v1H7z"/><path d="M6 6h1v1H6z"/><path
+      d="M5 6H4V5H3V4H1v1h1v1h1v1h1v1h2V7H5V6zM4 2h1v1H4zm4 1h2V2h1V1H7v1h1v1z"/></g>
+    - <path d="M17 4V3h-1V2h-2V1h-2V0H6v1H4v1H2v1H1v1H0v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h4v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h-1z"/><g
+      fill="red"><path d="M10 10h1v1h-1zm-3 0h1v1H7z"/><path d="M8 9v1h2V9H8z"/></g><path
+      d="M11 8V7H7v1H6v1h2V8h2v1h2V8h-1z" fill="#ff0"/><g fill="#fff"><path d="M6
+      2h1v1H6z"/><path d="M7 3h1v1H7zM5 3h1v1H5zM3 3h1v1H3z"/><path d="M4 4h1v1H4zm2
+      0h1v1H6z"/><path d="M5 5h1v1H5zm3-1v1h2V4H8z"/><path d="M10 3h1v1h-1z"/><path
+      d="M11 2h1v1h-1zm2 0h1v1h-1z"/><path d="M14 3h1v1h-1z"/><path d="M15 4v1h-1v1h-1v1h-1v1h2V7h1V6h1V5h1V4h-2z"/><path
+      d="M13 4h1v1h-1z"/><path d="M12 5h1v1h-1z"/><path d="M11 6h1v1h-1zm1-3h1v1h-1z"/><path
+      d="M11 4h1v1h-1z"/><path d="M10 5h1v1h-1zM7 5h1v1H7z"/><path d="M6 6h1v1H6z"/><path
+      d="M5 6H4V5H3V4H1v1h1v1h1v1h1v1h2V7H5V6zM4 2h1v1H4zm4 1h2V2h1V1H7v1h1v1z"/></g>
+    - <path d="M17 4V3h-1V2h-2V1h-2V0H6v1H4v1H2v1H1v1H0v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h4v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h-1z"/><g
+      fill="red"><path d="M10 10h1v1h-1zm-3 0h1v1H7z"/><path d="M8 9v1h2V9H8z"/></g><path
+      d="M11 8V7H7v1H6v1h2V8h2v1h2V8h-1z" fill="#ff0"/><g fill="#fff"><path d="M6
+      2h1v1H6z"/><path d="M7 3h1v1H7zM5 3h1v1H5zM3 3h1v1H3z"/><path d="M4 4h1v1H4zm2
+      0h1v1H6z"/><path d="M5 5h1v1H5zm3-1v1h2V4H8z"/><path d="M10 3h1v1h-1z"/><path
+      d="M11 2h1v1h-1zm2 0h1v1h-1z"/><path d="M14 3h1v1h-1z"/><path d="M15 4v1h-1v1h-1v1h-1v1h2V7h1V6h1V5h1V4h-2z"/><path
+      d="M13 4h1v1h-1z"/><path d="M12 5h1v1h-1z"/><path d="M11 6h1v1h-1zm1-3h1v1h-1z"/><path
+      d="M11 4h1v1h-1z"/><path d="M10 5h1v1h-1zM7 5h1v1H7z"/><path d="M6 6h1v1H6z"/><path
+      d="M5 6H4V5H3V4H1v1h1v1h1v1h1v1h2V7H5V6zM4 2h1v1H4zm4 1h2V2h1V1H7v1h1v1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 31
+      Width: 18
+      Height: 12
+    - X: 14
+      Y: 31
+      Width: 18
+      Height: 12
+    - X: 32
+      Y: 31
+      Width: 18
+      Height: 12
+    - X: 1
+      Y: 31
+      Width: 18
+      Height: 12
+    note: 

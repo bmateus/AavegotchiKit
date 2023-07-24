@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0070 - Handsaw
+  m_EditorClassIdentifier: 
+  data:
+    id: 70
+    name: Handsaw
+    description: 
+    author: Cryptofluffycat
+    category: 0
+    traitModifiers: 000000000300000000000000feffffff0000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M4 18v-1H3v-1H0v8h1v1h1v1h1v1h2v-9H4zm0 6H3v-1H2v-1H1v-4h1v1h1v1h1v4z"
+      fill="#ffd400"/><path d="M2,17h1v1H2V17z" fill="#494949"/><g fill="#fc0000"><path
+      d="M1,23h1v1H1V23z"/><path d="M2,24h1v1H2V24z"/><path d="M3,25h1v1H3V25z"/></g><g
+      fill="#494949"><path d="M3,18h1v1H3V18z"/><path d="M4,2V1H3V0H1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h3v1h1v1h1V2H4z"/></g>
+    - <path d="M0 18v9h2v-1h1v-1h1v-1h1v-8H2v1H1v1H0zm1 2h1v-1h1v-1h1v4H3v1H2v1H1v-4z"
+      fill="#ffd400"/><path d="M3 18H2v-1h1v1z" fill="#494949"/><g fill="#fc0000"><path
+      d="M4 24H3v-1h1v1z"/><path d="M3 25H2v-1h1v1z"/><path d="M2 26H1v-1h1v1z"/></g><g
+      fill="#494949"><path d="M2 19H1v-1h1v1z"/><path d="M0,2v16h1v-1h1v-1h3v-1H4v-1h1v-1H4v-1h1v-1H4v-1h1V9H4V8h1V7H4V6h1V5H4V4h1V3H4V2h1V1H4V0H2v1H1v1H0z"/></g>
+    - <path d="M4 18v-1H3v-1H0v8h1v1h1v1h1v1h2v-9H4zm0 6H3v-1H2v-1H1v-4h1v1h1v1h1v4z"
+      fill="#ffd400"/><path d="M2,17h1v1H2V17z" fill="#494949"/><g fill="#fc0000"><path
+      d="M1,23h1v1H1V23z"/><path d="M2,24h1v1H2V24z"/><path d="M3,25h1v1H3V25z"/></g><g
+      fill="#494949"><path d="M3,18h1v1H3V18z"/><path d="M4,2V1H3V0H1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h1v1H0v1h3v1h1v1h1V2H4z"/></g>
+    - <path d="M0 18v9h2v-1h1v-1h1v-1h1v-8H2v1H1v1H0zm1 2h1v-1h1v-1h1v4H3v1H2v1H1v-4z"
+      fill="#ffd400"/><path d="M3 18H2v-1h1v1z" fill="#494949"/><g fill="#fc0000"><path
+      d="M4 24H3v-1h1v1z"/><path d="M3 25H2v-1h1v1z"/><path d="M2 26H1v-1h1v1z"/></g><g
+      fill="#494949"><path d="M2 19H1v-1h1v1z"/><path d="M0,2v16h1v-1h1v-1h3v-1H4v-1h1v-1H4v-1h1v-1H4v-1h1V9H4V8h1V7H4V6h1V5H4V4h1V3H4V2h1V1H4V0H2v1H1v1H0z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 7
+      Y: 19
+      Width: 5
+      Height: 27
+    - X: 23
+      Y: 19
+      Width: 5
+      Height: 27
+    - X: 36
+      Y: 19
+      Width: 5
+      Height: 27
+    - X: 7
+      Y: 19
+      Width: 5
+      Height: 27
+    note: 

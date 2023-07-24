@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0006 - M67 Grenade
+  m_EditorClassIdentifier: 
+  data:
+    id: 6
+    name: M67 Grenade
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000200000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M7 5V4H6V3H2v1H1v1H0v4h1v1h1v1h4v-1h1V9h1V5z" fill="#33691e"/><path
+      d="M6 5V4H2v1H1v4h1v1h4V9h1V5z" fill="#558b2f"/><path d="M6 5V4H2v1H1v1h2v1h1v1h1v1h2V5z"
+      fill="#689f38"/><g fill="#b8d2a2"><path d="M6,5h1v1H6V5z"/><path d="M5,4h1v1H5V4z"/></g><path
+      d="M8 2V1H7V0H3v1H2v1h1v1h2V2h2v1h1v1h1V2z"/><path d="M4,1h1v1H4V1z" fill="#cacaca"/><path
+      d="M3,1h1v1H3V1z" fill="#9e9e9e"/>
+    - <path d="M1 5V4h1V3h1V0h1v3h1v1h1v1h1v4H6v1H5v1H2v-1H1V9H0V5z" fill="#33691e"/><path
+      d="M2 5V4h3v1h1v4H5v1H2V9H1V5z" fill="#558b2f"/><path d="M3 0h1v3H3z"/><path
+      d="M2 5V4h3v1h1v1H4v1H3v2H1V5z" fill="#689f38"/><g fill="#b8d2a2"><path d="M1
+      5h1v1H1z"/><path d="M2 4h1v1H2z"/></g>
+    - <path d="M6 5V4H5V3H4V0H3v3H2v1H1v1H0v4h1v1h1v1h3v-1h1V9h1V5z" fill="#33691e"/><path
+      d="M5 5V4H2v1H1v4h1v1h3V9h1V5z" fill="#558b2f"/><path d="M3 0h1v3H3z"/><path
+      d="M5 5V4H2v1H1v1h2v1h1v2h2V5z" fill="#689f38"/><g fill="#b8d2a2"><path d="M5
+      5h1v1H5z"/><path d="M4 4h1v1H4z"/></g>
+    - <path d="M7 5V4H6V3H2v1H1v1H0v4h1v1h1v1h4v-1h1V9h1V5z" fill="#33691e"/><path
+      d="M6 5V4H2v1H1v4h1v1h4V9h1V5z" fill="#558b2f"/><path d="M6 5V4H2v1H1v1h2v1h1v1h1v1h2V5z"
+      fill="#689f38"/><g fill="#b8d2a2"><path d="M6,5h1v1H6V5z"/><path d="M5,4h1v1H5V4z"/></g><path
+      d="M8 2V1H7V0H3v1H2v1h1v1h2V2h2v1h1v1h1V2z"/><path d="M4,1h1v1H4V1z" fill="#cacaca"/><path
+      d="M3,1h1v1H3V1z" fill="#9e9e9e"/>
+    sleeves: []
+    dimensions:
+    - X: 4
+      Y: 31
+      Width: 9
+      Height: 11
+    - X: 23
+      Y: 31
+      Width: 7
+      Height: 11
+    - X: 34
+      Y: 31
+      Width: 7
+      Height: 11
+    - X: 4
+      Y: 31
+      Width: 9
+      Height: 11
+    note: 

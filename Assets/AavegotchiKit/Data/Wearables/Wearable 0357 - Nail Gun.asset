@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0357 - Nail Gun
+  m_EditorClassIdentifier: 
+  data:
+    id: 357
+    name: Nail Gun
+    description: 
+    author: THE FORGE
+    category: 0
+    traitModifiers: 010000000000000002000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M16 2V1h-6V0H6v2H3v1H1v1H0v2h1v13h2v1h3v-4h2v-1H6v-3h1v-1h1v-1h1v1h2v5H8v1h3v1h-1v1h5v-1h-1V9h1V8h1V7h1V2h-1z"
+      fill="#0069aa"/><path d="M12 1v1h-1v4h1v1h4V1h-4zM1 3h1v1H1zm12 5h-3V0H6v2H3v4H2V5H0v1h1v13h2v1h3v-4h2v-1H6v-3h1v-1h1v-1h1v1h2v5H8v1h3v1h-1v1h5v-1h-1V9h1V8h-2zM7
+      1h2v7H8V2H7V1z" fill="#00396d"/><path d="M14 9h1V8H7V2H6v5H3V6H1v13h2v1h3v-8h1v-1H5V8h1v1h1v2h1v-1h1v1h1V9h2v8h-1v1h-1v1h5v-1h-1V9z"
+      fill="#03193f"/><path d="M12 1v1h-1v4h1v1h4V1h-4zM3 2v5h3V2H3zM1 3h1v1H1zm7
+      6v1h1v1h1V9H8z" fill="#0098dc"/><g fill="#0cf1ff"><path d="M12 2v1h3V2h-3zM3
+      3v2h1V4h1V3H3z"/><path d="M15 3v2h1V3h-1z"/></g><path d="M4 12V7H3V6H1v13h2v1h3v-8H4z"
+      fill="#3b1443"/><g fill="#7a09fa"><path d="M4 13h1v-1H3v-1h1v-1H3V9h1V8H3V6H2v3H1v1h1v1H1v2h1v3H1v2h2v-1h2v-1H3v-1h2v-1H3v-1h1z"/><path
+      d="M3 18h1v1H3z"/></g><path d="M2 8h1v1H2zm0 2h1v1H2zm0 2h1v1H2zm0 2h1v1H2zm0
+      2h1v1H2z" fill="#db3ffd"/>
+    - <path d="M16 2V1h-6V0H6v2H3v1H1v1H0v2h1v13h2v1h3v-4h2v-1H6v-3h1v-1h1v-1h1v1h2v5H8v1h3v1h-1v1h5v-1h-1V9h1V8h1V7h1V2h-1z"
+      fill="#0069aa"/><path d="M12 1v1h-1v4h1v1h4V1h-4zM1 3h1v1H1zm12 5h-3V0H6v2H3v4H2V5H0v1h1v13h2v1h3v-4h2v-1H6v-3h1v-1h1v-1h1v1h2v5H8v1h3v1h-1v1h5v-1h-1V9h1V8h-2zM7
+      1h2v7H8V2H7V1z" fill="#00396d"/><path d="M14 9h1V8H7V2H6v5H3V6H1v13h2v1h3v-8h1v-1H5V8h1v1h1v2h1v-1h1v1h1V9h2v8h-1v1h-1v1h5v-1h-1V9z"
+      fill="#03193f"/><path d="M12 1v1h-1v4h1v1h4V1h-4zM3 2v5h3V2H3zM1 3h1v1H1zm7
+      6v1h1v1h1V9H8z" fill="#0098dc"/><g fill="#0cf1ff"><path d="M12 2v1h3V2h-3zM3
+      3v2h1V4h1V3H3z"/><path d="M15 3v2h1V3h-1z"/></g><path d="M4 12V7H3V6H1v13h2v1h3v-8H4z"
+      fill="#3b1443"/><g fill="#7a09fa"><path d="M4 13h1v-1H3v-1h1v-1H3V9h1V8H3V6H2v3H1v1h1v1H1v2h1v3H1v2h2v-1h2v-1H3v-1h2v-1H3v-1h1z"/><path
+      d="M3 18h1v1H3z"/></g><path d="M2 8h1v1H2zm0 2h1v1H2zm0 2h1v1H2zm0 2h1v1H2zm0
+      2h1v1H2z" fill="#db3ffd"/>
+    - <path d="M1 2V1h6V0h4v2h3v1h2v1h1v2h-1v13h-2v1h-3v-4H9v-1h2v-3h-1v-1H9v-1H8v1H6v5h3v1H6v1h1v1H2v-1h1V9H2V8H1V7H0V2h1z"
+      fill="#0069aa"/><path d="M5 1v1h1v4H5v1H1V1h4zm10 2h1v1h-1zM2 8v1h1v9H2v1h5v-1H6v-1h3v-1H6v-5h2v-1h1v1h1v1h1v3H9v1h2v4h3v-1h2V6h1V5h-2v1h-1V2h-3V0H7v8H4
+      2zm8-6H9v6H8V1h2v1z" fill="#00396d"/><path d="M3 9H2V8h8V2h1v5h3V6h2v13h-2v1h-3v-8h-1v-1h2V8h-1v1h-1v2H9v-1H8v1H7V9H5v8h1v1h1v1H2v-1h1V9z"
+      fill="#03193f"/><path d="M5 1v1h1v4H5v1H1V1h4zm9 1v5h-3V2h3zm1 1h1v1h-1zM9
+      9v1H8v1H7V9h2z" fill="#0098dc"/><g fill="#0cf1ff"><path d="M5 2v1H2V2h3zm9
+      1v2h-1V4h-1V3h2z"/><path d="M2 3v2H1V3h1z"/></g><path d="M13 12V7h1V6h2v13h-2v1h-3v-8h2z"
+      fill="#3b1443"/><g fill="#7a09fa"><path d="M13 13h-1v-1h2v-1h-1v-1h1V9h-1V8h1V6h1v3h1v1h-1v1h1v2h-1v3h1v2h-2v-1h-2v-1h2v-1h-2v-1h2v-1h-1z"/><path
+      d="M13 18h1v1h-1z"/></g><path d="M14 8h1v1h-1zm0 2h1v1h-1zm0 2h1v1h-1zm0 2h1v1h-1zm0
+      2h1v1h-1z" fill="#db3ffd"/>
+    - <path d="M17 2v5h-1v1h-1v1h-1v9h1v1h-5v-1h1v-1H8v-1h3v-5H9v-1H8v1H7v1H6v3h2v1H6v4H3v-1H1V6H0V4h1V3h2V2h3V0h4v1h6v1h1z"
+      fill="#0069aa"/><path d="M16 1v6h-4V6h-1V2h1V1h4zM1 3h1v1H1zm12 5h-3V0H6v2H3v4H2V5H0v1h1v13h2v1h3v-4h2v-1H6v-3h1v-1h1v-1h1v1h2v5H8v1h3v1h-1v1h5v-1h-1V9h1V8h-2zM7
+      1h2v7H8V2H7V1z" fill="#00396d"/><path d="M14 18h1v1h-5v-1h1v-1h1V9h-2v2H9v-1H8v1H7V9H6V8H5v3h2v1H6v8H3v-1H1V6h2v1h3V2h1v6h8v1h-1v9z"
+      fill="#03193f"/><path d="M16 1v6h-4V6h-1V2h1V1h4zM6 2v5H3V2h3zM1 3h1v1H1zm9
+      6v2H9v-1H8V9h2z" fill="#0098dc"/><g fill="#0cf1ff"><path d="M15 2v1h-3V2h3zM5
+      3v1H4v1H3V3h2z"/><path d="M16 3v2h-1V3h1z"/></g><path d="M6 12v8H3v-1H1V6h2v1h1v5h2z"
+      fill="#3b1443"/><g fill="#7a09fa"><path d="M3 13v1h2v1H3v1h2v1H3v1H1v-2h1v-3H1v-2h1v-1H1V9h1V6h1v2h1v1H3v1h1v1H3v1h2v1H4
+      3z"/><path d="M3 18h1v1H3z"/></g><path d="M2 8h1v1H2zm0 2h1v1H2zm0 2h1v1H2zm0
+      2h1v1H2zm0 2h1v1H2z" fill="#db3ffd"/>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 28
+      Width: 17
+      Height: 20
+    - X: 15
+      Y: 30
+      Width: 17
+      Height: 20
+    - X: 32
+      Y: 30
+      Width: 17
+      Height: 20
+    - X: 0
+      Y: 28
+      Width: 17
+      Height: 20
+    note: 

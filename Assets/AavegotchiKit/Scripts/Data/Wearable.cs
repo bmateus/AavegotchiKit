@@ -1,11 +1,8 @@
-using Cysharp.Threading.Tasks;
-using Sirenix.OdinInspector;
-using System;
 using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    [Serializable]
+    [System.Serializable]
     public class Wearable
     {
         public int id;
@@ -36,9 +33,6 @@ namespace PortalDefender.AavegotchiKit
         public Sprite GetSprite(GotchiHandPose handPose, GotchiFacing facing)
         {
             var dimensions = GetDimensions(facing);
-
-            //Unity's SVG Library can't handle this: need to explicitly offset it
-            //string data = $"<svg x=\"{offset.x}\" y=\"{offset.y}\">" + svgs[(int)facing] + "</svg>";
 
             string data = svgs[(int)facing];
 
@@ -72,34 +66,6 @@ namespace PortalDefender.AavegotchiKit
                     size = new Vector2(dimensions.Width, dimensions.Height)
                 });
         }
-
-        [Button]
-        public async UniTask RefreshData()
-        {
-            Debug.Log("RefreshData");
-
-            if (id > 0)
-            {
-                WearableFetcher fetcher = new WearableFetcher();
-                var w = await fetcher.GetWearable(id);
-                if (w != null)
-                {
-                    name = w.name;
-                    description = w.description;
-                    author = w.author;
-                    category = w.category;
-                    traitModifiers = w.traitModifiers;
-                    slotPositions = w.slotPositions;
-                    allowedCollaterals = w.allowedCollaterals;
-                    rarity = w.rarity;
-                    minLevel = w.minLevel;
-                    svgs = w.svgs;
-                    sleeves = w.sleeves;
-                    dimensions = w.dimensions;
-                }
-            }
-        }
-
 
     }
 

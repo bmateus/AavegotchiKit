@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0360 - Geode Smasher
+  m_EditorClassIdentifier: 
+  data:
+    id: 360
+    name: Geode Smasher
+    description: 
+    author: THE FORGE
+    category: 0
+    traitModifiers: 000000000000000002000000020000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M14 0v1h-1v1h-1V1h-1V0H7v1H6v1H5V1H4V0H0v10h4V9h1V8h1v1h1v11H6v4h1v1h4v-1h1v-4h-1V9h1V8h1v1h1v1h4V0h-4z"
+      fill="#282c3c"/><path d="M14 1v1h-1v1h-1V2h-1V1H7v1H6v1H5V2H4V1H3v8h1V8h1V7h1v1h1v1h4V8h1V7h1v1h1v1h1V1h-1zm-4
+      9H8v10H7v4h4v-4h-1V10z" fill="#525375"/><path d="M7 1v7h4V1H7z" fill="#6d6e97"/><path
+      d="M1 9h1V1H1v8zm15-8v8h1V1h-1zM5 7h1V3H5v4zm7 0h1V3h-1v4z" fill="#df2b25"/><g
+      fill="#6d6e97"><path d="M9 10H8v2h1v-2z"/><path d="M9 12v1H8v1h1v1H8v1h1v1H8v1h1v1h1v-7H9z"/><path
+      d="M8 20H7v4h1v-2h1v-3H8v1z"/></g><path d="M7 1v2h1V2h3V1H7z" fill="#9a97b9"/><path
+      d="M8 13v1h2v-1H8zm0 2v1h2v-1H8zm0 2v1h2v-1H8z" fill="#ac1f22"/><path d="M9
+      12h1v1H9zm0 2h1v1H9zm0 2h1v1H9zm0 2h1v1H9z" fill="#34394e"/><g fill="#9a97b9"><path
+      d="M8 20h1v1H8z"/><path d="M7 21h1v1H7z"/></g><path d="M8 13h1v1H8zm0 2h1v1H8zm0
+      2h1v1H8z" fill="#df2b25"/><path d="M1 8h1V1H1v7zm15-7v7h1V1h-1zM5 6h1V3H5v3zm7
+      0h1V3h-1v3z" fill="#ee5122"/><path d="M1 4h1V1H1v3zm15-3v3h1V1h-1zM5 3h1v1H5zm7
+      0h1v1h-1z" fill="#f37720"/>
+    - <path d="M14 0v1h-1v1h-1V1h-1V0H7v1H6v1H5V1H4V0H0v10h4V9h1V8h1v1h1v11H6v4h1v1h4v-1h1v-4h-1V9h1V8h1v1h1v1h4V0h-4z"
+      fill="#282c3c"/><path d="M14 1v1h-1v1h-1V2h-1V1H7v1H6v1H5V2H4V1H3v8h1V8h1V7h1v1h1v1h4V8h1V7h1v1h1v1h1V1h-1zm-4
+      9H8v10H7v4h4v-4h-1V10z" fill="#525375"/><path d="M7 1v7h4V1H7z" fill="#6d6e97"/><path
+      d="M1 9h1V1H1v8zm15-8v8h1V1h-1zM5 7h1V3H5v4zm7 0h1V3h-1v4z" fill="#df2b25"/><g
+      fill="#6d6e97"><path d="M9 10H8v2h1v-2z"/><path d="M9 12v1H8v1h1v1H8v1h1v1H8v1h1v1h1v-7H9z"/><path
+      d="M8 20H7v4h1v-2h1v-3H8v1z"/></g><path d="M7 1v2h1V2h3V1H7z" fill="#9a97b9"/><path
+      d="M8 13v1h2v-1H8zm0 2v1h2v-1H8zm0 2v1h2v-1H8z" fill="#ac1f22"/><path d="M9
+      12h1v1H9zm0 2h1v1H9zm0 2h1v1H9zm0 2h1v1H9z" fill="#34394e"/><g fill="#9a97b9"><path
+      d="M8 20h1v1H8z"/><path d="M7 21h1v1H7z"/></g><path d="M8 13h1v1H8zm0 2h1v1H8zm0
+      2h1v1H8z" fill="#df2b25"/><path d="M1 8h1V1H1v7zm15-7v7h1V1h-1zM5 6h1V3H5v3zm7
+      0h1V3h-1v3z" fill="#ee5122"/><path d="M1 4h1V1H1v3zm15-3v3h1V1h-1zM5 3h1v1H5zm7
+      0h1v1h-1z" fill="#f37720"/>
+    - <path d="M14 0v1h-1v1h-1V1h-1V0H7v1H6v1H5V1H4V0H0v10h4V9h1V8h1v1h1v11H6v4h1v1h4v-1h1v-4h-1V9h1V8h1v1h1v1h4V0h-4z"
+      fill="#282c3c"/><path d="M14 1v1h-1v1h-1V2h-1V1H7v1H6v1H5V2H4V1H3v8h1V8h1V7h1v1h1v1h4V8h1V7h1v1h1v1h1V1h-1zm-4
+      9H8v10H7v4h4v-4h-1V10z" fill="#525375"/><path d="M7 1v7h4V1H7z" fill="#6d6e97"/><path
+      d="M1 9h1V1H1v8zm15-8v8h1V1h-1zM5 7h1V3H5v4zm7 0h1V3h-1v4z" fill="#df2b25"/><g
+      fill="#6d6e97"><path d="M9 10H8v2h1v-2z"/><path d="M9 12v1H8v1h1v1H8v1h1v1H8v1h1v1h1v-7H9z"/><path
+      d="M8 20H7v4h1v-2h1v-3H8v1z"/></g><path d="M7 1v2h1V2h3V1H7z" fill="#9a97b9"/><path
+      d="M8 13v1h2v-1H8zm0 2v1h2v-1H8zm0 2v1h2v-1H8z" fill="#ac1f22"/><path d="M9
+      12h1v1H9zm0 2h1v1H9zm0 2h1v1H9zm0 2h1v1H9z" fill="#34394e"/><g fill="#9a97b9"><path
+      d="M8 20h1v1H8z"/><path d="M7 21h1v1H7z"/></g><path d="M8 13h1v1H8zm0 2h1v1H8zm0
+      2h1v1H8z" fill="#df2b25"/><path d="M1 8h1V1H1v7zm15-7v7h1V1h-1zM5 6h1V3H5v3zm7
+      0h1V3h-1v3z" fill="#ee5122"/><path d="M1 4h1V1H1v3zm15-3v3h1V1h-1zM5 3h1v1H5zm7
+      0h1v1h-1z" fill="#f37720"/>
+    - <path d="M0 0v10h4V9h1V8h1v1h1v11H6v4h1v1h4v-1h1v-4h-1V9h1V8h1v1h1v1h4V0h-4v1h-1v1h-1V1h-1V0H7v1H6v1H5V1H4V0H0z"
+      fill="#282c3c"/><path d="M3 1v8h1V8h1V7h1v1h1v1h4V8h1V7h1v1h1v1h1V1h-1v1h-1v1h-1V2h-1V1H7v1H6v1H5V2H4V1H3zm5
+      19H7v4h4v-4h-1V10H8v10z" fill="#525375"/><path d="M7 1v7h4V1H7z" fill="#6d6e97"/><path
+      d="M17 1h-1v8h1V1zM1 1v8h1V1H1zm12 2h-1v4h1V3zM6 3H5v4h1V3z" fill="#df2b25"/><g
+      fill="#6d6e97"><path d="M9 12h1v-2H9v2z"/><path d="M8 12v7h1v-1h1v-1H9v-1h1v-1H9v-1h1v-1H9v-1H8z"/><path
+      d="M10 19H9v3h1v2h1v-4h-1v-1z"/></g><path d="M7 1v1h3v1h1V1H7z" fill="#9a97b9"/><path
+      d="M8 13v1h2v-1H8zm0 2v1h2v-1H8zm0 2v1h2v-1H8z" fill="#ac1f22"/><path d="M8
+      12h1v1H8zm0 2h1v1H8zm0 2h1v1H8zm0 2h1v1H8z" fill="#34394e"/><g fill="#9a97b9"><path
+      d="M9 20h1v1H9z"/><path d="M10 21h1v1h-1z"/></g><path d="M9 13h1v1H9zm0 2h1v1H9zm0
+      2h1v1H9z" fill="#df2b25"/><path d="M17 1h-1v7h1V1zM1 1v7h1V1H1zm12 2h-1v3h1V3zM6
+      3H5v3h1V3z" fill="#ee5122"/><path d="M17 1h-1v3h1V1zM1 1v3h1V1H1zm11 2h1v1h-1zM5
+      3h1v1H5z" fill="#f37720"/>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 25
+      Width: 18
+      Height: 25
+    - X: 16
+      Y: 25
+      Width: 18
+      Height: 25
+    - X: 30
+      Y: 25
+      Width: 18
+      Height: 25
+    - X: 0
+      Y: 25
+      Width: 18
+      Height: 25
+    note: 

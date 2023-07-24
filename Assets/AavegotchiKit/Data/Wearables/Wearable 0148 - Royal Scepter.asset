@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0148 - Royal Scepter
+  m_EditorClassIdentifier: 
+  data:
+    id: 148
+    name: Royal Scepter
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: feffffff0000000000000000ffffffff0000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <g fill="#ffc03c"><path d="M3 6H2v15h2V6z"/><path d="M5 2V1H4V0H2v1H1v1H0v2h1v1h1v1h2V5h1V4h1V2z"/></g><path
+      d="M4 1H1v4h4V1z" fill="#ffeabe"/><path d="M1 1h1v1H1zm3 0h1v1H4zM1 4h1v1H1zm3
+      0h1v1H4zM3 20h1v1H3z" fill="#ffd781"/><path d="M3 2H2v2h2V2z" fill="#5f0087"/><path
+      d="M3 2H2v1h2V2z" fill="#8237a1"/><path d="M3 6H2v14h2V6z" fill="#400"/><path
+      d="M3 6v14h1V6z" fill="#5c2121"/>
+    - <path d="M0 0v21h1V0H0z" fill="#ffc03c"/><path d="M0 6v14h1V6H0z" fill="#400"/>
+    - <path d="M0 0v21h1V0H0z" fill="#ffc03c"/><path d="M0 6v14h1V6H0z" fill="#400"/>
+    - <g fill="#ffc03c"><path d="M3,6H2v15h2V6H3z"/><path d="M5,2V1H4V0H2v1H1v1H0v2h1v1h1v1h2V5h1V4h1V2H5z"/></g><path
+      d="M4,1H1v4h4V1H4z" fill="#ffeabe"/><path d="M1 1h1v1H1V1zm3 0h1v1H4V1zM1 4h1v1H1V4zm3
+      0h1v1H4V4zM3 20h1v1H3v-1z" fill="#ffd781"/><path d="M3,2H2v2h2V2H3z" fill="#5f0087"/><path
+      d="M3,2H2v1h2V2H3z" fill="#8237a1"/><path d="M3,6H2v14h2V6H3z" fill="#400"/><path
+      d="M3,6v14h1V6H3z" fill="#5c2121"/>
+    sleeves: []
+    dimensions:
+    - X: 5
+      Y: 28
+      Width: 6
+      Height: 21
+    - X: 26
+      Y: 28
+      Width: 1
+      Height: 21
+    - X: 37
+      Y: 28
+      Width: 1
+      Height: 21
+    - X: 7
+      Y: 28
+      Width: 6
+      Height: 21
+    note: 

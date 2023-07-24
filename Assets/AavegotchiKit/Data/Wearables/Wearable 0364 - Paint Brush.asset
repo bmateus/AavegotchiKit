@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0364 - Paint Brush
+  m_EditorClassIdentifier: 
+  data:
+    id: 364
+    name: Paint Brush
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: fdffffff00000000feffffff000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M3 2V1H2V0H0v1h1v4h1v24h2V2H3z"/><path d="M2 2v3h1V2H2z" fill="#1b1b1b"/><path
+      d="M2 6v1h2V6H2z" fill="#d7d7d7"/><path d="M2 7v22h2V7H2z" fill="#7d4100"/><g
+      fill="#2a2a2a"><path d="M2 5h1v1H2z"/><path d="M2 1H1v4h1V1z"/></g><path d="M2
+      6h1v1H2z" fill="#ededed"/><path d="M2 7v22h1V7H2z" fill="#976733"/>
+    - <path d="M1 2V1h1V0h2v1H3v4H2v24H0V2h1z"/><path d="M2 2v3H1V2h1z" fill="#1b1b1b"/><path
+      d="M2 6v1H0V6h2z" fill="#d7d7d7"/><path d="M2 7v22H0V7h2z" fill="#7d4100"/><g
+      fill="#2a2a2a"><path d="M1 5h1v1H1z"/><path d="M2 1h1v4H2V1z"/></g><path d="M1
+      6h1v1H1z" fill="#ededed"/><path d="M2 7v22H1V7h1z" fill="#976733"/>
+    - <path d="M3 2V1H2V0H0v1h1v4h1v24h2V2H3z"/><path d="M2 2v3h1V2H2z" fill="#1b1b1b"/><path
+      d="M2 6v1h2V6H2z" fill="#d7d7d7"/><path d="M2 7v22h2V7H2z" fill="#7d4100"/><g
+      fill="#2a2a2a"><path d="M2 5h1v1H2z"/><path d="M2 1H1v4h1V1z"/></g><path d="M2
+      6h1v1H2z" fill="#ededed"/><path d="M2 7v22h1V7H2z" fill="#976733"/>
+    - <path d="M4 2v27H2V5H1V1H0V0h2v1h1v1h1z"/><path d="M3 2v3H2V2h1z" fill="#1b1b1b"/><path
+      d="M4 6v1H2V6h2z" fill="#d7d7d7"/><path d="M4 7v22H2V7h2z" fill="#7d4100"/><g
+      fill="#2a2a2a"><path d="M2 5h1v1H2z"/><path d="M2 5H1V1h1v4z"/></g><path d="M2
+      6h1v1H2z" fill="#ededed"/><path d="M3 7v22H2V7h1z" fill="#976733"/>
+    sleeves: []
+    dimensions:
+    - X: 6
+      Y: 22
+      Width: 4
+      Height: 29
+    - X: 25
+      Y: 22
+      Width: 4
+      Height: 29
+    - X: 35
+      Y: 22
+      Width: 4
+      Height: 29
+    - X: 6
+      Y: 22
+      Width: 4
+      Height: 29
+    note: 

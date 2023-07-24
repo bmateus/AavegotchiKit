@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0140 - Elf Ears
+  m_EditorClassIdentifier: 
+  data:
+    id: 140
+    name: Elf Ears
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000ffffffff000000000000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M5 2H4V0H0v6h2v4h2v2h2V2z" fill="#64438e"/><path d="M5 4H4V2H2v4h2v4h2V4z"
+      fill="#b464ed"/><g fill="#edd3fd"><path d="M4 4H2v2h2V5z"/><path d="M5 6H4v4h2V6z"/></g><path
+      d="M41 2h1V0h4v6h-2v4h-2v2h-2V2z" fill="#64438e"/><path d="M41 4h1V2h2v4h-2v4h-2V4z"
+      fill="#b464ed"/><g fill="#edd3fd"><path d="M42 4h2v2h-2V5z"/><path d="M41 6h1v4h-2V6z"/></g>
+    - <path d="M2 2V0h4v6H4v4H2v2H0V2h2z" fill="#64438e"/><path d="M2 4V2h2v4H2v4H0V4h2z"
+      fill="#b464ed"/><g fill="#edd3fd"><path d="M2 4h2v2H2V4z"/><path d="M2 6v4H0V6h2z"/></g>
+    - <path d="M4 2V0H0v6h2v4h2v2h2V2H4z" fill="#64438e"/><path d="M4 4V2H2v4h2v4h2V4H4z"
+      fill="#b464ed"/><g fill="#edd3fd"><path d="M4 4H2v2h2V4z"/><path d="M4 6v4h2V6H4z"/></g>
+    - <path d="M4 2V0H0v6h2v4h2v2h2V2H4zm38-2v2h-2v10h2v-2h2V6h2V0h-4z" fill="#64438e"/><path
+      d="M4 4V2H2v4h2v4h2V4H4zm38-2v2h-2v6h2V6h2V2h-2z" fill="#b464ed"/><path d="M4
+      4v1h2V4H4zm0-2H2v1h2V2zm36 2v1h2V4h-2zm2-2v1h2V2h-2z" fill="#edd3fd"/>
+    sleeves: []
+    dimensions:
+    - X: 9
+      Y: 18
+      Width: 46
+      Height: 12
+    - X: 31
+      Y: 18
+      Width: 6
+      Height: 12
+    - X: 27
+      Y: 18
+      Width: 6
+      Height: 12
+    - X: 9
+      Y: 18
+      Width: 46
+      Height: 12
+    note: 

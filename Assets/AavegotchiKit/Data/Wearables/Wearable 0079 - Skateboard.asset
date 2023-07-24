@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0079 - Skateboard
+  m_EditorClassIdentifier: 
+  data:
+    id: 79
+    name: Skateboard
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 010000000000000000000000feffffff0000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M7,2V1H6V0H2v1H1v1H0v22h1v1h1v1h4v-1h1v-1h1V2H7z"/><path d="M2 7v1h4V7H2zm0
+      11v1h4v-1H2z" fill="#e1e1e1"/><path d="M6 6v3h1V6H6zM1 9h1V6H1v3zm5 11h1v-3H6v3zm-5
+      0h1v-3H1v3z" fill="#ff6e00"/>
+    - <path d="M1 0h1v26H1z"/><path d="M0 7h1v1H0zm0 11h1v1H0z" fill="#ff6e00"/>
+    - <path d="M0 0h1v26H0z"/><path d="M1 7h1v1H1zm0 11h1v1H1z" fill="#ff6e00"/>
+    - <path d="M7,2V1H6V0H2v1H1v1H0v22h1v1h1v1h4v-1h1v-1h1V2H7z"/>
+    sleeves: []
+    dimensions:
+    - X: 5
+      Y: 25
+      Width: 8
+      Height: 26
+    - X: 25
+      Y: 25
+      Width: 2
+      Height: 26
+    - X: 37
+      Y: 25
+      Width: 2
+      Height: 26
+    - X: 5
+      Y: 25
+      Width: 8
+      Height: 26
+    note: 

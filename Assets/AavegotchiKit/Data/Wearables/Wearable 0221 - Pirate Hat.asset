@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0221 - Pirate Hat
+  m_EditorClassIdentifier: 
+  data:
+    id: 221
+    name: Pirate Hat
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000000000000ffffffff0000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M44 14v-2h-2V6h-2V4h-2V2h-2V0H14v2h-2v2h-2v2H8v6H6v2H0v4h2v2h46v-2h2v-4h-6z"/><g
+      fill="#fff"><path d="M30 16h2v-2h-2v2zm-12-2v2h2v-2h-2zm2-8h-2v2h2V6z"/><path
+      d="M29 7h-1V6h-6v1h-1v1h-1v6h1v2h1v-1h1v1h1v-1h2v1h1v-1h1v1h1v-2h1V8h-1V7zm-1
+      3h-1v1h-1V9h2v1zm-6-1h2v2h-1v-1h-1V9z"/><path d="M30 6v2h2V6h-2z"/></g><g fill="#fcb040"><path
+      d="M40 14v2h10v-2H40zM0 14v2h10v-2H0z"/><path d="M10 6v8h2V6h-2z"/><path d="M12
+      4v2h2V4h-2zm26 0h-2v2h2V4z"/><path d="M36 2H14v2h22V2zm4 4h-2v8h2V6z"/></g>
+    - <path d="M34 14v-2h-2V6h-2V4h-2V2h-2V0H14v2h-2v2h-2v2H8v6H6v2H0v4h2v2h36v-2h2v-4h-6z"/><g
+      fill="#fcb040"><path d="M30 14v2h10v-2H30zM28 4h-2v2h2V4z"/><path d="M26 2H14v2h12V2zm4
+      4h-2v8h2V6zM0 14v2h10v-2H0z"/><path d="M10 6v8h2V6h-2z"/><path d="M12 4v2h2V4h-2z"/></g>
+    - <path d="M34 14v-2h-2V6h-2V4h-2V2h-2V0H14v2h-2v2h-2v2H8v6H6v2H0v4h2v2h36v-2h2v-4h-6z"/><g
+      fill="#fcb040"><path d="M30 14v2h10v-2H30zM28 4h-2v2h2V4z"/><path d="M26 2H14v2h12V2zm4
+      4h-2v8h2V6zM0 14v2h10v-2H0z"/><path d="M10 6v8h2V6h-2z"/><path d="M12 4v2h2V4h-2z"/></g>
+    - <path d="M44 14v-2h-2V6h-2V4h-2V2h-2V0H14v2h-2v2h-2v2H8v6H6v2H0v4h2v2h46v-2h2v-4h-6z"/><g
+      fill="#fcb040"><path d="M40 14v2h10v-2H40zM0 14v2h10v-2H0z"/><path d="M10 6v8h2V6h-2z"/><path
+      d="M12 4v2h2V4h-2zm26 0h-2v2h2V4z"/><path d="M36 2H14v2h22V2zm4 4h-2v8h2V6z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 7
+      Y: 0
+      Width: 50
+      Height: 20
+    - X: 12
+      Y: 0
+      Width: 40
+      Height: 20
+    - X: 12
+      Y: 0
+      Width: 40
+      Height: 20
+    - X: 7
+      Y: 0
+      Width: 50
+      Height: 20
+    note: 

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0058 - Aagent Pistol
+  m_EditorClassIdentifier: 
+  data:
+    id: 58
+    name: Aagent Pistol
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000300000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M8 0h1v1H8zM4 5h1v1H4z"/><path d="M0 1v3h3v1h1V4h1v1h1v2h2V6h1V4H8V3h1V2H8V1z"/><path
+      d="M7,4V3H6v2h1v1h1V4H7z" fill="#969696"/><path d="M1,2h6v1H1V2z" fill="#cdcdcd"/>
+    - <path d="M8 0h1v1H8zM4 5h1v1H4z"/><path d="M8 1v1h1v1H8v1h1v2H8v1H6V5H5V4H4v1H3V4H0V1z"/><path
+      d="M8,4v2H7V5H6V3h1v1H8z" fill="#969696"/><path d="M1,3h6V2H1V3z" fill="#cdcdcd"/>
+    - <path d="M0 0h1v1H0zm4 5h1v1H4z"/><path d="M1 1v1H0v1h1v1H0v2h1v1h2V5h1V4h1v1h1V4h3V1z"/><path
+      d="M1,4v2h1V5h1V3H2v1H1z" fill="#969696"/><path d="M8,3H2V2h6V3z" fill="#cdcdcd"/>
+    - <path d="M8 0h1v1H8zM4 5h1v1H4z"/><path d="M8 1v1h1v1H8v1h1v2H8v1H6V5H5V4H4v1H3V4H0V1z"/><path
+      d="M8,4v2H7V5H6V3h1v1H8z" fill="#969696"/><path d="M1,3h6V2H1V3z" fill="#cdcdcd"/>
+    sleeves: []
+    dimensions:
+    - X: 2
+      Y: 34
+      Width: 9
+      Height: 7
+    - X: 20
+      Y: 36
+      Width: 9
+      Height: 7
+    - X: 35
+      Y: 36
+      Width: 9
+      Height: 7
+    - X: 2
+      Y: 34
+      Width: 9
+      Height: 7
+    note: 

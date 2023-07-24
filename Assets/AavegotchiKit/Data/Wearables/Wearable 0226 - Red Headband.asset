@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0226 - Red Headband
+  m_EditorClassIdentifier: 
+  data:
+    id: 226
+    name: Red Headband
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 02000000ffffffff00000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M0 0v6h34V0H0z" fill="red"/><path d="M0 2v2h34V2H0z"/>
+    - <path d="M0 0v6h24V0H0z" fill="red"/><path d="M0 2v2h24V2H0z"/>
+    - <path d="M0 0v6h24V0H0z" fill="red"/><path d="M0 2v2h24V2H0z"/>
+    - <path d="M0 0v6h34V0H0z" fill="red"/><path d="M0 2v2h34V2H0z"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 14
+      Width: 34
+      Height: 6
+    - X: 20
+      Y: 14
+      Width: 24
+      Height: 6
+    - X: 20
+      Y: 14
+      Width: 24
+      Height: 6
+    - X: 15
+      Y: 14
+      Width: 34
+      Height: 6
+    note: 

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0082 - Sushi Piece
+  m_EditorClassIdentifier: 
+  data:
+    id: 82
+    name: Sushi Piece
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 0000000000000000fcffffff000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M18 10V9h-2V8h-1V7h-1V5h-1V4h-1V3h-1V2h-1V1H8V0H4v1H2v1H1v1H0v3h1v3h1v1h1v1h1v1h1v1h2v1h4v-1h1v-1h1v2h1v1h3v-2h2v-3z"/><path
+      d="M16 10V9h-2V7h-1V5h-1V4h-1V3h-1V2H8V1H4v1H2v1H1v3h2v1h2v1h1v1h2v1h2v1h3v1h1v2h2v-2h-1v-1h-1v-1h1v1h1v1h2v-2z"
+      fill="#f27322"/><g fill="#fff"><path d="M8 3h1V2H6v1h1v1h1zM2 5h1V4h1V3H1v3h1z"/><path
+      d="M4 7h1V6h1V5h1V4H5v1H4zm6 4H8v-1H6V9H5V8H3V7H2v2h1v1h1v1h1v1h2v1h4v-1h-1zm0-5h1V5h1V4H9v1h1zm3
+      1V6h-1v2h-1v3h1V9h1V8h1V7z"/><path d="M9 7h1V6H9V5H8v1H7v3h1v1h1z"/></g>
+    - <path d="M14 10V9h-1V8h-1V7h-1V6h-1V4H9V3H8V2H7V1H5V0H3v1H2v1H1v1H0v3h1v2h1v1h1v1h1v1h1v1h3v-1h1v1h1v1h1v1h3v-2h1v-2h-1z"
+      fill="#0e0c15"/><path d="M13 10V9h-2V7h-1V6H9V4H8V3H7V2H5V1H3v1H2v1H1v3h2v1h1v1h1v1h3v1h2v2h1v1h2v-1h-1v-1h-1v-1h1v1h1v1h1v-2h-1z"
+      fill="#f27322"/><g fill="#fff"><path d="M4 1H3v1h2V1H4z"/><path d="M7 3V2H5v1h1v1h1V3zM3
+      3H1v3h1V5h1V3zM2 7h1v1H2z"/><path d="M3 8h1v1H3z"/><path d="M4 9h1v1H4z"/><path
+      d="M6 10H5v1h3v-1H6zM4 6h1V5h1V4H4v1H3v2h1V6zm2 0v3h1V7h1V6H6zm2-1h1V4H7v1h1z"/><path
+      d="M10 7V6H9v2H8v2h1V9h1V8h1V7h-1z"/></g>
+    - <path d="M1 10V9h1V8h1V7h1V6h1V4h1V3h1V2h1V1h2V0h2v1h1v1h1v1h1v3h-1v2h-1v1h-1v1h-1v1h-1v1H7v-1H6v1H5v1H4v1H1v-2H0v-2h1z"
+      fill="#0e0c15"/><path d="M2 10V9h2V7h1V6h1V4h1V3h1V2h2V1h2v1h1v1h1v3h-2v1h-1v1h-1v1H7v1H5v2H4v1H2v-1h1v-1h1v-1H3v1H2v1H1v-2h1z"
+      fill="#f27322"/><g fill="#fff"><path d="M11 1h1v1h-2V1h1z"/><path d="M8 3V2h2v1H9v1H8V3zm4
+      0h2v3h-1V5h-1V3zm0 4h1v1h-1z"/><path d="M11 8h1v1h-1z"/><path d="M10 9h1v1h-1z"/><path
+      d="M9 10h1v1H7v-1h2zm2-4h-1V5H9V4h2v1h1v2h-1V6zM9 6v3H8V7H7V6h2zM7 5H6V4h2v1H7z"/><path
+      d="M5 7V6h1v2h1v2H6V9H5V8H4V7h1z"/></g>
+    - <path d="M19 10v3h-2v2h-3v-1h-1v-2h-1v1h-1v1H7v-1H5v-1H4v-1H3v-1H2V9H1V6H0V3h1V2h1V1h2V0h4v1h2v1h1v1h1v1h1v1h1v2h1v1h1v1h2v1h1z"/><path
+      d="M18 10v2h-2v-1h-1v-1h-1v1h1v1h1v2h-2v-2h-1v-1h-3v-1H8V9H6V8H5V7H3V6H1V3h1V2h2V1h4v1h2v1h1v1h1v1h1v2h1v2h2v1h2z"
+      fill="#f27322"/><g fill="#fff"><path d="M8 3h1V2H6v1h1v1h1V3zM2 5h1V4h1V3H1v3h1V5z"/><path
+      d="M4 7h1V6h1V5h1V4H5v1H4v2zm6 4H8v-1H6V9H5V8H3V7H2v2h1v1h1v1h1v1h2v1h4v-1h-1v-1zm0-5h1V5h1V4H9v1h1v1zm3
+      1V6h-1v2h-1v3h1V9h1V8h1V7h-1z"/><path d="M9 10H8V9H7V6h1V5h1v1h1v1H9v3z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 29
+      Width: 19
+      Height: 15
+    - X: 18
+      Y: 29
+      Width: 15
+      Height: 14
+    - X: 31
+      Y: 29
+      Width: 15
+      Height: 14
+    - X: 1
+      Y: 29
+      Width: 19
+      Height: 15
+    note: 

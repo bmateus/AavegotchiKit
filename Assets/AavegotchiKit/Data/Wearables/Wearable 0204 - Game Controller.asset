@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0204 - Game Controller
+  m_EditorClassIdentifier: 
+  data:
+    id: 204
+    name: Game Controller
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 010000000100000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M15,3V2h-1V1h-1V0h-2v1h-1v1H6V1H5V0H3v1H2v1H1v1H0v3h1v6h1v1h3v-1h1V9h1V8h2v1h1v3h1v1h3v-1h1V6h1V3H15z"/><path
+      d="M7 3h2v1H7V3zm4 8h3v1h-3v-1zm-9 0h3v1H2v-1z" fill="#4b4b4b"/><path d="M14
+      3V2h-1V1h-2v1h-1v2H9v1H7V4H6V2H5V1H3v1H2v1H1v3h1v4h3V9h1V8H5V6h2v1h2V6h2v2h-1v1h1v1h3V6h1V3h-1zm-1
+      2h-1V4h1v1z" fill="#969696"/><path d="M6 7h1v1H6V7zm3 0h1v1H9V7zm2-3h1v1h-1V4zm2
+      0h1v1h-1V4z" fill="#ff14ff"/><path d="M12 3h1v1h-1V3zm0 2h1v1h-1V5zM3 4h1v1H3V4z"
+      fill="#00ffe1"/><path d="M12,4h1v1h-1V4z"/><path d="M13 3h1v1h-1V3zm0 2h1v1h-1V5zm-2
+      0h1v1h-1V5zm0-2h1v1h-1V3zM3 3h1v1H3V3z"/><path d="M2 4h1v1H2V4zm2 0h1v1H4V4z"/><path
+      d="M3,5h1v1H3V5z"/>
+    - <path d="M15 3V2h-1V1h-1V0h-2v1h-1v1H6V1H5V0H3v1H2v1H1v1H0v3h1v6h1v1h3v-1h1V9h1V8h2v1h1v3h1v1h3v-1h1V6h1V3h-1z"/><path
+      d="M7 3h2v1H7zm4 8v1h3v-1h-3zm-9 0v1h3v-1H2z" fill="#4b4b4b"/><g fill="#969696"><path
+      d="M11 4V3h3V2h-1V1h-2v1h-1v2H9v1H7V4H6V2H5V1H3v1H2v1H1v3h1v4h3V9h1V8H5V6h2v1h2V6h2V4zM4
+      5v1H3V5H2V4h1V3h1v1h1v1H4z"/><path d="M12 6h-1v2h-1v1h1v1h3V6h-2z"/><path d="M14
+      3v3h1V3h-1z"/></g><path d="M6 7h1v1H6zm3 0h1v1H9zm2-3h1v1h-1zm2 0h1v1h-1z"
+      fill="#ff14ff"/><path d="M12 3h1v1h-1zm0 2h1v1h-1zM3 4h1v1H3z" fill="#00ffe1"/>
+    - <path d="M15 3V2h-1V1h-1V0h-2v1h-1v1H6V1H5V0H3v1H2v1H1v1H0v3h1v6h1v1h3v-1h1V9h1V8h2v1h1v3h1v1h3v-1h1V6h1V3h-1z"/><path
+      d="M7 3h2v1H7zm4 8v1h3v-1h-3zm-9 0v1h3v-1H2z" fill="#4b4b4b"/><g fill="#969696"><path
+      d="M11 4V3h3V2h-1V1h-2v1h-1v2H9v1H7V4H6V2H5V1H3v1H2v1H1v3h1v4h3V9h1V8H5V6h2v1h2V6h2V4zM4
+      5v1H3V5H2V4h1V3h1v1h1v1H4z"/><path d="M12 6h-1v2h-1v1h1v1h3V6h-2z"/><path d="M14
+      3v3h1V3h-1z"/></g><path d="M6 7h1v1H6zm3 0h1v1H9zm2-3h1v1h-1zm2 0h1v1h-1z"
+      fill="#ff14ff"/><path d="M12 3h1v1h-1zm0 2h1v1h-1zM3 4h1v1H3z" fill="#00ffe1"/>
+    - <path d="M15 3V2h-1V1h-1V0h-2v1h-1v1H6V1H5V0H3v1H2v1H1v1H0v3h1v6h1v1h3v-1h1V9h1V8h2v1h1v3h1v1h3v-1h1V6h1V3h-1z"/><path
+      d="M2 11v1h3v-1H2z" fill="#4b4b4b"/><path d="M14 3V2h-1V1h-2v1h-1v2H9v1H7V4H6V2H5V1H3v1H2v1H1v3h1v4h3V9h1V7h4v2h1v1h3V6h1V3h-1z"
+      fill="#969696"/><path d="M11 11v1h3v-1h-3z" fill="#4b4b4b"/>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 35
+      Width: 16
+      Height: 13
+    - X: 12
+      Y: 35
+      Width: 16
+      Height: 13
+    - X: 36
+      Y: 35
+      Width: 16
+      Height: 13
+    - X: 0
+      Y: 35
+      Width: 16
+      Height: 13
+    note: 

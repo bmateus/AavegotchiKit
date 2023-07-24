@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0302 - Geisha Headpiece
+  m_EditorClassIdentifier: 
+  data:
+    id: 302
+    name: Geisha Headpiece
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: feffffffffffffff00000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M33 13v-1h-1v-1h-1v-1h-1V9h-1V8h-1V7h-1V6h-3V5h1V3h-1V1h-2V0H12v1h-2v2H9v2h1v1H7v1H6v1H5v1H4v1H3v1H2v1H1v1H0v19h3V22h8v-1h2v-1h1v-1h1v1h1v1h2v1h13v10h3V13h-1z"/><g
+      fill="red"><path d="M10 6h14V5H10v1zM7 6h1v1H7z"/><path d="M6 5h1v1H6z"/><path
+      d="M5 4h1v1H5z"/><path d="M4 3h1v1H4z"/><path d="M3 2h1v1H3zm23 4h1v1h-1z"/><path
+      d="M27 5h1v1h-1z"/><path d="M28 4h1v1h-1z"/><path d="M29 3h1v1h-1z"/><path
+      d="M30 2h1v1h-1zm-1 13v-2h-2v2h-2v2h2v2h2v-2h2v-2h-2z"/></g><path d="M27 15v2h2v-2h-2z"
+      fill="#ff0"/>
+    - <path d="M1 13v-2h2V9h2V7h2V6h1V5H7V3h1V1h2V0h4v1h2v2h1v2h-1v1h2v1h1v2h2v2h2v2h1v19H7V22H0v-9h1z"/><g
+      fill="red"><path d="M16 5v1H8V5h8zm1 1h1v1h-1z"/><path d="M18 5h1v1h-1z"/><path
+      d="M19 4h1v1h-1z"/><path d="M20 3h1v1h-1z"/><path d="M21 2h1v1h-1zM5.5 15v-2h-2v2h-2v2h2v2h2v-2h2v-2h-2z"/></g><path
+      d="M3.5 15v2h2v-2h-2z" fill="#ff0"/>
+    - <path d="M23 13v-2h-2V9h-2V7h-2V6h-1V5h1V3h-1V1h-2V0h-4v1H8v2H7v2h1v1H6v1H5v2H3v2H1v2H0v19h17V22h7v-9h-1z"/><g
+      fill="red"><path d="M8 5v1h8V5H8zM6 6h1v1H6z"/><path d="M5 5h1v1H5z"/><path
+      d="M4 4h1v1H4z"/><path d="M3 3h1v1H3z"/><path d="M2 2h1v1H2z"/></g>
+    - <path d="M33 13v-1h-1v-1h-1v-1h-1V9h-1V8h-1V7h-1V6h-3V5h1V3h-1V1h-2V0H12v1h-2v2H9v2h1v1H7v1H6v1H5v1H4v1H3v1H2v1H1v1H0v19h34V13h-1z"/><g
+      fill="red"><path d="M10 5v1h14V5H10zM7 6h1v1H7z"/><path d="M6 5h1v1H6z"/><path
+      d="M5 4h1v1H5z"/><path d="M4 3h1v1H4z"/><path d="M3 2h1v1H3zm23 4h1v1h-1z"/><path
+      d="M27 5h1v1h-1z"/><path d="M28 4h1v1h-1z"/><path d="M29 3h1v1h-1z"/><path
+      d="M30 2h1v1h-1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 1
+      Width: 34
+      Height: 32
+    - X: 20
+      Y: 1
+      Width: 24
+      Height: 32
+    - X: 20
+      Y: 1
+      Width: 24
+      Height: 32
+    - X: 15
+      Y: 1
+      Width: 34
+      Height: 32
+    note: 

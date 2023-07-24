@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0064 - Common Wizard Staff
+  m_EditorClassIdentifier: 
+  data:
+    id: 64
+    name: Common Wizard Staff
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 010000000000000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M6 3V2H5V1H4V0H3v1H2v1H1v1H0v2h1v1h1v1h1v24h1V7h1V6h1V5h1V3z" fill="#64438e"/><path
+      d="M1 3h5v2H1z" fill="#c260ff"/><path d="M2 2h3v4H2z" fill="#dea8ff"/><path
+      d="M3,1v6h1V1H3z" fill="#edd3fd"/>
+    - <path d="M0 1h3v4H0z" fill="#c260ff"/><path d="M0 3h1v2H0z" fill="#dea8ff"/><path
+      d="M0 1h1v2H0z" fill="#edd3fd"/><path d="M2 1h1v2H2z" fill="#dea8ff"/><path
+      d="M1 0h1v31H1z" fill="#64438e"/>
+    - <path d="M0 1h3v4H0z" fill="#c260ff"/><path d="M2 3h1v2H2z" fill="#dea8ff"/><path
+      d="M2 1h1v2H2z" fill="#edd3fd"/><path d="M0 1h1v2H0z" fill="#dea8ff"/><path
+      d="M1 0h1v31H1z" fill="#64438e"/>
+    - <path d="M6 3V2H5V1H4V0H3v1H2v1H1v1H0v2h1v1h1v1h1v24h1V7h1V6h1V5h1V3z" fill="#64438e"/><path
+      d="M1 3h5v2H1z" fill="#c260ff"/><path d="M2 2h3v4H2z" fill="#dea8ff"/><path
+      d="M3,1v6h1V1H3z" fill="#edd3fd"/>
+    sleeves: []
+    dimensions:
+    - X: 7
+      Y: 24
+      Width: 7
+      Height: 31
+    - X: 25
+      Y: 24
+      Width: 3
+      Height: 31
+    - X: 36
+      Y: 24
+      Width: 3
+      Height: 31
+    - X: 7
+      Y: 24
+      Width: 7
+      Height: 31
+    note: 

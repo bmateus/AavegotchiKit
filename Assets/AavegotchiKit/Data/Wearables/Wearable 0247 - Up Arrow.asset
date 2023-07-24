@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0247 - Up Arrow
+  m_EditorClassIdentifier: 
+  data:
+    id: 247
+    name: Up Arrow
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 010000000000000000000000010000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M0 9v2h5v1h1v1h1v1h1v1H5v2h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h2v-4h-1v-1h-1v-1h-1v-1h-1v-1h4v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h4v-1h-1V9h-1V8h-1V7h-1V6h-1V5H9V4H8V3H7V2H6V1H5V0H3v3H2v3H1v3H0z"
+      fill="#0082ff"/><path d="M1 9v1h4v1h1v1h1v1h1v1h1v1h1v1H6v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v-3h-1v-1h-1v-1h-1v-1h-1v-2h4v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1H9v-1h4V9h-1V8h-1V7h-1V6H9V5H8V4H7V3H6V2H5V1H4v2H3v3H2v3H1z"
+      fill="#aed7ff"/><g fill="#d2e9ff"><path d="M13 10h-1V9h1v1z"/><path d="M12,9h-1V8h1V9z"/><path
+      d="M11,8h-1V7h1V8z"/><path d="M10,7H9V6h1V7z"/><path d="M9 6H8V5h1v1zm3 8h-1v-1h1v1z"/><path
+      d="M13 15h-1v-1h1v1z"/><path d="M14 16h-1v-1h1v1z"/><path d="M15 17h-1v-1h1v1zM8
+      5H7V4h1v1zm2 7H9v-1h1v1z"/><path d="M11 13h-1v-1h1v1zm0 4h-1v1 1h1v-1-1z"/><path
+      d="M12 20h-1v-1h1v1z"/><path d="M13 21h-1v-1h1v1z"/><path d="M14 22h-1v-1h1v1z"/><path
+      d="M15 23h-1v-1h1v1zM7 4H6V3h1v1z"/><path d="M6,3H5V2h1V3z"/><path d="M5,2H4V1h1V2z"/></g><g
+      fill="#6bb6ff"><path d="M10 15H9v-1h1v1zm-3 2H6v-1h1v1z"/><path d="M8 18H7v-1h1v1z"/><path
+      d="M9 19H8v-1h1v1zm2 2h-1v-1h1v1z"/><path d="M12 22h-1v-1h1v1z"/><path d="M13
+      23h-1v-1h1v1z"/><path d="M14 24h-1v-1h1v1zm-4-4H9v-1h1v1zm-4-9H5v-1h1v1z"/><path
+      d="M7 12H6v-1h1v1z"/><path d="M8 13H7v-1h1v1z"/><path d="M9 14H8v-1h1v1zm-7-4H1V9h1v1zm1-4h1V3H3v1
+      2z"/><path d="M2 9h1V6H2v1 2zm13 16h-1v-1h1v1z"/></g>
+    - <path d="M1 15v-1h1v-1h1v-1h1v-1h1v-1H1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V2h1V1h1V0h2v2h1v3h1v3h1v2h-5v1H9v1H8v1H7v1h4v1h-1v1H9v1H8v1H7v1H6v1H5v1H4v1H3v1H2v1H1v1H0v-4h1v-1h1v-1h1v-1h1v-1H0v-2h1z"
+      fill="#0082ff"/><path d="M5 16H1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1V9H3V8h1V7h1V6h1V5h1V4h1V3h1V2h1V1h1v1h1v3h1v3h1v1h-4v1H9v1H8v1H7v1H6v1H5v1h4v1H8v1H7v1H6v1H5v1H4v1H3v1H2v1H1v-2h1v-1h1v-1h1v-1h1v-2z"
+      fill="#aed7ff"/><g fill="#6bb6ff"><path d="M9 9h1v1H9z"/><path d="M8 10h1v1H8z"/><path
+      d="M7 11h1v1H7zm-2 2h1v1H5z"/><path d="M4 14h1v1H4zm4 1h1v1H8z"/><path d="M7
+      16h1v1H7z"/><path d="M6 17h1v1H6z"/><path d="M5 18h1v1H5z"/><path d="M4 19h1v1H4z"/><path
+      d="M3 20h1v1H3z"/><path d="M2 21h1v1H2z"/><path d="M1 22h1v1H1zm5-10h1v1H6z"/></g><g
+      fill="#d2e9ff"><path d="M3 8h1v1H3z"/><path d="M4 7h1v1H4z"/><path d="M5 6h1v1H5z"/><path
+      d="M6 5h1v1H6z"/><path d="M7 4h1v1H7zm-3 8h1v1H4z"/><path d="M3 13h1v1H3z"/><path
+      d="M2 14h1v1H2z"/><path d="M1 15h1v1H1zM8 3h1v1H8zm-2 7h1v1H6z"/><path d="M5
+      11h1v1H5zm2 4h1v1H7z"/><path d="M6 16h1v1H6z"/><path d="M5 17h1v1H5z"/><path
+      d="M4 18h1v1H4z"/><path d="M3 19h1v1H3z"/><path d="M2 20h1v1H2z"/><path d="M1
+      21h1v1H1zM9 2h1v1H9z"/><path d="M10 1h1v1h-1z"/></g>
+    - <path d="M14 15v-1h-1v-1h-1v-1h-1v-1h-1v-1h4V9h-1V8h-1V7h-1V6h-1V5H9V4H8V3H7V2H6V1H5V0H3v2H2v3H1v3H0v2h5v1h1v1h1v1h1v1H4v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v-4h-1v-1h-1v-1h-1v-1h-1v-1h4v-2h-1z"
+      fill="#0082ff"/><path d="M10 16h4v-1h-1v-1h-1v-1h-1v-1h-1v-1H9v-1H8V9h4V8h-1V7h-1V6H9V5H8V4H7V3H6V2H5V1H4v1H3v3H2v3H1v1h4v1h1v1h1v1h1v1h1v1h1v1H6v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v-2h-1v-1h-1v-1h-1v-1h-1v-2z"
+      fill="#aed7ff"/><g fill="#6bb6ff"><path d="M5 9h1v1H5z"/><path d="M6 10h1v1H6z"/><path
+      d="M7 11h1v1H7zm2 2h1v1H9z"/><path d="M10 14h1v1h-1zm-4 1h1v1H6z"/><path d="M7
+      16h1v1H7z"/><path d="M8 17h1v1H8z"/><path d="M9 18h1v1H9z"/><path d="M10 19h1v1h-1z"/><path
+      d="M11 20h1v1h-1z"/><path d="M12 21h1v1h-1z"/><path d="M13 22h1v1h-1zM8 12h1v1H8z"/></g><g
+      fill="#d2e9ff"><path d="M11 8h1v1h-1z"/><path d="M10 7h1v1h-1z"/><path d="M9
+      6h1v1H9z"/><path d="M8 5h1v1H8z"/><path d="M7 4h1v1H7zm3 8h1v1h-1z"/><path
+      d="M11 13h1v1h-1z"/><path d="M12 14h1v1h-1z"/><path d="M13 15h1v1h-1zM6 3h1v1H6zm2
+      7h1v1H8z"/><path d="M9 11h1v1H9zm-2 4h1v1H7z"/><path d="M8 16h1v1H8z"/><path
+      d="M9 17h1v1H9z"/><path d="M10 18h1v1h-1z"/><path d="M11 19h1v1h-1z"/><path
+      d="M12 20h1v1h-1z"/><path d="M13 21h1v1h-1zM5 2h1v1H5z"/><path d="M4 1h1v1H4z"/></g>
+    - <path d="M0 9v2h5v1h1v1h1v1h1v1H5v2h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h2v-4h-1v-1h-1v-1h-1v-1h-1v-1h4v-2h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h4v-1h-1V9h-1V8h-1V7h-1V6h-1V5H9V4H8V3H7V2H6V1H5V0H3v3H2v3H1v3H0z"
+      fill="#0082ff"/><path d="M1 9v1h4v1h1v1h1v1h1v1h1v1h1v1H6v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v-3h-1v-1h-1v-1h-1v-1h-1v-2h4v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1H9v-1h4V9h-1V8h-1V7h-1V6H9V5H8V4H7V3H6V2H5V1H4v2H3v3H2v3H1z"
+      fill="#aed7ff"/><g fill="#d2e9ff"><path d="M13 10h-1V9h1v1z"/><path d="M12,9h-1V8h1V9z"/><path
+      d="M11,8h-1V7h1V8z"/><path d="M10,7H9V6h1V7z"/><path d="M9 6H8V5h1v1zm3 8h-1v-1h1v1z"/><path
+      d="M13 15h-1v-1h1v1z"/><path d="M14 16h-1v-1h1v1z"/><path d="M15 17h-1v-1h1v1zM8
+      5H7V4h1v1zm2 7H9v-1h1v1z"/><path d="M11 13h-1v-1h1v1zm0 4h-1v1 1h1v-1-1z"/><path
+      d="M12 20h-1v-1h1v1z"/><path d="M13 21h-1v-1h1v1z"/><path d="M14 22h-1v-1h1v1z"/><path
+      d="M15 23h-1v-1h1v1zM7 4H6V3h1v1z"/><path d="M6,3H5V2h1V3z"/><path d="M5,2H4V1h1V2z"/></g><g
+      fill="#6bb6ff"><path d="M10 15H9v-1h1v1zm-3 2H6v-1h1v1z"/><path d="M8 18H7v-1h1v1z"/><path
+      d="M9 19H8v-1h1v1zm2 2h-1v-1h1v1z"/><path d="M12 22h-1v-1h1v1z"/><path d="M13
+      23h-1v-1h1v1z"/><path d="M14 24h-1v-1h1v1zm-4-4H9v-1h1v1zm-4-9H5v-1h1v1z"/><path
+      d="M7 12H6v-1h1v1z"/><path d="M8 13H7v-1h1v1z"/><path d="M9 14H8v-1h1v1zm-7-4H1V9h1v1zm1-4h1V3H3v1
+      2z"/><path d="M2 9h1V6H2v1 2zm13 16h-1v-1h1v1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 24
+      Width: 16
+      Height: 26
+    - X: 20
+      Y: 25
+      Width: 15
+      Height: 25
+    - X: 29
+      Y: 25
+      Width: 15
+      Height: 25
+    - X: 0
+      Y: 24
+      Width: 16
+      Height: 26
+    note: 

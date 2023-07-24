@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0259 - Bushy Eyebrows
+  m_EditorClassIdentifier: 
+  data:
+    id: 259
+    name: Bushy Eyebrows
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: fdffffff0000000000000000030000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 50
+    minLevel: 1
+    svgs:
+    - <path d="M31 4V2h-1V1h-2V0h-7v1h-1v1h-1v1h-1v2h10v1h1v1h1v1h1v1h1V4h-1z" fill="#bdbba6"/><g
+      fill="#eeecdf"><path d="M29 4h1v1h-1z"/><path d="M30 5h1v1h-1zm-3-3h1v1h-1z"/><path
+      d="M28 3h1v1h-1zm-3 0h1v1h-1z"/><path d="M24 2h1v1h-1zm-2 1h1v1h-1z"/><path
+      d="M21 2h1v1h-1zm5-1h1v1h-1zm-3 0h1v1h-1z"/></g><path d="M13 2h-1V1h-1V0H4v1H2v1H1v2H0v5h1V8h1V7h1V6h1V5h10V3h-1V2z"
+      fill="#bdbba6"/><g fill="#eeecdf"><path d="M2 4h1v1H2z"/><path d="M1 5h1v1H1zm3-3h1v1H4z"/><path
+      d="M3 3h1v1H3zm3 0h1v1H6z"/><path d="M7 2h1v1H7zm2 1h1v1H9z"/><path d="M10
+      2h1v1h-1zM5 1h1v1H5zm3 0h1v1H8z"/></g>
+    - <path d="M1 1V0h5v1h2v1h1v2h1v5H9V8H8V7H7V6H6V5H0V1h1z" fill="#bdbba6"/><g
+      fill="#eeecdf"><path d="M7 4h1v1H7z"/><path d="M8 5h1v1H8zM5 2h1v1H5z"/><path
+      d="M6 3h1v1H6zM3 3h1v1H3z"/><path d="M2 2h1v1H2zM0 3h1v1H0z"/><path d="M4 1h1v1H4zM1
+      1h1v1H1z"/></g>
+    - <path d="M9 1V0H4v1H2v1H1v2H0v5h1V8h1V7h1V6h1V5h6V1H9z" fill="#bdbba6"/><g
+      fill="#eeecdf"><path d="M2 4h1v1H2z"/><path d="M1 5h1v1H1zm3-3h1v1H4z"/><path
+      d="M3 3h1v1H3zm3 0h1v1H6z"/><path d="M7 2h1v1H7zm2 1h1v1H9z"/><path d="M5 1h1v1H5zm3
+      0h1v1H8z"/></g>
+    - 
+    sleeves: []
+    dimensions:
+    - X: 16
+      Y: 18
+      Width: 32
+      Height: 9
+    - X: 19
+      Y: 18
+      Width: 10
+      Height: 9
+    - X: 35
+      Y: 18
+      Width: 10
+      Height: 9
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    note: 

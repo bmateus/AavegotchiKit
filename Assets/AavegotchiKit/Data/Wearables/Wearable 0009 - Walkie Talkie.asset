@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0009 - Walkie Talkie
+  m_EditorClassIdentifier: 
+  data:
+    id: 9
+    name: Walkie Talkie
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 010000000000000001000000010000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M6 4V0H5v4H1v2H0v2h1v7h6V4z"/><path d="M2,6v1h4V6H2z" fill="#5a5a5a"/><path
+      d="M2,7v1h4V7H2z" fill="#464646"/><path d="M2,5v1h4V5H2z" fill="#6e6e6e"/><path
+      d="M2 8h4v6H2z" fill="#323232"/><g fill="#1e1e1e"><path d="M5 9h1v1H5V9zm0
+      2h1v1H5v-1z"/><path d="M4 8h1v1H4V8zm0 2h1v1H4v-1zM2 8h1v1H2V8zm0 2h1v1H2v-1zm2
+      2h1v1H4v-1zm-2 0h1v1H2v-1z"/><path d="M5 13h1v1H5v-1zM3 9h1v1H3V9zm0 2h1v1H3v-1zm0
+      2h1v1H3v-1z"/></g>
+    - <path d="M3 15H0V4h1V0h1v4h1z"/>
+    - <path d="M3 15H0V4h1V0h1v4h1z"/>
+    - <path d="M0 4v11h6V8h1V6H6V4H2V0H1v4z"/>
+    sleeves: []
+    dimensions:
+    - X: 3
+      Y: 31
+      Width: 7
+      Height: 15
+    - X: 24
+      Y: 31
+      Width: 7
+      Height: 15
+    - X: 37
+      Y: 31
+      Width: 7
+      Height: 15
+    - X: 3
+      Y: 31
+      Width: 7
+      Height: 15
+    note: 

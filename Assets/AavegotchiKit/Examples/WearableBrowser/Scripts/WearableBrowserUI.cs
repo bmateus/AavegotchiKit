@@ -52,11 +52,11 @@ namespace PortalDefender.AavegotchiKit.WearableBrowser
         {
             Clear();
 
-            var wearables = GotchiDataProvider.Instance.wearableDB.wearables.Where(x => x.slotPositions[(int)CurrentSlot]);
+            var wearables = GotchiDataProvider.Instance.wearableDB.wearables.Where(x => x.data.slotPositions[(int)CurrentSlot]);
             foreach(var wearable in wearables)
             {
                 var item = Instantiate(itemPrefab, contentRoot);
-                item.Init(wearable, OnItemSelected);
+                item.Init(wearable.data, OnItemSelected);
                 items.Add(item.gameObject);
             }
         }

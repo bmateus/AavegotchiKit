@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0075 - OKex Sign
+  m_EditorClassIdentifier: 
+  data:
+    id: 75
+    name: OKex Sign
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: fbffffff0000000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M12 1V0H1v1H0v6h1v1h5v14h1V8h5V7h1V1z"/><path d="M1 1h11v6H1z" fill="#fff"/><g
+      fill="#205fec"><path d="M10,2h1v1h-1V2z"/><path d="M9 3h1v1H9V3zM6 3h1v1H6V3z"/><path
+      d="M5,2h1v1H5V2z"/><path d="M4,3h1v1H4V3z"/><path d="M3,4h1v1H3V4z"/><path
+      d="M2,5h1v1H2V5z"/></g><g fill="#88bdf3"><path d="M11 3h1v1h-1V3zM8 4h1v1H8V4z"/><path
+      d="M7 3h1v1H7V3zM1 4h1v1H1V4z"/></g>
+    - <path d="M0 0v22h1V0H0z"/>
+    - 75_OKexSignRight
+    - <path d="M0 1v6h1v1h5v14h1V8h5V7h1V1h-1V0H1v1z"/><path d="M1 1h11v6H1z" fill="#fff"/><g
+      fill="#205fec"><path d="M3,3H2V2h1V3z"/><path d="M4 4H3V3h1v1zm3 0H6V3h1v1z"/><path
+      d="M8,3H7V2h1V3z"/><path d="M9,4H8V3h1V4z"/><path d="M10,5H9V4h1V5z"/><path
+      d="M11,6h-1V5h1V6z"/></g><g fill="#88bdf3"><path d="M2 4H1V3h1v1zm3 1H4V4h1v1z"/><path
+      d="M6 4H5V3h1v1zm6 1h-1V4h1v1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 24
+      Width: 13
+      Height: 22
+    - X: 26
+      Y: 24
+      Width: 1
+      Height: 22
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    - X: 1
+      Y: 24
+      Width: 13
+      Height: 22
+    note: 

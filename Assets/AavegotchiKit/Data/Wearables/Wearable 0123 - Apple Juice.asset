@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0123 - Apple Juice
+  m_EditorClassIdentifier: 
+  data:
+    id: 123
+    name: Apple Juice
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 0000000000000000feffffff000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <g fill="#007300"><path d="M4 1v3H0v10h7V4H5V1z"/><path d="M5 0h3v1H5z"/></g><path
+      d="M1,5v8h5V5H1z" fill="#00ff50"/><path d="M2,7v3h3V7H2z" fill="red"/>
+    - <g fill="#007300"><path d="M4,1v3H0v10h7V4H5V1H4z"/><path d="M5,0h3v1H5V0z"/></g><path
+      d="M1,5v8h5V5H1z" fill="#00ff50"/><path d="M2,7v3h3V7H2z" fill="red"/>
+    - <g fill="#007300"><path d="M3,1v3H1v10h7V4H4V1H3z"/><path d="M3,1H0V0h3V1z"/></g><path
+      d="M2,5v8h5V5H2z" fill="#00ff50"/><path d="M3,7v3h3V7H3z" fill="red"/>
+    - <g fill="#007300"><path d="M3,1v3H1v10h7V4H4V1H3z"/><path d="M3,1H0V0h3V1z"/></g><path
+      d="M2,5v8h5V5H2z" fill="#00ff50"/><path d="M3,7v3h3V7H3z" fill="red"/>
+    sleeves: []
+    dimensions:
+    - X: 3
+      Y: 30
+      Width: 8
+      Height: 14
+    - X: 22
+      Y: 30
+      Width: 8
+      Height: 14
+    - X: 34
+      Y: 30
+      Width: 8
+      Height: 14
+    - X: 3
+      Y: 30
+      Width: 8
+      Height: 14
+    note: 

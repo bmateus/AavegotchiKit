@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0083 - Sushi Knife
+  m_EditorClassIdentifier: 
+  data:
+    id: 83
+    name: Sushi Knife
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000300000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M5 0v1H4v1H3v2H2v2H1v3H0v4h3v5h3V0z"/><path d="M4 2v2H3v2H2v3H1v3h4V2z"
+      fill="#999"/><g fill="#ccc"><path d="M4 2v2h1V2H4zM2 9h1V6H2v3z"/><path d="M3
+      6h1V4H3v2zm-2 6h1V9H1v3z"/></g><path d="M4,12v5h1v-5H4z" fill="#8c6238"/>
+    - <path d="M1 5V2h1V1h1V0h1v18H1v-5H0V5h1z" fill="#0e0c15"/><path d="M2 5V2h1v15H2v-5H1V5h1z"
+      fill="#999"/><g fill="#ccc"><path d="M2 2h1v3H2V2z"/><path d="M2 5v7H1V5h1z"/></g><path
+      d="M3 12v5H2v-5h1z" fill="#8c6238"/>
+    - <path d="M3 5V2H2V1H1V0H0v18h3v-5h1V5H3z" fill="#0e0c15"/><path d="M2 5V2H1v15h1v-5h1V5H2z"
+      fill="#999"/><g fill="#ccc"><path d="M2 2H1v3h1V2z"/><path d="M2 5v7h1V5H2z"/></g><path
+      d="M1 12v5h1v-5H1z" fill="#8c6238"/>
+    - <path d="M6,0v18H3v-5H0V9h1V6h1V4h1V2h1V1h1V0H6z"/><path d="M5,2v10H1V9h1V6h1V4h1V2H5z"
+      fill="#999"/><g fill="#ccc"><path d="M4 2v2h1V2H4zM2 9h1V6H2v3z"/><path d="M3
+      6h1V4H3v2zm-2 6h1V9H1v3z"/></g><path d="M5,12v5H4v-5H5z" fill="#8c6238"/>
+    sleeves: []
+    dimensions:
+    - X: 7
+      Y: 25
+      Width: 6
+      Height: 18
+    - X: 24
+      Y: 25
+      Width: 4
+      Height: 18
+    - X: 36
+      Y: 25
+      Width: 4
+      Height: 18
+    - X: 7
+      Y: 25
+      Width: 6
+      Height: 18
+    note: 

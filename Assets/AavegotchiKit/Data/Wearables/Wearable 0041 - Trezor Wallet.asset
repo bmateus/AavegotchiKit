@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0041 - Trezor Wallet
+  m_EditorClassIdentifier: 
+  data:
+    id: 41
+    name: Trezor Wallet
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: ffffffffffffffff00000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M0,0v11h1v1h1v1h1v1h3v-1h1v-1h1v-1h1V0H0z"/><path d="M1,2v7h7V2H1z"
+      fill="#323232"/><path d="M3 7h3v1H3V7zm0-4h3v1H3V3zm0 2h3v1H3V5z" fill="#0f0"/>
+    - <path d="M2,14H0V0h2V14z"/><path d="M1,9H0V2h1V9z" fill="#323232"/><path d="M1
+      8H0V7h1v1zm0-4H0V3h1v1zm0 2H0V5h1v1z" fill="#0f0"/>
+    - <path d="M0,0h2v14H0V0z"/><path d="M1,2h1v7H1V2z" fill="#323232"/><path d="M1
+      7h1v1H1V7zm0-4h1v1H1V3zm0 2h1v1H1V5z" fill="#0f0"/>
+    - <path d="M0,0v11h1v1h1v1h1v1h3v-1h1v-1h1v-1h1V0H0z"/>
+    sleeves: []
+    dimensions:
+    - X: 4
+      Y: 31
+      Width: 9
+      Height: 14
+    - X: 25
+      Y: 31
+      Width: 2
+      Height: 14
+    - X: 37
+      Y: 31
+      Width: 2
+      Height: 14
+    - X: 4
+      Y: 31
+      Width: 9
+      Height: 14
+    note: 

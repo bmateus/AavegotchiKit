@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0096 - Water bottle
+  m_EditorClassIdentifier: 
+  data:
+    id: 96
+    name: Water bottle
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 020000000000000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M5 3V2H4V0H2v2H1v1H0v9h1v1h4v-1h1V3z" fill="#00f"/><path d="M2,0v1h2V0H2z"
+      fill="#0000cb"/><g fill="#fff"><path d="M4 3V2H2v1H1v9h4V3z" enable-background="new"/><path
+      d="M4,3V2H2v1H1v9h4V3H4z" opacity=".5" enable-background="new"/></g><path d="M1,5v7h4V5H1z"
+      opacity=".5" fill="#c3ffff" enable-background="new"/>
+    - <path d="M1,3V2h1V0h2v2h1v1h1v9H5v1H1v-1H0V3H1z" fill="#00f"/><path d="M4,0v1H2V0H4z"
+      fill="#0000cb"/><g fill="#fff"><path d="M2,3V2h2v1h1v9H1V3H2z"/><path d="M2,3V2h2v1h1v9H1V3H2z"
+      opacity=".5"/></g><path d="M5,5v7H1V5H5z" opacity=".5" fill="#c3ffff"/>
+    - <path d="M5,3V2H4V0H2v2H1v1H0v9h1v1h4v-1h1V3H5z" fill="#00f"/><path d="M2,0v1h2V0H2z"
+      fill="#0000cb"/><g fill="#fff"><path d="M4,3V2H2v1H1v9h4V3H4z"/><path d="M4,3V2H2v1H1v9h4V3H4z"
+      opacity=".5"/></g><path d="M1,5v7h4V5H1z" opacity=".5" fill="#c3ffff"/>
+    - <path d="M5,3V2H4V0H2v2H1v1H0v9h1v1h4v-1h1V3H5z" fill="#00f"/><path d="M2,0v1h2V0H2z"
+      fill="#0000cb"/><g fill="#fff"><path d="M4,3V2H2v1H1v9h4V3H4z"/><path d="M4,3V2H2v1H1v9h4V3H4z"
+      opacity=".5"/></g><path d="M1,5v7h4V5H1z" opacity=".5" fill="#c3ffff"/>
+    sleeves: []
+    dimensions:
+    - X: 7
+      Y: 31
+      Width: 6
+      Height: 13
+    - X: 24
+      Y: 31
+      Width: 6
+      Height: 13
+    - X: 34
+      Y: 31
+      Width: 6
+      Height: 13
+    - X: 7
+      Y: 31
+      Width: 6
+      Height: 13
+    note: 

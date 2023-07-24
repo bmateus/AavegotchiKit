@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0093 - Fluffy Pillow
+  m_EditorClassIdentifier: 
+  data:
+    id: 93
+    name: Fluffy Pillow
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 0000000000000000fcffffff000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M11 19h-1v-1h1v1zM1 19H0v-1h1v1z"/><path d="M1 7v11h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1V7H9V5H8V0H7v1H5v1H4v1H3v2H2v2H1z"/><path
+      d="M2,7v11h1v-1h1v1h1v-1h1v1h1v-1h1v1h1V7H8V5H7V2H5v1H4v2H3v2H2z" fill="#fff"/>
+    - <path d="M10 16h1v1h-1zM0 16h1v1H0z"/><path d="M1 5h1V3h1V2h1V1h4V0h1v7h1v9H9v1H8v-1H7v1H6v-1H5v1H4v-1H3v1H2v-1H1V5z"/><path
+      d="M3 5V3h1V2h4v5h1v9H8v-1H7v1H6v-1H5v1H4v-1H3v1H2V5h1z" fill="#fff"/>
+    - <path d="M0 16h1v1H0zm10 0h1v1h-1z"/><path d="M10 5H9V3H8V2H7V1H3V0H2v7H1v9h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1V5z"/><path
+      d="M8 5V3H7V2H3v5H2v9h1v-1h1v1h1v-1h1v1h1v-1h1v1h1V5H8z" fill="#fff"/>
+    - <path d="M10 9H9V7H8V0H7v1H5v1H4v1H3v2H2v2H1v11h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1V9z"/><path
+      d="M10 18h1v1h-1zM0 18h1v1H0z"/><path d="M8 9V7H7V2H5v1H4v2H3v2H2v11h1v-1h1v1h1v-1h1v1h1v-1h1v1h1V9H8z"
+      fill="#fff"/>
+    sleeves: []
+    dimensions:
+    - X: 3
+      Y: 36
+      Width: 11
+      Height: 19
+    - X: 19
+      Y: 38
+      Width: 11
+      Height: 17
+    - X: 34
+      Y: 38
+      Width: 11
+      Height: 17
+    - X: 3
+      Y: 36
+      Width: 11
+      Height: 19
+    note: 

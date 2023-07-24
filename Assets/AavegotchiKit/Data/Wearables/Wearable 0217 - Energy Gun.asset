@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0217 - Energy Gun
+  m_EditorClassIdentifier: 
+  data:
+    id: 217
+    name: Energy Gun
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 020000000300000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M12 0v1h-1v1h-1v1H7v1H6V3H2v1H1v1H0v4h1v1h1v1h3v-1h1v1h4v-1h2V9h1V0h-1z"
+      fill="#0a040b"/><path d="M1 5v4h1V5H1z" fill="#0affff"/><path d="M12 1v1h-1v1h-1v1H7v1h1v1h1v1h4V1h-1z"
+      fill="#323232"/><path d="M9 8V7H8V6H7V5H6v5h4V9h2V8H9z" fill="#c5c8cf"/><g
+      fill="#646464"><path d="M3 4v6h2V4H3zm5 0h1v1H8zm4 2h1v1h-1zm-2 0h1v1h-1z"/><path
+      d="M11 5h1v1h-1z"/><path d="M12 4h1v1h-1zm0-2h1v1h-1z"/><path d="M11 3h1v1h-1z"/><path
+      d="M10 4h1v1h-1z"/><path d="M9 5h1v1H9z"/></g><path d="M8 7v3h1V7H8z" fill="#0affff"/><path
+      d="M10 8h1v1h-1zM7 6v4h1V6H7z" fill="#646464"/><path d="M3 4v6h1V4H3z" fill="#c5c8cf"/>
+    - <path d="M1 5V4h1V3h4v1h1V3h3V2h1V1h1V0h2v8h-1v1h-1v1h-2v1H6v-1H5v1H2v-1H1V9H0V5h1z"
+      fill="#0a040b"/><g fill="#323232"><path d="M2 5v4H1V5h1zm6 1V5H7V4h3V3h1V2h1V1h2v6H9V6H8z"/><path
+      d="M7 6h1v1h1v1h3v1h-2v1H6V5h1v1zM5 4v6H3V4h2z"/></g><path d="M2 5v4H1V5h1zm7
+      3v2H8V7h1v1z" fill="#0affff"/><path d="M10 9v1H9V8h1v1zm1-1h1v1h-1zM7 6v4H6V5h1v1zM4
+      4v6H3V4h1z" fill="#c5c8cf"/><g fill="#646464"><path d="M8 4h1v1H8zm4 2h1v1h-1zm-2
+      2h1v1h-1zm0-2h1v1h-1z"/><path d="M11 5h1v1h-1z"/><path d="M12 4h1v1h-1zm0-2h1v1h-1z"/><path
+      d="M11 3h1v1h-1z"/><path d="M10 4h1v1h-1zM8 7v3H7V6h1v1z"/><path d="M9 5h1v1H9zm4
+      0h1v1h-1zm0-2h1v1h-1zm0-2h1v1h-1zM5 4v6H4V4h1z"/></g>
+    - <path d="M13 5V4h-1V3H8v1H7V3H4V2H3V1H2V0H0v8h1v1h1v1h2v1h4v-1h1v1h3v-1h1V9h1V5h-1z"
+      fill="#0a040b"/><g fill="#323232"><path d="M12 5v4h1V5h-1zM6 6V5h1V4H4V3H3V2H2V1H0v6h5V6h1z"/><path
+      d="M7 6H6v1H5v1H2v1h2v1h4V5H7v1zm2-2v6h2V4H9z"/></g><path d="M12 5v4h1V5h-1zM5
+      8v2h1V7H5v1z" fill="#0affff"/><path d="M4 9v1h1V8H4v1zM2 8h1v1H2zm5-2v4h1V5H7v1zm3-2v6h1V4h-1z"
+      fill="#c5c8cf"/><g fill="#646464"><path d="M5 4h1v1H5zM1 6h1v1H1zm2 2h1v1H3zm0-2h1v1H3z"/><path
+      d="M2 5h1v1H2z"/><path d="M1 4h1v1H1zm0-2h1v1H1z"/><path d="M2 3h1v1H2z"/><path
+      d="M3 4h1v1H3zm3 3v3h1V6H6v1z"/><path d="M4 5h1v1H4zM0 5h1v1H0zm0-2h1v1H0zm0-2h1v1H0zm9
+      3v6h1V4H9z"/></g>
+    - <path d="M12 0v1h-1v1h-1v1H7v1H6V3H2v1H1v1H0v4h1v1h1v1h3v-1h1v1h4v-1h2V9h1V0h-1z"
+      fill="#0a040b"/><path d="M1 5v4h1V5H1z" fill="#0affff"/><path d="M12 1v1h-1v1h-1v1H7v1h1v1h1v1h4V1h-1z"
+      fill="#323232"/><path d="M9 8V7H8V6H7V5H6v5h4V9h2V8H9z" fill="#c5c8cf"/><g
+      fill="#646464"><path d="M3 4v6h2V4H3zm5 0h1v1H8zm4 2h1v1h-1zm-2 0h1v1h-1z"/><path
+      d="M11 5h1v1h-1z"/><path d="M12 4h1v1h-1zm0-2h1v1h-1z"/><path d="M11 3h1v1h-1z"/><path
+      d="M10 4h1v1h-1z"/><path d="M9 5h1v1H9z"/></g><path d="M8 7v3h1V7H8z" fill="#0affff"/><path
+      d="M10 8h1v1h-1zM7 6v4h1V6H7z" fill="#646464"/><path d="M3 4v6h1V4H3z" fill="#c5c8cf"/>
+    sleeves: []
+    dimensions:
+    - X: 2
+      Y: 33
+      Width: 13
+      Height: 11
+    - X: 19
+      Y: 34
+      Width: 14
+      Height: 11
+    - X: 31
+      Y: 34
+      Width: 14
+      Height: 11
+    - X: 2
+      Y: 33
+      Width: 13
+      Height: 11
+    note: 

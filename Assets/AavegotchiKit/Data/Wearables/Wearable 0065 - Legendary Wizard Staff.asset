@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0065 - Legendary Wizard Staff
+  m_EditorClassIdentifier: 
+  data:
+    id: 65
+    name: Legendary Wizard Staff
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 020000000000000000000000020000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M8 5V4H7V3H6V1H5V0H4v1H3v2H2v1H1v1H0v1h1v1h1v1h1v2h1v23h1V10h1V8h1V7h1V6h1V5z"
+      fill="#47289b"/><path d="M3,7h3v1H3V7z" fill="#cb5bff"/><path d="M5,4h2v1H5V4z"
+      fill="#6f16e2"/><g fill="#3a2b77"><path d="M5 6h1v1H5V6zm0-5h1v2H5V1z"/><path
+      d="M6 3h1v1H6V3zm2 2h1v1H8V5z"/><path d="M7 4h1v1H7V4zm0 2h1v1H7V6zM1 4h1v1H1V4zm0
+      2h1v1H1V6zm2 4h1V8H3v2z"/><path d="M2,7h1v1H2V7z"/></g><path d="M4,5h3v1H4V5z"
+      fill="#f37aff"/><path d="M5,3h1v2H5V3z" fill="#5d24bf"/><g fill="#8000ff"><path
+      d="M3 6h2v1H3V6zm2-3h1v1H5V3z"/><path d="M4,7h1v3H4V7z"/></g><g fill="#b135ff"><path
+      d="M4,5h1v2H4V5z"/><path d="M5,7h1v1H5V7z"/><path d="M6,5h1v2H6V5z"/></g><path
+      d="M3 3v1H2v2h3V3z" fill="#ffa3ff"/><path d="M3,4h1v2H3V4z" fill="#ffc9ff"/><path
+      d="M2 5.5h1V7H2V5.5zM6 5v1h2V5H6z" fill="#cb5bff"/><path d="M4 1h1v5H4z" fill="#fff"/><path
+      d="M1 5h4v1H1z" fill="#ffc9ff"/><path d="M3 5h1v1H3z" fill="#fff"/>
+    - <path d="M1 5V3h1V1h1V0h1v1h1v2h1v2h1v1H6v2H5v2H4v23H3V10H2V8H1V6H0V5h1z" fill="#47289b"/><path
+      d="M3 3V1h2v2h1v2h1v1H6v1H5v1H4v2H2V8H1V3h2z" fill="#3a2b77"/><path d="M2 5V3h1V1h1v2h1v2h1v1H5v2H4v2H3V8H2V6H1V5h1z"
+      fill="#5d24bf"/><path d="M2 5V3h1V1h1v2h1v1H4v1h2v1H4v1h1v1H4v2H3V8H2V6H1V5h1z"
+      fill="#8000ff"/><path d="M2,3h1v1H2V3z" fill="#ffa3ff"/><path d="M4 5h1v1H4z"
+      fill="#f37aff"/><path d="M2 7h1v1H2zm3-2h1v1H5z" fill="#cb5bff"/><g fill="#ffc9ff"><path
+      d="M2 4h1v1H2z"/><path d="M3 5h1v1H3zM1 5h1v1H1z"/></g><g fill="#fff"><path
+      d="M2 5h1v1H2z"/><path d="M3 1h1v4H3z"/></g><g fill="#b135ff"><path d="M3 6h1v1H3z"/><path
+      d="M4 7h1v1H4z"/></g>
+    - <path d="M6 5V3H5V1H4V0H3v1H2v2H1v2H0v1h1v2h1v2h1v23h1V10h1V8h1V6h1V5H6z" fill="#47289b"/><path
+      d="M4 3V1H2v2H1v2H0v1h1v1h1v1h1v2h2V8h1V3H4z" fill="#3a2b77"/><path d="M5 5V3H4V1H3v2H2v2H1v1h1v2h1v2h1V8h1V6h1V5H5z"
+      fill="#5d24bf"/><path d="M5 5V3H4V1H3v2H2v1h1v1H1v1h2v1H2v1h1v2h1V8h1V6h1V5H5z"
+      fill="#8000ff"/><path d="M5,3H4v1h1V3z" fill="#ffa3ff"/><path d="M2 5h1v1H2z"
+      fill="#f37aff"/><path d="M4 7h1v1H4zM1 5h1v1H1z" fill="#cb5bff"/><g fill="#ffc9ff"><path
+      d="M4 4h1v1H4z"/><path d="M3 5h1v1H3zm2 0h1v1H5z"/></g><g fill="#fff"><path
+      d="M4 5h1v1H4z"/><path d="M3 1h1v4H3z"/></g><g fill="#b135ff"><path d="M3 6h1v1H3z"/><path
+      d="M2 7h1v1H2z"/></g>
+    - <path d="M0 5v1h1v1h1v1h1v2h1v23h1V10h1V8h1V7h1V6h1V5H8V4H7V3H6V1H5V0H4v1H3v2H2v1H1v1z"
+      fill="#47289b"/><path d="M6,8H3V7h3V8z" fill="#cb5bff"/><path d="M4,5H2V4h2V5z"
+      fill="#6f16e2"/><g fill="#3a2b77"><path d="M4 7H3V6h1v1zm0-4H3V1h1v2z"/><path
+      d="M3 4H2V3h1v1zM1 6H0V5h1v1z"/><path d="M2 5H1V4h1v1zm0 2H1V6h1v1zm6-2H7V4h1v1zm0
+      2H7V6h1v1zM6 8H5v2h1V8z"/><path d="M7,8H6V7h1V8z"/></g><path d="M5,6H2V5h3V6z"
+      fill="#f37aff"/><path d="M4,5H3V3h1V5z" fill="#5d24bf"/><g fill="#8000ff"><path
+      d="M6 7H4V6h2v1zM4 4H3V3h1v1z"/><path d="M5 10H4V7h1v3z"/></g><g fill="#b135ff"><path
+      d="M5,7H4V5h1V7z"/><path d="M4,8H3V7h1V8z"/><path d="M3,7H2V5h1V7z"/></g><path
+      d="M4 3v3h3V4H6V3z" fill="#ffa3ff"/><path d="M6,6H5V4h1V6z" fill="#ffc9ff"/><path
+      d="M7 7H6V5.5h1V7zM1 5v1h2V5H1z" fill="#cb5bff"/><path d="M4 1h1v5H4z" fill="#fff"/><path
+      d="M4 5h4v1H4z" fill="#ffc9ff"/><path d="M5 5h1v1H5z" fill="#fff"/>
+    sleeves: []
+    dimensions:
+    - X: 6
+      Y: 22
+      Width: 9
+      Height: 33
+    - X: 23
+      Y: 22
+      Width: 7
+      Height: 33
+    - X: 34
+      Y: 22
+      Width: 7
+      Height: 33
+    - X: 6
+      Y: 22
+      Width: 9
+      Height: 33
+    note: 

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0201 - Mechanical Claw
+  m_EditorClassIdentifier: 
+  data:
+    id: 201
+    name: Mechanical Claw
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000200000002000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M13,0v1h-1v1h-1v1H9v1H7v1H6V4H5V3H2v1H1v1H0v1h2V5h3v1H4v2h1v1H2V8H0v1h1v1h1v1h3v-1h1V9h1v1h4V9h2V8h1V0H13z"
+      fill="#390601"/><path d="M5,6h2v2H5V6z" fill="#0ff"/><g fill="#4e2721"><path
+      d="M1,5h1v1H1V5z"/><path d="M2 4h3v1H2V4zm0 5h3v1H2V9z"/><path d="M1 8h1v1H1V8zm12-5v1h-2v1H9v1H8v2h1V7h2V6h2V5h1V3h-1z"/></g><path
+      d="M5,6h1v1H5V6z" fill="#fff"/>
+    - <path d="M1 6H0V5h1V4h1V3h3v1h1v1h1V4h2V3h2V2h1V1h1V0h2v7h-1v1h-1v1h-2v1H7V9H6v1H5v1H2v-1H1V9H0V8h2v1h3V8H4V6h1V5H2v1H1z"
+      fill="#390601"/><path d="M7 6v2H5V6h2z" fill="#0ff"/><g fill="#4e2721"><path
+      d="M1 5h1v1H1z"/><path d="M5 4v1H2V4h3zm0 5v1H2V9h3z"/><path d="M1 8h1v1H1zm8-3h2V4h2V3h1V2h1v3h-2v1h-2v1H9v1H8V6h1V5z"/></g><path
+      d="M5 6h1v1H5z" fill="#fff"/>
+    - <path d="M14 6h1V5h-1V4h-1V3h-3v1H9v1H8V4H6V3H4V2H3V1H2V0H0v7h1v1h1v1h2v1h4V9h1v1h1v1h3v-1h1V9h1V8h-2v1h-3V8h1V6h-1V5h3v1h1z"
+      fill="#390601"/><path d="M8 6v2h2V6H8z" fill="#0ff"/><g fill="#4e2721"><path
+      d="M13 5h1v1h-1z"/><path d="M10 4v1h3V4h-3zm0 5v1h3V9h-3z"/><path d="M13 8h1v1h-1zM6
+      5H4V4H2V3H1V2H0v3h2v1h2v1h2v1h1V6H6V5z"/></g><path d="M9 6h1v1H9z" fill="#fff"/>
+    - <path d="M1 6H0V5h1V4h1V3h3v1h1v1h1V4h2V3h2V2h1V1h1V0h1v7 1h-1v1h-2v1H7V9H6v1H5v1H2v-1H1V9H0V8h2v1h3V8H4V6h1V5H2v1H1z"
+      fill="#390601"/><path d="M7 6v2H5V6h2z" fill="#0ff"/><g fill="#4e2721"><path
+      d="M1 5h1v1H1z"/><path d="M5 4v1H2V4h3zm0 5v1H2V9h3z"/><path d="M1 8h1v1H1zm8-3h2V4h2V3h1v2h-1v1h-2v1H9v1H8V6h1V5z"/></g><path
+      d="M5 6h1v1H5z" fill="#fff"/>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 33
+      Width: 14
+      Height: 11
+    - X: 18
+      Y: 35
+      Width: 15
+      Height: 11
+    - X: 31
+      Y: 35
+      Width: 15
+      Height: 11
+    - X: 1
+      Y: 33
+      Width: 14
+      Height: 11
+    note: 

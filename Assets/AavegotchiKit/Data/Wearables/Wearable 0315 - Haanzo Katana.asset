@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0315 - Haanzo Katana
+  m_EditorClassIdentifier: 
+  data:
+    id: 315
+    name: Haanzo Katana
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000200000004000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 50
+    minLevel: 1
+    svgs:
+    - <path d="M7 31v1H6V0H5v1H4v1H3v30H2v-1H0v1h1v1h2v11h3V33h2v-1h1v-1H7z"/><path
+      d="M5 0v1H4v1H3v30h3V0H5z" fill="#191919"/><path d="M4 33h1v1H4zm0 2h1v1H4zm0
+      2h1v1H4zm0 2h1v1H4zm0 2h1v1H4z" fill="#51ffa8"/><path d="M3 34h1v1H3zm2 0h1v1H5zm-2
+      2h1v1H3zm2 0h1v1H5zm-2 2h1v1H3zm2 0h1v1H5zm-2 2h1v1H3zm2 0h1v1H5z" fill="#1b4d34"/><path
+      d="M5 0v1H4v1H3v30h3v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1V9H5V8h1V7H5V6h1V5H5V4h1V3H5V2h1V0H5z"
+      fill="#323232"/><path d="M3 2v30h1V2H3z" fill="#505050"/><path d="M3 4v26h1V4H3z"
+      fill="#646464"/><path d="M3 6v22h1V6H3z" fill="#7d7d7d"/>
+    - <path d="M7 31v1H6V0H5v1H4v1H3v30H2v-1H0v1h1v1h2v11h3V33h2v-1h1v-1H7z"/><path
+      d="M5 0v1H4v1H3v30h3V0H5z" fill="#191919"/><path d="M4 33h1v1H4zm0 2h1v1H4zm0
+      2h1v1H4zm0 2h1v1H4zm0 2h1v1H4z" fill="#51ffa8"/><path d="M3 34h1v1H3zm2 0h1v1H5zm-2
+      2h1v1H3zm2 0h1v1H5zm-2 2h1v1H3zm2 0h1v1H5zm-2 2h1v1H3zm2 0h1v1H5z" fill="#1b4d34"/><path
+      d="M5 0v1H4v1H3v30h3v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1v-1H5v-1h1V9H5V8h1V7H5V6h1V5H5V4h1V3H5V2h1V0H5z"
+      fill="#323232"/><path d="M3 2v30h1V2H3z" fill="#505050"/><path d="M3 4v26h1V4H3z"
+      fill="#646464"/><path d="M3 6v22h1V6H3z" fill="#7d7d7d"/>
+    - <path d="M2 31v1h1V0h1v1h1v1h1v30h1v-1h2v1H8v1H6v11H3V33H1v-1H0v-1h2z"/><path
+      d="M4 0v1h1v1h1v30H3V0h1z" fill="#191919"/><path d="M4 33h1v1H4zm0 2h1v1H4zm0
+      2h1v1H4zm0 2h1v1H4zm0 2h1v1H4z" fill="#51ffa8"/><path d="M5 34h1v1H5zm-2 0h1v1H3zm2
+      2h1v1H5zm-2 0h1v1H3zm2 2h1v1H5zm-2 0h1v1H3zm2 2h1v1H5zm-2 0h1v1H3z" fill="#1b4d34"/><path
+      d="M4 0v1h1v1h1v30H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3V9h1V8H3V7h1V6H3V5h1V4H3V3h1V2H3V0h1z"
+      fill="#323232"/><path d="M6 2v30H5V2h1z" fill="#505050"/><path d="M6 4v26H5V4h1z"
+      fill="#646464"/><path d="M6 6v22H5V6h1z" fill="#7d7d7d"/>
+    - <path d="M2 31v1h1V0h1v1h1v1h1v30h1v-1h2v1H8v1H6v11H3V33H1v-1H0v-1h2z"/><path
+      d="M4 0v1h1v1h1v30H3V0h1z" fill="#191919"/><path d="M4 33h1v1H4zm0 2h1v1H4zm0
+      2h1v1H4zm0 2h1v1H4zm0 2h1v1H4z" fill="#51ffa8"/><path d="M5 34h1v1H5zm-2 0h1v1H3zm2
+      2h1v1H5zm-2 0h1v1H3zm2 2h1v1H5zm-2 0h1v1H3zm2 2h1v1H5zm-2 0h1v1H3z" fill="#1b4d34"/><path
+      d="M4 0v1h1v1h1v30H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3v-1h1v-1H3V9h1V8H3V7h1V6H3V5h1V4H3V3h1V2H3V0h1z"
+      fill="#323232"/><path d="M6 2v30H5V2h1z" fill="#505050"/><path d="M6 4v26H5V4h1z"
+      fill="#646464"/><path d="M6 6v22H5V6h1z" fill="#7d7d7d"/>
+    sleeves: []
+    dimensions:
+    - X: 3
+      Y: 2
+      Width: 9
+      Height: 44
+    - X: 21
+      Y: 4
+      Width: 9
+      Height: 44
+    - X: 34
+      Y: 4
+      Width: 9
+      Height: 44
+    - X: 3
+      Y: 2
+      Width: 9
+      Height: 44
+    note: 

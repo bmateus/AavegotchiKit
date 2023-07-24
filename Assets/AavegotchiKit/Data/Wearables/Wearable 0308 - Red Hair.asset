@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0308 - Red Hair
+  m_EditorClassIdentifier: 
+  data:
+    id: 308
+    name: Red Hair
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: feffffff00000000feffffff000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M49 10V9h-2V8h-2V7h-1V6h-2V5h3V4h-2V3h-2V2h-1V1h-1V0h-6v1h-3v1h-1v1h-1v2h-3V4H13v1h-3v1H8v2H6v2H4v2H2v14H1v2H0v1h3v-2h1v-9h2v-1h2v-1h2v-1h2v-1h1v-1h1v-1h1v-1h1v1h1v1h1v1h1v1h2v1h2v1h2v1h3v1h3v1h2v1h1v6h1v2h3v-1h-1v-2h-1V12h-2v-2h-2V8h-1V7h3v1h1v1h1v2h1v2h1v1h1v1h1v-2h-1v-1h1v1h7v-1h2v-1h1v-1h-1z"
+      fill="#460000"/><path d="M31 5V4h-1V3h-2v2h1v1h1v1h2V5h-1z" fill="#376560"/><g
+      fill="#731900"><path d="M1 28h1v-2H1v2zm35-7h-1v5h1v-5z"/><path d="M36 28h1v-2h-1v2zM28
+      5h1v1h-1zm17 5h-2V9h-5V8h-3v1h1v1h6v1h3v1h4v-1h-3v-1h-1zM33 3h1V2h4v1h2v1h3V3h-2V2h-2V1h-6v1h-2v1h-1v1h2V3h1z"/><path
+      d="M23 6h1v1h1v1h3v1h3v1h1V8h-1V7h-3V6h-3V5h-1V4h-2v1h1v1z"/><path d="M20 6v1h1v1h1v1h1v1h2v1h3v1h3v1h2v1h3v-2h-2v-1h-3v-1h-3V9h-3V8h-1V7h-1V6h-1V5h-1V4h-2v1h1v1z"/><path
+      d="M17 6v1h1v2h1v1h1v1h1v1h2v1h2v1h3v1h3v1h2v1h3v-2h-3v-1h-2v-1h-3v-1h-3v-1h-2v-1h-1V9h-1V8h-1V7h-1V5h-1V4h-2v1h1v1zm-7-1h1v1h-1z"/><path
+      d="M10 7V6H8v2h1V7h1zm4 3h-1v1h-1v1h-1v1H9v1H7v1H5v1H3v1H2v9h1v-8h1v-1h2v-1h2v-1h2v-1h2v-1h1v-1h1v-1h1V9h-1v1zM6
+      8h1v1H6z"/><path d="M6 12v-1h2v-1h2V9h1V8h1V7h1V5h-1v1h-1v1h-1v1H9v1H7v1H5v1H4v1h2z"/><path
+      d="M2 12v1h2v-1H2z"/><path d="M4 15h1v-1h2v-1h2v-1h2v-1h1v-1h1V9h1V7h-1v1h-1v1h-1v1h-1v1H8v1H6v1H4v1H2v2h1v-1h1z"/><path
+      d="M36 20v-2h-3v-1h-2v-1h-3v-1h-3v-1h-2v-1h-2v-1h-1v-1h-1v-1h-1V9h-1V7h-1V5h-1V4h-1v3h1v2h1v2h1v1h1v1h1v1h2v1h2v1h2v1h3v1h3v1h2v1h3zm7-8h-1v-1h-5v1h1v1h1v-1h1v1h5v-1h-2z"/><path
+      d="M39 13h1v1h-1zm-3-9h1v1h2v1h3V5h-2V4h-2V3h-4v1h-2v1h3V4h1z"/><path d="M40
+      8h3v1h3v1h3V9h-2V8h-2V7h-6V6h-2V5h-2v1h-3v1h6v1h2z"/></g><g fill="#ff0"><path
+      d="M29 4h1v1h-1z"/><path d="M30 5h1v1h-1z"/></g><g fill="#6ca958"><path d="M30
+      6h1v1h-1z"/><path d="M31 5h1v1h-1zm-3-1h1v1h-1z"/><path d="M29 3h1v1h-1z"/></g>
+    - <path d="M30 10V9h-2V8h-2V7h-1V6h-2V5h3V4h-2V3h-2V2h-1V1h-1V0h-6v1h-3v1h-1v1H9v3H5v2H3v2H1v1H0v2h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v4h-1v1h3v-1h1v-1h1v-1h1v1h1v1h1v1h7v-1h-1v-2h-1V13h4v-1h2v-1h1v-1h-1z"
+      fill="#460000"/><path d="M12 5V4h-1V3H9v2h1v1h1v1h2V5h-1z" fill="#376560"/><g
+      fill="#731900"><path d="M24 10V9h-3v1h2v1h3v1h4v-1h-3v-1h-3zm-9-7V2h4v1h2v1h3V3h-2V2h-2V1h-6v1h-2v1h-1v1h2V3h2z"/><path
+      d="M23 12v1h3v-1h-3zM9 5h1v1H9zm7 0V4h2v1h2v1h3V5h-2V4h-2V3h-4v1h-2v2h1V5h2z"/><path
+      d="M15 8V7h2V6h1V5h-2v1h-2v1h-1v1h2z"/><path d="M18 6v1h-1v1h2V7h1V6h-2z"/><path
+      d="M17 9V8h-2v1h2z"/><path d="M19 10V9h-2v1h2z"/><path d="M19 8v1h2V8h3v1h3v1h3V9h-2V8h-2V7h-6v1h-1zm0
+      2v1h2v-1h-2z"/><path d="M21 11v1h2v-1h-2z"/><path d="M21 13v-1h-2v-1h-2v-1h-2V9h-2V8h-2V7H9V6H7v1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v-1h-1v-1h-2z"/><path
+      d="M20 15v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2V9H8V8H7V7H6V6H5v2h1v1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h1v-2h-2v-1h-2z"/><path
+      d="M21 18v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1H9v-1H7v-1H6V9H5V8H3v1h1v1h1v1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v-1h-1v-1h-2zm-11
+      4h1v1h-1z"/><path d="M20 25v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1H8v-1H6v1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h1v1h1v-2h-1v-1h-2v-1h-2z"/><path
+      d="M21 28v-1h-2v-1h-2v1h1v1h1v1h4v-1h-2z"/><path d="M16 25h-1v-1h-2v-1h-2v1h1v1h2v1h3v-1h-1zm5-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1H9v-1H7v-1H5v-1H4v-1H3v-1H2v-1H0v1h1v1h1v1h1v1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v-1h-1v-1h-2z"/><path
+      d="M20 20v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1H8v-1H6v-1H5v-1H4v-1H2v1h1v1h1v1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h2v1h1v-2h-2v-1h-2zM5
+      17h1v1H5zm7 9v1h1v1h2v-1h-1v-1h-2z"/><path d="M11 28v1h2v-1h-2z"/></g><g fill="#ff0"><path
+      d="M10 4h1v1h-1z"/><path d="M11 5h1v1h-1z"/></g><g fill="#6ca958"><path d="M10
+      3h1v1h-1z"/><path d="M9 4h1v1H9zm3 1h1v1h-1z"/><path d="M11 6h1v1h-1z"/></g>
+    - <path d="M28 10V8h-2V6h-4V4h-1V2h-1V1h-3V0h-6v1h-1v1H9v1H7v1H5v1h3v1H6v1H5v1H3v1H1v1H0v1h1v1h2v1h4v13H6v2H5v1h7v-1h1v-1h1v-1h1v1h1v1h1v1h3v-1h-1v-5h1v-2h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-2h-2z"
+      fill="#460000"/><path d="M20 4v2h2V4h-2z" fill="#6ca958"/><g fill="#731900"><path
+      d="M12 5h1V4h2v1h2v1h1v1h2V6h-1V5h-1V4h-2V3h-4v1h-2v1H8v1h3V5h1zm-4 6v-1h2V9H7v1H4v1H1v1h4v-1h3z"/><path
+      d="M12 3V2h4v1h2v1h1v1h1V3h-1V2h-2V1h-6v1H9v1H7v1h3V3h2zM7 9V8h3v1h2V8h-1V7H5v1H3v1H1v1h3V9h3zm10-2V6h-2V5h-2v1h1v1h2v1h2V7h-1z"/><path
+      d="M12 8h2V7h-1V6h-2v1h1v1z"/><path d="M14 8v1h2V8h-2z"/><path d="M12 9v1h2V9h-2z"/><path
+      d="M10 10v1h2v-1h-2z"/><path d="M8 11v1h2v-1H8z"/><path d="M10 14h1v-1h2v-1h2v-1h2v-1h2V9h2V8h2V7h1V6h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1H8v1H7v1h2v-1h1zm1
+      5v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h1v-1h1V9h1V8h-2v1h-1v1h-1v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1H8v1H7v1h2v-1h2z"/><path
+      d="M9 17h1v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2V9h1V8h1V6h-1v1h-1v1h-1v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1H9v1H7v2h1v-1h1zm-4-5v1h3v-1H5zm21
+      2h1v1h-1z"/><path d="M27 13h1v1h-1z"/><path d="M28 12h1v1h-1zm-4 3v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1H8v1H7v1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h1v-1h-2z"/><path
+      d="M21 19h1v1h-1z"/><path d="M19 20v1h-2v1h-2v1h-2v1h-2v1H9v1H7v1H6v2h1v-1h1v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h1v-1h-2zm-9
+      2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h2v-1h1v-1h1v-1h1v-1h-2v1h-1v1h-1v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1h-2v1H9v1H7v2h1v-1h2z"/><path
+      d="M29 11h1v1h-1zM12 26v1h-2v1H8v1h4v-1h1v-1h1v-1h-2zm4 1v1h2v-1h1v-1h-2v1h-1z"/><path
+      d="M16 24v1h-2v1h3v-1h2v-2h-1v1h-2zm4 5v-1h-2v1h2z"/></g><path d="M21 4h1v1h-1z"
+      fill="#376560"/><path d="M20 5h1v1h-1z" fill="#ff0"/>
+    - <path d="M49 28v-2h-1V12h-2v-2h-2V8h-2V6h-2V5h-3V4H25v1h-3V3h-1V2h-1V1h-3V0h-6v1h-1v1H9v1H7v1H5v1h3v1H6v1H5v1H3v1H1v1H0v1h1v1h2v1h7v-1h1v1h-1v2h1v-1h1v-1h1v-2h1V9h1V8h1V7h3v1h-1v2h-2v2h-2v14h-1v2h-1v1h38v-1h-1z"
+      fill="#460000"/><path d="M20 3v1h-1v1h-1v2h2V6h1V5h1V3h-2z" fill="#376560"/><g
+      fill="#731900"><path d="M21 5h1v1h-1zm-8 0V4h2v1h3V4h-2V3h-4v1h-2v1H8v1h3V5h2z"/><path
+      d="M8 11v-1h6V9h1V8h-3v1H7v1H4v1H1v1h4v-1h3zm14-2V8h3V7h1V6h1V5h1V4h-2v1h-1v1h-3v1h-3v1h-1v2h1V9h3zm17-4h1v1h-1z"/><path
+      d="M38 8h1v1h1v1h2v1h2v1h2v-1h-1v-1h-2V9h-2V8h-1V7h-1V6h-1V5h-1v2h1v1z"/><path
+      d="M41 7v1h1V6h-2v1h1zm-5 2h1v1h1v1h1v1h2v1h2v1h2v1h2v1h1v-2h-2v-1h-2v-1h-2v-1h-2v-1h-1V9h-1V8h-1V7h-1v2z"/><path
+      d="M43 8h1v1h-1zm5 5v-1h-2v1h2zm-3 3v-1h-2v-1h-2v-1h-2v-1h-1v-1h-1v-1h-1V9h-1v2h1v1h1v1h1v1h2v1h2v1h2v1h2v1h2v-1h-1v-1h-2z"/><path
+      d="M19 19v-1h3v-1h3v-1h2v-1h2v-1h2v-1h1v-1h1v-1h1V9h1V7h1V4h-1v1h-1v2h-1v2h-1v1h-1v1h-1v1h-1v1h-2v1h-2v1h-3v1h-3v1h-2v1h-3v2h3v-1h2z"/><path
+      d="M19 22v-1h3v-1h3v-1h2v-1h2v-1h2v-1h1v-1h1v-1h1v-1h1v1h1v1h1v1h2v1h2v1h2v1h2v1h2v1h1v-2h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-1v-1h-1v-1h-1v-1h-1v1h-1v1h-1v1h-1v1h-2v1h-2v1h-2v1h-3v1h-3v1h-2v1h-3v2h3v-1h2z"/><path
+      d="M18 25v-1h2v-1h3v-1h3v-1h2v-1h2v-1h2v-1h1v-1h1v-1h1v1h1v1h2v1h2v1h2v1h2v1h2v1h2v-1h-1v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-1v-1h-1v-1h-1v1h-1v1h-1v1h-1v1h-2v1h-2v1h-2v1h-3v1h-3v1h-2v1h-3v2h1v-1h3z"/><path
+      d="M19 27v-1h2v-1h3v-1h3v-1h2v-1h2v-1h2v-1h1v-1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h1v-2h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-1v-1h-1v1h-1v1h-1v1h-2v1h-2v1h-2v1h-3v1h-3v1h-2v1h-3v1h-2v1h3v-1h3zm18
+      1v-1h-2v-1h-1v1h-2v1h-2v1h4v-1h1v1h4v-1h-2z"/><path d="M43 28v-1h-2v-1h-2v-1h-2v-1h-2v-1h-1v1h-2v1h-2v1h-2v1h-3v1h-3v1h5v-1h3v-1h2v-1h2v-1h1v1h2v1h2v1h2v1h4v-1h-2zM19
+      13v-1h3v-1h3v-1h2V9h1V8h1V7h1V5h1V4h-2v1h-1v1h-1v1h-1v1h-1v1h-3v1h-3v1h-3v1h-2v2h3v-1h2z"/><path
+      d="M19 16v-1h3v-1h3v-1h2v-1h2v-1h1v-1h1V9h1V7h1V5h1V4h-2v1h-1v2h-1v1h-1v1h-1v1h-1v1h-2v1h-3v1h-3v1h-2v1h-3v2h3v-1h2zm-6-5H8v1H5v1h5v-1h1v1h1v-1h1v-1z"/><path
+      d="M10 13h1v1h-1zm2-10V2h4v1h2v1h2V3h-1V2h-2V1h-6v1H9v1H7v1h3V3h2zM7 9V8h5V7h6V6h-3V5h-2v1h-2v1H5v1H3v1H1v1h3V9h3zm40
+      18v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-2v-1h-1v1h-1v1h-2v1h-2v1h-2v1h-3v1h-3v1h-2v1h-3v1h4v-1h2v-1h3v-1h3v-1h2v-1h2v-1h2v-1h1v1h2v1h2v1h2v1h2v1h2v1h2v1h1v-1h1v-1h-2z"/></g><g
+      fill="#ff0"><path d="M20 4h1v1h-1z"/><path d="M19 5h1v1h-1z"/></g><g fill="#6ca958"><path
+      d="M19 6h1v1h-1z"/><path d="M18 5h1v1h-1zm3-1h1v1h-1z"/><path d="M20 3h1v1h-1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 13
+      Y: 2
+      Width: 50
+      Height: 29
+    - X: 20
+      Y: 2
+      Width: 31
+      Height: 29
+    - X: 13
+      Y: 2
+      Width: 30
+      Height: 29
+    - X: 1
+      Y: 2
+      Width: 50
+      Height: 29
+    note: 

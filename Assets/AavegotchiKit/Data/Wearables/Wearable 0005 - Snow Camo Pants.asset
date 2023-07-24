@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0005 - Snow Camo Pants
+  m_EditorClassIdentifier: 
+  data:
+    id: 5
+    name: Snow Camo Pants
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000100000001000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M0 0v14h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V0z"/><g fill="#4e4066"><path
+      d="M30 3H19v4h-1v1h-1v2h3v2h5v-2h5v2h3V7h-2V6h-1zM4 3v3H3v1H1v5h3v-2h5v2h5v-2h2V3z"/><path
+      d="M1 3h2v3H1zm16 0h1v4h-1zm14 0h2v3h-2z"/></g><g fill="#edeff2"><path d="M17
+      6h1v1h-1zm-6 4V7H8V6H7V5H6V4H5v1H4v1h1v1H4v1h3v2h1V9h2v1zM2 9H1v3h2v-2H2zm12
+      0h-1v2h-2v1h3v-2h2V8h-2zm5-3h1v1h-1zm11 4h2v2h-2zM12 5h2v1h-2zm20 0h1v1h-1z"/><path
+      d="M18 8h-1v2h2V7h-1zm11-2h2v1h-2zm-6-1h-1v1h2V4h3V3h-4zm3 1h-1v1h-3v1h2v2h2V7h1V5h-1z"/></g><g
+      fill="#a8aaae"><path d="M2 7H1v2h1v1h1V8H2zm13-3h-2v1h1v1h-2V5h-1V4H9v1H8v2h3v1h2V7h1v1h2V6h-1zM1
+      5h2v1H1zm7 4h2v1H8zm21-3h1V5h-1V4h1V3h-2v2h-1v2h2zm-3 3h4v1h-4zm0-4h-1V4h-1v2h-2V5h1V3h-3v1h-1v1h2v3h1V7h3V6h1zM4
+      3h1v1H4z"/><path d="M26 7h1v1h-1zm-3 3v1h1V8h-2v2zm-4-2h1v2h-1zm12-1v1h-1v1h2V8h1V7zm-11
+      4h2v1h-2z"/></g><path d="M16 2V1h-6v1h6zm8 0V1h-5v1h5zM9 2V1H1v1h8zm24 0V1h-8v1h8z"
+      fill="#edeff2"/><path d="M17,1h1v1h-1V1z" fill="#a8aaae"/>
+    - <path d="M24,14h-3v-2h-3v2h-4v-2h-4v2H6v-2H3v2H0V0h24V14z"/><g fill="#51774e"><use
+      href="#B"/><path d="M3 3h2v1H3V3zm10 5h1v2h-1V8zm9-3h1v2h-1V5zM5 10H3v1H1V9h1V8H1V7h4v3z"/></g><use
+      href="#C" fill="#cab983"/><g fill="#a8aaae"><path d="M23 3v1h-2v4h1v1h1v3h-2v-2h-1V3h3zM3
+      3h2v3H3V3zm9 0v7h-2v2H6V3h6zm7 0v7h-1v2h-4v-2h-1V3h6z"/><path d="M2 3v3h1v1h2v3H3v2H1V3h1zm20
+      2h1v3h-1V5z"/></g><path d="M13 1h5v1h-5V1zM7 1h5v1H7V1zm12 0h4v1h-4V1zM1 1h5v1H1V1z"
+      fill="#edeff2"/><g fill="#4e4066"><use href="#B"/><path d="M3 3h2v1H3V3zm10
+      5h1v2h-1V8zm9-3h1v2h-1V5zM5 10H3v1H1V9h1V8H1V7h4v3z"/></g><use href="#C" fill="#edeff2"/><defs
+      ><path id="B" d="M23 4h-2v5h1v1h1v2h-2v-2h-1V3h3v1zM1 4h1v2H1V4zm7 4h3v2h-1v2H9v-2H6V3h2v5zM3
+      5h2v1H3V5zm6 0h1V3h2v3H9V5zm10 5h-1v2h-1v-1h-1-2v-1h2V9h1V7h-2V6h-1v1h-1V3h6v7z"/><path
+      id="C" d="M21 3h2v1h-2V3zM1 5h1v1H1V5zm5-2h2v2H6V3zm12 0v1h1v2h-3V5h-3V3h5zM1
+      9h2v2H1V9zm15 1V9h2v3h-1v-1h-3v-1h2zm5 1h2v1h-2v-1zm-8-5h1v1h-1V6zM7 7h1v1h3v2H6V6h1v1zM4
+      8h1v1H4V8zm18-2h1v1h-1V6z"/></defs>,
+    - <path d="M0 14h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V0H0z"/><g fill="#a8aaae"><path
+      d="M1 3v1h2v4H2v1H1v3h2v-2h1V3zm18 0h2v3h-2zm-7 0v7h2v2h4V3zM5 3v7h1v2h4v-2h1V3z"/><path
+      d="M22 3v3h-1v1h-2v3h2v2h2V3zM1 5h1v3H1z"/></g><path d="M6 1h5v1H6zm6 0h5v1h-5zM1
+      1h4v1H1zm17 0h5v1h-5z" fill="#edeff2"/><g fill="#4e4066"><path d="M1 4h2v5H2v1H1v2h2v-2h1V3H1zm21
+      0h1v2h-1zm-6 4h-3v2h1v2h1v-2h3V3h-2zm3-3h2v1h-2zm-4 0h-1V3h-2v3h3zM5 10h1v2h1v-1h1
+      2v-1H8V9H7V7h2V6h1v1h1V3H5z"/><path d="M19 3h2v1h-2zm-9 5h1v2h-1zM1 5h1v2H1zm18
+      5h2v1h2V9h-1V8h1V7h-4z"/></g><path d="M1 3h2v1H1zm21 2h1v1h-1zm-6-2h2v2h-2zM6
+      3v1H5v2h3V5h3V3zm15 6h2v2h-2zM8 10V9H6v3h1v-1h3v-1zm-7 1h2v1H1zm9-5h1v1h-1zm7
+      1h-1v1h-3v2h5V6h-1zm2 1h1v1h-1zM1 6h1v1H1z" fill="#edeff2"/>
+    - <path d="M34,14h-4v-2h-5v2h-5v-2h-6v2H9v-2H4v2H0V0h34V14z"/><g fill="#4e4066"><path
+      d="M1 3v9h3v-2h5v2h5v-2h1V3H1zm3 6V8H3V4h7v4H9v1H4z"/><path d="M4 5h5v3H4V5zm15-2v7h1v2h5v-2h5v2h3V3H19zm6
+      6V8h-1V4h7v4h-1v1h-5z"/><path d="M25 5h5v3h-5V5zm-9-2h2v7h-2V3z"/></g><path
+      d="M10 1h14v1H10V1zM1 1h8v1H1V1zm24 0h8v1h-8V1z" fill="#edeff2"/><g fill="#a8aaae"><path
+      d="M13 4v1h1v1h-2V5h-1V4h-1v3h1v1h2V7h1v1h1V4h-2zM8 5h1v2H8V5zM1 5h2v1H1V5zm7
+      4h2v1H8V9zM2 7H1v2h1v1h1V8H2V7zm27 0V6h1V5h-3v2h2zm-4-2h1v1h-1V5zm-3 1V5h1V3h-3v1h-1v1h2v3h1V7h2V6h-2zm4
+      3h4v1h-4V9z"/><path d="M31 7v1h-1v1h2V8h1V7h-2zm-5 0h1v1h-1V7zM16 4h1v1h-1V4zm0
+      2h1v4h-1V6zm6 4h1v1h1V8h-2v2zm-2 1h2v1h-2v-1zm-1-3h1v2h-1V8zM4 3h1v1H4V3zm24
+      0h2v1h-2V3z"/></g><g fill="#edeff2"><path d="M12 5h2v1h-2V5zm2 4h-1v2h-2v1h3v-2h1V8h-1v1zm-3
+      1V7h-1v1H9v1h1v1h1z"/><path d="M8 7V6H7V5H4v1h1v1H4v1h5V7H8zM7 9h1v1H7V9zM2
+      9H1v3h2v-2H2V9zM1 6h2v1H1V6zm28 0h1v1h-1V6zM19 6h1v1h-1V6zm11 4h2v2h-2v-2zm2-5v1h-1v1h2V5h-1zm-2-2h1v1h-1V3zM3
+      3h1v1H3V3zm21 7h2V9h-1V8h-1v2z"/><path d="M22 7h2v1h-2V7zm-6-4h1v1h-1V3zm0
+      2h1v1h-1V5zm1 2h1v1h-1V7zm0 2h1v1h-1V9zm9-3h-1v2h1V7h1V5h-1v1zm-3-3v2h-1v1h2V4h3V3h-4z"/></g>,
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 41
+      Width: 34
+      Height: 14
+    - X: 20
+      Y: 41
+      Width: 24
+      Height: 14
+    - X: 20
+      Y: 41
+      Width: 24
+      Height: 14
+    - X: 15
+      Y: 41
+      Width: 34
+      Height: 14
+    note: 

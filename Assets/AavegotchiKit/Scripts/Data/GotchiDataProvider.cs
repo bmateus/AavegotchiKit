@@ -90,7 +90,7 @@ namespace PortalDefender.AavegotchiKit
 
         public Wearable GetWearable(int wearableID)
         {
-            return wearableDB.wearables.Where(x => x.id == wearableID).FirstOrDefault();
+            return wearableDB.wearables.Where(x => x.data.id == wearableID).FirstOrDefault()?.data;
         }
 
         public WearableSetDB wearableSetDB;

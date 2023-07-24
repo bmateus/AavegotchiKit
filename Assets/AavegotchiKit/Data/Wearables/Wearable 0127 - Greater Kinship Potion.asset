@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0127 - Greater Kinship Potion
+  m_EditorClassIdentifier: 
+  data:
+    id: 127
+    name: Greater Kinship Potion
+    description: +10 to Kinship
+    author: SnottySnake
+    category: 2
+    traitModifiers: 000000000000000000000000000000000000000000000000
+    slotPositions: 00000000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M2.1 13.9v-1h-1v-1h-1V8.1h1v-1h1V2.9h-1v-.8h7.8v.8h-1v4.2h1v1h1v3.8h-1v1h-1v1z"
+      fill="red"/><path d="M8.8 2.2v.5h-1v4.5h1v1h1v3.5h-1v1.1h-1v1H2.2v-1h-1v-1h-1V8.2h1v-1h1V2.8h-1v-.6h7.6M9
+      2H1v1h1v4H1v1H0v4h1v1h1v1h6v-1h1v-1h1V8H9V7H8V3h1V2z"/><path d="M5,4V3H3v3h2V5H4V4H5z"
+      fill="#b1d0ea"/><path d="M6,3v1H5v1h1v1h1V3H6z" fill="#6ea8d8"/><g fill="#ff4a4a"><path
+      d="M4 1h1v1H4V1zm0 3h1v1H4V4z"/><path d="M5 3h1v1H5V3zm1-3h1v1H6V0zm0 5H5v1H3v2H2v3h1v1h3v-1h1V8H6V5z"/></g><g
+      fill="red"><path d="M8,8V7H7V6H6v2h1v3H6v1H3v-1H2V8H1v4h1v1h6v-1h1V8H8z"/><path
+      d="M2,7h1v1H2V7z"/></g><path d="M1 7h1v1H1V7zm0 5h1v1H1v-1z"/><path d="M3 3h4v4h1V3h1V2H1v1h1v4h1V3zM0
+      8h1v4H0V8zm9 0h1v4H9V8z"/><path d="M8 12h1v1H8v-1zm0-5h1v1H8V7z"/><path d="M2,13h6v1H2V13z"/>
+    - <path d="M2.1 13.9v-1h-1v-1h-1V8.1h1v-1h1V2.9h-1v-.8h7.8v.8h-1v4.2h1v1h1v3.8h-1v1h-1v1z"
+      fill="red"/><path d="M8.8 2.2v.5h-1v4.5h1v1h1v3.5h-1v1.1h-1v1H2.2v-1h-1v-1h-1V8.2h1v-1h1V2.8h-1v-.6h7.6M9
+      2H1v1h1v4H1v1H0v4h1v1h1v1h6v-1h1v-1h1V8H9V7H8V3h1V2z"/><path d="M5,4V3H3v3h2V5H4V4H5z"
+      fill="#b1d0ea"/><path d="M6,3v1H5v1h1v1h1V3H6z" fill="#6ea8d8"/><g fill="#ff4a4a"><path
+      d="M4 1h1v1H4V1zm0 3h1v1H4V4z"/><path d="M5 3h1v1H5V3zm1-3h1v1H6V0zm0 5H5v1H3v2H2v3h1v1h3v-1h1V8H6V5z"/></g><g
+      fill="red"><path d="M8,8V7H7V6H6v2h1v3H6v1H3v-1H2V8H1v4h1v1h6v-1h1V8H8z"/><path
+      d="M2,7h1v1H2V7z"/></g><path d="M1 7h1v1H1V7zm0 5h1v1H1v-1z"/><path d="M3 3h4v4h1V3h1V2H1v1h1v4h1V3zM0
+      8h1v4H0V8zm9 0h1v4H9V8z"/><path d="M8 12h1v1H8v-1zm0-5h1v1H8V7z"/><path d="M2,13h6v1H2V13z"/>
+    - <path d="M2.1 13.9v-1h-1v-1h-1V8.1h1v-1h1V2.9h-1v-.8h7.8v.8h-1v4.2h1v1h1v3.8h-1v1h-1v1z"
+      fill="red"/><path d="M8.8 2.2v.5h-1v4.5h1v1h1v3.5h-1v1.1h-1v1H2.2v-1h-1v-1h-1V8.2h1v-1h1V2.8h-1v-.6h7.6M9
+      2H1v1h1v4H1v1H0v4h1v1h1v1h6v-1h1v-1h1V8H9V7H8V3h1V2z"/><path d="M5,4V3H3v3h2V5H4V4H5z"
+      fill="#b1d0ea"/><path d="M6,3v1H5v1h1v1h1V3H6z" fill="#6ea8d8"/><g fill="#ff4a4a"><path
+      d="M4 1h1v1H4V1zm0 3h1v1H4V4z"/><path d="M5 3h1v1H5V3zm1-3h1v1H6V0zm0 5H5v1H3v2H2v3h1v1h3v-1h1V8H6V5z"/></g><g
+      fill="red"><path d="M8,8V7H7V6H6v2h1v3H6v1H3v-1H2V8H1v4h1v1h6v-1h1V8H8z"/><path
+      d="M2,7h1v1H2V7z"/></g><path d="M1 7h1v1H1V7zm0 5h1v1H1v-1z"/><path d="M3 3h4v4h1V3h1V2H1v1h1v4h1V3zM0
+      8h1v4H0V8zm9 0h1v4H9V8z"/><path d="M8 12h1v1H8v-1zm0-5h1v1H8V7z"/><path d="M2,13h6v1H2V13z"/>
+    - <path d="M2.1 13.9v-1h-1v-1h-1V8.1h1v-1h1V2.9h-1v-.8h7.8v.8h-1v4.2h1v1h1v3.8h-1v1h-1v1z"
+      fill="red"/><path d="M8.8 2.2v.5h-1v4.5h1v1h1v3.5h-1v1.1h-1v1H2.2v-1h-1v-1h-1V8.2h1v-1h1V2.8h-1v-.6h7.6M9
+      2H1v1h1v4H1v1H0v4h1v1h1v1h6v-1h1v-1h1V8H9V7H8V3h1V2z"/><path d="M5,4V3H3v3h2V5H4V4H5z"
+      fill="#b1d0ea"/><path d="M6,3v1H5v1h1v1h1V3H6z" fill="#6ea8d8"/><g fill="#ff4a4a"><path
+      d="M4 1h1v1H4V1zm0 3h1v1H4V4z"/><path d="M5 3h1v1H5V3zm1-3h1v1H6V0zm0 5H5v1H3v2H2v3h1v1h3v-1h1V8H6V5z"/></g><g
+      fill="red"><path d="M8,8V7H7V6H6v2h1v3H6v1H3v-1H2V8H1v4h1v1h6v-1h1V8H8z"/><path
+      d="M2,7h1v1H2V7z"/></g><path d="M1 7h1v1H1V7zm0 5h1v1H1v-1z"/><path d="M3 3h4v4h1V3h1V2H1v1h1v4h1V3zM0
+      8h1v4H0V8zm9 0h1v4H9V8z"/><path d="M8 12h1v1H8v-1zm0-5h1v1H8V7z"/><path d="M2,13h6v1H2V13z"/>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    - X: 27
+      Y: 37
+      Width: 10
+      Height: 14
+    note: 

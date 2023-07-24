@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0237 - Mythical Cacti
+  m_EditorClassIdentifier: 
+  data:
+    id: 237
+    name: Mythical Cacti
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000feffffff030000000000000000000000
+    slotPositions: 00000000000001000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M12 3h1v1h-1V3zm8-2h1v1h-1V1zm-6 0h1v1h-1V1zm8 2h1v1h-1V3z" fill="#0f0"/><path
+      d="M22,4h-1V3h-1V2h-1V1h-1V0h-1v1h-1v1h-1v1h-1v1h-1v2h-1v1h1v1h1v1h1v1h5V9h1V8h1V7h1V6h-1V4z"
+      fill="#ff3bff"/><path d="M18 3V2h1V1h-1V0h-1v1h-1v1h1v1h1zm-6 3h1v1h-1V6zm0-3h1v1h-1V3zm6
+      3h1v1h-1V6zm-2-2h1v1h-1V4zm4-3h1v1h-1V1zm-6 0h1v1h-1V1zm5 7h1v1h-1V8zm-4 0h1v1h-1V8zm5-4h1v1h-1V4zm2
+      2h1v1h-1V6zm0-3h1v1h-1V3z" fill="#8700ff"/><path d="M17 4v6h1V3h-1v1zm2-1v5h1V2h-1v1zm0
+      6h1v1h-1V9zm-4-6v5h1V2h-1v1zm0 6h1v1h-1V9zm6-5v4h1V4h-1zm-8 1v3h1V4h-1v1z"
+      fill="#ff9aff"/><path d="M17,1h1v1h-1V1z" fill="#ff0"/><path d="M16,13v-1h-1v-1h-1v-1h-1v1h-1v2h-1v1h-1v1h1v1h1v1h4v-1h1v-1h1v-1h-1v-1H16z"
+      fill="#ff3bff"/><path d="M17,12h1v1h-1V12z" fill="#009300"/><path d="M13 14v3h1v-4h-1v1zm2-2h1v1h-1v-1zm0
+      3v2h1v-3h-1v1zm-4-1v2h1v-3h-1v1z" fill="#ff9aff"/><path d="M14 13v-1h1v-1h-1v-1h-1v1h-1v1h1v1h1zm0
+      3h1v1h-1v-1zm-2-2h1v1h-1v-1zm-2 0h1v1h-1v-1zm5-1h1v1h-1v-1zm2-1h1v1h-1v-1zm0
+      2h1v1h-1v-1z" fill="#8700ff"/><path d="M13,11h1v1h-1V11z" fill="#ff0"/><path
+      d="M0 6h1v1H0V6zm8-2h1v1H8V4zM2 4h1v1H2V4z" fill="#0f0"/><path d="M9 6H8V5H7V4H6V3H5v1H4v1H3v1H2v1H1v2H0v1h1v1H0v1h1v1h1v1h1v1h5v-1h1v-1h1v-1h1v-1h-1v-1h1V9h-1V7H9V6z"
+      fill="#ff3bff"/><path d="M10,6h1v1h-1V6z" fill="#0f0"/><path d="M6 6V5h1V4H6V3H5v1H4v1h1v1h1zm-6
+      5h1v1H0v-1zm0-2h1v1H0V9zm0-3h1v1H0V6zm6 4h1v1H6v-1zM4 7h1v1H4V7zm4-3h1v1H8V4zM2
+      4h1v1H2V4zm5 8h1v1H7v-1zm-4 0h1v1H3v-1zm5-4h1v1H8V8zm2 3h1v1h-1v-1zm0-2h1v1h-1V9zm0-3h1v1h-1V6zM2
+      8h1v1H2V8z" fill="#8700ff"/><path d="M5 7v8h1V6H5v1zm2-1v6h1V5H7v1zm0 8v1h1v-2H7v1zM3
+      6v6h1V5H3v1zm0 8v1h1v-2H3v1zm6-6v5h1V7H9v1zM1 8v5h1V7H1v1z" fill="#ff9aff"/><path
+      d="M5,4h1v1H5V4z" fill="#ff0"/>
+    - <path d="M14,4h-1V3h-1V2h-1V1h-1V0H9v1H8v1H7v1H6v1H5v2H4v1h1v1h1v1h1v1h5V9h1V8h1V7h1V6h-1V4z"
+      fill="#ff3bff"/><path d="M10 3V2h1V1h-1V0H9v1H8v1h1v1h1zM4 6h1v1H4V6zm0-3h1v1H4V3zm6
+      3h1v1h-1V6zM8 4h1v1H8V4zm4-3h1v1h-1V1zM6 1h1v1H6V1zm5 7h1v1h-1V8zM7 8h1v1H7V8zm5-4h1v1h-1V4zm2
+      2h1v1h-1V6zm0-3h1v1h-1V3z" fill="#8700ff"/><path d="M9 4v6h1V3H9v1zm2-1v5h1V2h-1v1zm0
+      6h1v1h-1V9zM7 3v5h1V2H7v1zm0 6h1v1H7V9zm6-5v4h1V4h-1zM5 5v3h1V4H5v1z" fill="#ff9aff"/><path
+      d="M9,1h1v1H9V1z" fill="#ff0"/><path d="M2,9H1v2H0v1h1v1H0v1h1v1h1v1h1v1h5v-1h1v-1h1v-1h1v-1h-1v-1h1v-1h-1V9H9V8H8V7H7V6H6V5H5v1H4v1H3v1H2V9z"
+      fill="#ff3bff"/><path d="M1,9H0V8h1V9z" fill="#0f0"/><path d="M6 8V7h1V6H6V5H5v1H4v1h1v1h1zm5
+      6h-1v-1h1v1zm0-2h-1v-1h1v1zm-6 1H4v-1h1v1zm2-3H6V9h1v1zM3 7H2V6h1v1zm6 0H8V6h1v1zm-5
+      8H3v-1h1v1zm4 0H7v-1h1v1zm-5-4H2v-1h1v1zm-2 3H0v-1h1v1zm0-2H0v-1h1v1zm0-3H0V8h1v1zm8
+      2H8v-1h1v1z" fill="#8700ff"/><path d="M6 8H5v9h1V9 8zM4 7H3v7h1V8 7zm0 8H3v2h1v-1-1zm4-8H7v7h1V8
+      7zm0 8H7v2h1v-1-1zM2 9H1v6h1v-5-1zm8 0H9v6h1v-5-1z" fill="#ff9aff"/><path d="M6,7H5V6h1V7z"
+      fill="#ff0"/><path d="M12,15v-1h-1v-1h-1v-1H9v1H8v2H7v1H6v1h1v1h1v1h4v-1h1v-1h1v-1h-1v-1H12z"
+      fill="#ff3bff"/><path d="M13,14h1v1h-1V14z" fill="#009300"/><path d="M9 16v3h1v-4H9v1zm2-2h1v1h-1v-1zm0
+      3v2h1v-3h-1v1zm-4-1v2h1v-3H7v1z" fill="#ff9aff"/><path d="M10 15v-1h1v-1h-1v-1H9v1H8v1h1v1h1zm0
+      3h1v1h-1v-1zm-2-2h1v1H8v-1zm-2 0h1v1H6v-1zm5-1h1v1h-1v-1zm2-1h1v1h-1v-1zm0
+      2h1v1h-1v-1z" fill="#8700ff"/><path d="M9,13h1v1H9V13z" fill="#ff0"/>
+    - 237_MythicalCactiRight
+    - <path d="M11 9h-1V8h1v1zM3 7H2V6h1v1zm6 0H8V6h1v1zM1 9H0V8h1v1z" fill="#0f0"/><path
+      d="M1 11H0v1h1v1h1v1h1v1h5v-1h1v-1h1v-1h1v-1h-1V9H9V8H8V7H7V6H6V5H5v1H4v1H3v1H2v1H1v2z"
+      fill="#ff3bff"/><path d="M6 8V7h1V6H6V5H5v1H4v1h1v1h1zm5 4h-1v-1h1v1zm0-3h-1V8h1v1zm-6
+      3H4v-1h1v1zm2-2H6V9h1v1zM3 7H2V6h1v1zm6 0H8V6h1v1zm-5 7H3v-1h1v1zm4 0H7v-1h1v1zm-5-4H2V9h1v1zm-2
+      2H0v-1h1v1zm0-3H0V8h1v1z" fill="#8700ff"/><path d="M6 8H5v7h1V9 8zM4 7H3v6h1V8
+      7zm0 8H3v-1h1v1zm4-8H7v6h1V8 7zm0 8H7v-1h1v1zM1 9v4h1V9H1zm9 0H9v4h1v-3-1z"
+      fill="#ff9aff"/><path d="M6,7H5V6h1V7z" fill="#ff0"/><path d="M8,3v1H7v1h1v1h1v1h4V6h1V5h1V4h-1V3h-1V1h-1V0h-1v1h-1v1H9v1H8z"
+      fill="#ff3bff"/><path d="M8,3H7V2h1V3z" fill="#009300"/><path d="M12 3h-1v4h1V4
+      3zm-2 0H9V2h1v1zm0 1H9v3h1V5 4zm4-1h-1v3h1V4 3z" fill="#ff9aff"/><path d="M12
+      3V2h1V1h-1V0h-1v1h-1v1h1v1h1zm-1 4h-1V6h1v1zm2-2h-1V4h1v1zm2 0h-1V4h1v1zm-5-1H9V3h1v1zM8
+      3H7V2h1v1zm0 2H7V4h1v1z" fill="#8700ff"/><path d="M12,2h-1V1h1V2z" fill="#ff0"/>
+    sleeves: []
+    dimensions:
+    - X: 40
+      Y: 45
+      Width: 23
+      Height: 17
+    - X: 2
+      Y: 43
+      Width: 15
+      Height: 19
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    - X: 0
+      Y: 45
+      Width: 15
+      Height: 15
+    note: 

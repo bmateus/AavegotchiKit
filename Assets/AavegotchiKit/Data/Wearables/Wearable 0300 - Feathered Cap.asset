@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0300 - Feathered Cap
+  m_EditorClassIdentifier: 
+  data:
+    id: 300
+    name: Feathered Cap
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: ffffffff00000000ffffffff000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M35 14v-1h-1v-1h-1v-1h-1v-1h-1V8h2V4h2V2h-6v2h-2v2h-2V5h-2V4h-1V3h-1V2h-1V1h-1V0h-2v1h-1v1h-1v1h-1v1h-1v1h-2v1H8v1H7v1H6v1H5v1H4v1H3v1H2v1H1v1H0v5h16v1h1v1h2v-1h1v-1h16v-5h-1z"
+      fill="#321227"/><g fill="#376560"><path d="M23 16v1h-1v1h13v-3H24v1h-1zm-10
+      0h-1v-1H1v3h13v-1h-1v-1z"/><path d="M29 2v2h-2v2h-4V5h-1V4h-1V3h-1V2h-1V1h-2v1h-1v1h-1v1h-1v1h-1v1h-2v1H8v1H7v1H6v1H5v1H4v1H3v1H2v1h10v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1v-1h1v-1h1v-1h10v-1h-1v-1h-1v-1h-1V8h2V4h2V2h-6z"/></g><path
+      d="M12 16h-1v-1H2v3h11v-1h-1v-1zm11-2h1v-1h8v-1h-1v-1h-1v-1h-1V9h-1V8h-3V7h-2V6h-1V5h-1V4h-1V3h-1V2h-2v1h-1v1h-1v1h-1v1h-1v1h-2v1H8v1H7v1H6v1H5v1H4v1h8v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1v-1h1v-1zm2
+      1v1h-1v1h-1v1h11v-3h-9z" fill="#6ca958"/><path d="M29 2v2h-2v2h-2v4h6V8h2V4h2V2h-6z"
+      fill="#960000"/><path d="M21 8V7h-1V6h-1V5h-2v1h-1v1h-1v1h-1v4h1v1h1v1h1v1h2v-1h1v-1h1v-1h1V8h-1z"
+      fill="#376560"/><path d="M20 8V7h-1V6h-2v1h-1v1h-1v4h1v1h1v1h2v-1h1v-1h1V8h-1z"
+      fill="#99c38b"/><path d="M18 10v4h1v-1h1v-1h1v-2h-3z" fill="#80b46d"/><path
+      d="M15 10v2h1v1h1v1h1v-4h-3z" fill="#68a552"/><path d="M17 6v1h-1v1h-1v2h3V6h-1z"
+      fill="#b2d2a7"/><path d="M29 4v2h-2v2h4V4h-2z" fill="red"/>
+    - <path d="M1 13v-2h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V2h1V1h1V0h2v1h7v2h-2v3h1v1h1v1h1v1h1v1h1v1h1v2h1v5H3v1H2v1H0v-7h1z"
+      fill="#321227"/><path d="M22 13H2v-2h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V2h1V1h2v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v2h-2zm3
+      1v3H3v1H2v1H1v-5h24z" fill="#376560"/><path d="M3 12v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V2h2v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1H3zm21
+      2v3H3v1H2v-4h22z" fill="#6ca958"/><path d="M15 1v2h-2v2h-2v4h6V7h2V3h2V1h-6z"
+      fill="#960000"/><path d="M15 3v2h-2v2h4V3h-2z" fill="red"/>
+    - <path d="M25 13v-2h-1v-1h-1V9h-1V8h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-1V1h-1V0h-2v1H5v2h2v3H6v1H5v1H4v1H3v1H2v1H1v2H0v5h23v1h1v1h2v-7h-1z"
+      fill="#321227"/><path d="M5 1v2h2v2h1V4h1V3h1V2h1V1H5z" fill="#960000"/><path
+      d="M4 13h20v-2h-1v-1h-1V9h-1V8h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-1V1h-2v1h-1v1h-1v1H9v1H8v1H7v1H6v1H5v1H4v1H3v1H2v2h2zm-3
+      1v3h22v1h1v1h1v-5H1z" fill="#376560"/><path d="M23 12v-1h-1v-1h-1V9h-1V8h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-2v1h-1v1h-1v1H9v1H8v1H7v1H6v1H5v1H4v1H3v1h20zM2
+      14v3h21v1h1v-4H2z" fill="#6ca958"/>
+    - <path d="M35 14v-1h-1v-1h-1v-1h-1v-1h-1V9h-1V8h-1V7h-1V6h-3V5h-2V4h-1V3h-1V2h-1V1h-1V0h-2v1h-1v1h-1v1h-1v1h-1v1h-2v1H9V4H7V2H1v2h2v4h2v2H4v1H3v1H2v1H1v1H0v5h36v-5h-1z"
+      fill="#321227"/><path d="M34 14v-1h-1v-1h-1v-1h-1v-1h-1V9h-1V8h-1V7h-3V6h-2V5h-1V4h-1V3h-1V2h-1V1h-2v1h-1v1h-1v1h-1v1h-1v1h-2v1H8v1H7v1H6v1H5v1H4v1H3v1H2v1h32zM1
+      15v3h34v-3H1z" fill="#376560"/><path d="M7 4V2H1v2h2v4h2v1h1V8h1V7h1V6h1V4H7z"
+      fill="#960000"/><path d="M32 13v-1h-1v-1h-1v-1h-1V9h-1V8h-3V7h-2V6h-1V5h-1V4h-1V3h-1V2h-2v1h-1v1h-1v1h-1v1h-1v1h-2v1H8v1H7v1H6v1H5v1H4v1h28zM2
+      15v3h32v-3H2z" fill="#6ca958"/><path d="M7 6V4H5v4h2V7h1V6H7z" fill="red"/>
+    sleeves: []
+    dimensions:
+    - X: 14
+      Y: 1
+      Width: 36
+      Height: 21
+    - X: 19
+      Y: 2
+      Width: 26
+      Height: 20
+    - X: 19
+      Y: 2
+      Width: 26
+      Height: 20
+    - X: 14
+      Y: 1
+      Width: 36
+      Height: 19
+    note: 

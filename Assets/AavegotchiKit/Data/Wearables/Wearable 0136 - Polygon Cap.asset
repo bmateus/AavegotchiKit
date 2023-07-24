@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0136 - Polygon Cap
+  m_EditorClassIdentifier: 
+  data:
+    id: 136
+    name: Polygon Cap
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 00000000ffffffff00000000020000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M41 8V7h-1V6h-1V5h-1V4h-1V3h-1V2h-3V1h-7V0h-2v1h-7v1h-3v1h-1v1h-1v1h-1v1h-1v1H9v1H8v7H0v2h42V8z"
+      fill="#501e87"/><g fill="#824ee2"><path d="M40 8V7h-1V6h-1V5h-1V4h-1V3h-3V2h-6v1h1v1h1v1h1v1h1v1h1v1h1v8h8V8h-1zM19
+      7V6h1V5h1V4h1V3h1V2h-6v1h-3v1h-1v1h-1v1h-1v1h-1v1H9v8h8V8h1V7h1z"/><path d="M31
+      7h-1V6h-1V5h-1V4h-1V3h-1V2h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v8h14V8h-1z"/></g><path
+      d="M30.2 10.8V10h-.7v-.8h-.7v-.7h-2.3v.7h-.7v.8h-1.6v.8h-.7v.7h-2.3v-.7h-.7V8.5h.7v-.7h2.3v.7h.7v.7h.8V7.8h-.8V7h-.7v-.8h-2.3V7h-.7v.8h-.7v.7H19v2.3h.8v.7h.7v.7h.7v.8h2.3v-.8h.7v-.7h1.6v-.7h.7V10h2.3v.8h.7V13h-.7v.8h-2.3V13h-.7v-.8H25v1.6h.8v.7h.7v.7h2.3v-.7h.7v-.7h.7V13h.8v-2.2z"
+      fill="#fff"/><path d="M13 10v1h1v1h-1v3h2v-1h-1v-1h1v-3h-1zm26 0h-1v1h1v1h-1v3h2v-1h-1v-1h1v-3zm-28
+      3v-3h-1v5h2v-1h-1zm25 0v-3h-1v5h2v-1h-1z" fill="#501e87"/>
+    - <path d="M23 5V4h-1V3h-1V2h-1V1h-7V0h-2v1H4v1H3v1H2v1H1v1H0v12h24V5h-1z" fill="#501e87"/><g
+      fill="#824ee2"><path d="M0 11h1v1H0zm23-5V5h-1V4h-1V3h-1V2h-6v1h1v1h1v1h1v1h1v1h1v1h1v8h4v-1h-2v-5h1v4h1V6h-1zM6
+      7V6h1V5h1V4h1V3h1V2H4v1H3v1H2v1H1v1H0v4h2v3H1v1h1v1H0v1h4V8h1V7h1z"/><path
+      d="M18 7h-1V6h-1V5h-1V4h-1V3h-1V2h-2v1h-1v1H9v1H8v1H7v1H6v1H5v8h14V8h-1V7z"/></g><path
+      d="M17.2 10.8V10h-.8v-.8h-.8v-.8h-2.2v.8h-.8v.8h-1.5v.8h-.8v.8H8.1v-.8h-.8V8.6h.8v-.8h2.2v.8h.8v.8h.9V7.9h-.8V7h-.8v-.8H8.2V7h-.8v.8h-.8v.8H6v2.2h.8v.8h.8v.8h.8v.6h2.2v-.8h.8v-.8h1.5v-.8h.8V10h2.2v.8h.8V13h-.8v.8h-2.2V13h-.8v-.8H12v1.5h.8v.8h.8v.8h2.2v-.8h.8v-.8h.8V13h.6v-2.2h-.8z"
+      fill="#fff"/>
+    - <path d="M23 5V4h-1V3h-1V2h-1V1h-7V0h-2v1H4v1H3v1H2v1H1v1H0v13h1v1h22v-1h1V5h-1z"
+      fill="#501e87"/><g fill="#824ee2"><path d="M0 11h1v1H0zm23-5V5h-1V4h-1V3h-1V2h-6v1h1v1h1v1h1v1h1v1h1v1h1v8h4v-1h-2v-5h1v4h1V6h-1zM6
+      7V6h1V5h1V4h1V3h1V2H4v1H3v1H2v1H1v1H0v4h2v3H1v1h1v1H0v1h4V8h1V7h1z"/><path
+      d="M18 7h-1V6h-1V5h-1V4h-1V3h-1V2h-2v1h-1v1H9v1H8v1H7v1H6v1H5v8h14V8h-1V7z"/></g><path
+      d="M17.2 10.8V10h-.8v-.8h-.8v-.8h-2.2v.8h-.8v.8h-1.5v.8h-.8v.8H8.1v-.8h-.8V8.6h.8v-.8h2.2v.8h.8v.8h.9V7.9h-.8V7h-.8v-.8H8.2V7h-.8v.8h-.8v.8H6v2.2h.8v.8h.8v.8h.8v.6h2.2v-.8h.8v-.8h1.5v-.8h.8V10h2.2v.8h.8V13h-.8v.8h-2.2V13h-.8v-.8H12v1.5h.8v.8h.8v.8h2.2v-.8h.8v-.8h.8V13h.6v-2.2h-.8z"
+      fill="#fff"/>
+    - <path d="M41 15h-7V8h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-3V1h-7V0h-2v1H9v1H6v1H5v1H4v1H3v1H2v1H1v1H0v9h42v-2h-1z"
+      fill="#501e87"/><g fill="#824ee2"><path d="M32 8V7h-1V6h-1V5h-1V4h-1V3h-3V2h-6v1h1v1h1v1h1v1h1v1h1v1h1v8h8V8h-1zm-4
+      7h-1v-5h1v4h1v1h-1zm4-4v2h-1v1h1v1h-2v-3h1v-1h-1v-1h2v1zM11 7V6h1V5h1V4h1V3h1V2H9v1H6v1H5v1H4v1H3v1H2v1H1v8h8V8h1V7h1zm-8
+      8H2v-5h1v4h1v1H3zm3 0H5v-3h1v-1H5v-1h2v3H6v1h1v1H6z"/><path d="M23 7h-1V6h-1V5h-1V4h-1V3h-1V2h-2v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v8h14V8h-1V7z"/></g><path
+      d="M22.2 10.8V10h-.8v-.8h-.8v-.8h-2.2v.8h-.8v.8h-1.5v.8h-.8v.8h-2.2v-.8h-.8V8.6h.8v-.8h2.2v.8h.8v.8h.9V7.9h-.8V7h-.8v-.8h-2.2V7h-.8v.8h-.8v.8H11v2.2h.8v.8h.8v.8h.8v.6h2.2v-.8h.8v-.8h1.5v-.8h.8V10h2.2v.8h.8V13h-.8v.8h-2.2V13h-.8v-.8H17v1.5h.8v.8h.8v.8h2.2v-.8h.8v-.8h.8V13h.6v-2.2h-.8z"
+      fill="#fff"/>
+    sleeves: []
+    dimensions:
+    - X: 7
+      Y: 4
+      Width: 42
+      Height: 17
+    - X: 20
+      Y: 4
+      Width: 24
+      Height: 17
+    - X: 20
+      Y: 4
+      Width: 24
+      Height: 19
+    - X: 15
+      Y: 4
+      Width: 42
+      Height: 17
+    note: 

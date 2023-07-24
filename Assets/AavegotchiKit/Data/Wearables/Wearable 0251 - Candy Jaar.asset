@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0251 - Candy Jaar
+  m_EditorClassIdentifier: 
+  data:
+    id: 251
+    name: Candy Jaar
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000fffffffffeffffff0000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M8 12v-1H6v1H5v2h1v1h2v-1h1v-2H8z" fill="#f0f"/><path d="M5 10V9H3v1H2v2h1v1h2v-1h1v-2H5z"
+      fill="#0ff"/><path d="M11 10V9H9v1H8v2h1v1h2v-1h1v-2h-1z" fill="#ff0"/><path
+      d="M5 14v-1H3v1H2v2h1v1h2v-1h1v-2H5z" fill="#ff8200"/><path d="M8 16v-1H6v1H5v2h1v1h2v-1h1v-2H8z"
+      fill="#5800c0"/><path d="M8 8V7H6v1H5v2h1v1h2v-1h1V8H8z" fill="#0f0"/><path
+      d="M11 14v-1H9v1H8v2h1v1h2v-1h1v-2h-1z" fill="#00f"/><path d="M4 5h8V2h-1V1H8V0H6v1H3v1H2v3h2zm9
+      1v12h1V6h-1z"/><path d="M1 16V6H0v12h1v-2zm11 2h1v1h-1z"/><path d="M1 18h1v1H1z"/><path
+      d="M10 19H2v1h10v-1h-2zm2-14h1v1h-1zM1 5h1v1H1z"/><path d="M10 2H3v2h8V2h-1z"
+      fill="red"/><path d="M12 6V5H2v1H1v12h1v1h10v-1h1V6h-1z" opacity=".4" fill="#cff"
+      enable-background="new"/><g opacity=".7" fill="#cff"><path d="M10 18H2v1h10v-1h-2z"/><path
+      d="M12 6v12h1V6h-1zM2 16V6H1v12h1v-2z"/></g>
+    - <path d="M12 5V2h-1V1H8V0H6v1H3v1H2v3h8 2zM0 6v12h1V6H0z"/><path d="M13 18h1V6h-1v10
+      2zM1 18h1v1H1z"/><path d="M12 18h1v1h-1z"/><path d="M2 19v1h10v-1H4 2zM1 5h1v1H1zm11
+      0h1v1h-1z"/><path d="M5 12v2h1v1h2v-1h1v-2H8v-1H6v1H5z" fill="#f0f"/><path
+      d="M8 10v2h1v1h2v-1h1v-2h-1V9H9v1H8z" fill="#0ff"/><path d="M2 10v2h1v1h2v-1h1v-2H5V9H3v1H2z"
+      fill="#ff0"/><path d="M8 14v2h1v1h2v-1h1v-2h-1v-1H9v1H8z" fill="#ff8200"/><path
+      d="M5 16v2h1v1h2v-1h1v-2H8v-1H6v1H5z" fill="#5800c0"/><path d="M5 8v2h1v1h2v-1h1V8H8V7H6v1H5z"
+      fill="#0f0"/><path d="M2 14v2h1v1h2v-1h1v-2H5v-1H3v1H2z" fill="#00f"/><path
+      d="M3 2v2h8V2H4 3z" fill="red"/><path d="M2 5v13h10V5H3 2z" opacity=".4" fill="#cff"
+      enable-background="new"/><g opacity=".8" fill="#cff"><path d="M2 18v1h10v-1H4
+      2z"/><path d="M1 6v12h1V6H1zm11 12h1V6h-1v10 2z"/></g>
+    - <path d="M4 5h8V2h-1V1H8V0H6v1H3v1H2v3h2zm9 1v12h1V6h-1z"/><path d="M1 16V6H0v12h1v-2zm11
+      2h1v1h-1z"/><path d="M1 18h1v1H1z"/><path d="M10 19H2v1h10v-1h-2zm2-14h1v1h-1zM1
+      5h1v1H1z"/><path d="M8 12v-1H6v1H5v2h1v1h2v-1h1v-2H8z" fill="#f0f"/><path d="M5
+      10V9H3v1H2v2h1v1h2v-1h1v-2H5z" fill="#0ff"/><path d="M11 10V9H9v1H8v2h1v1h2v-1h1v-2h-1z"
+      fill="#ff0"/><path d="M5 14v-1H3v1H2v2h1v1h2v-1h1v-2H5z" fill="#ff8200"/><path
+      d="M8 16v-1H6v1H5v2h1v1h2v-1h1v-2H8z" fill="#5800c0"/><path d="M8 8V7H6v1H5v2h1v1h2v-1h1V8H8z"
+      fill="#0f0"/><path d="M11 14v-1H9v1H8v2h1v1h2v-1h1v-2h-1z" fill="#00f"/><path
+      d="M10 2H3v2h8V2h-1z" fill="red"/><path d="M11 5H2v13h10V5h-1z" opacity=".4"
+      fill="#cff" enable-background="new"/><g opacity=".8" fill="#cff"><path d="M10
+      18H2v1h10v-1h-2z"/><path d="M12 6v12h1V6h-1zM2 16V6H1v12h1v-2z"/></g>
+    - <path d="M6,12v-1h2v1h1v2H8v1H6v-1H5v-2H6z" fill="#f0f"/><path d="M9,10V9h2v1h1v2h-1v1H9v-1H8v-2H9z"
+      fill="#0ff"/><path d="M3,10V9h2v1h1v2H5v1H3v-1H2v-2H3z" fill="#ff0"/><path
+      d="M9,14v-1h2v1h1v2h-1v1H9v-1H8v-2H9z" fill="#ff8200"/><path d="M6,16v-1h2v1h1v2H8v1H6v-1H5v-2H6z"
+      fill="#5800c0"/><path d="M6,8V7h2v1h1v2H8v1H6v-1H5V8H6z" fill="#0f0"/><path
+      d="M3,14v-1h2v1h1v2H5v1H3v-1H2v-2H3z" fill="#00f"/><path d="M12 5V2h-1V1H8V0H6v1H3v1H2v3h8
+      2zM0 6v12h1V6H0z"/><path d="M13 18h1V6h-1v10 2zM2 19H1v-1h1v1z"/><path d="M13,18h-1v1h1V18z"/><path
+      d="M2 19v1h10v-1H4 2zM2 6H1V5h1v1zm11 0h-1V5h1v1z"/><path d="M4,2h7v2H3V2H4z"
+      fill="red"/><path d="M2,6V5h10v1h1v12h-1v1H2v-1H1V6H2z" opacity=".4" fill="#cff"
+      enable-background="new"/><g opacity=".7" fill="#cff"><path d="M4,18h8v1H2v-1H4z"/><path
+      d="M1 6v12h1V6H1zm11 12h1V6h-1v10 2z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 25
+      Width: 14
+      Height: 20
+    - X: 17
+      Y: 25
+      Width: 14
+      Height: 20
+    - X: 33
+      Y: 25
+      Width: 14
+      Height: 20
+    - X: 1
+      Y: 25
+      Width: 14
+      Height: 20
+    note: 

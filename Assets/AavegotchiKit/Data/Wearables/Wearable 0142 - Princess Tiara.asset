@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0142 - Princess Tiara
+  m_EditorClassIdentifier: 
+  data:
+    id: 142
+    name: Princess Tiara
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000feffffff010000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M33 8h-1V6h-2v2h-2V6h-2v2h-2V6h-2V4h-2V2h-2V0h-2v2h-2v2h-2v2h-2v2H8V6H6v2H4V6H2v2H0v2h34V8z"
+      fill="#ffc03c"/><path d="M19 5V4h-1V3h-2v1h-1v1h-1v2h1v1h1v1h2V8h1V7h1V5z"
+      fill="#ffd781"/><path d="M18 5V4h-2v1h-1v2h1v1h2V7h1V5z" fill="#ffeabe"/><path
+      d="M17 5h-1v2h2V5z" fill="#64438e"/><path d="M17 5h-1v1h2V5z" fill="#715398"/>
+    - <path d="M1 0v2h2v2h2v2h2v2h2V6h2v2h2V6h2v2h2V6h2v2h2V6h2v2h2V6h1v4H0V0h1z"
+      fill="#ffc03c"/><path d="M1 3v1h1v1h1v2H2v1H1v1H0V3h1z" fill="#ffd781"/><path
+      d="M1 4v1h1v2H1v1H0V4h1z" fill="#ffeabe"/><path d="M1 5v2H0V5h1z" fill="#64438e"/><path
+      d="M0 5h1v1H0z" fill="#715398"/>
+    - <path d="M25 0v2h-2v2h-2v2h-2v2h-2V6h-2v2h-2V6h-2v2H9V6H7v2H5V6H3v2H1V6H0v4h26V0h-1z"
+      fill="#ffc03c"/><path d="M25 3v1h-1v1h-1v2h1v1h1v1h1V3h-1z" fill="#ffd781"/><path
+      d="M25 4v1h-1v2h1v1h1V4h-1z" fill="#ffeabe"/><path d="M25 5v2h1V5h-1z" fill="#64438e"/><path
+      d="M25 5h1v1h-1z" fill="#715398"/>
+    - <path d="M32 2V0h-2v2h-2V0h-2v2h-2V0h-2v2h-2V0h-2v2h-2V0h-2v2h-2V0h-2v2H8V0H6v2H4V0H2v2H0v2h34V2h-2z"
+      fill="#ffc03c"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 8
+      Width: 34
+      Height: 10
+    - X: 19
+      Y: 8
+      Width: 26
+      Height: 10
+    - X: 19
+      Y: 8
+      Width: 26
+      Height: 10
+    - X: 15
+      Y: 14
+      Width: 34
+      Height: 4
+    note: 

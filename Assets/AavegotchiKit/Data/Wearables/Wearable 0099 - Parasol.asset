@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0099 - Parasol
+  m_EditorClassIdentifier: 
+  data:
+    id: 99
+    name: Parasol
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 01000000fffffffffdffffff000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <g fill="#ff64ff"><path d="M7 24h1v1H7z"/><path d="M16 8V5h-1V4h-1V3h-2V2h-2V1H9V0H8v1H7v1H5v1H3v1H2v1H1v3H0v1h1v1h1V9h1v1h1V9h1v1h1V9h1v1h1v14h1V10h1V9h1v1h1V9h1v1h1V9h1v1h1V9h1V8zM6
+      23h1v1H6z"/></g><g fill="#ffb9ff"><path d="M1 8h1v1H1z"/><path d="M14 5V4h-2V3h-2V2H9V1H8v1H7v1H5v1H3v1H2v3h1v1h1V8h1v1h1V8h1v1h1V8h1v1h1V8h1v1h1V8h1v1h1V8h1V5h-1zm-4
+      1H9v1H8V6H7V5h1V4h1v1h1v1z"/><path d="M8 5h1v1H8zm7 3h1v1h-1z"/></g>
+    - <g fill="#ff64ff"><path d="M28 46h-1v-1h1v1z"/><path d="M18 29v1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v14h1V31h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-1h-1v-3h-1v-1h-1v-1h-2v-1h-2v-1h-1v-1h-1v1h-1v1h-2v1h-2v1h-1v1h-1v3h-1zm11
+      16h-1v-1h1v1z"/></g><g fill="#ffb9ff"><path d="M34 30h-1v-1h1v1z"/><path d="M20
+      26v3h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-3h-1v-1h-2v-1h-2v-1h-1v-1h-1v1h-1v1h-2v1h-2v1h-1zm5
+      0h1v-1h1v1h1v1h-1v1h-1v-1h-1v-1z"/><path d="M27 27h-1v-1h1v1zm-7 3h-1v-1h1v1z"/></g>
+    - <g fill="#ff64ff"><path d="M36,45h1v1h-1V45z"/><path d="M45 29v-3h-1v-1h-1v-1h-2v-1h-2v-1h-1v-1h-1v1h-1v1h-2v1h-2v1h-1v1h-1v3h-1v1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v14h1V31h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-1h-1zM35
+      44h1v1h-1v-1z"/></g><g fill="#ffb9ff"><path d="M30,29h1v1h-1V29z"/><path d="M43
+      26v-1h-2v-1h-2v-1h-1v-1h-1v1h-1v1h-2v1h-2v1h-1v3h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-3h-1zm-4
+      1h-1v1h-1v-1h-1v-1h1v-1h1v1h1v1z"/><path d="M37 26h1v1h-1v-1zm7 3h1v1h-1v-1z"/></g>
+    - <g fill="#ff64ff"><path d="M8,45h1v1H8V45z"/><path d="M17 29v-3h-1v-1h-1v-1h-2v-1h-2v-1h-1v-1H9v1H8v1H6v1H4v1H3v1H2v3H1v1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v14h1V31h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-1h-1zM7
+      44h1v1H7v-1z"/></g><g fill="#ffb9ff"><path d="M2,29h1v1H2V29z"/><path d="M15
+      26v-1h-2v-1h-2v-1h-1v-1H9v1H8v1H6v1H4v1H3v3h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v1h1v-1h1v-3h-1zm-4
+      1h-1v1H9v-1H8v-1h1v-1h1v1h1v1z"/><path d="M9 26h1v1H9v-1zm7 3h1v1h-1v-1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 21
+      Width: 17
+      Height: 25
+    - X: 0
+      Y: 0
+      Width: 17
+      Height: 25
+    - X: 0
+      Y: 0
+      Width: 17
+      Height: 25
+    - X: 0
+      Y: 0
+      Width: 17
+      Height: 25
+    note: 

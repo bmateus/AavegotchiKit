@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0013 - Sergey Beard
+  m_EditorClassIdentifier: 
+  data:
+    id: 13
+    name: Sergey Beard
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: ffffffff0100000000000000030000000000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M13.8,30.2v-3.5h6.5v3.5H13.8z" fill="#fff"/><g fill="#773e1d"><path
+      d="M15,28h4v1h-4V28z"/><path d="M0 27h2v1h2v1h2v1h2v1h4v1h3v1h1v1h2v-1h1v-1h3v-1h4v-1h2v-1h2v-1h2v-1h2V8h-2V6h-2V4h-4V2h-4V0H12v2H8v2H4v2H2v2H0v19zm15
+      3v-1h-1v-1h1v-1h4v1h1v1h-1v1h-4zm12-5v1h-2v1h-3v-1h-1v-1h-1v-1h-6v1h-1v1h-1v1H9v-1H7v-1H3V12h1V9h1V8h3V7h4v1h3v1h4V8h3V7h4v1h3v1h1v3h1v13h-4z"/></g>
+    - <path d="M8 26H3v1H2v1H0v4h3v-1h3v-1h1v-1h2v-1h2v-1h14V8h-1V6h-2V4h-2V2h-4V0h-6v2H6v2H4v2H2v2H0v1h3V8h3v1h1v3h1z"
+      fill="#773e1d"/>
+    - <path d="M17 26h5v1h1v1h2v4h-3v-1h-3v-1h-1v-1h-2v-1h-2v-1H0V8h1V6h2V4h2V2h4V0h6v2h4v2h2v2h2v2h2v1h-3V8h-3v1h-1v3h-1z"
+      fill="#773e1d"/>
+    - <path d="M0 27V8h2V6h2V4h4V2h4V0h10v2h4v2h4v2h2v2h2v19z" fill="#773e1d"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 6
+      Width: 34
+      Height: 34
+    - X: 19
+      Y: 6
+      Width: 25
+      Height: 32
+    - X: 20
+      Y: 6
+      Width: 25
+      Height: 32
+    - X: 15
+      Y: 6
+      Width: 34
+      Height: 27
+    note: 

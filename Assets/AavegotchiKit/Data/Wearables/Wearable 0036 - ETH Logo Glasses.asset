@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0036 - ETH Logo Glasses
+  m_EditorClassIdentifier: 
+  data:
+    id: 36
+    name: ETH Logo Glasses
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000000000000000000ffffffff0000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M33 4v1h-1v1h-3V5h-1V3h-1V2h-1V1h-1V0h-2v1h-1v1h-1v1h-1v2h-1v1h-4V5h-1V3h-1V2h-1V1h-1V0H9v1H8v1H7v1H6v2H5v1H2V5H1V4H0v2h1v1h1v1h3v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1V9h1V8h4v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1V9h1V8h3V7h1V6h1V4z"/><g
+      fill="#323232"><path d="M5,7v2h1v1h1v1h1v1h1v1h1V7H5z"/><path d="M14 3h-1V2h-1V1h-1V0h-1v7h5V5h-1V3zm5
+      4v2h1v1h1v1h1v1h1v1h1V7h-5z"/><path d="M28,5V3h-1V2h-1V1h-1V0h-1v7h5V5H28z"/></g><path
+      d="M10 7v6h1v-1h1v-1h1v-1h1V9h1V8h4V7h-9zm23-2h1v1h-1V5zm-9 2v6h1v-1h1v-1h1v-1h1V9h1V8h3V7h-8z"/><path
+      d="M32 6h1v1h-1V6zM0 5h1v1H0V5zm2 2h3v1H2V7z"/><path d="M1,6h1v1H1V6z"/><g
+      fill="#646464"><path d="M9 1H8v1H7v1H6v2H5v1H2v1h8V0H9v1zm14 0h-1v1h-1v1h-1v2h-1v1h-4v1h9V0h-1v1zm9
+      4h1v1h-1V5z"/><path d="M33 4h1v1h-1V4zm-4 2h3v1h-3V6zM1 5h1v1H1V5z"/><path
+      d="M0,4h1v1H0V4z"/></g>
+    - <path d="M1 6V5h1V4h1V2h1V1h1V0h2v1h1v1h1v1h1v2h1v1h3V5h1V4h15v2H15v1h-1v1h-3v1h-1v1H9v1H8v1H7v1H5v-1H4v-1H3v-1H2V9H1V8H0V6h1z"/><g
+      fill="#646464"><path d="M1 6V5h1V4h1V2h1V1h1V0h2v1h1v1h1v1h1v2h1v1h3v1h-3v2h-1v1H9v1H8v1H7v1H6V7H0V6h1z"/><path
+      d="M14 5h1v1h-1z"/><path d="M30 4v1H15V4h15z"/></g><g fill="#323232"><path
+      d="M11 7v2h-1v1H9v1H8v1H7v1H6V7h5z"/><path d="M1 6V5h1V4h1V2h1V1h1V0h1v7H0V6h1z"/></g>
+    - <path d="M29 6V5h-1V4h-1V2h-1V1h-1V0h-2v1h-1v1h-1v1h-1v2h-1v1h-3V5h-1V4H0v2h15v1h1v1h3v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1V9h1V8h1V6h-1z"/><g
+      fill="#646464"><path d="M29 6V5h-1V4h-1V2h-1V1h-1V0h-2v1h-1v1h-1v1h-1v2h-1v1h-3v1h3v2h1v1h1v1h1v1h1v1h1V7h6V6h-1z"/><path
+      d="M15 5h1v1h-1z"/><path d="M0 4v1h15V4H0z"/></g><g fill="#323232"><path d="M19
+      7v2h1v1h1v1h1v1h1v1h1V7h-5z"/><path d="M29 6V5h-1V4h-1V2h-1V1h-1V0h-1v7h6V6h-1z"/></g>
+    - <path d="M32 0h2v2h-2V0zM0 0h2v2H0V0z"/><path d="M32 0h2v1h-2zM0 0h2v1H0z"
+      fill="#646464"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 19
+      Width: 34
+      Height: 13
+    - X: 14
+      Y: 19
+      Width: 30
+      Height: 13
+    - X: 20
+      Y: 19
+      Width: 30
+      Height: 13
+    - X: 15
+      Y: 23
+      Width: 34
+      Height: 2
+    note: 

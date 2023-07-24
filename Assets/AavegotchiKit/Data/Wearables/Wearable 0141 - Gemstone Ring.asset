@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0141 - Gemstone Ring
+  m_EditorClassIdentifier: 
+  data:
+    id: 141
+    name: Gemstone Ring
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000ffffffff010000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M6 6V5h1V4h1V3H7V2H6V1H5V0H3v1H2v1H1v1H0v1h1v1h1v1h1v1H2v1H1v1H0v3h1v1h1v1h4v-1h1v-1h1V9H7V8H6V7H5V6h1zm0
+      7H2v-1H1V9h1V8h4v1h1v3H6v1z"/><path d="M6 3V2H5V1H3v1H2v1H1v1h1v1h1v1h2V5h1V4h1V3z"
+      fill="#b132ff"/><path d="M3 1v1H2v1H1v1h3V1z" fill="#c260ff"/><path d="M6 3V2H5V1H4v3h3V3z"
+      fill="#edd3fd"/><path d="M5 4H4v2h1V5h1V4z" fill="#d596fb"/><g fill="#ffe600"><path
+      d="M2 10V9H1v3h1v-1z"/><path d="M4 9h2V8H2v1h1z"/><path d="M6 9v3h1V9z"/><path
+      d="M4 12H2v1h4v-1H5z"/></g><g fill="#ffc03c"><path d="M2 10V9H1v3h1v-1z"/><path
+      d="M4 9V8H2v1h1zm-1 4h1v-1H2v1z"/></g>
+    - <path d="M0 3v1h1v1h1v1h1v2H2v1H1v3h1v1h1v1h1v-1h1v-1h1V9H5V8H4V6h1V5h1V4h1V3H6V2H5V1H4V0H3v1H2v1H1v1H0zm3
+      6h1v3H3V9z"/><path d="M2 3V2h1V1h1v1h1v1h1v1H5v1H4v1H3V5H2V4H1V3z" fill="#b132ff"/><g
+      fill="#ffc03c"><path d="M4 9h1v3H4V9zM3 9v3H2V9h1z"/><path d="M3 8h1v1H3zm0
+      4h1v1H3z"/></g><g fill="#c260ff"><path d="M4 4v2H3V4h1z"/><path d="M4 2h1v1h1v1H4V2z"/></g><path
+      d="M2 3V2h1v2H1V3h1z" fill="#edd3fd"/><g fill="#dea8ff"><path d="M3 1h1v3H3V1z"/><path
+      d="M2 4h1v1H2z"/></g><path d="M3 9v3H2V9h1z" fill="#ffe600"/>
+    - <path d="M6 3V2H5V1H4V0H3v1H2v1H1v1H0v1h1v1h1v1h1v2H2v1H1v3h1v1h1v1h1v-1h1v-1h1V9H5V8H4V6h1V5h1V4h1V3H6zm-2
+      9H3V9h1v3z"/><path d="M5 3V2H4V1H3v1H2v1H1v1h1v1h1v1h1V5h1V4h1V3z" fill="#b132ff"/><g
+      fill="#ffc03c"><path d="M3 9H2v3h1V9zm1 0v3h1V9H4z"/><path d="M3 8h1v1H3zm0
+      4h1v1H3z"/></g><g fill="#c260ff"><path d="M3 4v2h1V4H3z"/><path d="M3 2H2v1H1v1h2V2z"/></g><path
+      d="M5 3V2H4v2h2V3H5z" fill="#edd3fd"/><g fill="#dea8ff"><path d="M4 1H3v3h1V1z"/><path
+      d="M4 4h1v1H4z"/></g><path d="M4 9v3h1V9H4z" fill="#ffe600"/>
+    - <path d="M6 6V5h1V4h1V3H7V2H6V1H5V0H3v1H2v1H1v1H0v1h1v1h1v1h1v1H2v1H1v1H0v3h1v1h1v1h4v-1h1v-1h1V9H7V8H6V7H5V6h1zm0
+      7H2v-1H1V9h1V8h4v1h1v3H6v1z"/><path d="M6,3V2H5V1H3v1H2v1H1v1h1v1h1v1h2V5h1V4h1V3H6z"
+      fill="#b132ff"/><path d="M3,1v1H2v1H1v1h3V1H3z" fill="#c260ff"/><path d="M6,3V2H5V1H4v3h3V3H6z"
+      fill="#edd3fd"/><path d="M5,4H4v2h1V5h1V4H5z" fill="#d596fb"/><g fill="#ffe600"><path
+      d="M2 10V9H1v3h1v-2z"/><path d="M4 9h2V8H2v1h2z"/><path d="M6,9v3h1V9H6z"/><path
+      d="M4 12H2v1h4v-1H4z"/></g><g fill="#ffc03c"><path d="M2 10V9H1v3h1v-2z"/><path
+      d="M4 9V8H2v1h2zm-1 4h1v-1H2v1h1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 5
+      Y: 29
+      Width: 8
+      Height: 14
+    - X: 22
+      Y: 29
+      Width: 7
+      Height: 14
+    - X: 35
+      Y: 29
+      Width: 7
+      Height: 14
+    - X: 5
+      Y: 29
+      Width: 8
+      Height: 14
+    note: 

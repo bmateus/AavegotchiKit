@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0022 - Captain Aave Suit
+  m_EditorClassIdentifier: 
+  data:
+    id: 22
+    name: Captain Aave Suit
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 010000000000000001000000000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M38 3v2h-2v2h-6v2H20V7h-6V5h-2V3H7.5v7H8v14h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V10h.5V3H38z"
+      fill="#0fa9c9"/><g fill="#0f5a87"><path d="M42.5 6H40v16h-2v2h4V10h.5V6zM12
+      20h5v2h-5v-2z"/><path d="M33 20h5v2h-5v-2zm-16 2h5v2h-5v-2z"/><path d="M22,20h6v2h-6V20z"/><path
+      d="M28 22h5v2h-5v-2zM8 24h4v-2h-2V6H7.5v4H8v14z"/></g><g fill="#fff"><path
+      d="M27 14v-2h1v-1h-1v-1h-1v1h-2v-1h-1v1h-1v1h1v2H10v2h30v-2H27zm-1 0h-2v-2h2v2z"/><path
+      d="M24,9h2v1h-2V9z"/></g><path d="M24 14v2h2v-2h-2zm-4 0v2h2v-2h-2zm-8 0v2h2v-2h-2zm20
+      0v2h2v-2h-2zm4 0v2h2v-2h-2zm-8 4v4h5v-4h-5zm-11 0v4h5v-4h-5zm1-2v-2h-2v2h2zm12
+      0v-2h-2v2h2z" fill="#a73796"/>,
+    - <g><path d="M0 10v17h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V5H8v1H6v2H4v2H0z" fill="#0f5a87"/><path
+      d="M0 10v15h1v-2h5v2h2v-2h5v-4h1v6h4v-2h3v2h2V6h-9v11h-1V6H6v2H4v2H0z" fill="#0fa9c9"/><path
+      d="M0 17v2h23v-2H0zm1 4H0v4h1v-4z" fill="#a73796"/><path d="M10 17v2h2v-2h-2zm4
+      0v2h2v-2h-2zm4 0v2h2v-2h-2zm5 0h-1v2h1v-2zM6 17v2h2v-2H6zm-4 0v2h2v-2H2z" fill="#fff"/></g>
+    - <g><path d="M20,10V8h-2V6h-2V5H0v22h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V10H20z" fill="#0f5a87"/><path
+      d="M20,10V8h-2V6h-7v11h-1V6H1v19h2v-2h3v2h4v-6h1v4h5v2h2v-2h5v2h1V10H20z" fill="#0fa9c9"/><path
+      d="M1 17v2h23v-2H1zm22 8h1v-4h-1v4z" fill="#a73796"/><path d="M12 17v2h2v-2h-2zm-4
+      0v2h2v-2H8zm-4 0v2h2v-2H4zm-3 2h1v-2H1v2zm15-2v2h2v-2h-2zm4 0v2h2v-2h-2z" fill="#fff"/></g>
+    - <g><path d="M7.5 2v8H8v14h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V10h.5V2h-35z" fill="#0f5a87"/><path
+      d="M7.5,3v4H10v15h2v-2h5v2h5v-2h6v2h5v-2h5v2h2V7h2.5V3H7.5z" fill="#0fa9c9"/><path
+      d="M28 18v4h5v-4h-5zm-11 0v4h5v-4h-5zm-7-4v2h30v-2H10z" fill="#a73796"/><path
+      d="M38 14v2h2v-2h-2zm-28 2h2v-2h-2v2zm16 0h2v-2h-2v2zm-4 0h2v-2h-2v2zm12 0h2v-2h-2v2zm-4
+      0h2v-2h-2v2zm-12 0h2v-2h-2v2zm-4 0h2v-2h-2v2z" fill="#fff"/><g class="gotchi-sleeves
+      gotchi-sleeves-left gotchi-sleeves-up"><path d="M7 2V1H5V0H1v1H0v4h1v1h2v1h2v1h1v1h1v1h1.5V9h-1V3h1V2H7z"
+      fill="#0f5a87"/><path d="M7 3V2H5v4 1h1v1h1v1h1V3z" fill="#0fa9c9"/><path d="M5
+      2V1H1v4h2v1h2z" fill="#a73796"/></g><path d="M8,3V2H7v1H6v1H5v1H3v1H1v1H0v4h1v1h4v-1h2v-1h2V7H8V3z"
+      fill="#0f5a87"/><path d="M7,3v1H6v1H5v1v4h2V9h1V7h1V3H7z" fill="#0fa9c9"/><path
+      d="M5,6H3v1H1v4h4V6z" fill="#a73796"/><g class="gotchi-sleeves gotchi-sleeves-right
+      gotchi-sleeves-up"><path d="M43 2V1h2V0h4v1h1v4h-1v1h-2v1h-2v1h-1v1h-1v1h-1.5V9h1V3h-1V2H43z"
+      fill="#0f5a87"/><path d="M43 3V2h2v4 1h-1v1h-1v1h-1V3z" fill="#0fa9c9"/><path
+      d="M45 2V1h4v4h-2v1h-2z" fill="#a73796"/></g><path d="M42,7h-1v3h2v1h2v1h4v-1h1V7h-1V6h-2V5h-2V4h-1V3h-1V2h-1v1V7z"
+      fill="#0f5a87"/><path d="M41,3v4h1v2h1v1h2V6V5h-1V4h-1V3H41z" fill="#0fa9c9"/><path
+      d="M45 11h4V7h-2V6h-2v5z" fill="#a73796"/></g>,
+    sleeves:
+    - <g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-up"><path d="M43
+      2V1h2V0h4v1h1v4h-1v1h-2v1h-2v1h-1v1h-1v1h-1.5V9h1V3h-1V2H43z" fill="#0f5a87"/><path
+      d="M43 3V2h2v4 1h-1v1h-1v1h-1V3z" fill="#0fa9c9"/><path d="M45 2V1h4v4h-2v1h-2z"
+      fill="#a73796"/></g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-down"><path
+      d="M42 3V2h1v1h1v1h1v1h2v1h2v1h1v4h-1v1h-4v-1h-2v-1h-2V6h1V3z" fill="#0f5a87"/><path
+      d="M43 3v1h1v1h1v1 4h-2V9h-1V6h-1V3z" fill="#0fa9c9"/><path d="M45 6h2v1h2v4h-4z"
+      fill="#a73796"/></g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path
+      d="M7 2V1H5V0H1v1H0v4h1v1h2v1h2v1h1v1h1v1h1.5V9h-1V3h1V2H7z" fill="#0f5a87"/><path
+      d="M7 3V2H5v4 1h1v1h1v1h1V3z" fill="#0fa9c9"/><path d="M5 2V1H1v4h2v1h2z" fill="#a73796"/></g><g
+      class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-down"><path d="M8
+      3V2H7v1H6v1H5v1H3v1H1v1H0v4h1v1h4v-1h2v-1h2V6H8V3z" fill="#0f5a87"/><path d="M7
+      3v1H6v1H5v1 4h2V9h1V6h1V3z" fill="#0fa9c9"/><path d="M5 6H3v1H1v4h4z" fill="#a73796"/></g></g>,
+    - <g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-up"><path d="M10
+      0H6v1H5v4h1v2h1v1h1v1h7V7h-1V6h-1V5h-1V3h-1V1h-1V0z" fill="#0f5a87"/><path
+      d="M10,1H6v4h1v2h1v1h1v1h5V7h-1V6h-1V5h-1V3h-1V1z" fill="#0fa9c9"/><path d="M10,1H6v4h5V3h-1V1z"
+      fill="#a73796"/></g><g class="gotchi-sleeves gotchi-sleeves-left gotchi-sleeves-down"><path
+      d="M4,12v4h1v1h4v-1h2v-1h1v-1h1V7h-2v1h-1v1H9v1H7v1H5v1H4z" fill="#0f5a87"/><path
+      d="M5,12v4h4v-1h2v-1h1v-1h1V8h-2v1h-1v1H9v1H7v1H5z" fill="#0fa9c9"/><path d="M5,12v4h4v-5H7v1H5z"
+      fill="#a73796"/></g></g>,
+    - <g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path d="M14,1h-1v2h-1v2h-1v1h-1v1H9v2h7V8h1V7h1V5h1V1h-1V0h-4V1z"
+      fill="#0f5a87"/><path d="M14,3h-1v2h-1v1h-1v1h-1v2h5V8h1V7h1V5h1V1h-4V3z" fill="#0fa9c9"/><path
+      d="M14,3h-1v2h5V1h-4V3z" fill="#a73796"/></g><g class="gotchi-sleeves gotchi-sleeves-right
+      gotchi-sleeves-down"><path d="M19,12v-1h-2v-1h-2V9h-1V8h-1V7h-2v7h1v1h1v1h2v1h4v-1h1v-4H19z"
+      fill="#0f5a87"/><path d="M17,12v-1h-2v-1h-1V9h-1V8h-2v5h1v1h1v1h2v1h4v-4H17z"
+      fill="#0fa9c9"/><path d="M17,12v-1h-2v5h4v-4H17z" fill="#a73796"/></g></g>,
+    - <g><g class="gotchi-sleeves gotchi-sleeves-right gotchi-sleeves-up"><path d="M14,1h-1v2h-1v2h-1v1h-1v1H9v2h7V8h1V7h1V5h1V1h-1V0h-4V1z"
+      fill="#0f5a87"/><path d="M14,3h-1v2h-1v1h-1v1h-1v2h5V8h1V7h1V5h1V1h-4V3z" fill="#0fa9c9"/><path
+      d="M14,3h-1v2h5V1h-4V3z" fill="#a73796"/></g><g class="gotchi-sleeves gotchi-sleeves-right
+      gotchi-sleeves-down"><path d="M19,12v-1h-2v-1h-2V9h-1V8h-1V7h-2v7h1v1h1v1h2v1h4v-1h1v-4H19z"
+      fill="#0f5a87"/><path d="M17,12v-1h-2v-1h-1V9h-1V8h-2v5h1v1h1v1h2v1h4v-4H17z"
+      fill="#0fa9c9"/><path d="M17,12v-1h-2v5h4v-4H17z" fill="#a73796"/></g></g>,
+    dimensions:
+    - X: 7
+      Y: 31
+      Width: 50
+      Height: 22
+    - X: 20
+      Y: 28
+      Width: 9
+      Height: 10
+    - X: 20
+      Y: 28
+      Width: 9
+      Height: 10
+    - X: 7
+      Y: 31
+      Width: 34
+      Height: 22
+    note: 

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0119 - Baby Bottle
+  m_EditorClassIdentifier: 
+  data:
+    id: 119
+    name: Baby Bottle
+    description: 
+    author: Cawito
+    category: 0
+    traitModifiers: 00000000fffffffffdffffff000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M7 8V5H6V4H5V2H4V0H3v2H2v2H1v1H0v3h1v2H0v6h1v1h5v-1h1v-6H6V8z" fill="#faa"/><path
+      d="M6,8V5H5V4H2v1H1v3h1v2H1v6h5v-6H5V8H6z" fill="#fff"/><path d="M1 6h3v1H1V6zm1
+      2h1v1H2V8zm-1 2h3v1H1v-1zm0 2h2v1H1v-1zm0 2h3v1H1v-1z" fill-opacity=".5"/><path
+      d="M3,0h1v2H3V0z" fill="#fc0"/><path d="M2,2h3v1H2V2z" fill="#f0f" fill-opacity=".6"/>
+    - <path d="M7,8V5H6V4H5V2H4V0H3v2H2v2H1v1H0v3h1v2H0v6h1v1h5v-1h1v-6H6V8H7z" fill="#faa"/><path
+      d="M6,8V5H5V4H2v1H1v3h1v2H1v6h5v-6H5V8H6z" fill="#fff"/><path d="M1 6h3v1H1V6zm1
+      2h1v1H2V8zm-1 2h3v1H1v-1zm0 2h2v1H1v-1zm0 2h3v1H1v-1z" fill-opacity=".5"/><path
+      d="M3,0h1v2H3V0z" fill="#fc0"/><path d="M2,2h3v1H2V2z" fill="#f0f" fill-opacity=".6"/>
+    - <path d="M1,8v2H0v6h1v1h5v-1h1v-6H6V8h1V5H6V4H5V2H4V0H3v2H2v2H1v1H0v3H1z" fill="#faa"/><path
+      d="M2,8v2H1v6h5v-6H5V8h1V5H5V4H2v1H1v3H2z" fill="#fff"/><path d="M6 7H3V6h3v1zM5
+      9H4V8h1v1zm1 2H3v-1h3v1zm0 2H4v-1h2v1zm0 2H3v-1h3v1z" fill-opacity=".5"/><path
+      d="M4,2H3V0h1V2z" fill="#fc0"/><path d="M5,3H2V2h3V3z" fill="#f0f" fill-opacity=".6"/>
+    - <path d="M1,8v2H0v6h1v1h5v-1h1v-6H6V8h1V5H6V4H5V2H4V0H3v2H2v2H1v1H0v3H1z" fill="#faa"/><path
+      d="M2,8v2H1v6h5v-6H5V8h1V5H5V4H2v1H1v3H2z" fill="#fff"/><path d="M6 7H3V6h3v1zM5
+      9H4V8h1v1zm1 2H3v-1h3v1zm0 2H4v-1h2v1zm0 2H3v-1h3v1z" fill-opacity=".5"/><path
+      d="M4,2H3V0h1V2z" fill="#fc0"/><path d="M5,3H2V2h3V3z" fill="#f0f" fill-opacity=".6"/>
+    sleeves: []
+    dimensions:
+    - X: 6
+      Y: 27
+      Width: 7
+      Height: 17
+    - X: 22
+      Y: 27
+      Width: 7
+      Height: 17
+    - X: 35
+      Y: 27
+      Width: 7
+      Height: 17
+    - X: 6
+      Y: 27
+      Width: 7
+      Height: 17
+    note: 

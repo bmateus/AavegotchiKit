@@ -1,13 +1,15 @@
-using Cysharp.Threading.Tasks;
-using System;
+
+using UnityEngine;
+
 #if UNITY_EDITOR
+using Cysharp.Threading.Tasks;
+using System.Linq;
 using UnityEditor;
 #endif
-using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    [Serializable]
+    [System.Serializable]
     public class Wearables
     {
         public Wearable[] wearables;
@@ -16,38 +18,48 @@ namespace PortalDefender.AavegotchiKit
     [CreateAssetMenu(fileName ="WearableDB", menuName = "Aavegotchi/WearableDB")]
     public class WearableDB : ScriptableObject
     {
-        [SerializeField]
-        TextAsset source;
+        public WearableScriptableObject[] wearables;
 
-        public Wearable[] wearables;
-
-
-        [ContextMenu("Import Data")]
-        void Import()
-        {
 #if UNITY_EDITOR
-            Debug.Log("Importing wearables...");
-            var tmp = JsonUtility.FromJson<Wearables>(source.text);
-            wearables = tmp.wearables;
-
-            AssetDatabase.SaveAssetIfDirty(this);
-#endif
-        }
 
         [ContextMenu("Refresh Wearables")]
-        async UniTask RefreshAll()
+        public async UniTask RefreshAll()
         {
-#if UNITY_EDITOR
             for(int i=0; i < wearables.Length; i++)
             {
                 var wearable = wearables[i];
-                EditorUtility.DisplayProgressBar("Refreshing Wearables", $"Refreshing {wearable.name}...", i / (float)wearables.Length);
-                await wearable.RefreshData();
+                
+                if (EditorUtility.DisplayCancelableProgressBar("Refreshing Wearables",
+                    $"Refreshing {wearable.name}... {i} / {wearables.Length}",
+                    i / (float)wearables.Length))
+                {
+                    break;
+                }
+
+                await wearable.Refresh();
             }
 
             EditorUtility.ClearProgressBar();
-#endif
+            AssetDatabase.SaveAssets();
         }
+
+        [ContextMenu("Collect All Wearables")]
+        public void CollectAllWearables()
+        {
+            //find all scriptable objects of type WearableScriptableObject
+            wearables = AssetDatabase.FindAssets("t:WearableScriptableObject")
+                .Select(guid => AssetDatabase.GUIDToAssetPath(guid))
+                .Select(path => AssetDatabase.LoadAssetAtPath<WearableScriptableObject>(path))
+                .ToArray();
+            //save database
+            EditorUtility.SetDirty(this);
+            AssetDatabase.SaveAssets();
+        }
+
+#endif
+
+
+
 
     }
 }

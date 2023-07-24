@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0018 - Aave Hero Mask
+  m_EditorClassIdentifier: 
+  data:
+    id: 18
+    name: Aave Hero Mask
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000000000001000000000000000000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <g fill="#7d0064"><path d="M36 6h2v2h-2z"/><path d="M38 4V0h-2v2h-2v2h-4V3h-2V2h-2V1h-4v1h-2v1h-2v1h-2V3h-2V2h-2V1H8v1H6v1H4v1H0v6h4v1h2v1h2v1h4v-1h2v-1h2v-1h2v1h2v1h2v1h4v-1h2v-1h2v-1h4V6h2V4z"/></g><path
+      d="M30 5V4h-2V3h-2V2h-4v1h-2v1h-2v1h-2V4h-2V3h-2V2H8v1H6v1H4v1H0v4h4v1h2v1h2v1h4v-1h2v-1h2V9h2v1h2v1h2v1h4v-1h2v-1h2V9h4V5h-4z"
+      fill="#a73796"/><g fill="#7d0064"><path d="M26,2v1h2V2H26z"/><path d="M28 3v1h2V3h-2zm-6-2v1h4V1h-4z"/><path
+      d="M20 2v1h2V2h-2zm-8 0v1h2V2h-2z"/><path d="M8,1v1h4V1H8z"/><path d="M6,2v1h2V2H6z"/><path
+      d="M4,3v1h2V3H4z"/><path d="M0 4v1h4V4H0zm16 0v1h2V4h-2z"/><path d="M14 3v1h2V3h-2zm4
+      0v1h2V3h-2zM8 12v1h4v-1H8z"/><path d="M6,11v1h2v-1H6z"/><path d="M4,10v1h2v-1H4z"/><path
+      d="M0 9v1h4V9H0zm12 2v1h2v-1h-2zm8 0v1h2v-1h-2z"/><path d="M22,12v1h4v-1H22z"/><path
+      d="M26,11v1h2v-1H26z"/><path d="M28,10v1h2v-1H28z"/><path d="M30 9v1h4V9h-4zm-16
+      1v1h2v-1h-2z"/><path d="M16,9v1h2V9H16z"/><path d="M18 10v1h2v-1h-2zm18-2h2V6h-2v2z"/><path
+      d="M36,0v2h-2v2h-4v1h4v1h2V4h2V0H36z"/></g><path d="M26 6V5h-1V4h-2v1h-1v1h-1v2h1v1h1v1h2V9h1V8h1V6z"
+      fill="#fff"/><path d="M23 6h2v2h-2z" fill="#7d0064"/><path d="M12 5h-1V4H9v1H8v1H7v2h1v1h1v1h2V9h1V8h1V6h-1z"
+      fill="#fff"/><path d="M9 6h2v2H9z" fill="#7d0064"/>
+    - <g fill="#7d0064"><path d="M27 8h2V6h-2v2z"/><path d="M27 0v2h-2v2H7V3H5V2H3V1H0v12h3v-1h2v-1h2v-1h18V6h2V4h2V0h-2z"/></g><path
+      d="M7 5V4H5V3H3V2H0v4h2v2H0v4h3v-1h2v-1h2V9h18V5H7z" fill="#a73796"/><path
+      d="M3 6V5H2V4H0v2h2v2H0v2h2V9h1V8h1V6H3z" fill="#fff"/>
+    - <g fill="#7d0064"><path d="M2 8H0V6h2v2z"/><path d="M2 0v2h2v2h18V3h2V2h2V1h3v12h-3v-1h-2v-1h-2v-1H4V6H2V4H0V0h2z"/></g><path
+      d="M22 5V4h2V3h2V2h3v4h-2v2h2v4h-3v-1h-2v-1h-2V9H4V5h18z" fill="#a73796"/><path
+      d="M26 6V5h1V4h2v2h-2v2h2v2h-2V9h-1V8h-1V6h1z" fill="#fff"/>
+    - <path d="M21 3V0h-2v2h-2v1H0v6h13v3h2v-2h2V9h17V3H21z" fill="#7d0064"/><g fill="#a73796"><path
+      d="M17 4H0v4h15V6h2V4z"/><path d="M19 4v2h-2v2h17V4H19z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 19
+      Width: 38
+      Height: 13
+    - X: 19
+      Y: 19
+      Width: 29
+      Height: 13
+    - X: 16
+      Y: 19
+      Width: 29
+      Height: 13
+    - X: 15
+      Y: 20
+      Width: 34
+      Height: 12
+    note: 

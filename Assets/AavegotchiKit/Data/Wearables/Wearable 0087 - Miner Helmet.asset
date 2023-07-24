@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0087 - Miner Helmet
+  m_EditorClassIdentifier: 
+  data:
+    id: 87
+    name: Miner Helmet
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 010000000000000000000000ffffffff0000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M36 16V8h-2V6h-2V4h-4V2h-4V0H14v2h-4v2H6v2H4v2H2v8H0v2h38v-2z" fill="#ffbe00"/><path
+      d="M34 9V8h-1v8h2V9h-1zM4 9H3v7h2V8H4v1zm17 7h2V1h-2v15zm-6 0h2V1h-2v15zM10
+      5H9v11h2V4h-1v1zm18-1h-1v12h2V5h-1V4z" fill="#ffdb72"/><path d="M31 6V5h-1v11h2V6h-1zM7
+      6H6v10h2V5H7v1zm11 10h2V1h-2v15zM14 3h-2v13h2V3zm10 0v13h2V3h-2z" fill="#ffebb1"/><path
+      d="M24 6V5h-1V4h-1V3h-6v1h-1v1h-1v1h-1v6h1v1h1v1h1v1h6v-1h1v-1h1v-1h1V6z" fill="#3c3c3c"/><path
+      d="M23 6V5h-1V4h-6v1h-1v1h-1v6h1v1h1v1h6v-1h1v-1h1V6z" fill="#646464"/><path
+      d="M22 7V6h-1V5h-4v1h-1v1h-1v4h1v1h1v1h4v-1h1v-1h1V7z" fill="#c8c8c8"/><path
+      d="M21 7V6h-4v1h-1v4h1v1h4v-1h1V7z" fill="#eaeaea"/><path d="M17,7v4h4V7H17z"
+      fill="#fff"/>
+    - <path d="M2 16V7h1V6h1V5h1V4h1V3h1V2h2V1h2V0h8v1h2v1h2v1h1v1h1v1h1v1h1v1h1v9h2v2H0v-2h2z"
+      fill="#ffbe00"/><path d="M18 16h-1V1h1v15zm-5 0h-1V1h1v15zm14 0h-1V7h1v9zM23
+      3v13h-2V3h2zM4 7v9H3V7h1zm5-4v13H7V3h2z" fill="#ffdb72"/><path d="M25 16h-1V5h1v11zM16
+      1v15h-2V1h2zM6 5v11H5V5h1zm14 11h-1V2h1v14zm-9 0h-1V2h1v14z" fill="#ffebb1"/><path
+      d="M2 3v1h1v1h1v1h1v6H4v1H3v1H2v1H0V3h2z" fill="#3c3c3c"/><path d="M2 4v1h1v1h1v6H3v1H2v1H0V4h2z"
+      fill="#646464"/><path d="M1 5v1h1v1h1v4H2v1H1v1H0V5h1z" fill="#c8c8c8"/><path
+      d="M1 6v1h1v4H1v1H0V6h1z" fill="#eaeaea"/><path d="M1 7v4H0V7h1z" fill="#fff"/>
+    - <path d="M28 16V7h-1V6h-1V5h-1V4h-1V3h-1V2h-2V1h-2V0h-8v1H9v1H7v1H6v1H5v1H4v1H3v1H2v9H0v2h30v-2h-2z"
+      fill="#ffbe00"/><path d="M12 16h1V1h-1v15zm5 0h1V1h-1v15zM3 16h1V7H3v9zM7 3v13h2V3H7zm19
+      4v9h1V7h-1zm-5-4v13h2V3h-2z" fill="#ffdb72"/><path d="M5 16h1V5H5v11zm9-15v15h2V1h-2zm10
+      4v11h1V5h-1zM10 16h1V2h-1v14zm9 0h1V2h-1v14z" fill="#ffebb1"/><path d="M28
+      3v1h-1v1h-1v1h-1v6h1v1h1v1h1v1h2V3h-2z" fill="#3c3c3c"/><path d="M28 4v1h-1v1h-1v6h1v1h1v1h2V4h-2z"
+      fill="#646464"/><path d="M29 5v1h-1v1h-1v4h1v1h1v1h1V5h-1z" fill="#c8c8c8"/><path
+      d="M29 6v1h-1v4h1v1h1V6h-1z" fill="#eaeaea"/><path d="M29 7v4h1V7h-1z" fill="#fff"/>
+    - <path d="M36 16V8h-2V6h-2V4h-4V2h-4V0H14v2h-4v2H6v2H4v2H2v8H0v2h38v-2h-2z"
+      fill="#ffbe00"/><path d="M34 9V8h-1v8h2V9h-1zM4 9H3v7h2V8H4v1zm11-8v15h2V1h-2zm6
+      0v15h2V1h-2zM10 5H9v11h2V4h-1v1zm18-1h-1v12h2V5h-1V4z" fill="#ffdb72"/><path
+      d="M31 6V5h-1v11h2V6h-1zM7 6H6v10h2V5H7v1zm11-5v15h2V1h-2zm-6 2v13h2V3h-2zm12
+      0v13h2V3h-2z" fill="#ffebb1"/>
+    sleeves: []
+    dimensions:
+    - X: 13
+      Y: 4
+      Width: 38
+      Height: 18
+    - X: 17
+      Y: 4
+      Width: 30
+      Height: 18
+    - X: 17
+      Y: 4
+      Width: 30
+      Height: 18
+    - X: 13
+      Y: 4
+      Width: 38
+      Height: 18
+    note: 

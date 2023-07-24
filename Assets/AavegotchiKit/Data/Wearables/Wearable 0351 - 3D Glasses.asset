@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0351 - 3D Glasses
+  m_EditorClassIdentifier: 
+  data:
+    id: 351
+    name: 3D Glasses
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000000000000010000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M3 1v7h11V1H3z" fill="#0ff"/><path d="M3 1v2h11V1H3z" fill="#00b9ff"/><path
+      d="M10 2v5h1V2h-1z" opacity=".4" fill="#fff" enable-background="new"/><path
+      d="M20 1v7h11V1H20z" fill="#f0f"/><path d="M20 1v2h11V1H20z" fill="#d700ff"/><path
+      d="M27 2v5h1V2h-1z" opacity=".4" fill="#fff" enable-background="new"/><path
+      d="M0 0v5h2v3h1v1h11V8h1V5h4v3h1v1h11V8h1V5h2V0H0zm30 7h-9V2h9v5zM13 7H4V2h9v5z"
+      fill="#c8c8c8"/><path d="M15 2v1h4V2h-4zM0 2v1h2V2H0zm32 0v1h2V2h-2z" fill="#aaa"/>
+    - <path d="M8 1v7H0V1h8z" fill="#f0f"/><path d="M8 1v2H0V1h8z" fill="#d700ff"/><path
+      d="M3 2v5H2V2h1z" opacity=".4" fill="#fff" enable-background="new"/><path d="M25
+      0v5H9v3H8v1H0V7h7V2H0V0h25z" fill="#c8c8c8"/><path d="M25 2v1H9V2h16z" fill="#aaa"/>
+    - <path d="M17 1v7h8V1h-8z" fill="#0ff"/><path d="M17 1v2h8V1h-8z" fill="#00b9ff"/><path
+      d="M22 2v5h1V2h-1z" opacity=".4" fill="#fff" enable-background="new"/><path
+      d="M0 0v5h16v3h1v1h8V7h-7V2h7V0H0z" fill="#c8c8c8"/><path d="M0 2v1h16V2H0z"
+      fill="#aaa"/>
+    - <path d="M0 0v5h2V0H0zm32 0v5h2V0h-2z" fill="#c8c8c8"/><path d="M0 2h1v1H0zm33
+      0h1v1h-1z" fill="#aaa"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 21
+      Width: 34
+      Height: 9
+    - X: 19
+      Y: 21
+      Width: 25
+      Height: 9
+    - X: 20
+      Y: 21
+      Width: 25
+      Height: 9
+    - X: 15
+      Y: 21
+      Width: 34
+      Height: 5
+    note: 

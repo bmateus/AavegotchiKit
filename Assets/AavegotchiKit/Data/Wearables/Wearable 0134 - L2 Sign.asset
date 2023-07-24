@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0134 - L2 Sign
+  m_EditorClassIdentifier: 
+  data:
+    id: 134
+    name: L2 Sign
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000000000000010000000000000000000000
+    slotPositions: 00000000010000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M12 1V0H1v1H0v7h1v1h5v14h1V9h5V8h1V1z" fill="#501e87"/><path d="M11
+      1H1v7h11V1z" fill="#824ee2"/><path d="M9 2H7v1h2v1H7v3h3V6H8V5h2V2zM4 6V2H3v5h3V6H5z"
+      fill="#fff"/>
+    - <path d="M0 0v23h1V0H0z" fill="#501e87"/>
+    - <path d="M0 0v23h1V0H0z" fill="#501e87"/>
+    - <path d="M12 1V0H1v1H0v7h1v1h5v14h1V9h5V8h1V1h-1z" fill="#501e87"/><path d="M1
+      1v7h11V1H1z" fill="#824ee2"/><path d="M3 2v3h2v1H3v1h3V4H4V3h2V2H3zm6 0v4H7v1h3V2H9z"
+      fill="#fff"/>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 24
+      Width: 13
+      Height: 23
+    - X: 25
+      Y: 24
+      Width: 1
+      Height: 23
+    - X: 38
+      Y: 24
+      Width: 1
+      Height: 23
+    - X: 1
+      Y: 24
+      Width: 13
+      Height: 23
+    note: 

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0003 - MK2 Grenade
+  m_EditorClassIdentifier: 
+  data:
+    id: 3
+    name: MK2 Grenade
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000100000000000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M7,3V2H6V1H5V0H1v1h1v1h3v1h1v1h1v3h1V3H7z"/><path d="M3,1h1v1H3V1z"
+      fill="#757575"/><path d="M5 5V3H4V2H2v1H1v2H0v3h1v2h1v1h2v-1h1V8h1V5z" fill="#33691e"/><path
+      d="M4 5V3H2v2H1v3h1v2h2V8h1V5z" fill="#689f38"/><path d="M5,6V5H4V3H3v2H1v1h2v1H1v1h2v1h1V8h1V7H4V6H5z"
+      fill="#558b2f"/>
+    - <path d="M4 5V3H3V0H2v3H1v2H0v3h1v2h1v1h1v-1h1V8h1V5z" fill="#33691e"/><path
+      d="M2 0h1v2H2z"/><path d="M3 5V3H2v2H1v3h1v2h1V8h1V5z" fill="#689f38"/><path
+      d="M1 5h3v1H1zm0 2h3v1H1z" fill="#558b2f"/>
+    - <path d="M4 5V3H3V0H2v3H1v2H0v3h1v2h1v1h1v-1h1V8h1V5z" fill="#33691e"/><path
+      d="M2 0h1v2H2z"/><path d="M3 5V3H2v2H1v3h1v2h1V8h1V5z" fill="#689f38"/><path
+      d="M1 5h3v1H1zm0 2h3v1H1z" fill="#558b2f"/>
+    - <path d="M7,3V2H6V1H5V0H1v1h1v1h3v1h1v1h1v3h1V3H7z"/><path d="M3,1h1v1H3V1z"
+      fill="#757575"/><path d="M5 5V3H4V2H2v1H1v2H0v3h1v2h1v1h2v-1h1V8h1V5z" fill="#33691e"/><path
+      d="M4 5V3H2v2H1v3h1v2h2V8h1V5z" fill="#689f38"/><path d="M5,6V5H4V3H3v2H1v1h2v1H1v1h2v1h1V8h1V7H4V6H5z"
+      fill="#558b2f"/>
+    sleeves: []
+    dimensions:
+    - X: 5
+      Y: 31
+      Width: 8
+      Height: 11
+    - X: 25
+      Y: 31
+      Width: 5
+      Height: 11
+    - X: 34
+      Y: 31
+      Width: 5
+      Height: 11
+    - X: 5
+      Y: 31
+      Width: 8
+      Height: 11
+    note: 

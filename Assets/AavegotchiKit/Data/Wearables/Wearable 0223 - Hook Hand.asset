@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0223 - Hook Hand
+  m_EditorClassIdentifier: 
+  data:
+    id: 223
+    name: Hook Hand
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000001000000ffffffff0000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M8 0v1H7v1H6v1H5V2H4V1H2v1H1v1H0v3h1v1h2V6H2V5H1V4h1V3h2v1h1v2h1v1h1v1h1v1h1V0H8z"
+      fill="#abadb0"/><path d="M6 2v5h1V2H6z" fill="#85888c"/><path d="M8 0v9h1V0H8z"
+      fill="#353941"/><path d="M7 1v7h1V1H7z" fill="#606469"/>
+    - <path d="M8,0v1H7v1H6v1H5V2H4V1H2v1H1v1H0v3h1v1h2V6H2V5H1V4h1V3h2v1h1v2h1v1h1v1h1v1h1V0H8z"
+      fill="#abadb0"/><path d="M6,2v5h1V2H6z" fill="#85888c"/><path d="M8,0v9h1V0H8z"
+      fill="#353941"/><path d="M7,1v7h1V1H7z" fill="#606469"/>
+    - <path d="M0,0v9h1V8h1V7h1V6h1V4h1V3h2v1h1v1H7v1H6v1h2V6h1V3H8V2H7V1H5v1H4v1H3V2H2V1H1V0H0z"
+      fill="#abadb0"/><path d="M2,2v5h1V2H2z" fill="#85888c"/><path d="M0,0v9h1V0H0z"
+      fill="#353941"/><path d="M1,1v7h1V1H1z" fill="#606469"/>
+    - <path d="M8,0v1H7v1H6v1H5V2H4V1H2v1H1v1H0v3h1v1h2V6H2V5H1V4h1V3h2v1h1v2h1v1h1v1h1v1h1V0H8z"
+      fill="#abadb0"/><path d="M6,2v5h1V2H6z" fill="#85888c"/><path d="M8,0v9h1V0H8z"
+      fill="#353941"/><path d="M7,1v7h1V1H7z" fill="#606469"/>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 35
+      Width: 9
+      Height: 9
+    - X: 18
+      Y: 37
+      Width: 9
+      Height: 9
+    - X: 37
+      Y: 37
+      Width: 9
+      Height: 9
+    - X: 1
+      Y: 35
+      Width: 9
+      Height: 9
+    note: 

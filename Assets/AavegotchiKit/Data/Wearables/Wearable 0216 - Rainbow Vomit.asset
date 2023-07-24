@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0216 - Rainbow Vomit
+  m_EditorClassIdentifier: 
+  data:
+    id: 216
+    name: Rainbow Vomit
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000fbffffff000000000000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <g fill="#0f0"><path d="M3 18h1v1H3zm-2 1h1v1H1zm-1 3h1v1H0zm16-4h1v1h-1z"/><path
+      d="M18 19h1v1h-1zm-1 2h-1v-2h-1V1H5v18H4v2H3v1H2v1h16v-1h-1v-1zm2 1h1v1h-1z"/></g><path
+      d="M6 1v22h1V1H6z" fill="#0ff"/><g fill="#007dff"><path d="M5 1v18H4v2H3v1H2v1h4V1H5z"/><path
+      d="M3 18h1v1H3zm-2 1h1v1H1zm-1 3h1v1H0z"/></g><path d="M13 1v22h1V1h-1z" fill="#009600"/><path
+      d="M8 1v22h1V1H8z" fill="#7d00ff"/><path d="M9 1v22h1V1H9z" fill="#7d0064"/><path
+      d="M7 1v22h1V1H7z" fill="#32007d"/><path d="M10 1v22h1V1h-1z" fill="#f0f"/><path
+      d="M11 1v22h1V1h-1z" fill="#ffc800"/><path d="M12 1v22h1V1h-1z" fill="#ff0"/><path
+      d="M5 0v2h10V0H5z" fill="#64438e"/>
+    - <g fill="#f0f"><path d="M3 18h1v1H3zm-2 1h1v1H1z"/><path d="M3 21h1v-2h1V2h1V0h2v19h1v2h1v1h1v1H2v-1h1v-1zm-3
+      1h1v1H0z"/></g><path d="M8 0v2H6V0h2z" fill="#64438e"/><g fill="#0f0"><path
+      d="M8 2v17h1v2h1v1h1v1H6V2h2z"/><path d="M9 18h1v1H9zm2 1h1v1h-1zm1 3h1v1h-1z"/></g><path
+      d="M7 2v21H6V2h1z" fill="#ff0"/>
+    - <g fill="#7d00ff"><path d="M9 18h1v1H9zm2 1h1v1h-1z"/><path d="M10 21H9v-2H8V2H7V0H5v19H4v2H3v1H2v1h9v-1h-1v-1zm2
+      1h1v1h-1z"/></g><path d="M5 0v2h2V0H5z" fill="#64438e"/><g fill="#007dff"><path
+      d="M5 2v17H4v2H3v1H2v1h5V2H5z"/><path d="M3 18h1v1H3zm-2 1h1v1H1zm-1 3h1v1H0z"/></g><path
+      d="M6 2v21h1V2H6z" fill="#0ff"/>
+    - <g></g>
+    sleeves: []
+    dimensions:
+    - X: 22
+      Y: 32
+      Width: 20
+      Height: 23
+    - X: 14
+      Y: 32
+      Width: 13
+      Height: 23
+    - X: 37
+      Y: 32
+      Width: 13
+      Height: 23
+    - X: 22
+      Y: 32
+      Width: 20
+      Height: 23
+    note: 

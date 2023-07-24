@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0263 - Signal Headset
+  m_EditorClassIdentifier: 
+  data:
+    id: 263
+    name: Signal Headset
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 00000000feffffff00000000030000000000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M40 13V0h-2v25h2v-2h2V13h-2z" fill="#2800af"/><path d="M38 13v10h2V13h-2z"
+      fill="#9b00a0"/><path d="M40 11h-2v2h2v-2zm-2 12v2h2v-2h-2z"/><path d="M40
+      13v2h2v-2h-2zm0 8v2h2v-2h-2z"/><path d="M38 15v6h2v-6h-2z" fill="#ff09d7"/><path
+      d="M2 13V0h2v25H2v-2H0V13h2z" fill="#2800af"/><path d="M4 13v10H2V13h2z" fill="#9b00a0"/><path
+      d="M2 11h2v2H2v-2zm2 12v2H2v-2h2z"/><path d="M2 13v2H0v-2h2zm0 8v2H0v-2h2z"/><path
+      d="M4 15v6H2v-6h2z" fill="#ff09d7"/>
+    - <path d="M10 13v-2H7V0H5v11H2v2H0v10h2v2h8v-2h2V13h-2z" fill="#2800af"/><path
+      d="M2 13v10h8V13H2z" fill="#ff09d7"/><path d="M11 15h-1v6h2v-6h-1zM0 15v6h2v-6H0z"
+      fill="#0000af"/><path d="M8 23H2v2h8v-2H8zm2-12H2v2h8v-2z"/><path d="M10 21v2h2v-2h-2zm1-8h-1v2h2v-2h-1zm-9
+      8H0v2h2v-2zm-2-8v2h2v-2H0z"/><g fill="#9b00a0"><path d="M7 19h1v-2H7v2zm1 2H2v2h8v-2H8z"/><path
+      d="M9 13H2v2h8v-2H9zm-3 3H5v1h2v-1H6zm-1 3v1h2v-1H5z"/><path d="M5 17H4v2h1v-2z"/></g>
+    - <path d="M10 13v-2H7V0H5v11H2v2H0v10h2v2h8v-2h2V13h-2z" fill="#2800af"/><path
+      d="M2 13v10h8V13H2z" fill="#ff09d7"/><path d="M11 15h-1v6h2v-6h-1zM0 15v6h2v-6H0z"
+      fill="#0000af"/><path d="M8 23H2v2h8v-2H8zm2-12H2v2h8v-2z"/><path d="M10 21v2h2v-2h-2zm1-8h-1v2h2v-2h-1zm-9
+      8H0v2h2v-2zm-2-8v2h2v-2H0z"/><g fill="#9b00a0"><path d="M7 19h1v-2H7v2zm1 2H2v2h8v-2H8z"/><path
+      d="M9 13H2v2h8v-2H9zm-3 3H5v1h2v-1H6zm-1 3v1h2v-1H5z"/><path d="M5 17H4v2h1v-2z"/></g>
+    - <path d="M40,13V0h-2v25h2v-2h2V13H40z" fill="#2800af"/><path d="M38,13v10h2V13H38z"
+      fill="#9b00a0"/><path d="M40 11h-2v2h2v-2zm-2 12v2h2v-2h-2z"/><path d="M40
+      13v2h2v-2h-2zm0 8v2h2v-2h-2z"/><path d="M38,15v6h2v-6H38z" fill="#ff09d7"/><path
+      d="M2,13V0h2v25H2v-2H0V13H2z" fill="#2800af"/><path d="M4,13v10H2V13H4z" fill="#9b00a0"/><path
+      d="M2 11h2v2H2v-2zm2 12v2H2v-2h2z"/><path d="M2 13v2H0v-2h2zm0 8v2H0v-2h2z"/><path
+      d="M4,15v6H2v-6H4z" fill="#ff09d7"/>
+    sleeves: []
+    dimensions:
+    - X: 11
+      Y: 6
+      Width: 42
+      Height: 25
+    - X: 26
+      Y: 6
+      Width: 12
+      Height: 25
+    - X: 26
+      Y: 6
+      Width: 12
+      Height: 25
+    - X: 11
+      Y: 6
+      Width: 42
+      Height: 25
+    note: 

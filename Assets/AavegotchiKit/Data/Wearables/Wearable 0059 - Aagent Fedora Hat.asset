@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0059 - Aagent Fedora Hat
+  m_EditorClassIdentifier: 
+  data:
+    id: 59
+    name: Aagent Fedora Hat
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: feffffff0000000001000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M38 15V5h-2V3h-2V1h-2V0h-9v1h-1v1h-2V1h-1V0h-9v1H8v2H6v2H4v10H0v2h42v-2z"/><path
+      d="M4,12h34v3H4V12z" fill="#232323"/>
+    - <path d="M29 15v-5h-1V7h-1V5h-2V3h-2V1h-2V0H11v1H9v2H7v2H5v2H4v3H3v5H0v2h32v-2h-3z"/><path
+      d="M3 12v3h26v-3H3z" fill="#232323"/>
+    - <path d="M29 15v-5h-1V7h-1V5h-2V3h-2V1h-2V0H11v1H9v2H7v2H5v2H4v3H3v5H0v2h32v-2h-3z"/><path
+      d="M3 12v3h26v-3H3z" fill="#232323"/>
+    - <path d="M38,15V5h-2V3h-2V1h-2V0h-9v1h-1v1h-2V1h-1V0h-9v1H8v2H6v2H4v10H0v2h42v-2H38z"/><path
+      d="M4,12h34v3H4V12z" fill="#232323"/>
+    sleeves: []
+    dimensions:
+    - X: 11
+      Y: 4
+      Width: 42
+      Height: 17
+    - X: 16
+      Y: 4
+      Width: 32
+      Height: 17
+    - X: 16
+      Y: 4
+      Width: 32
+      Height: 17
+    - X: 11
+      Y: 4
+      Width: 42
+      Height: 17
+    note: 

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0097 - Pillbox Hat
+  m_EditorClassIdentifier: 
+  data:
+    id: 97
+    name: Pillbox Hat
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 01000000fffffffffeffffff000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M38 16V9h-2V6h-2V2h-2V0H10v2H8v4H6v3H4v7H0v2h42v-2z" fill="#ff64ff"/><path
+      d="M38,16v-3H4v3H38z" fill="#ffb9ff"/>
+    - <path d="M24 9h-2v3h-2v7h-4v2h32v-2h-4v-7h-2V9h-2V5h-2V3H26v2h-2v4z" fill="#ff64ff"/><path
+      d="M20 16v3h24v-3H20z" fill="#ffb9ff"/>
+    - <path d="M24 9h-2v3h-2v7h-4v2h32v-2h-4v-7h-2V9h-2V5h-2V3H26v2h-2v4z" fill="#ff64ff"/><path
+      d="M20 16v3h24v-3H20z" fill="#ffb9ff"/>
+    - <path d="M49 19v-7h-2V9h-2V5h-2V3H21v2h-2v4h-2v3h-2v7h-4v2h42v-2z" fill="#ff64ff"/><path
+      d="M49,19v-3H15v3H49z" fill="#ffb9ff"/>
+    sleeves: []
+    dimensions:
+    - X: 11
+      Y: 3
+      Width: 42
+      Height: 18
+    - X: 0
+      Y: 0
+      Width: 32
+      Height: 18
+    - X: 0
+      Y: 0
+      Width: 32
+      Height: 18
+    - X: 0
+      Y: 0
+      Width: 42
+      Height: 18
+    note: 

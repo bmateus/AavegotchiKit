@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0252 - Aastronaut Helmet
+  m_EditorClassIdentifier: 
+  data:
+    id: 252
+    name: Aastronaut Helmet
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000001000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M32,12v-1h-1v-1h-2V9H11v1H9v1H8v1H7v1H6v13h1v1h1v1h1v1h2v1h18v-1h2v-1h1v-1h1v-1h1V13h-1v-1H32z"
+      opacity=".75" enable-background="new"/><path d="M39 16v-2h-1V9h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-2V1h-2V0H12v1h-2v1H8v1H7v1H6v1H5v1H4v1H3v2H2v5H1v2H0v4h1v2h1v5h1v2h1v1h1v1h1v1h1v1h2v1h2v1h18v-1h2v-1h2v-1h1v-1h1v-1h1v-1h1v-2h1v-5h1v-2h1v-4h-1zm-6
+      9v1h-1v1h-1v1h-2v1H11v-1H9v-1H8v-1H7V13h1v-1h1v-1h2v-1h18v1h2v1h1v1h1v12z"/><path
+      d="M38 17v2h1v-2h-1zM1 18v1h1v-2H1v1zm18 12v4h2v-4h-2z" fill="#f500eb"/><path
+      d="M20,1h-1v8h2V1H20z" fill="#00f0ff"/><path d="M29 8h1V7h1V6h1V5h1V4h-1V3h-2V2h-2V1h-6v8h7V8zM9
+      29v-1H8v-1H7v-1H6v-8H3v9h3v1h1v1h1v1h1v3h2v-4H9zm7 1h-4v4h6v-4h-2zm10 0h-4v4h6v-4h-2zM16
+      1h-4v1h-2v1H8v1H7v1h1v1h1v1h1v1h1v1h7V1h-2zm20 17h-2v8h-1v1h-1v1h-1v1h-2v4h2v-3h1v-1h1v-1h1v-1h3v-9h-1z"
+      fill="#969696"/><path d="M34 28v1h-1v1h-1v2h1v-1h1v-1h1v-1h1v-1h-2zM7 29H6v-1H4v1h1v1h1v1h1v1h1v-2H7v-1zm3-21H9V7H8V6H7V5H6v1H5v1H4v2H3v9h3v-5h1v-1h1v-1h1v-1h2V9h-1V8zm26
+      1V7h-1V6h-1V5h-1v1h-1v1h-1v1h-1v1h-1v1h2v1h1v1h1v1h1v5h3V9h-1z" fill="#e1e1e1"/><path
+      d="M31 16h-1v-2h-2v-1h2v1h1v2z" fill="#fff"/>,
+    - <path d="M2,9v1h2v1h1v1h1v1h1v13H6v1H5v1H4v1H2v1H0V9H2z" opacity=".75" enable-background="new"/><g
+      fill="#fff"><path d="M3,14v2h1v-2H3z"/><path d="M1,13v1h2v-1H1z"/></g><path
+      d="M1 6V5h1V4h2V3h2V2h2V1h2V0h6v1h2v1h2v1h2v1h2v1h1v1h1v23H9v1H8v1H7v1H6v1H4v1H2v1H0v-6h2v-1h2v-1h1v-1h1V13H5v-1H4v-1H2v-1H0V6h1z"/><path
+      d="M12 17v-1h2v1h1v2h-1v1h-2v-1h-1v-2h1z" fill="#f500eb"/><path d="M24 26h1v2h-2v-1h1v-1zM6
+      30v-1h2v1H7v1H6v1H5v-2h1z" fill="#e1e1e1"/><g fill="#969696"><path d="M13,4h-1V3h2v1H13z"/><path
+      d="M23,8V7h-1V6h-2V5h-2V4h-2V3h-2V1h2v1h2v1h2v1h2v1h2v1h1v3h-1V8H23z"/><path
+      d="M3 9H2v1h2v1h1v1h1v1h1v13H6v1H5v1H4v1H2v4h2v-3h1v-1h1v-1h6v-1h2v1h8v-1h1v-1h1v-1h1V10h-1V9h-1V8h-1V7h-2V6h-2V5h-2V4h-2v1h-2V4h-2v1H8v1H6v1H4v1H3v1zm6
+      7h1v-1h1v-1h4v1h1v1h1v4h-1v1h-1v1h-4v-1h-1v-1H9v-3-1zm9 0h2v1h-2v-1zm-6-6h2v1h-2v-1zm5
+      12h1v1h-1v-1zm1-3h2v1h-2v-1zm-1-5v-1h1v1h-1zm-3-1h-2v-1h2v1zm-2-5h2v1h-2V8zm2
+      16h-2v-1h2v1zm0-18v1h-2V6h1 1zm-2 20v-1h2v1h-1-1z"/><path d="M1 7V6h1V5h2V4h2V3h2V2h2V1h2v2h-2v1H8v1H6v1H4v1H3v1H2v1H0V7h1zm0
+      24v3H0v-4h1v1z"/></g><g fill="#e1e1e1"><path d="M12,4V3h2v1H12z"/><path d="M2
+      9v1h2v1h1v1h1v1h1v5h2v-2h1v-1h1v-1h4v1h1v1h1v2h8v-8h-1V9h-1V8h-1V7h-2V6h-2V5h-2V4h-2v1h-2V4h-2v1H8v1H6v1H4v1H3v1H2zm15
+      4h1v1h-1v-1zm-5-5h2v1h-2V8zm2 3h-2v-1h2v1zm0-5v1h-2V6h1 1zm4 10h2v1h-2v-1zm-6-3v-1h2v1h-1-1z"/></g>,
+    - <path d="M25 6V5h-1V4h-2V3h-2V2h-2V1h-2V0h-6v1H8v1H6v1H4v1H2v1H1v1H0v23h17v1h1v1h1v1h1v1h2v1h2v1h2v-6h-2v-1h-2v-1h-1v-1h-1V13h1v-1h1v-1h2v-1h2V6h-1z"/><path
+      d="M14,17v-1h-2v1h-1v2h1v1h2v-1h1v-2H14z" fill="#f500eb"/><path d="M2 26H1v2h2v-1H2v-1zm18
+      4v-1h-2v1h1v1h1v1h1v-2h-1z" fill="#e1e1e1"/><g fill="#969696"><path d="M13
+      4h1V3h-2v1h1z"/><path d="M3,8V7h1V6h2V5h2V4h2V3h2V1h-2v1H8v1H6v1H4v1H2v1H1v3h1V8H3z"/><path
+      d="M23 8h-1V7h-2V6h-2V5h-2V4h-2v1h-2V4h-2v1H8v1H6v1H4v1H3v1H2v1H1v15h1v1h1v1h1v1h8v-1h2v1h6v1h1v1h1v3h2v-4h-2v-1h-1v-1h-1v-1h-1V13h1v-1h1v-1h1v-1h2V9h-1V8zm-6
+      9v3h-1v1h-1v1h-4v-1h-1v-1H9v-4h1v-1h1v-1h4v1h1v1h1v1zm-9 0H6v-1h2v1zm6-6h-2v-1h2v1zM9
+      23H8v-1h1v1zm-1-3H6v-1h2v1zm0-6v-1h1v1H8zm4-2h2v1h-2v-1zm2-3h-2V8h2v1zm-2 14h2v1h-2v-1zm1-17h1v1h-2V6h1zm0
+      20h-1v-1h2v1h-1z"/><path d="M25 7V6h-1V5h-2V4h-2V3h-2V2h-2V1h-2v2h2v1h2v1h2v1h2v1h1v1h1v1h2V7h-1zm0
+      24v3h1v-4h-1v1z"/></g><path d="M26 9v21h-2v-1h-2v-1h-1v-1h-1v-1h-1V13h1v-1h1v-1h1v-1h2V9h2z"
+      opacity=".75" enable-background="new"/><g fill="#e1e1e1"><path d="M14 4V3h-2v1h2z"/><path
+      d="M23 9V8h-1V7h-2V6h-2V5h-2V4h-2v1h-2V4h-2v1H8v1H6v1H4v1H3v1H2v1H1v8h8v-2h1v-1h1v-1h4v1h1v1h1v2h2v-5h1v-1h1v-1h1v-1h2V9h-1zM9
+      14H8v-1h1v1zm5-5h-2V8h2v1zm-2 1h2v1h-2v-1zm1-4h1v1h-2V6h1zM8 17H6v-1h2v1zm5-4h-1v-1h2v1h-1z"/></g>,
+    - <path d="M39 16v-2h-1V9h-1V7h-1V6h-1V5h-1V4h-1V3h-1V2h-2V1h-2V0H12v1h-2v1H8v1H7v1H6v1H5v1H4v1H3v2H2v5H1v2H0v4h1v2h1v5h1v1h1v1h32v-1h1v-1h1v-5h1v-2h1v-4h-1z"/><path
+      d="M24 12v-1h-2v-1h-4v1h-2v1h-1v10h1v1h1v-1h1v1h1v-1h2v1h1v-1h1v1h1v-1h1V12h-1z"
+      fill="#00d2ff"/><path d="M24 15h-9v7h1v1h1v-1h1v1h1v-1h2v1h1v-1h1v1h1v-1h1v-7h-1z"
+      fill="#00f0ff"/><path d="M38 17v2h1v-2h-1zM1 18v1h1v-2H1v1z" fill="#f500eb"/><path
+      d="M20 1h-1v8h2V1h-1z" fill="#00f0ff"/><path d="M35 27v-1h-1v-1H6v1H5v1H4v1h32v-1h-1zm-25
+      0v-1h1v1h-1zm5 0v-1h1v1h-1zm2 0v-1h1v1h-1zm3 0h-1v-1h2v1h-1zm2 0v-1h1v1h-1zm2
+      0v-1h1v1h-1zm5 0v-1h1v1h-1z" fill="#e1e1e1"/><path d="M32 26h-1v1h2v-1h-1zM7
+      26v1h2v-1H7z" fill="#f500eb"/><path d="M27 26h-1v1h2v-1h-1zm-15 0v1h2v-1h-2z"
+      fill="#00f0ff"/><g fill="#969696"><path d="M36 9V7h-1V6h-1V5h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v12h8v1h1v1h1v1h1V9h-1zM12
+      1v1h-2v1H8v1H7v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v-1h1v-1h2V1h-6zm12 22h1v1h-1zm-2
+      0h1v1h-1z"/><path d="M19 24h2v-1h-2v1zm-2-1h1v1h-1zm10-12v-1h1V9h1V8h1V7h1V6h1V5h1V4h-1V3h-2V2h-2V1h-6v9h2v1h1v1h1v-1h1zM15
+      23h1v1h-1zm-2-12h-1v-1h-1V9h-1V8H9V7H8V6H7V5H6v1H5v1H4v2H3v18h1v-1h1v-1h1v-1h8V12h-1v-1z"/></g><path
+      d="M36 9V7h-1V6h-1V5h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v1h-1v6h11V9h-1zm-23 2h-1v-1h-1V9h-1V8H9V7H8V6H7V5H6v1H5v1H4v2H3v9h11v-6h-1v-1z"
+      fill="#e1e1e1"/><path d="M24 17h-9v2h10v-2h-1z" fill="#f500eb"/><path d="M24
+      21h-9v1h1v1h1v-1h1v1h1v-1h2v1h1v-1h1v1h1v-1h1v-1h-1z" fill="#cd00c3"/><path
+      d="M24 19h-9v2h10v-2h-1z" fill="#d719cd"/><g fill="#fff"><path d="M18.6,19v1.2h2.8V19H18.6z"/><path
+      d="M21.4 15v4h1.2v-4h-1.2zm-2.8 0h-1.2v4h1.2v-4zm-1.7-.5h.6v-.2h.2v-.5h-.6v.2h.4v.3h-.7v-.9h.9v-.2h-.9v.2h-.2v.9h.2l.1.2h0zm1.9-1.1v-.2h-.7v.2h-.2v.9h.2v.2h.7v-.2h.2v-.9h-.2zm0
+      .9h-.7v-.9h.7v.9zm4-1.1h-.2v.5h-.7v-.5h-.2v1.3h.2v-.6h.7v.6h.2v-1.3zm.2 0h.2v1.3H23v-1.3zm-1.7.2h.2v.2h-.2v-.2z"/><path
+      d="M20.6 13.2v.2h-.2v.9h.2v.2h.7v-.2h.2v-.2h-.2v.2h-.7v-.9h.7v-.2h-.7zm-1.4
+      0v.2h.4v1.1h.2v-1.1h.4v-.2h-1z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 12
+      Y: 5
+      Width: 40
+      Height: 35
+    - X: 19
+      Y: 5
+      Width: 26
+      Height: 35
+    - X: 19
+      Y: 5
+      Width: 26
+      Height: 35
+    - X: 12
+      Y: 5
+      Width: 40
+      Height: 29
+    note: 

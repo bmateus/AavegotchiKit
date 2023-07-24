@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0088 - Miner Jeans
+  m_EditorClassIdentifier: 
+  data:
+    id: 88
+    name: Miner Jeans
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 010000000000000000000000ffffffff0000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M0 0v14h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V0z" fill="#001e6e"/><path d="M16
+      2V1h-6v1h6zm8 0V1h-5v1h5zM9 2V1H1v1h8zm24 0V1h-8v1h8z" fill="#a97955"/><path
+      d="M17,1h1v1h-1V1z" fill="#e4c599"/><g fill="#334b8b"><path d="M4,3v3H3v1H1v5h3v-2h5v2h5v-2h2V3H4z"/><path
+      d="M3 3H1v3h2V3zm15 0h-1v4h1V3zm13 0v3h2V3h-2z"/><path d="M30,3H19v4h-1v1h-1v2h3v2h5v-2h5v2h3V7h-2V6h-1V3z"/></g>
+    - <path d="M0 0v14h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V0H0z" fill="#001e6e"/><g fill="#334b8b"><path
+      d="M23 3v1h-3v4h1v1h2v3h-2v-2h-2V3h4zM3 3h2v3H3V3z"/><path d="M21 5h2v3h-2V5zm-3-2v9h-4v-2h-2V3h6zm-7
+      0v7h-1v2H6V3h5zM2 3v3h1v1h2v3H3v2H1V3h1z"/></g><path d="M17 1v1h-4V1h4zm6 0v1h-5V1h5zM6
+      1v1H1V1h5zm6 0v1H7V1h5z" fill="#a97955"/>
+    - <path d="M0 0v14h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V0H0z" fill="#001e6e"/><g fill="#334b8b"><path
+      d="M1 3v1h3v4H3v1H1v3h2v-2h2V3H1zm20 0h-2v3h2V3z"/><path d="M3 5H1v3h2V5zm3-2v9h4v-2h2V3H6zm7
+      0v7h1v2h4V3h-5zm9 0v3h-1v1h-2v3h2v2h2V3h-1z"/></g><path d="M7 1v1h4V1H7zM1
+      1v1h5V1H1zm17 0v1h5V1h-5zm-6 0v1h5V1h-5z" fill="#a97955"/>
+    - <path d="M0 0v14h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V0H0z" fill="#001e6e"/><g fill="#334b8b"><path
+      d="M16 3v7h2V3h-2zM1 3v9h3v-2h5v2h5v-2h1V3H1zm3 6V8H3V4h7v4H9v1H4z"/><path
+      d="M9 8V5H4v3h5zm10-5v7h1v2h5v-2h5v2h3V3H19zm6 6V8h-1V4h7v4h-1v1h-5z"/><path
+      d="M30 8V5h-5v3h5z"/></g><path d="M10 1v1h14V1H10zM1 1v1h8V1H1zm24 0v1h8V1h-8z"
+      fill="#a97955"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 41
+      Width: 34
+      Height: 14
+    - X: 20
+      Y: 41
+      Width: 24
+      Height: 14
+    - X: 20
+      Y: 41
+      Width: 24
+      Height: 14
+    - X: 15
+      Y: 41
+      Width: 34
+      Height: 14
+    note: 

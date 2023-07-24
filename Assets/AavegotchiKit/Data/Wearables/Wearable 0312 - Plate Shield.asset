@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0312 - Plate Shield
+  m_EditorClassIdentifier: 
+  data:
+    id: 312
+    name: Plate Shield
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 00000000fbffffff00000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M0 0v16h2v2h2v2h2v2h6v-2h2v-2h2v-2h2V0H0z" fill="#333"/><g fill="#bfbfbf"><path
+      d="M2 2v14h2v-4h2v-1h2V9H6V8H4V4h2v2h2v3h2V6h2V4h2v4h-2v1h-2v2h2v1h2v4h2V2H2zm3
+      7v2H4V9h1zm6-4H7V4h4v1zm2 6V9h1v2h-1z"/><path d="M12 16v-2h-2v-3H8v3H6v2H4v2h2v2h6v-2h2v-2h-2zm-5-1h4v2H7v-2z"/></g><g
+      fill="#e6e6e6"><path d="M2 2v14h2V4h10v12h2V2H2z"/><path d="M6 16H4v2h2v-2z"/><path
+      d="M6 18v2h6v-2H6z"/><path d="M12 16v2h2v-2h-2z"/></g>
+    - <path d="M0 0v16h2v2h2v2h2v2h6v-2h2v-2h2v-2h2V0H0z" fill="#333"/><g fill="#bfbfbf"><path
+      d="M2 2v14h2v-4h2v-1h2V9H6V8H4V4h2v2h2v3h2V6h2V4h2v4h-2v1h-2v2h2v1h2v4h2V2H2zm3
+      7v2H4V9h1zm6-4H7V4h4v1zm2 6V9h1v2h-1z"/><path d="M12 16v-2h-2v-3H8v3H6v2H4v2h2v2h6v-2h2v-2h-2zm-5-1h4v2H7v-2z"/></g><g
+      fill="#e6e6e6"><path d="M2 2v14h2V4h10v12h2V2H2z"/><path d="M6 16H4v2h2v-2z"/><path
+      d="M6 18v2h6v-2H6z"/><path d="M12 16v2h2v-2h-2z"/></g>
+    - <path d="M0 0v16h2v2h2v2h2v2h6v-2h2v-2h2v-2h2V0H0z" fill="#333"/><g fill="#bfbfbf"><path
+      d="M2 2v14h2v-4h2v-1h2V9H6V8H4V4h2v2h2v3h2V6h2V4h2v4h-2v1h-2v2h2v1h2v4h2V2H2zm3
+      7v2H4V9h1zm6-4H7V4h4v1zm2 6V9h1v2h-1z"/><path d="M12 16v-2h-2v-3H8v3H6v2H4v2h2v2h6v-2h2v-2h-2zm-5-1h4v2H7v-2z"/></g><g
+      fill="#e6e6e6"><path d="M2 2v14h2V4h10v12h2V2H2z"/><path d="M6 16H4v2h2v-2z"/><path
+      d="M6 18v2h6v-2H6z"/><path d="M12 16v2h2v-2h-2z"/></g>
+    - <path d="M0 0v16h2v2h2v2h2v2h6v-2h2v-2h2v-2h2V0H0z" fill="#333"/><g fill="#e6e6e6"><path
+      d="M2 2v14h2V4h10v12h2V2H2z"/><path d="M6 16H4v2h2v-2z"/><path d="M6 18v2h6v-2H6z"/><path
+      d="M12 16v2h2v-2h-2z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 30
+      Width: 18
+      Height: 22
+    - X: 14
+      Y: 30
+      Width: 18
+      Height: 22
+    - X: 32
+      Y: 30
+      Width: 18
+      Height: 22
+    - X: 0
+      Y: 30
+      Width: 18
+      Height: 22
+    note: 

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0077 - Bitcoin Beanie
+  m_EditorClassIdentifier: 
+  data:
+    id: 77
+    name: Bitcoin Beanie
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 010000000000000000000000ffffffff0000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 2
+    minLevel: 1
+    svgs:
+    - <path d="M38,18v-6h-2V8h-2V6h-2V4h-2V2h-2V0H10v2H8v2H6v2H4v2H2v4H0v6H38z"/><path
+      d="M23,8V7h-1V6h-1V5h-4v1h-1v1h-1v1h-1v4h1v1h1v1h1v1h4v-1h1v-1h1v-1h1V8H23z"
+      fill="#ff6e00"/><g fill="#fff"><path d="M18.5 9.5v-1h2v-1h-1v-1h-1v1h-2v1h1v3h-1v1h2v1h1v-1h1v-1h-2v-1h2v-1h-2z"/><path
+      d="M20.5 10.5h1v1h-1v-1zm0-2h1v1h-1v-1z"/></g>
+    - <path d="M0 18v-6h2V8h2V6h2V4h2V2h2V0h8v2h2v2h2v2h2v2h2v4h2v6z"/><path d="M8
+      5V4H6v2H4v2H2v2h1v1h4v-1h1V9h1V5z" fill="#ff6e00"/><g fill="#fff"><path d="M4
+      8H3v1h2V7H4z"/><path d="M6 5v1H5v1h2V5z"/></g>
+    - <path d="M0 18v-6h2V8h2V6h2V4h2V2h2V0h8v2h2v2h2v2h2v2h2v4h2v6z"/><path d="M24
+      8V6h-2V4h-2v1h-1v4h1v1h1v1h4v-1h1V8z" fill="#ff6e00"/><path d="M23 7V6h-2v1h1v1h1v1h1V7z"
+      fill="#fff"/>
+    - <path d="M38,18v-6h-2V8h-2V6h-2V4h-2V2h-2V0H10v2H8v2H6v2H4v2H2v4H0v6H38z"/>
+    sleeves: []
+    dimensions:
+    - X: 13
+      Y: 2
+      Width: 38
+      Height: 18
+    - X: 18
+      Y: 2
+      Width: 28
+      Height: 18
+    - X: 18
+      Y: 2
+      Width: 28
+      Height: 18
+    - X: 13
+      Y: 2
+      Width: 38
+      Height: 18
+    note: 

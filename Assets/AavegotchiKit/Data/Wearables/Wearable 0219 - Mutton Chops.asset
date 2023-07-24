@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0219 - Mutton Chops
+  m_EditorClassIdentifier: 
+  data:
+    id: 219
+    name: Mutton Chops
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000002000000ffffffff0000000000000000
+    slotPositions: 00010000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path fill="#773e1d" d="M11 14h-1v-1H9v-1H8v-1H6v-1H5V9H4V8H3V0H0v12h2v1h1v1h1v1h2v1h2v1h4v-2h-1v-1zm7
+      2h-4v1h1v1h1v1h2v-1h1v-1h1v-1h-2zM31 0v8h-1v1h-1v1h-1v1h-2v1h-1v1h-1v1h-1v1h-1v2h4v-1h2v-1h2v-1h1v-1h1v-1h2V0h-3z"/>
+    - <path d="M1 14v-1h1v-1h1v-1h2v-1h1V9h1V8h1V0h3v12H9v1H8v1H7v1H5v1H3v1H0v-3h1z"
+      fill="#773e1d"/>
+    - <path d="M10 14v-1H9v-1H8v-1H6v-1H5V9H4V8H3V0H0v12h2v1h1v1h1v1h2v1h2v1h3v-3h-1z"
+      fill="#773e1d"/>
+    - 219_MuttonChopsBack
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 21
+      Width: 34
+      Height: 19
+    - X: 19
+      Y: 21
+      Width: 11
+      Height: 17
+    - X: 34
+      Y: 21
+      Width: 11
+      Height: 17
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    note: 

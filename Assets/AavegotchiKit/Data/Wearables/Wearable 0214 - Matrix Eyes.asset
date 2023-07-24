@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0214 - Matrix Eyes
+  m_EditorClassIdentifier: 
+  data:
+    id: 214
+    name: Matrix Eyes
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: fdfffffffdffffff00000000000000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 50
+    minLevel: 1
+    svgs:
+    - <path d="M10 1H9V0H2v1H1v1H0v4h1v1h1v1h7V7h1V6h1V2h-1V1zm13 1V1h-1V0h-7v1h-1v1h-1v4h1v1h1v1h7V7h1V6h1V2h-1z"/><path
+      d="M5 2v1h1V1H5v1zm0 2h1v1H5zm2 0v1h1V3H7v1zm0-3h1v1H7zM3 1h1v1H3zM1 4v1h1V3H1v1zm2
+      0v1h1V3H3v1zm0 2h1v1H3zm6-2v1h1V3H9v1zM7 6h1v1H7zM5 6h1v1H5zm13-4v1h1V1h-1v1zm0
+      2h1v1h-1zm2 0v1h1V3h-1v1zm0-3h1v1h-1zm-4 0h1v1h-1zm-2 3v1h1V3h-1v1zm2 0v1h1V3h-1v1zm0
+      2h1v1h-1zm6-3v2h1V3h-1zm-2 3h1v1h-1zm-2 0h1v1h-1z" fill="#0f0"/>
+    - <path d="M4 2V1H3V0H0v8h3V7h1V6h1V2H4z"/><path d="M1 5h1V3H1v2zm0-4h1v1H1zm2
+      2v2h1V3H3zM1 6h1v1H1z" fill="#0f0"/>
+    - <path d="M2 0v1H1v1H0v4h1v1h1v1h3V0H2z"/><path d="M3 1h1v1H3zM1 5h1V3H1v2zm2
+      0h1V3H3v2zm0 1h1v1H3z" fill="#0f0"/>
+    - 214_MatrixEyesBack
+    sleeves: []
+    dimensions:
+    - X: 20
+      Y: 22
+      Width: 24
+      Height: 8
+    - X: 20
+      Y: 22
+      Width: 5
+      Height: 8
+    - X: 39
+      Y: 22
+      Width: 5
+      Height: 8
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    note: 

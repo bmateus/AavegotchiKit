@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0116 - Coconut
+  m_EditorClassIdentifier: 
+  data:
+    id: 116
+    name: Coconut
+    description: 
+    author: SnottySnake
+    category: 0
+    traitModifiers: 0000000000000000fdffffff000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M11 7V6h-1V5H3v1H2v1H1v7h1v2h1v1h2v1h3v-1h2v-1h1v-2h1V7z" fill="#511f17"/><path
+      d="M9 9h1v1H9V9zm-7 4h1v-3H2v3zm2-1h1v-2H4v2zm2 2h1v-3H6v3zm2-3h1v1H8v-1zm2
+      0v2h1v-2h-1zm-6 5h1v-3H4v3zm4-1h1v-2H8v2zm-2 2h1v-2H6v2z" fill="#7a500c"/><path
+      d="M10 7V6H3v1H2v1h1v1h7V8h1V7z" fill="#955c4b"/><path d="M3 7h7v1H3z" fill="#fff"/><g
+      fill="#ff89ff"><path d="M2 0h1v1H2z"/><path d="M1 1h1v1H1zm2 0h1v2H3z"/><path
+      d="M0 2h1v1H0zm4 1h1v2H4z"/><path d="M5 5h1v2H5z"/><path d="M6 7h1v1H6z"/></g>
+    - <path d="M0,7v7h1v2h1v1h2v1h3v-1h2v-1h1v-2h1V7h-1V6H9V5H2v1H1v1H0z" fill="#511f17"/><path
+      d="M3 10H2V9h1v1zm7 0H9v3h1v-3zm-2 0H7v2h1v-2zm-2 1H5v3h1v-3zm-2 1H3v-1h1v1zm-3-1v2h1v-2H1zm7
+      2H7v3h1v-3zm-4 0H3v2h1v-2zm2 2H5v2h1v-2z" fill="#7a500c"/><path d="M1,7v1h1v1h7V8h1V7H9V6H2v1H1z"
+      fill="#955c4b"/><path d="M9,8H2V7h7V8z" fill="#fff"/><g fill="#ff89ff"><path
+      d="M10,1H9V0h1V1z"/><path d="M11 2h-1V1h1v1zM9 3H8V1h1v2z"/><path d="M12 3h-1V2h1v1zM8
+      5H7V3h1v2z"/><path d="M7,7H6V5h1V7z"/><path d="M6,8H5V7h1V8z"/></g>
+    - <path d="M11,7V6h-1V5H3v1H2v1H1v7h1v2h1v1h2v1h3v-1h2v-1h1v-2h1V7H11z" fill="#511f17"/><path
+      d="M9 9h1v1H9V9zm-7 4h1v-3H2v3zm2-1h1v-2H4v2zm2 2h1v-3H6v3zm2-3h1v1H8v-1zm2
+      0v2h1v-2h-1zm-6 5h1v-3H4v3zm4-1h1v-2H8v2zm-2 2h1v-2H6v2z" fill="#7a500c"/><path
+      d="M10,7V6H3v1H2v1h1v1h7V8h1V7H10z" fill="#955c4b"/><path d="M3,7h7v1H3V7z"
+      fill="#fff"/><g fill="#ff89ff"><path d="M2,0h1v1H2V0z"/><path d="M1 1h1v1H1V1zm2
+      0h1v2H3V1z"/><path d="M0 2h1v1H0V2zm4 1h1v2H4V3z"/><path d="M5,5h1v2H5V5z"/><path
+      d="M6,7h1v1H6V7z"/></g>
+    - <path d="M0,7v7h1v2h1v1h2v1h3v-1h2v-1h1v-2h1V7h-1V6H9V5H2v1H1v1H0z" fill="#511f17"/><path
+      d="M3 10H2V9h1v1zm7 0H9v3h1v-3zm-2 0H7v2h1v-2zm-2 1H5v3h1v-3zm-2 1H3v-1h1v1zm-3-1v2h1v-2H1zm7
+      2H7v3h1v-3zm-4 0H3v2h1v-2zm2 2H5v2h1v-2z" fill="#7a500c"/><path d="M1,7v1h1v1h7V8h1V7H9V6H2v1H1z"
+      fill="#955c4b"/><path d="M9,8H2V7h7V8z" fill="#fff"/><g fill="#ff89ff"><path
+      d="M10,1H9V0h1V1z"/><path d="M11 2h-1V1h1v1zM9 3H8V1h1v2z"/><path d="M12 3h-1V2h1v1zM8
+      5H7V3h1v2z"/><path d="M7,7H6V5h1V7z"/><path d="M6,8H5V7h1V8z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 1
+      Y: 27
+      Width: 12
+      Height: 18
+    - X: 18
+      Y: 27
+      Width: 12
+      Height: 18
+    - X: 34
+      Y: 27
+      Width: 12
+      Height: 18
+    - X: 1
+      Y: 27
+      Width: 12
+      Height: 18
+    note: 

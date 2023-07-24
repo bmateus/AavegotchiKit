@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0305 - Sus Butterfly
+  m_EditorClassIdentifier: 
+  data:
+    id: 305
+    name: Sus Butterfly
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000400000000000000000000000000000000000000
+    slotPositions: 00000000000001000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <g fill="#9600bd"><path d="M13 1v1h-1v1H9V2H8v2H7V2H6v1H3V2H2V1H0v5h1v1h1v1h1v1H2v1H1v3h1v1h3v-1h1v-1h1v-1h1v1h1v1h1v1h3v-1h1v-3h-1V9h-1V8h1V7h1V6h1V1h-2z"/><path
+      d="M5 1h1v1H5z"/><path d="M4 0h1v1H4zm5 1h1v1H9z"/><path d="M10 0h1v1h-1z"/></g><g
+      fill="#f0f"><path d="M7 5h1v1H7z"/><path d="M13 2v1h-1v2h-1v1H8v5h1v1h1v1h3v-3h-1V9H9V8h3V7h1V6h1V2h-1zM5
+      6H4V5H3V3H2V2H1v4h1v1h1v1h3v1H3v1H2v3h3v-1h1v-1h1V6H5z"/></g><g fill="#ff8bff"><path
+      d="M6 7H4V6H3V5H2V3H1v3h1v1h1v1h3v1h1V6H6v1zm7-4v2h-1v1h-1v1H9V6H8v3h1V8h3V7h1V6h1V3h-1z"/><path
+      d="M9 11h1v1h3v-1h-1v-1h-1V9H9v2zM4 9v1H3v1H2v1h3v-1h1V9H4z"/></g><path d="M4
+      3v2h3V3H4zm4 0v2h3V3H8z" fill="#fff"/><path d="M4 3v1h1v1h1V4h1V3H4zm4 0v1h1v1h1V4h1V3H8z"/>
+    - <g fill="#9600bd"><path d="M3,1h1v1H3V1z"/><path d="M4 0h1v1H4V0zM1 5V4h1V2h1v1h3V2h1V1h2v5H8v1H7v1H6v1h1v1h1v3H7v1H4v-1H3v-1H2v-1H1V6H0V5h1z"/></g><g
+      fill="#f0f"><path d="M1,5h1v1H1V5z"/><path d="M5,6V5h1V3h1V2h1v4H7v1H6v1H3v1h3v1h1v3H4v-1H3v-1H2V6H5z"/></g><g
+      fill="#ff8bff"><path d="M3,6v1h2V6h1V5h1V3h1v3H7v1H6v1H3v1H2V6H3z"/><path d="M5,9v1h1v1h1v1H4v-1H3V9H5z"/></g><path
+      d="M5,3v2H2V3H5z" fill="#fff"/><path d="M5,3v1H3v1H2V3H5z"/>
+    - <g fill="#9600bd"><path d="M5,1h1v1H5V1z"/><path d="M4 0h1v1H4V0zm4 5V4H7V2H6v1H3V2H2V1H0v5h1v1h1v1h1v1H2v1H1v3h1v1h3v-1h1v-1h1v-1h1V6h1V5H8z"/></g><g
+      fill="#f0f"><path d="M7,5h1v1H7V5z"/><path d="M4,6V5H3V3H2V2H1v4h1v1h1v1h3v1H3v1H2v3h3v-1h1v-1h1V6H4z"/></g><g
+      fill="#ff8bff"><path d="M6,6v1H4V6H3V5H2V3H1v3h1v1h1v1h3v1h1V6H6z"/><path d="M4,9v1H3v1H2v1h3v-1h1V9H4z"/></g><path
+      d="M4,3v2h3V3H4z" fill="#fff"/><path d="M4,3v1h2v1h1V3H4z"/>
+    - <g fill="#9600bd"><path d="M5 1h1v1H5z"/><path d="M4 0h1v1H4zm9 1v1h-1v1H9V2H8v2H7V2H6v1H3V2H2V1H0v5h1v1h1v1h1v1H2v1H1v3h1v1h3v-1h1v-1h1v-1h1v1h1v1h1v1h3v-1h1v-3h-1V9h-1V8h1V7h1V6h1V1h-2z"/><path
+      d="M9 1h1v1H9z"/><path d="M10 0h1v1h-1z"/></g><path d="M6 4H3V3H2V2H1v4h1v1h1v1h3v1H3v1H2v3h3v-1h1v-1h1V5H6V4zm7-2v1h-1v1H9v1H8v6h1v1h1v1h3v-3h-1V9H9V8h3V7h1V6h1V2h-1z"
+      fill="#f0f"/><g fill="#ff8bff"><path d="M4 9v1H3v1H2v1h3v-1h1V9H4z"/><path
+      d="M6 5H3V4H2V3H1v2h1v1h1v1h1v1h2v1h1V6H6V5zm7-2v1h-1v1H9v1H8v3h1V8h2V7h1V6h1V5h1V3h-1z"/><path
+      d="M9 11h1v1h3v-1h-1v-1h-1V9H9v2z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 3
+      Y: 2
+      Width: 15
+      Height: 14
+    - X: 10
+      Y: 2
+      Width: 9
+      Height: 14
+    - X: 45
+      Y: 2
+      Width: 9
+      Height: 14
+    - X: 46
+      Y: 2
+      Width: 15
+      Height: 14
+    note: 

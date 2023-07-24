@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0032 - Aave Flag
+  m_EditorClassIdentifier: 
+  data:
+    id: 32
+    name: Aave Flag
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 00000000feffffff03000000000000000000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M0,1v9h11.5V1H0z" fill="#7d0064"/><path d="M8 3V2H3v1H2v6h1V8h1v1h1V8h1v1h1V8h1v1h1V3H8zM7
+      3v1H6V3h1zM5 3v1H4V3h1zm3 3H7v1H4V6H3V5h1v1h3V5h1v1z" fill="#fff"/><path d="M11,0v25h1V0H11z"
+      fill="#8e7064"/><path d="M11 24h1v1h-1v-1zm0-24h1v1h-1V0z" fill="#7a5749"/>
+    - <path d="M0 0v25h1V0H0z" fill="#8e7064"/><path d="M0 24h1v1H0zM0 0h1v1H0z"
+      fill="#7a5749"/><path d="M0 1v9h1V1H0z" fill="#7d0064"/>
+    - <path d="M0 0v25h1V0H0z" fill="#8e7064"/><path d="M0 24h1v1H0zM0 0h1v1H0z"
+      fill="#7a5749"/><path d="M0 1v9h1V1H0z" fill="#7d0064"/>
+    - <path d="M12 0v25h-1V0h1z" fill="#8e7064"/><path d="M11 24h1v1h-1v-1zm0-24h1v1h-1V0z"
+      fill="#7a5749"/><path d="M11,1v9H0V1H11z" fill="#7d0064"/><path d="M8 3V2H3v1H2v6h1V8h1v1h1V8h1v1h1V8h1v1h1V3H8zM7
+      3v1H6V3h1zM5 3v1H4V3h1zm3 3H7v1H4V6H3V5h1v1h3V5h1v1z" fill="#fff"/>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 24
+      Width: 12
+      Height: 25
+    - X: 26
+      Y: 24
+      Width: 1
+      Height: 25
+    - X: 37
+      Y: 24
+      Width: 1
+      Height: 25
+    - X: 0
+      Y: 24
+      Width: 12
+      Height: 25
+    note: 

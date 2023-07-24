@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0245 - Gecko Hat
+  m_EditorClassIdentifier: 
+  data:
+    id: 245
+    name: Gecko Hat
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 0000000000000000fdffffff000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M33 11V9h-2V7h-3V5h-3V1h-1V0h-5v1h-1v1h-2V1h-1V0h-5v1H9v4H6v2H3v2H1v2H0v16h3v-8h28v8h3V11h-1z"
+      fill="#519e00"/><path d="M31 11V9h-3V7h-3V5h-1V1h-5v2h-4V1h-5v4H9v2H6v2H3v2H1v14h1v-7h30v7h1V11h-2zm-18
+      1h2v2h-2v-2zm6 0h2v2h-2v-2z" fill="#a3d167"/><path d="M19 3v7h5V3h-5zm-9 0v7h5V3h-5z"
+      fill="#234b00"/><path d="M8 12H6v1H5v2h1v1h2v-1h1v-2H8v-1zm20 1v-1h-2v1h-1v2h1v1h2v-1h1v-2h-1z"
+      fill="#f696c6"/><path d="M19 3v2h2V3h-2zm4 0v7h1V3h-1zM10 3v2h2V3h-2zm4 7h1V3h-1v7z"
+      fill="#fff"/>
+    - <path d="M1 11v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V1h1V0h5v1h1v2h2v2h4v2h2v2h2v2h2v2h1v2h1v2h-1v2h1v2h-1v2h1v2h-1v2h1v2h-1v2h1v2h-1v2h1v2h-1v1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1h-1v-1H8v-8H0v-8h1z"
+      fill="#519e00"/><path d="M1 11v7h8v7h8v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1V13h-2v-2h-2V9h-2V7h-4V5h-2V3h-1V1H9v3H8v1H7v1H6v1H5v1H4v1H3v1H2v1H1zm1
+      1h2v2H2v-2z" fill="#a3d167"/><path d="M13 3v7h-3V3h3z" fill="#234b00"/><path
+      d="M7 13v-1h2v1h1v2H9v1H7v-1H6v-2h1z" fill="#f696c6"/><path d="M13 3v2h-2V3h2z"
+      fill="#fff"/>
+    - <path d="M28 11v-1h-1V9h-1V8h-1V7h-1V6h-1V5h-1V4h-1V1h-1V0h-5v1h-1v2h-2v2H8v2H6v2H4v2H2v2H1v2H0v2h1v2H0v2h1v2H0v2h1v2H0v2h1v2H0v2h1v2H0v2h1v1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h9v-8h8v-8h-1z"
+      fill="#519e00"/><path d="M27 11v-1h-1V9h-1V8h-1V7h-1V6h-1V5h-1V4h-1V1h-5v2h-1v2h-2v2H8v2H6v2H4v2H2v22h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h8v-7h8v-7h-1zm0
+      3h-2v-2h2v2z" fill="#a3d167"/><path d="M16 3v7h3V3h-3z" fill="#234b00"/><path
+      d="M22 13v-1h-2v1h-1v2h1v1h2v-1h1v-2h-1z" fill="#f696c6"/><path d="M16 3v2h2V3h-2z"
+      fill="#fff"/>
+    - <path d="M33 11V9h-2V7h-3V5h-3V1h-1V0h-5v1h-1v1h-2V1h-1V0h-5v1H9v4H6v2H3v2H1v2H0v16h8v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h8V11h-1z"
+      fill="#519e00"/><path d="M32 11h-1V9h-3V7h-3V5h-1V1h-5v1h-1v3h-2V2h-1V1h-5v4H9v2H6v2H3v2H1v15h7v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h2v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h1v-1h7V11h-1zm-16
+      9v-1h2v2h-2v-1zm2-4v1h-2v-2h2v1zm-2 8v-1h2v2h-2v-1zm2-12v1h-2v-2h2v1zm-2 16v-1h2v2h-2v-1zm2-20v1h-2V7h2v1zm-1
+      25h-1v-2h2v2h-1z" fill="#a3d167"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 3
+      Width: 34
+      Height: 27
+    - X: 18
+      Y: 3
+      Width: 29
+      Height: 38
+    - X: 17
+      Y: 3
+      Width: 29
+      Height: 38
+    - X: 15
+      Y: 3
+      Width: 34
+      Height: 36
+    note: 

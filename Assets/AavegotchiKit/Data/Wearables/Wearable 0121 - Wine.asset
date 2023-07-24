@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0121 - Wine
+  m_EditorClassIdentifier: 
+  data:
+    id: 121
+    name: Wine
+    description: 
+    author: Cawito
+    category: 0
+    traitModifiers: 000000000000000000000000fdffffff0000000000000000
+    slotPositions: 00000000010100000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M6 7V6H5V0H2v6H1v1H0v14h1v1h5v-1h1V7z"/><path d="M1,11h2v7H1V11z"
+      fill="#decd87"/><path d="M3,3h1v2H3V3z" fill="#782121"/><path d="M3 1h1v1H3zm2
+      6V6H2v1H1v3h3v9H1v2h5V7z" fill="green"/><path d="M1 7h1v3H1V7zm0 12h1v2H1v-2z"
+      fill="#0a0"/>
+    - <path d="M6,7V6H5V0H2v6H1v1H0v14h1v1h5v-1h1V7H6z"/><path d="M1,11h2v7H1V11z"
+      fill="#decd87"/><path d="M3,3h1v2H3V3z" fill="#782121"/><path d="M3 1h1v1H3V1zm2
+      6V6H2v1H1v3h3v9H1v2h5V7H5z" fill="green"/><path d="M1 7h1v3H1V7zm0 12h1v2H1v-2z"
+      fill="#0a0"/>
+    - <path d="M0,7v14h1v1h5v-1h1V7H6V6H5V0H2v6H1v1H0z"/><path d="M6 18H4v-7h2v7z"
+      fill="#decd87"/><path d="M4,5H3V3h1V5z" fill="#782121"/><path d="M4 2H3V1h1v1zM1
+      7v14h5v-2H3v-9h3V7H5V6H2v1H1z" fill="green"/><path d="M6 10H5V7h1v3zm0 11H5v-2h1v2z"
+      fill="#0a0"/>
+    - <path d="M0,7v14h1v1h5v-1h1V7H6V6H5V0H2v6H1v1H0z"/><path d="M6 18H4v-7h2v7z"
+      fill="#decd87"/><path d="M4,5H3V3h1V5z" fill="#782121"/><path d="M4 2H3V1h1v1zM1
+      7v14h5v-2H3v-9h3V7H5V6H2v1H1z" fill="green"/><path d="M6 10H5V7h1v3zm0 11H5v-2h1v2z"
+      fill="#0a0"/>
+    sleeves: []
+    dimensions:
+    - X: 6
+      Y: 23
+      Width: 7
+      Height: 22
+    - X: 23
+      Y: 23
+      Width: 7
+      Height: 22
+    - X: 34
+      Y: 23
+      Width: 7
+      Height: 22
+    - X: 6
+      Y: 23
+      Width: 7
+      Height: 22
+    note: 

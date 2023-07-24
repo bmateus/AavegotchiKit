@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0224 - Pirate Patch
+  m_EditorClassIdentifier: 
+  data:
+    id: 224
+    name: Pirate Patch
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000002000000ffffffff0000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 5
+    minLevel: 1
+    svgs:
+    - <path d="M0 0v2h19v5h1v2h2v1h3V9h2V7h1V2h6V0H0z" fill="#0e0c15"/>
+    - <path d="M0 0v10h2V9h2V7h1V2h20V0H0z" fill="#0e0c15"/>
+    - <path d="M0 0v2h24v8h1V0H0z" fill="#0e0c15"/>
+    - <path d="M0 0v2h34V0H0z" fill="#0e0c15"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 21
+      Width: 34
+      Height: 10
+    - X: 19
+      Y: 21
+      Width: 25
+      Height: 10
+    - X: 20
+      Y: 21
+      Width: 25
+      Height: 10
+    - X: 15
+      Y: 21
+      Width: 34
+      Height: 2
+    note: 

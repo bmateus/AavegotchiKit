@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0035 - Aave Boat
+  m_EditorClassIdentifier: 
+  data:
+    id: 35
+    name: Aave Boat
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 00000000faffffff00000000000000000000000000000000
+    slotPositions: 00000000000001000000000000000000
+    allowedCollaterals: []
+    rarity: 50
+    minLevel: 1
+    svgs:
+    - <g fill="#00a0f5"><path d="M46 13h3v1h-3zm4 0h1v1h-1z"/><path d="M5 14h41v1H5z"/><path
+      d="M2 13h3v1H2zm-2 0h1v1H0z"/></g><path d="M54 1V0H44v1h.1v2H9.9V1h.1V0H3v1H2v1H1v8h1v1h1v1h1v1h1v1h41v-1h1v-1h1v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V1z"
+      fill="#e1dad7"/><g fill="#fff"><path d="M54 2V1H44v2h7V2zM20 7h1v1h-1zM10 1H3v1H2v1h8zm14
+      6h1v1h-1z"/><path d="M54 2v1h-3v1H2v6h1v1h1v1h1v1h41v-1h1v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V2h-2zM18
+      9h-8V8h8v1zm4 2h-1V9h-1v2h-1V7h1V6h1v1h1v4zm4 0h-1V9h-1v2h-1V7h1V6h1v1h1v4zm4-1h-1v1h-1v-1h-1V6h1v4h1V6h1v4zm4-3h-2v1h2v1h-2v1h2v1h-3V6h3v1zm10
+      2h-9V8h9v1z"/></g>
+    - <g fill="#00a0f5"><path d="M53 13h-1v1h3v-1h-2zm3 0h1v1h-1z"/><path d="M50
+      14H11v1h41v-1h-2z"/><path d="M10 13H8v1h3v-1h-1zm-4 0h1v1H6z"/></g><path d="M55
+      2V1h-1V0H42v3H18V0H3v1H0v2h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h41v-1h1v-1h1v-1h1v-1h1V2h-1z"
+      fill="#e1dad7"/><g fill="#fff"><path d="M5 2h1v1h12V1H3v1h2z"/><path d="M53
+      4H6V3H3V2H1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h1v1h41v-1h1v-1h1v-1h1V4h-2zm1-2V1H42v2h13V2h-1z"/></g><g
+      fill="#e1dad7"><path d="M46 8h-7v1h8V8h-1zM13 9h9V8h-9v1zm22-3v5h3v-1h-2V9h2V8h-2V7h2V6h-3zm-2
+      4h1V6h-1v4zm-1-4h-1v4h1V6zm-7 2h-1V7h-1v4h1V9h1v2h1V7h-1v1z"/><path d="M29
+      8h-1V7h-1v4h1V9h1v2h1V7h-1v1zm-5-2h1v1h-1z"/><path d="M28 6h1v1h-1zm4 4h1v1h-1z"/></g>
+    - <g fill="#00a0f5"><path d="M46 13h3v1h-3v-1zm4 0h1v1h-1v-1z"/><path d="M5,14h41v1H5V14z"/><path
+      d="M2 13h3v1H2v-1zm-2 0h1v1H0v-1z"/></g><path d="M54 1V0H44v1h.1v2H9.9V1h.1V0H3v1H2v1H1v8h1v1h1v1h1v1h1v1h41v-1h1v-1h1v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V1h-3z"
+      fill="#e1dad7"/><g fill="#fff"><path d="M54 2V1H44v2h7V2h3zM20 7h1v1h-1V7zM10
+      1H3v1H2v1h8V1zm14 6h1v1h-1V7z"/><path d="M54 2v1h-3v1H2v6h1v1h1v1h1v1h41v-1h1v-1h1v-1h1V9h1V8h1V7h1V6h1V5h1V4h1V3h1V2h-2zM18
+      9h-8V8h8v1zm4 2h-1V9h-1v2h-1V7h1V6h1v1h1v4zm4 0h-1V9h-1v2h-1V7h1V6h1v1h1v4zm4-1h-1v1h-1v-1h-1V6h1v4h1V6h1v4zm4-3h-2v1h2v1h-2v1h2v1h-3V6h3v1zm10
+      2h-9V8h9v1z"/></g>
+    - <g fill="#00a0f5"><path d="M28 14v1h2v-1h-2z"/><path d="M32 14v-1h-2v1h2z"/><path
+      d="M34 13v-1h-2v1h2zm1-1v1h2v-1h-2zm3 0h1v1h-1zm-27 2h-1v1h2v-1h-1z"/><path
+      d="M9 13H8v1h2v-1H9zm-4-1H3v1h2v-1z"/><path d="M1 12h1v1H1zm6 0H6v1h2v-1H7zm19
+      3H12v1h16v-1h-2zm5 0v1h2v-1h-2z"/><path d="M7 15v1h2v-1H7zm26-1v1h2v-1h-2zm3
+      0h1v1h-1zM3 14h1v1H3z"/><path d="M6 14H5v1h2v-1H6z"/></g><path d="M39 3V1h-1V0h-1v2H26V1H14v1H3V0H2v1H1v2H0v3h1v2h1v1h1v1h1v1h2v1h2v1h2v1h2v1h16v-1h2v-1h2v-1h2v-1h2v-1h1V9h1V8h1V6h1V3h-1z"
+      fill="#e1dad7"/><g fill="#fff"><path d="M15 11h1v-1h2V9h1V2h-5v2h-1v3h-1v3h-1v2h-1v1h2v1h1v-2h1v-1h1z"/><path
+      d="M11 10V7h1V4h1V3H1v3h1v2h1v1h1v1h2v1h2v1h2v-2h1zm16-7v1h1v3h1v3h1v2h2v-1h2v-1h2V9h1V8h1V6h1V3H27z"/><path
+      d="M29 11v-1h-1V7h-1V4h-1V2h-5v7h1v1h2v1h2v1h1v2h1v-1h2v-1h-1v-1z"/><path d="M24
+      11h-2v-1h-4v1h-2v1h-2v2h12v-2h-2v-1zM37 1h1v1h-1zM2 1h1v1H2z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 5
+      Y: 46
+      Width: 57
+      Height: 15
+    - X: 2
+      Y: 46
+      Width: 57
+      Height: 15
+    - X: 5
+      Y: 46
+      Width: 57
+      Height: 15
+    - X: 12
+      Y: 45
+      Width: 40
+      Height: 16
+    note: 

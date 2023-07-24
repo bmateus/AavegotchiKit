@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0137 - Vote Sign
+  m_EditorClassIdentifier: 
+  data:
+    id: 137
+    name: Vote Sign
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 00000000ffffffff00000000000000000000000000000000
+    slotPositions: 00000000010000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M16 1V0H1v1H0v7h1v1h7v14h1V9h7V8h1V1z" fill="#7d7d7d"/><path d="M15
+      1H1v7h15V1z"/><g fill="#f90"><path d="M6.3 2.3h-.9v4.5h2.7V2.3H6.3zm.9 1.8v1.8h-.9V3.2h.9v.9zm6.9-.9h.9v-.9h-2.6v4.4H15v-.9h-1.7v-.9H15v-.8h-1.7v-.9zm-4.3-.9h-.9v.9h.9v3.5h.9V3.2h.8v-.9h-.8zm-6.1.9v2.6h.9V2.3h-.9z"/><path
+      d="M2.9 5.8h.9v.9h-.9z"/><path d="M2.9 4.1V2.3H2v3.5h.9v-.9z"/></g>
+    - <path d="M0 0v23h1V0H0z" fill="#7d7d7d"/>
+    - <path d="M0 0v23h1V0H0z" fill="#7d7d7d"/>
+    - <path d="M16 1V0H1v1H0v7h1v1h7v14h1V9h7V8h1V1h-1z" fill="#7d7d7d"/><path d="M1
+      1v7h15V1H1z"/><g fill="#f90"><path d="M8.9 2.3v4.3h2.6V2.3H8.9zm1.8 3.5h-.9V3.2h.9v2.6zM2
+      2.3v.9h1.7v.9H2V5h1.7v.9H2v.9h2.6V2.5C4.2 2.3 2 2.3 2 2.3zm3.5 0v.9h.9v3.5h.9V3.2h.9v-.9H5.5zm7.8
+      0h-.9v3.5h.9V2.3z"/><path d="M13.3 5.8h.9v.9h-.9z"/><path d="M14.1 2.3v3.5h.9V2.3h-.9z"/></g>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 24
+      Width: 17
+      Height: 23
+    - X: 26
+      Y: 24
+      Width: 1
+      Height: 23
+    - X: 38
+      Y: 24
+      Width: 1
+      Height: 23
+    - X: 0
+      Y: 24
+      Width: 17
+      Height: 23
+    note: 

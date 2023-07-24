@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0228 - 10 Gallon Hat
+  m_EditorClassIdentifier: 
+  data:
+    id: 228
+    name: 10 Gallon Hat
+    description: 
+    author: xibot
+    category: 0
+    traitModifiers: 000000000000000000000000010000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 1
+    minLevel: 1
+    svgs:
+    - <path d="M44 14v2h-4V4h-2V2h-2V0H26v1h-1v1h-4V1h-1V0H10v2H8v2H6v12H2v-2H0v3h1v1h44v-1h1v-3h-2z"
+      fill="#e4c599"/><path d="M6 13v3h34v-3H6z" fill="#4b2d00"/><path d="M12 13v3h2v-3h-2zm4
+      0v3h2v-3h-2zm4 0v3h2v-3h-2zm12 0v3h2v-3h-2zm-4 0v3h2v-3h-2zM8 13v3h2v-3H8zm28
+      0v3h2v-3h-2zm-12 0v3h2v-3h-2z" fill="#a97955"/>
+    - <path d="M32 17h6v-2h2v3h-1v1H1v-1H0v-3h2v2h6V3h2V2h2V1h3V0h10v1h3v1h2v1h2v14z"
+      fill="#e4c599"/><path d="M9 14h23v3H8v-3h1z" fill="#a97955"/><path d="M9 14h1v3H8v-3h1zm21
+      0v3h-2v-3h2zm-4 0v3h-2v-3h2zm-12 0v3h-2v-3h2zm4 0v3h-2v-3h2zm4 0v3h-2v-3h2z"
+      fill="#4b2d00"/>
+    - <path d="M8 17H2v-2H0v3h1v1h38v-1h1v-3h-2v2h-6V3h-2V2h-2V1h-3V0H15v1h-3v1h-2v1H8v14z"
+      fill="#e4c599"/><path d="M31 14H8v3h24v-3h-1z" fill="#a97955"/><path d="M31
+      14h-1v3h2v-3h-1zm-21 0v3h2v-3h-2zm4 0v3h2v-3h-2zm12 0v3h2v-3h-2zm-4 0v3h2v-3h-2zm-4
+      0v3h2v-3h-2z" fill="#4b2d00"/>
+    - <path d="M44 14v2h-4V4h-2V2h-2V0H26v1h-1v1h-4V1h-1V0H10v2H8v2H6v12H2v-2H0v3h1v1h44v-1h1v-3h-2z"
+      fill="#e4c599"/><path d="M6 13v3h34v-3H6z" fill="#a97955"/><path d="M10 13v3h2v-3h-2zm8
+      0v3h2v-3h-2zm-4 0v3h2v-3h-2zm20 0v3h2v-3h-2zm-8 0v3h2v-3h-2zm4 0v3h2v-3h-2zm-8
+      0v3h2v-3h-2zM6 13v3h2v-3H6zm32 0v3h2v-3h-2z" fill="#4b2d00"/>
+    sleeves: []
+    dimensions:
+    - X: 9
+      Y: 3
+      Width: 46
+      Height: 18
+    - X: 12
+      Y: 2
+      Width: 40
+      Height: 19
+    - X: 12
+      Y: 2
+      Width: 40
+      Height: 19
+    - X: 9
+      Y: 3
+      Width: 46
+      Height: 18
+    note: 

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0029 - REKT Sign
+  m_EditorClassIdentifier: 
+  data:
+    id: 29
+    name: REKT Sign
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000000000000000000fcffffff0000000000000000
+    slotPositions: 00000000010000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M16 1V0H1v1H0v7h1v1h7v14h1V9h7V8h1V1z"/><path d="M1,1v7h15V1H1z" fill="#fff"/><path
+      d="M12 2v1h1v4h1V3h1V2zm-2 3h1v2h-1zm0-2h1v1h-1zM5 7h2V6H6V5h1V4H6V3h1V2H5z"/><path
+      d="M2 7h1V3h1V2H2zm7-5H8v5h1V5h1V4H9z"/>
+    - 29_REKTSignRight
+    - <path d="M0 0v23h1V0H0z"/>
+    - <path d="M0 1v7h1v1h7v14h1V9h7V8h1V1h-1V0H1v1z"/><path d="M1,1v7h15V1H1z" fill="#fff"/><path
+      d="M2 2v1h1v4h1V3h1V2zm4 3h1v2H6zm0-2h1v1H6zm6-1h-2v1h1v1h-1v1h1v1h-1v1h2z"/><path
+      d="M15 2h-2v1h1v4h1zM8 4H7v1h1v2h1V2H8z"/>
+    sleeves: []
+    dimensions:
+    - X: 0
+      Y: 24
+      Width: 17
+      Height: 23
+    - X: 0
+      Y: 0
+      Width: 0
+      Height: 0
+    - X: 37
+      Y: 24
+      Width: 1
+      Height: 23
+    - X: 0
+      Y: 24
+      Width: 12
+      Height: 25
+    note: 

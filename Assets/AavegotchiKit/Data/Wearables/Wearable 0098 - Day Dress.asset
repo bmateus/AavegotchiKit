@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0098 - Day Dress
+  m_EditorClassIdentifier: 
+  data:
+    id: 98
+    name: Day Dress
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 01000000fffffffffeffffff000000000000000000000000
+    slotPositions: 01000000000000000000000000000000
+    allowedCollaterals: []
+    rarity: 10
+    minLevel: 1
+    svgs:
+    - <path d="M0 0v15h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V0z" fill="#ff64ff"/><path d="M10
+      1h2v1h-2V1zm3 0h2v1h-2V1zm6 0h2v1h-2V1zm3 0h2v1h-2V1zM4 1h2v1H4V1zm3 0h2v1H7V1zM1
+      1h2v1H1V1zm27 0h2v1h-2V1zm-3 0h2v1h-2V1zm6 0h2v1h-2V1zM16 1h2v1h-2V1zm-3 12h1v-2h1V3h-2v10zM10
+      3h2v10h-2V3zM7 3h2v8H7V3zM1 3h2v10H1V3zm27 0h2v8h-2V3zm-3 0h2v8h-2V3zm-3 0h2v10h-2V3zm-3
+      8h1v2h1V3h-2v8zm12-8h2v10h-2V3zM4 3h2v8H4V3zm12 0h2v8h-2V3z" fill="#ffb9ff"/>
+    - <path d="M20 40v15h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V40H20z" fill="#ff64ff"/><path
+      d="M31 41v1h2v-1h-2zm3 12h1V43h-1v10zm-3-10v8h2v-8h-2zm3-2h1v1h-1zm-11 0v1h2v-1h-2zm6
+      0h1v1h-1zm-8 0h1v1h-1zm18 0v1h2v-1h-2zm-3 0v1h2v-1h-2zm6 0h1v1h-1zm-16 0v1h2v-1h-2zm-3
+      2v8h2v-8h-2zm-2 10h1V43h-1v10zm15-10v10h2V43h-2zm-7 10h1V43h-1v10zm13 0h1V43h-1v10zm-3-10v8h2v-8h-2zm-13
+      0v10h2V43h-2z" fill="#ffb9ff"/>
+    - <path d="M20 40v15h3v-2h3v2h4v-2h4v2h4v-2h3v2h3V40H20z" fill="#ff64ff"/><path
+      d="M31 41v1h2v-1h-2zm3 12h1V43h-1v10zm-3-10v8h2v-8h-2zm3-2h1v1h-1zm-11 0v1h2v-1h-2zm6
+      0h1v1h-1zm-8 0h1v1h-1zm18 0v1h2v-1h-2zm-3 0v1h2v-1h-2zm6 0h1v1h-1zm-16 0v1h2v-1h-2zm-3
+      2v8h2v-8h-2zm-2 10h1V43h-1v10zm15-10v10h2V43h-2zm-7 10h1V43h-1v10zm13 0h1V43h-1v10zm-3-10v8h2v-8h-2zm-13
+      0v10h2V43h-2z" fill="#ffb9ff"/>
+    - <path d="M15 40v15h4v-2h5v2h5v-2h6v2h5v-2h5v2h4V40z" fill="#ff64ff"/><path
+      d="M25 41h2v1h-2v-1zm3 0h2v1h-2v-1zm6 0h2v1h-2v-1zm3 0h2v1h-2v-1zm-18 0h2v1h-2v-1zm3
+      0h2v1h-2v-1zm-6 0h2v1h-2v-1zm27 0h2v1h-2v-1zm-3 0h2v1h-2v-1zm6 0h2v1h-2v-1zm-15
+      0h2v1h-2v-1zm-3 12h1v-2h1v-8h-2v10zm-3-10h2v10h-2V43zm-3 0h2v8h-2v-8zm-6 0h2v10h-2V43zm27
+      0h2v8h-2v-8zm-3 0h2v8h-2v-8zm-3 0h2v10h-2V43zm-3 8h1v2h1V43h-2v8zm12-8h2v10h-2V43zm-27
+      0h2v8h-2v-8zm12 0h2v8h-2v-8z" fill="#ffb9ff"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 40
+      Width: 34
+      Height: 15
+    - X: 0
+      Y: 0
+      Width: 24
+      Height: 15
+    - X: 0
+      Y: 0
+      Width: 24
+      Height: 15
+    - X: 0
+      Y: 0
+      Width: 34
+      Height: 15
+    note: 

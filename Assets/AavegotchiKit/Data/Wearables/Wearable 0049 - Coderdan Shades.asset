@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0049 - Coderdan Shades
+  m_EditorClassIdentifier: 
+  data:
+    id: 49
+    name: Coderdan Shades
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 000000000500000000000000000000000000000000000000
+    slotPositions: 00000100000000000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M31 5V3h-1V2h-1V1h-1V0h-6v1h-1v1h-1v1h-1v2h-4V3h-1V2h-1V1h-1V0H6v1H5v1H4v1H3v2H0v2h3v2h1v1h1v1h1v1h6v-1h1v-1h1V9h1V7h4v2h1v1h1v1h1v1h6v-1h1v-1h1V9h1V7h3V5z"
+      fill="red"/><path d="M13 2h-1V1H6v1H5v1H4v6h1v1h1v1h6v-1h1V9h1V3h-1V2zm16 0h-1V1h-6v1h-1v1h-1v6h1v1h1v1h6v-1h1V9h1V3h-1V2z"/><path
+      d="M8,2v1H7v1H6v2h3V2H8z" fill="#7d7d7d"/><path d="M9,6v4h1V9h1V8h1V6H9z" fill="#282828"/><g
+      fill="#464646"><path d="M6,6v2h1v1h1v1h1V6H6z"/><path d="M11,4V3h-1V2H9v4h3V4H11z"/></g><g
+      fill="#646464"><path d="M26.5 4.6h1v1h-1v-1zm0 2h1v1h-1v-1z"/><path d="M24.5
+      5.6v-1h2v-1h-1v-1h-1v1h-2v1h1v3h-1v1h2v1h1v-1h1v-1h-2v-1h2v-1h-2z"/></g>
+    - <path d="M25 7V5H7V3H6h0V2H5V1H4h0V0H0v12h4v-1h1v-1h1V9h1V7h18z" fill="red"/><path
+      d="M6 9V3H5V2H4h0V1H0v10h4v-1h1V9h1z"/><g fill="#646464"><path d="M1,3.6v-1H0v2h2v-1H1z"/><path
+      d="M2 4.6h1v1H2v-1zm0 2h1v1H2v-1z"/><path d="M0 7.6v2h1v-1h1v-1H0zm0-2h2v1H0v-1z"/></g>
+    - <path d="M18 7v2h1v1h1v1h1v1h4V0h-4v1h0-1v1h-1v1h0-1v2H0v2h18z" fill="red"/><path
+      d="M19 9V3h1V2h1 0V1h4v10h-4v-1h-1V9h-1z"/><path d="M21,6v2h1v1h1v1h1V6H21z"
+      fill="#464646"/><path d="M23,2v1h-1v1h-1v2h3V2H23z" fill="#7d7d7d"/><path d="M24,6h1v4h-1V6z"
+      fill="#282828"/><path d="M24,2h1v4h-1V2z" fill="#464646"/>
+    - <path d="M32 0h2v2h-2V0zM0 0h2v2H0V0z" fill="red"/>
+    sleeves: []
+    dimensions:
+    - X: 15
+      Y: 19
+      Width: 34
+      Height: 12
+    - X: 19
+      Y: 19
+      Width: 25
+      Height: 12
+    - X: 20
+      Y: 19
+      Width: 25
+      Height: 12
+    - X: 15
+      Y: 24
+      Width: 34
+      Height: 2
+    note: 

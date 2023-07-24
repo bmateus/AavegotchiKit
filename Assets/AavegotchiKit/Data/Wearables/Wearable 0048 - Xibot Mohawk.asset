@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 067b9d57a3452c14a9d76c363b8f8482, type: 3}
+  m_Name: Wearable 0048 - Xibot Mohawk
+  m_EditorClassIdentifier: 
+  data:
+    id: 48
+    name: Xibot Mohawk
+    description: 
+    author: Xibot
+    category: 0
+    traitModifiers: 050000000000000000000000000000000000000000000000
+    slotPositions: 00000001000000000000000000000000
+    allowedCollaterals: []
+    rarity: 20
+    minLevel: 1
+    svgs:
+    - <path d="M6,6h4v13H6V6z" fill="#0f0"/><path d="M5,3h3v18H5V3z" fill="#ff0"/><path
+      d="M5,3h2v18H5V3z" fill="#ffc800"/><path d="M0,19h4V6H0V19z" fill="#0ff"/><path
+      d="M0,19h1V6H0V19z" fill="#007dff"/><path d="M4,0h2v22H4V0z" fill="#f0f"/><path
+      d="M2,3h3v18H2V3z" fill="#7d00ff"/><path d="M8,6h1v13H8V6z" fill="#009600"/><path
+      d="M4,0h1v22H4V0z" fill="#7d0064"/><path d="M2,3h1v18H2V3z" fill="#32007d"/>
+    - <path d="M2,8v2h2v7H2v2H0V8H2z" fill="#0f0"/><path d="M3 10h1v7H3v-7zM1 8h1v11H1V8z"
+      fill="#009600"/><path d="M6,4v2h3v9H4V4H6z" fill="#ff0"/><path d="M5 4h1v11H5V4zm2
+      2h1v9H7V6z" fill="#ffc800"/><path d="M22 10V8h2v11h-2v-2h-2v-7h2z" fill="#0ff"/><path
+      d="M22 10h-1v7h1v-7zm2-2h-1v11h1V8z" fill="#007dff"/><path d="M18 6V4h2v11h-5V6h3z"
+      fill="#32007d"/><path d="M16 6h1v9h-1V6zm2-2h1v11h-1V4z" fill="#7d00ff"/><path
+      d="M10 4V2h1V0h2v2h1v2h1v9H9V4h1z" fill="#f0f"/><path d="M12 0h1v13h-1V0zm2
+      4h1v9h-1V4zm-4-2h1v11h-1V2z" fill="#7d0064"/>
+    - <path d="M22,8v2h-2v7h2v2h2V8H22z" fill="#0f0"/><path d="M20 10h1v7h-1v-7zm2-2h1v11h-1V8z"
+      fill="#009600"/><path d="M18,4v2h-3v9h5V4H18z" fill="#ff0"/><path d="M18 4h1v11h-1V4zm-2
+      2h1v9h-1V6z" fill="#ffc800"/><path d="M2,10V8H0v11h2v-2h2v-7H2z" fill="#0ff"/><path
+      d="M2 17h1v-7H2v7zm-2 2h1V8H0v11z" fill="#007dff"/><path d="M6,6V4H4v11h5V6H6z"
+      fill="#32007d"/><path d="M7 6h1v9H7V6zM5 4h1v11H5V4z" fill="#7d00ff"/><path
+      d="M14,4V2h-1V0h-2v2h-1v2H9v9h6V4H14z" fill="#f0f"/><path d="M11 0h1v13h-1V0zM9
+      4h1v9H9V4zm4-2h1v11h-1V2z" fill="#7d0064"/>
+    - <path d="M4,19H0V6h4V19z" fill="#0f0"/><path d="M5,21H2V3h3V21z" fill="#ff0"/><path
+      d="M5,21H3V3h2V21z" fill="#ffc800"/><path d="M10,6H6v13h4V6z" fill="#0ff"/><path
+      d="M10,6H9v13h1V6z" fill="#007dff"/><path d="M6,22H4V0h2V22z" fill="#f0f"/><path
+      d="M8,21H5V3h3V21z" fill="#7d00ff"/><path d="M2,19H1V6h1V19z" fill="#009600"/><path
+      d="M6,22H5V0h1V22z" fill="#7d0064"/><path d="M8,21H7V3h1V21z" fill="#32007d"/>
+    sleeves: []
+    dimensions:
+    - X: 27
+      Y: 0
+      Width: 10
+      Height: 22
+    - X: 20
+      Y: 0
+      Width: 24
+      Height: 19
+    - X: 20
+      Y: 0
+      Width: 24
+      Height: 19
+    - X: 27
+      Y: 0
+      Width: 10
+      Height: 22
+    note: 
