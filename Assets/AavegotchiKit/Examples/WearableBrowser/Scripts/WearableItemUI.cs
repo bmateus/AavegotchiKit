@@ -1,6 +1,5 @@
 using System;
 using TMPro;
-using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +7,9 @@ namespace PortalDefender.AavegotchiKit.WearableBrowser
 {
     public class WearableItemUI : MonoBehaviour
     {
+        [SerializeField]
+        Image bgImage_;
+
         [SerializeField]
         WearableItemIconUI icon;
 
@@ -24,6 +26,11 @@ namespace PortalDefender.AavegotchiKit.WearableBrowser
             Data = wearable;
 
             icon.Init(wearable);
+
+            if (wearable.HasSleeves)
+            {
+                bgImage_.color = Color.yellow;
+            }
             
             label.text = $"{wearable.id}";
             button.onClick.AddListener(() => {

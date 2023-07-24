@@ -170,7 +170,7 @@ RectTransform:
   - {fileID: 6689441712751357108}
   - {fileID: 7212659890412932408}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -271,6 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 504c9685160d6b1408008019b7954040, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgImage_: {fileID: 4970845007277197792}
   icon: {fileID: 5818677329465410786}
   button: {fileID: 3932022842234527282}
   label: {fileID: 5014531938324323133}
@@ -279,6 +280,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5954901393209935706}
     m_Modifications:
     - target: {fileID: 2950494747227866559, guid: 3ca8f25950888d44a9cfb5989f45c3e3, type: 3}
@@ -370,6 +372,9 @@ PrefabInstance:
       value: WearableItemIcon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca8f25950888d44a9cfb5989f45c3e3, type: 3}
 --- !u!114 &5818677329465410786 stripped
 MonoBehaviour:
