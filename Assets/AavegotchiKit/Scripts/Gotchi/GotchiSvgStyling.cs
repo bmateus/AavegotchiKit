@@ -1,6 +1,6 @@
 using System.Xml;
 
-namespace PortalDefender.AavegotchiKit.Examples
+namespace PortalDefender.AavegotchiKit
 {
     // This is how the SVG's are styled in the minigame template
     // See: https://github.com/aavegotchi/aavegotchi-minigame-template/blob/main/app/src/helpers/aavegotchi/index.ts
