@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using Unity.VectorGraphics;
 using UnityEngine;
-using static UnityEditor.Graphs.EdgeGUI;
 
 public class SvgLoader
 {

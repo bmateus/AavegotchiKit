@@ -141,7 +141,9 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 var gotchiData = await GraphManager.Instance.GetGotchi(currentGotchi.ToString(), cts.Token);
-                if (gotchiData != null && gotchiData.id > 0)
+                if (gotchiData != null 
+                    && gotchiData.id > 0
+                    && gotchiData.collateral != null)
                 {
                     gotchi.gameObject.SetActive(true);
                     gotchi.Init(gotchiData);
