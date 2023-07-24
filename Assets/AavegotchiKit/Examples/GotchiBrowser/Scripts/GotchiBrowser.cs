@@ -24,6 +24,9 @@ namespace PortalDefender.AavegotchiKit.Examples
         Button turnButton;
 
         [SerializeField]
+        Button randomButton;
+
+        [SerializeField]
         TMP_InputField idField;
 
         [SerializeField]
@@ -39,18 +42,22 @@ namespace PortalDefender.AavegotchiKit.Examples
         TMP_Dropdown handposeDropdown;
 
         [SerializeField]
+        GameObject placeholder;
+
+        [SerializeField]
         int currentGotchi;
 
         int facing = 0;
 
         private void Start()
         {
+            placeholder.SetActive(false);
+
             nextButton.onClick.AddListener(setNext);
             prevButton.onClick.AddListener(setPrev);
             turnButton.onClick.AddListener(turn);
-            loadGotchi().Forget();
-
-            idField.text = $"{currentGotchi}";
+            randomButton.onClick.AddListener(pickRandom);
+            
             idField.onEndEdit.AddListener((val) =>
             {
                 if (int.TryParse(val, out currentGotchi))
@@ -76,6 +83,8 @@ namespace PortalDefender.AavegotchiKit.Examples
             mouthExpressionDropdown.onValueChanged.AddListener(v => {
                 gotchi.State.MouthExpression = (GotchiMouthExpression)v;
             });
+
+            pickRandom();
         }
 
         void setNext()
@@ -98,8 +107,6 @@ namespace PortalDefender.AavegotchiKit.Examples
             loadGotchi().Forget();
         }
 
-
-
         void turn()
         {
             facing = (facing + 1) % 4;
@@ -110,6 +117,13 @@ namespace PortalDefender.AavegotchiKit.Examples
                 case 2: gotchi.State.Facing = GotchiFacing.BACK; break;
                 case 3: gotchi.State.Facing = GotchiFacing.RIGHT; break;
             }   
+        }
+
+        void pickRandom()
+        {
+            currentGotchi = UnityEngine.Random.Range(1, 25000);
+            idField.text = $"{currentGotchi}";
+            loadGotchi().Forget();
         }
 
 
@@ -127,7 +141,7 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 var gotchiData = await GraphManager.Instance.GetGotchi(currentGotchi.ToString(), cts.Token);
-                if (gotchiData != null && gotchiData.collateral != null)
+                if (gotchiData != null && gotchiData.id > 0)
                 {
                     gotchi.gameObject.SetActive(true);
                     gotchi.Init(gotchiData);
@@ -136,11 +150,15 @@ namespace PortalDefender.AavegotchiKit.Examples
                     handposeDropdown.value = (int)gotchi.State.HandPose;
                     eyeExpressionDropdown.value = (int)gotchi.State.EyeExpression;
                     mouthExpressionDropdown.value = (int)gotchi.State.MouthExpression;
+
+                    placeholder.SetActive(false);
                 }
                 else
                 {
                     Debug.Log("Invalid Gotchi Id");
+                    nameLabel.text = "";
                     gotchi.gameObject.SetActive(false);
+                    placeholder.SetActive(true);
                 }
             }
             catch (OperationCanceledException ocex)
