@@ -1,12 +1,9 @@
-using Aavegotchi.AavegotchiDiamond.ContractDefinition;
 using Aavegotchi.AavegotchiDiamond.Service;
 using Cysharp.Threading.Tasks;
-using Nethereum.Hex.HexTypes;
-using Nethereum.RPC.Eth.DTOs;
 using Nethereum.Unity.Rpc;
 using Nethereum.Web3;
+using PortalDefender.AavegotchiKit.GraphQL;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
@@ -76,11 +73,11 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
             }
 
             Debug.Log("Loading account for: " + selectedAddress_);
-            var user = await GraphManager.Instance.GetUser(selectedAddress_);
+            var user = await GraphManager.Instance.GetUserAccount(selectedAddress_);
             Debug.Log("Account has " + user.gotchisOwned.Length + " gotchis");
             foreach (var ownedGotchi in user.gotchisOwned)
             {
-                var gotchiData = await GraphManager.Instance.GetGotchi(ownedGotchi.id.ToString());
+                var gotchiData = await GraphManager.Instance.GetGotchiData(ownedGotchi.id.ToString());
                 Debug.Log("Found gotchi:" + gotchiData);
 
                 var ui = Instantiate(ownedGotchEntryUiPrefab_, contentRoot_);
@@ -121,7 +118,7 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 
         public void PetGotchis()
         {
-            //turn on spinner to prevent further interactions until this is complete
+            //turn on a spinner to prevent further interactions until this is complete
             _PetGotchis().Forget(); 
         }
 

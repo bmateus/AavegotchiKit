@@ -23,7 +23,7 @@ namespace PortalDefender.AavegotchiKit
         public EyeShape[] eyeShapes;
     }
 
-    [CreateAssetMenu(fileName = "EyeShapesDB", menuName = "Aavegotchi/EyeShapesDB")]
+    [CreateAssetMenu(fileName = "EyeShapesDB", menuName = "AavegotchiKit/DB/EyeShapesDB")]
     public class EyeShapesDB : ScriptableObject
     {
         [SerializeField]
@@ -31,9 +31,18 @@ namespace PortalDefender.AavegotchiKit
 
         public EyeShape[] eyeShapes;
 
-        public Sprite GetEyeShapeSprite(int shapeIndex, Color eyeColor, Collateral collateral, GotchiFacing facing)
+        public Sprite GetEyeShapeSprite(int shapeIndex, int hauntId, Color eyeColor, Collateral collateral, GotchiFacing facing)
         {
+            if (collateral == null)
+                return null;
+
+            if (hauntId == 2)
+            {
+                shapeIndex += 17;
+            }
+
             var eyeShape = eyeShapes[shapeIndex];
+
 
             var sprite = SvgLoader.GetSvgLayerSprite($"eyes-{shapeIndex}-{facing}",
                 eyeShape.svgs[(int)facing],

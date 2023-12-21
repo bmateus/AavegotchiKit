@@ -2,6 +2,7 @@
 
 namespace PortalDefender.AavegotchiKit
 {
+    [System.Serializable]
     public class GotchiState : INotifyPropertyChanged
     {
         GotchiFacing _facing;

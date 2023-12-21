@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using PortalDefender.AavegotchiKit.GraphQL;
 using System;
 using System.Collections.Generic;
 using System.Threading;
@@ -48,6 +49,15 @@ namespace PortalDefender.AavegotchiKit.Examples
         int currentGotchi;
 
         int facing = 0;
+
+        private void OnDestroy()
+        {
+            //if loading, cancel it
+            if (cts != null)
+            {
+                cts.Cancel();
+            }
+        }
 
         private void Start()
         {
@@ -140,10 +150,14 @@ namespace PortalDefender.AavegotchiKit.Examples
 
             try
             {
-                var gotchiData = await GraphManager.Instance.GetGotchi(currentGotchi.ToString(), cts.Token);
+                var gotchiData = await GraphManager.Instance.GetGotchiData(currentGotchi.ToString(), cts.Token);
+
+                //check if gotchi is valid
+
                 if (gotchiData != null 
                     && gotchiData.id > 0
-                    && gotchiData.collateral != null)
+                    && gotchiData.collateral != null
+                    && gotchiData.collateral != "0x0000000000000000000000000000000000000000")
                 {
                     gotchi.gameObject.SetActive(true);
                     gotchi.Init(gotchiData);
@@ -163,9 +177,9 @@ namespace PortalDefender.AavegotchiKit.Examples
                     placeholder.SetActive(true);
                 }
             }
-            catch (OperationCanceledException ocex)
+            catch (OperationCanceledException /*ocex*/)
             {
-                Debug.LogException(ocex);
+                //Debug.LogException(ocex);
             }
             catch (Exception ex)
             {

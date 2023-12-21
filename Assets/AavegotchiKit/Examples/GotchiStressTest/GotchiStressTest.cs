@@ -1,4 +1,5 @@
 using Cysharp.Threading.Tasks;
+using PortalDefender.AavegotchiKit.GraphQL;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -58,7 +59,7 @@ namespace PortalDefender.AavegotchiKit.Examples.StressTest
             currentGotchiId++;
             Debug.Log("Loading Gotchi " + currentGotchiId);
 
-            var gotchiData = await GraphManager.Instance.GetGotchi(currentGotchiId.ToString());
+            var gotchiData = await GraphManager.Instance.GetGotchiData(currentGotchiId.ToString());
 
             //spawn gotchi in a random position within bounds of spawnArea
             if (gotchiData != null 

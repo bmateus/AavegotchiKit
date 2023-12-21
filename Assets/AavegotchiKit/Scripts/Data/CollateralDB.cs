@@ -13,7 +13,7 @@ namespace PortalDefender.AavegotchiKit
         public Collateral[] collaterals;
     }
 
-    [CreateAssetMenu(fileName = "CollateralDB", menuName = "Aavegotchi/CollateralDB")]
+    [CreateAssetMenu(fileName = "CollateralDB", menuName = "AavegotchiKit/DB/CollateralDB")]
     public class CollateralDB : ScriptableObject
     {
         [SerializeField]

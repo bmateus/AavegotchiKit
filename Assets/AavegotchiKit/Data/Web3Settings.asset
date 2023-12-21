@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 961c6d19db4447a43b0b7fb6071910b2, type: 3}
+  m_Name: Web3Settings
+  m_EditorClassIdentifier: 
+  gotchiDiamondAddress: 0x86935F11C86623deC8a25696E1C19a8659CbF95d
+  rpcUrl: https://rpc-mainnet.matic.quiknode.pro

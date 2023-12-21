@@ -38,7 +38,7 @@ namespace PortalDefender.AavegotchiKit.Utils
 
         public static bool IsInitialized => instance_ != null;
         
-        private void Awake()
+        public virtual void Awake()
         {
             if (instance_ == null)
             {

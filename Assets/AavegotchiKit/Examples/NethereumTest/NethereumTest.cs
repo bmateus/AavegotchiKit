@@ -1,8 +1,6 @@
 using Aavegotchi.AavegotchiDiamond.ContractDefinition;
-using Aavegotchi.AavegotchiDiamond.Service;
 using Cysharp.Threading.Tasks;
-using Nethereum.Unity.Rpc;
-using Nethereum.Web3;
+using PortalDefender.AavegotchiKit.Blockchain;
 using System;
 using System.Linq;
 using System.Text;
@@ -32,13 +30,13 @@ namespace PortalDefender.AavegotchiKit.Examples
         [SerializeField]
         TMP_InputField itemId;
 
-        private Web3 web3_ = null;
+        //private Web3 web3_ = null;
 
-        Web3 web3 => web3_ ??= new Web3(new UnityWebRequestRpcTaskClient(new Uri(Constants.DefaultPolygonRPC)));
+        //Web3 web3 => web3_ ??= new Web3(new UnityWebRequestRpcTaskClient(new Uri(Constants.DefaultPolygonRPC)));
 
-        private AavegotchiDiamondService svc_ = null;
+        //private AavegotchiDiamondService svc_ = null;
 
-        AavegotchiDiamondService svc => svc_ ??= new AavegotchiDiamondService(web3, Constants.AavegotchiDiamondAddress);
+        //AavegotchiDiamondService svc => svc_ ??= new AavegotchiDiamondService(web3, Constants.AavegotchiDiamondAddress);
 
         GotchiSvgStyling styling_;
 
@@ -82,7 +80,7 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 ClearImages();
-                var svg = await svc.GetAavegotchiSvgQueryAsync(getAavegotchiSvg);
+                var svg = await Web3Provider.Instance.GotchiDiamondService.GetAavegotchiSvgQueryAsync(getAavegotchiSvg);
                 //Debug.Log("Got SVG: " + svg);                 
                 svg = styling_.CustomizeSVG(svg);
                 var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
@@ -113,7 +111,7 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 ClearImages();
-                var svg = await svc.PreviewAavegotchiQueryAsync(previewAavegotchi);
+                var svg = await Web3Provider.Instance.GotchiDiamondService.PreviewAavegotchiQueryAsync(previewAavegotchi);
                 //Debug.Log("Got SVG: " + svg);
                 svg = styling_.CustomizeSVG(svg);
                 var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
@@ -147,10 +145,11 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 ClearImages();
-                var svgs = await svc.GetAavegotchiSideSvgsQueryAsync(getAavegotchiSideSvgs);
+                var svgs = await Web3Provider.Instance.GotchiDiamondService.GetAavegotchiSideSvgsQueryAsync(getAavegotchiSideSvgs);
                 for (int i = 0; i < svgs.Count; i++)
                 {
                     var svg = svgs[i];
+                    Debug.Log("Got SVG: " + svg);  
                     svg = styling_.CustomizeSVG(svg);
                     var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                     images[i].sprite = sprite;
@@ -182,10 +181,11 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 ClearImages();
-                var svgs = await svc.PreviewSideAavegotchiQueryAsync(previewAavegotchi);
+                var svgs = await Web3Provider.Instance.GotchiDiamondService.PreviewSideAavegotchiQueryAsync(previewAavegotchi);
                 for (int i = 0; i < svgs.Count; i++)
                 {
                     var svg = svgs[i];
+                    Debug.Log("Got SVG: " + svg);
                     svg = styling_.CustomizeSVG(svg);
                     var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                     images[i].sprite = sprite;
@@ -211,7 +211,7 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 ClearImages();
-                var svg = await svc.GetSvgQueryAsync(getSvg);
+                var svg = await Web3Provider.Instance.GotchiDiamondService.GetSvgQueryAsync(getSvg);
                 Debug.Log("Got SVG: " + svg);
                 var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                 images[0].sprite = sprite;
@@ -236,7 +236,7 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 ClearImages();
-                var svg = await svc.GetItemSvgQueryAsync(getItemSvg);
+                var svg = await Web3Provider.Instance.GotchiDiamondService.GetItemSvgQueryAsync(getItemSvg);
                 Debug.Log("Got SVG: " + svg);
                 var sprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                 images[0].sprite = sprite;
@@ -260,7 +260,7 @@ namespace PortalDefender.AavegotchiKit.Examples
             try
             {
                 ClearImages();
-                var svgs = await svc.GetItemSvgsQueryAsync(getItemSvgs);
+                var svgs = await Web3Provider.Instance.GotchiDiamondService.GetItemSvgsQueryAsync(getItemSvgs);
                 for (int i = 0; i < svgs.Count; i++)
                 {
                     var svg = svgs[i];

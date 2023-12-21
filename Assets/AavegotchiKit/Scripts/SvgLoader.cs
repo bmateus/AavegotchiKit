@@ -7,11 +7,12 @@ using UnityEngine;
 
 public class SvgLoader
 {
+    // this will get cleared when there is a domain reload
     static Dictionary<string, Sprite> _cached = new Dictionary<string, Sprite>();
 
     public struct Options
     {
-        public int id;
+        public int id; //might need the id for hacks to specific wearables
 
         public Color primary;
         public Color secondary;
@@ -57,7 +58,7 @@ public class SvgLoader
         return sprite;
     }
 
-    static string CreateStyle(SvgLoader.Options options)
+    public static string CreateStyle(SvgLoader.Options options)
     {
         //note:
         // - in SvgFacet, a gotchi has closed hands if they dont have anything equipped in the
@@ -126,7 +127,7 @@ public class SvgLoader
     }
 
     //The Unity VectorGraphics package has issues handling multiple layers in an SVG
-
+    //TODO: I fixed this so this is no longer required
     public static Sprite GetSvgLayerSprite(string name, string layerData, SvgLoader.Options options)
     {
         var cachedName = $"{name}-0x{options.GetHashCode():X}";
@@ -236,4 +237,88 @@ public class SvgLoader
 
         return null;
     }
+
+
+    public static Tuple<Mesh, Texture2D> CreateSvgMesh(string data, Vector2 customPivot, bool preserveViewport = true)
+    {
+        if (string.IsNullOrEmpty(data))
+            return null;
+
+        try
+        {
+            Tuple<Mesh, Texture2D> result = null;
+
+            ViewportOptions viewportOptions = ViewportOptions.PreserveViewport;
+            if (!preserveViewport)
+            {
+                viewportOptions = ViewportOptions.DontPreserve;
+            }
+
+            //float dpi = 0f;
+            //float pixelsPerUnit = 1.0f;
+            //int windowWidth = 0;
+            //int windowHeight = 0;
+
+            /*
+            float stepDistance = 100.0f;
+            float samplingStepSize = 0.01f;
+            float maxCoordDeviation = 0.5f; //0.01
+            float maxTanAngleDeviation = 0.1f;
+            */
+
+            float stepDistance = 10.0f;
+            float samplingStepSize = 100.0f;
+            float maxCoordDeviation = float.MaxValue;
+            float maxTanAngleDeviation = Mathf.PI * 0.5f;
+
+            float svgPixelsPerUnit = 64f;
+
+            VectorUtils.Alignment alignment = VectorUtils.Alignment.Center;
+
+            if (customPivot != Vector2.zero)
+                alignment = VectorUtils.Alignment.Custom;
+
+            //Vector2 customPivot = Vector2.zero;
+
+            ushort gradientResolution = 256;
+            bool flipYAxis = true;
+
+            var windowWidth = 1;
+            var windowHeight = 1;
+            var sceneInfo = SVGParser.ImportSVG(new StringReader(data), viewportOptions, 0, 1, windowWidth, windowHeight);
+
+            if (sceneInfo.Scene == null || sceneInfo.Scene.Root == null)
+                throw new Exception("Wowzers!");
+
+
+            var tessOptions = new VectorUtils.TessellationOptions()
+            {
+                StepDistance = stepDistance,
+                SamplingStepSize = samplingStepSize,
+                MaxCordDeviation = maxCoordDeviation,
+                MaxTanAngleDeviation = maxTanAngleDeviation,
+            };
+
+            var geoms = VectorUtils.TessellateScene(sceneInfo.Scene, tessOptions, sceneInfo.NodeOpacity);
+
+            if (geoms.Count == 0)
+            {
+                //Debug.Log("No Geoms?");
+                //Unity doesn't like making sprites with no geometry
+                return null;
+            }
+
+            return VectorUtils.BuildMesh(geoms, sceneInfo.SceneViewport,
+                    alignment, customPivot, gradientResolution, flipYAxis);
+
+
+        }
+        catch (Exception e)
+        {
+            Debug.LogException(e);
+        }
+
+        return null;
+    }
+
 }

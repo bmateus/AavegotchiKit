@@ -30,7 +30,7 @@ namespace PortalDefender.AavegotchiKit
             return basePartsDB.GetMouthSprite(collateral, expression);
         }
 
-        public Sprite GetEyeSprite(int eyeShapeTrait, int eyeColorTrait, Collateral collateral, GotchiFacing facing)
+        public Sprite GetEyeSprite(int eyeShapeTrait, int eyeColorTrait, Collateral collateral, int hauntId, GotchiFacing facing)
         {
             if (facing == GotchiFacing.BACK)
                 return null;
@@ -41,7 +41,7 @@ namespace PortalDefender.AavegotchiKit
 
             if (eyeShapeTrait < 0)
             {
-                eyeSprite = eyeShapesDB.GetEyeShapeSprite(0, eyeColor, collateral, facing);
+                eyeSprite = eyeShapesDB.GetEyeShapeSprite(0, hauntId, eyeColor, collateral, facing);
             }
             else if (eyeShapeTrait > 97)
             {
@@ -50,15 +50,15 @@ namespace PortalDefender.AavegotchiKit
             else
             {
                 int eyeShapeId = GotchiEyes.GetEyeShapeId(eyeShapeTrait);
-                eyeSprite = eyeShapesDB.GetEyeShapeSprite(eyeShapeId, eyeColor, collateral, facing);
+                eyeSprite = eyeShapesDB.GetEyeShapeSprite(eyeShapeId, hauntId, eyeColor, collateral, facing);
             }
             return eyeSprite;
         }
 
-        public Sprite GetSpecialEyesSprite(int eyeShapeTrait, int eyeColorTrait, Collateral collateral, GotchiFacing facing, GotchiEyeExpression expression = GotchiEyeExpression.NONE)
+        public Sprite GetSpecialEyesSprite(int eyeShapeTrait, int eyeColorTrait, Collateral collateral, int hauntId, GotchiFacing facing, GotchiEyeExpression expression = GotchiEyeExpression.NONE)
         {
             if (expression == GotchiEyeExpression.NONE || facing != GotchiFacing.FRONT)
-                return GetEyeSprite(eyeShapeTrait, eyeColorTrait, collateral, facing);
+                return GetEyeSprite(eyeShapeTrait, eyeColorTrait, collateral, hauntId, facing);
 
             return basePartsDB.GetSpecialEyes(collateral, expression);
         }

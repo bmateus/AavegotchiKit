@@ -10,7 +10,6 @@ namespace PortalDefender.AavegotchiKit
         GotchiData data;
         public GotchiData Data => data;
 
-
         GotchiState state;
 
         public GotchiState State => state;

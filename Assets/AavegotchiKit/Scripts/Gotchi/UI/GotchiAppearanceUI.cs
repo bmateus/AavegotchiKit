@@ -158,6 +158,7 @@ namespace PortalDefender.AavegotchiKit
                 gotchi.Data.GetTraitValue(GotchiTrait.EyeShape),
                 gotchi.Data.GetTraitValue(GotchiTrait.EyeColor),
                 collateralData, 
+                gotchi.Data.hauntId,
                 Facing,
                 EyeExpression);
             collateral.sprite = collateralData.GetCollateralSprite(Facing);

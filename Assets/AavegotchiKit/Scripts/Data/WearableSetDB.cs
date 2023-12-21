@@ -22,7 +22,7 @@ namespace PortalDefender.AavegotchiKit
         public WearableSet[] wearableSets;
     }
 
-    [CreateAssetMenu(fileName = "WearableSetDB", menuName = "Aavegotchi/WearableSetDB")]
+    [CreateAssetMenu(fileName = "WearableSetDB", menuName = "AavegotchiKit/DB/WearableSetDB")]
     public class WearableSetDB : ScriptableObject
     {
 

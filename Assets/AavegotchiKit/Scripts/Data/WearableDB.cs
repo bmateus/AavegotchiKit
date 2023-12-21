@@ -15,14 +15,14 @@ namespace PortalDefender.AavegotchiKit
         public Wearable[] wearables;
     }
 
-    [CreateAssetMenu(fileName ="WearableDB", menuName = "Aavegotchi/WearableDB")]
+    [CreateAssetMenu(fileName ="WearableDB", menuName = "AavegotchiKit/DB/WearableDB")]
     public class WearableDB : ScriptableObject
     {
         public WearableScriptableObject[] wearables;
 
 #if UNITY_EDITOR
 
-        [ContextMenu("Refresh Wearables")]
+        [ContextMenu("Refresh Existing Wearables")]
         public async UniTask RefreshAll()
         {
             for(int i=0; i < wearables.Length; i++)
@@ -55,6 +55,10 @@ namespace PortalDefender.AavegotchiKit
             EditorUtility.SetDirty(this);
             AssetDatabase.SaveAssets();
         }
+
+        
+        //TODO: still need a way to create new wearables when they are added to the blockchain
+
 
 #endif
 

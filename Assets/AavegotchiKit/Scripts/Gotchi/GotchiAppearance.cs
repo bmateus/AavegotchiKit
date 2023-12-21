@@ -155,12 +155,16 @@ namespace PortalDefender.AavegotchiKit
         {
             var collateralData = GotchiDataProvider.Instance.GetCollateral(gotchi.Data.collateral);
 
+            if (collateralData == null)
+                return;
+
             body.sprite = GotchiDataProvider.Instance.GetBodySprite(collateralData, Facing);
             hands.sprite = GotchiDataProvider.Instance.GetHandsSprite(collateralData, HandPose, Facing);
             eyes.sprite = GotchiDataProvider.Instance.GetSpecialEyesSprite(
                 gotchi.Data.GetTraitValue(GotchiTrait.EyeShape),
                 gotchi.Data.GetTraitValue(GotchiTrait.EyeColor),
                 collateralData,
+                gotchi.Data.hauntId,
                 Facing,
                 EyeExpression);
             collateral.sprite = collateralData.GetCollateralSprite(Facing);

@@ -1,20 +1,15 @@
-using System;
-using System.Numerics;
-using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using MetaMask;
 using MetaMask.Models;
+using MetaMask.NEthereum;
 using MetaMask.Transports.Unity;
 using MetaMask.Unity;
-using Nethereum.Signer.EIP712;
-using PortalDefender.AavegotchiKit.Utils;
-using UnityEngine;
-using Cysharp.Threading.Tasks;
-using Nethereum.Web3;
-using MetaMask.NEthereum;
-using Nethereum.Hex.HexTypes;
-using Nethereum.Unity.Metamask;
 using Nethereum.Metamask;
+using Nethereum.Web3;
+using PortalDefender.AavegotchiKit.Utils;
 using SimpleGraphQL;
+using System;
+using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 {
@@ -48,8 +43,6 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
         public event EventHandler<MetaMaskEthereumRequestResultEventArgs> onTransactionResult;
 
         #endregion
-
-
 
         // Keep track of the current login step
         public enum LoginState
@@ -137,18 +130,10 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 
         private string ChainId = "0x89"; //Polygon Mainnet
 
-        void Awake()
+        public override void Awake()
         {
-            // Only keep 1 instance of LoginManager alive
-            var objs = FindObjectsOfType<LoginManager>();
+            base.Awake();
 
-            if (objs.Length > 1)
-            {
-                Destroy(gameObject);
-                return;
-            }
-
-            DontDestroyOnLoad(gameObject);
             DontDestroyOnLoad(MetaMaskObj);
 
             loginData_ = Resources.Load<LoginData>("LoginData");

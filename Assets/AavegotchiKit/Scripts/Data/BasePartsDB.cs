@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    [CreateAssetMenu(fileName = "BasePartsDB", menuName = "Aavegotchi/BasePartsDB")]
+    [CreateAssetMenu(fileName = "BasePartsDB", menuName = "AavegotchiKit/DB/BasePartsDB")]
     public class BasePartsDB : ScriptableObject
     {
         [SerializeField]
@@ -19,6 +19,9 @@ namespace PortalDefender.AavegotchiKit
         
         public Sprite GetBodySprite(Collateral collateral, GotchiFacing facing)
         {
+            if (collateral == null)
+                return null;
+
             var sprite = SvgLoader.GetSvgLayerSprite($"body-{collateral.collateralType}-{facing}",
                 baseParts.body[(int)facing],
                 new SvgLoader.Options
@@ -40,6 +43,9 @@ namespace PortalDefender.AavegotchiKit
 
         public Sprite GetHandsSprite(Collateral collateral, GotchiHandPose handPose, GotchiFacing facing)
         {
+            if (collateral == null)
+                return null;
+
             if (handPose == GotchiHandPose.DOWN_CLOSED && facing == GotchiFacing.BACK)
                 return null;
 
@@ -62,6 +68,9 @@ namespace PortalDefender.AavegotchiKit
         //mouths are only visible from the front
         public Sprite GetMouthSprite(Collateral collateral, GotchiMouthExpression expression = GotchiMouthExpression.HAPPY)
         {
+            if (collateral == null)
+                return null;
+
             string[] mouth = null;
             switch (expression)
             {
@@ -90,6 +99,9 @@ namespace PortalDefender.AavegotchiKit
 
         public Sprite GetSpecialEyes(Collateral collateral, GotchiEyeExpression expression)
         {
+            if (collateral == null)
+                return null;
+
             string[] special = null;
             switch(expression)
             {
