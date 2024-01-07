@@ -16,11 +16,11 @@
   "license": "MIT",
   "category": "Tools",
   "dependencies": {
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
-    "com.lastabyss.simplegraphql": "https://github.com/LastAbyss/SimpleGraphQL-For-Unity.git",
-    "com.unity.vectorgraphics": "https://github.com/bmateus/com.unity.vectorgraphics.git",
-    "com.tools.webglthreadingpatcher": "https://github.com/VolodymyrBS/WebGLThreadingPatcher.git",
-    "com.coffee.sub-asset-editor": "https://github.com/mob-sakai/SubAssetEditor.git"
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.2.5",
+    "com.lastabyss.simplegraphql": "https://github.com/LastAbyss/SimpleGraphQL-For-Unity.git#2.1.0",
+    "com.unity.vectorgraphics": "https://github.com/bmateus/com.unity.vectorgraphics.git#2.0.0-preview.21",
+    "com.tools.webglthreadingpatcher": "https://github.com/VolodymyrBS/WebGLThreadingPatcher.git#0.0.1-preview.1",
+    "com.coffee.sub-asset-editor": "https://github.com/mob-sakai/SubAssetEditor.git#1.0.2"
   },
   "samples": [
     {
