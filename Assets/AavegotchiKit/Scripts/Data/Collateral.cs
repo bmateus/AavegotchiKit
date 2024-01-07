@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using Sirenix.OdinInspector;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -80,7 +79,7 @@ namespace PortalDefender.AavegotchiKit
         public Color CheekColor => parseColor(cheekColor);
 
 
-        [Button]
+        //[Sirenix.OdinInspector.Button]
         private async void RefreshData()
         {
             if (!string.IsNullOrEmpty(collateralType) && haunt > 0)

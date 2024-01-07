@@ -161,10 +161,7 @@ namespace PortalDefender.AavegotchiKit.Examples.MetaMask
 
 
         //TODO: add example of listening for when this data changes
-        
-        
-        
-        [Sirenix.OdinInspector.Button]
+        //[Sirenix.OdinInspector.Button]
         void TestPopulate()
         {
             Populate().ContinueWith(CheckBlockNumber).Forget();

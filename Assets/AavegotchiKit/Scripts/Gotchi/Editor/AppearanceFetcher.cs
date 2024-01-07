@@ -3,7 +3,6 @@ using Aavegotchi.AavegotchiDiamond.Service;
 using Nethereum.Unity.Rpc;
 using Nethereum.Web3;
 using PortalDefender.AavegotchiKit.Blockchain;
-using Sirenix.OdinInspector;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -30,7 +29,7 @@ namespace PortalDefender.AavegotchiKit
         GotchiAppearanceMesh appearanceMesh_;
 
 
-        [Button("Fetch")]
+        //[Sirenix.OdinInspector.Button("Fetch")]
         [ContextMenu("Fetch")]
         public async void Refresh()
         {

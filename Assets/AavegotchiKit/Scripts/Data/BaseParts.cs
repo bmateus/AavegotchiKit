@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using Sirenix.OdinInspector;
 using Aavegotchi.AavegotchiDiamond.ContractDefinition;
 
 #if UNITY_EDITOR
@@ -27,7 +26,7 @@ namespace PortalDefender.AavegotchiKit
         public string portalOpenH2;
         public string portalClosedH2;
 
-        [Button]
+        //[Sirenix.OdinInspector.Button]
         private async void RefreshData()
         {
             BasePartsFetcher fetcher = new BasePartsFetcher();
