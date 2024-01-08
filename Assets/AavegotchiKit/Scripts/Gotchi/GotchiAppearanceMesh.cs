@@ -24,14 +24,12 @@ namespace PortalDefender.AavegotchiKit
             this.gotchi = gotchi;
             this.gotchi.State.PropertyChanged -= State_PropertyChanged;
             this.gotchi.State.PropertyChanged += State_PropertyChanged;
+            SetFacing(GotchiFacing.FRONT);
         }
 
         private void State_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-            for (int i = 0; i < meshes.Length; i++)
-            {
-                meshes[i].gameObject.SetActive(i == (int)gotchi.State.Facing);
-            }
+            SetFacing(gotchi.State.Facing);
         }
 
         public void UpdateGotchiMesh(string svgData, GotchiFacing facing, string meshName = "GotchiMesh")
@@ -39,6 +37,14 @@ namespace PortalDefender.AavegotchiKit
             var result = SvgLoader.CreateSvgMesh(svgData, Vector2.zero);
             meshes[(int)facing].UpdateMesh(svgData, meshName);
         }   
+
+        void SetFacing(GotchiFacing facing)
+        {
+            for (int i = 0; i < meshes.Length; i++)
+            {
+                meshes[i].gameObject.SetActive(i == (int)facing);
+            }
+        }
 
     }
 }

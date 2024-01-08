@@ -9,6 +9,7 @@ namespace PortalDefender.AavegotchiKit
         static void Create(MenuCommand menuCommand)
         {
             GameObject go = new GameObject("Gotchi - New");
+            go.AddComponent<Gotchi>();
 
             string[] guids = AssetDatabase.FindAssets("GotchiBaseMesh t:prefab", new[] { "Packages" });
             if (guids.Length == 0)
@@ -29,6 +30,7 @@ namespace PortalDefender.AavegotchiKit
             so.FindProperty("removeBG_").boolValue = true;
             so.FindProperty("removeShadow_").boolValue = true;
             so.FindProperty("appearanceMesh_").objectReferenceValue = gotchiBaseMesh.GetComponent<GotchiAppearanceMesh>();
+            so.FindProperty("initOnStart_").boolValue = true;
             so.ApplyModifiedProperties();
 
             Undo.RegisterCreatedObjectUndo(go, "Create " + go.name);

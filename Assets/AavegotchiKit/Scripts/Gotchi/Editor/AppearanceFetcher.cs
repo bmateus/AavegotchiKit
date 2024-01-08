@@ -26,8 +26,20 @@ namespace PortalDefender.AavegotchiKit
         bool removeShadow_;
 
         [SerializeField]
+        bool initOnStart_;
+
+        [SerializeField]
         GotchiAppearanceMesh appearanceMesh_;
 
+        private void Start()
+        {
+            if (initOnStart_)
+            {
+                var gotchi = GetComponent<Gotchi>();
+                gotchi.Init(new GotchiData { id = gotchiId_ });
+                gotchi.State.Facing = GotchiFacing.FRONT;
+            }            
+        }
 
         //[Sirenix.OdinInspector.Button("Fetch")]
         [ContextMenu("Fetch")]
