@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    [CreateAssetMenu(fileName = "Wearable", menuName = "Aavegotchi/Wearable")]
+    [CreateAssetMenu(fileName = "Wearable", menuName = "AavegotchiKit/DB/Wearable")]
     public class WearableScriptableObject : ScriptableObject
     {
         public Wearable data = new Wearable();

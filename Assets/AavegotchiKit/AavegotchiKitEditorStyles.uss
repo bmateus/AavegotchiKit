@@ -1,0 +1,12 @@
+VisualElement {}
+
+#fetchButton {
+    align-self: center;
+    width: 200px;
+    color: white;
+    background-color: #007ACC;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 8px;
+}
