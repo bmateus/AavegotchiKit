@@ -32,6 +32,17 @@ namespace PortalDefender.AavegotchiKit
 
             // Load the USS file from package
             string[] guids = AssetDatabase.FindAssets("AavegotchiKitEditorStyles", new[] { "Packages" });
+            if (guids.Length == 0)
+            {
+                //Debug.LogError("USS 'AavegotchiKitEditorStyles' not found in packages");
+                //look in the project
+                guids = AssetDatabase.FindAssets("AavegotchiKitEditorStyles");
+                if (guids.Length == 0)
+                {
+                    //Debug.LogError("USS 'AavegotchiKitEditorStyles' not found in project");
+                }
+            }
+
             if (guids.Length > 0)
             {
                 string assetPath = AssetDatabase.GUIDToAssetPath(guids[0]);

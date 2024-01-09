@@ -14,8 +14,14 @@ namespace PortalDefender.AavegotchiKit
             string[] guids = AssetDatabase.FindAssets("GotchiBaseMesh t:prefab", new[] { "Packages" });
             if (guids.Length == 0)
             {
-                Debug.LogError("Prefab 'GotchiBaseMesh' not found");
-                return;
+                Debug.LogError("Prefab 'GotchiBaseMesh' not found in packages");
+                //look in the project
+                guids = AssetDatabase.FindAssets("GotchiBaseMesh t:prefab");
+                if (guids.Length == 0)
+                {
+                    Debug.LogError("Prefab 'GotchiBaseMesh' not found in project");
+                    return;
+                }
             }
             
             string assetPath = AssetDatabase.GUIDToAssetPath(guids[0]);
@@ -35,7 +41,7 @@ namespace PortalDefender.AavegotchiKit
 
             Undo.RegisterCreatedObjectUndo(go, "Create " + go.name);
 
-            Debug.Log("Created new gotchi: Next set the id and Fetch");
+            Debug.Log("Created new gotchi: Next you can set the Id and Fetch its appearance.");
 
             Selection.activeObject = go;
         }
