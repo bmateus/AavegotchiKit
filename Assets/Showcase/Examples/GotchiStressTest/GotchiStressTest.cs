@@ -36,6 +36,7 @@ namespace PortalDefender.AavegotchiKit.Examples.StressTest
         //Gradually Load in gotchis
         private void Start()
         {
+            Debug.Log("Starting Gotchi Stress Test");
             currentGotchiId = startingGotchiId;
             StartCoroutine(LoadGotchis().ToCoroutine());
         }

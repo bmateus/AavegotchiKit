@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Showcase/Showcase.unity
     guid: c2d8e0b7a0a5fd34d955593d4cdead80
   - enabled: 1
+    path: Assets/Showcase/BackButton.unity
+    guid: 744fb3739e7256c40b8aa5e46e6e6551
+  - enabled: 1
     path: Assets/AavegotchiKit/Examples/GotchiBrowser/Scenes/GotchiBrowser.unity
     guid: 4d315dbcfcf575a4ba578d679d50c803
   - enabled: 1

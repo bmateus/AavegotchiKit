@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Showcase : MonoBehaviour
 {
@@ -7,6 +8,9 @@ public class Showcase : MonoBehaviour
         if (Application.isPlaying)
         {
             UnityEngine.SceneManagement.SceneManager.LoadSceneAsync(name);
+            //load the backbutton scene additionally
+            UnityEngine.SceneManagement.SceneManager.LoadSceneAsync("BackButton", LoadSceneMode.Additive);
+            
         }
     }
 
