@@ -5,6 +5,8 @@ using System.IO;
 using Unity.VectorGraphics;
 using UnityEngine;
 
+
+// Create various things from SVG data
 public class SvgLoader
 {
     // this will get cleared when there is a domain reload
@@ -127,7 +129,7 @@ public class SvgLoader
     }
 
     //The Unity VectorGraphics package has issues handling multiple layers in an SVG
-    //TODO: I fixed this so this is no longer required
+    //UPDATE: I fixed this problem so this workaround is no longer required
     public static Sprite GetSvgLayerSprite(string name, string layerData, SvgLoader.Options options)
     {
         var cachedName = $"{name}-0x{options.GetHashCode():X}";

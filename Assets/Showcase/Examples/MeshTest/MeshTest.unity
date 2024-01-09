@@ -775,10 +775,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1556836905}
     m_Modifications:
+    - target: {fileID: 2007083183321055788, guid: 31222aa08396c48418749a08e41da6d2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3017600268119144803, guid: 31222aa08396c48418749a08e41da6d2, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1252436748}
+    - target: {fileID: 3704839481123079686, guid: 31222aa08396c48418749a08e41da6d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4803555320058866666, guid: 31222aa08396c48418749a08e41da6d2, type: 3}
       propertyPath: m_Mesh
       value: 

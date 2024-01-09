@@ -2,6 +2,12 @@
 
 namespace PortalDefender.AavegotchiKit
 {
+    /// <summary>
+    /// Represents the state of a gotchi
+    /// </summary>
+    /// <remarks>
+    /// Uses INotifyPropertyChanged to notify listeners of changes so we don't have to poll
+    /// </remarks>
     [System.Serializable]
     public class GotchiState : INotifyPropertyChanged
     {

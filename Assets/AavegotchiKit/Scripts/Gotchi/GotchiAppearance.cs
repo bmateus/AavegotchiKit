@@ -3,6 +3,27 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
+    /// <summary>
+    /// Early implementation of gotchi appearance that uses an offline db to fetch sprites for the gotchi appearance.<br/>
+    /// It attempts to mimic the behaviour of the AavegotchiDiamond SvgFacet/SvgViewsFacet to render an Aavegotchi's appearance
+    /// </summary>
+    /// 
+    /// <remarks>
+    /// This implementation was initially created because of issues with rendering SVGs in Unity;<br/>
+    /// In the first iteration, the SVGs were rendered to PNGs and then imported into Unity as sprites<br/>
+    /// After fixing the SVG rendering issues, this implementation changed so that it uses the SVGs directly.<br/>
+    /// <br/>
+    /// Some of the benefits of this approach are:<br/>
+    /// - It doesn't require making web requests to fetch the SVGs<br/>
+    /// - It doesn't require a Web3Provider in the scene<br/>
+    /// - It allows for customization of wearables<br/>
+    /// - Could possibly add support for custom wearables<br/>
+    /// - Easy to modify layers, eyes, mouth, hand poses, etc.<br/>
+    /// <br/>
+    /// Some of the downsides of this approach are:<br/>
+    /// - Rendering bugs: there are some special cases (sleeves?) that are tricky to handle<br/>
+    /// - The DB needs to be updated whenever new wearables are added to the game.<br/>
+    /// </remarks>
     public class GotchiAppearance : MonoBehaviour, IGotchiAppearance
     {
         Gotchi gotchi;

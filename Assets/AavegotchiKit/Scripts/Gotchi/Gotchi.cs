@@ -2,9 +2,15 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    // This class represents a gotchi in the game;
-    // It is the main interface for the game to interact with the gotchi
-    // A gotchi needs to be initialized with a GotchiData object before it can be used
+    /// <summary>
+    /// This class represents a gotchi in the game; 
+    /// It provides access to the GotchiData, GotchiState and GotchiAppearance
+    /// </summary>
+    ///
+    /// <remarks>
+    /// Init needs to be called to initialize the appearance data with the data and state
+    /// the data may be optional depending on the implementation of the appearance
+    /// </remarks>
     public class Gotchi : MonoBehaviour
     {
         GotchiData data;
@@ -14,7 +20,6 @@ namespace PortalDefender.AavegotchiKit
 
         public GotchiState State => state;
         
-
         IGotchiAppearance appearance;
 
         public IGotchiAppearance Appearance => appearance;
@@ -32,6 +37,11 @@ namespace PortalDefender.AavegotchiKit
             appearance.Init(this);
         }
 
+        /// <summary>
+        /// Equips the selected wearable to the specified slot and re-initializes the appearance
+        /// </summary>
+        /// <param name="selectedWearable"></param>
+        /// <param name="slot"></param>
         public void Equip(Wearable selectedWearable, GotchiEquipmentSlot slot)
         {
             data.equippedWearables[(int)slot] = (ushort)selectedWearable.id;

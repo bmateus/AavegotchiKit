@@ -3,7 +3,9 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    //Faces the camera and changes direction based on camera movement
+    /// <summary>
+    /// Faces the camera and changes direction based on camera movement
+    /// </summary>
     public class GotchiBillboard : MonoBehaviour, INotifyPropertyChanged
     {
         Camera cam;

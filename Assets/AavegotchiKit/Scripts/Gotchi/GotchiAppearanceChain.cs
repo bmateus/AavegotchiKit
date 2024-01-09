@@ -7,6 +7,18 @@ using PortalDefender.AavegotchiKit.Blockchain;
 
 namespace PortalDefender.AavegotchiKit
 {
+    /// <summary>
+    /// Uses the provided GotchiData (from graph, blockchain, local) to request the SVGs from the blockchain
+    /// using the PreviewSideAavegotchi function.  The SVGs are then loaded into sprites.
+    /// </summary>
+    /// 
+    /// <remarks>
+    /// For most usecases, this is the best way to get the appearance of a gotchi.<br/>
+    /// Things to note:<br/>
+    /// - It requires a Web3Provider in the Scene<br/>
+    /// - It allows for customization of wearables<br/>
+    /// - It doesn't work in the editor (placeholder sprites are used instead)<br/>
+    /// </remarks>
     public class GotchiAppearanceChain : MonoBehaviour, IGotchiAppearance
     {
         Gotchi gotchi;
@@ -37,6 +49,13 @@ namespace PortalDefender.AavegotchiKit
 
             try
             {
+                //check for availability of Web3Provider.Instance
+                if (Web3Provider.Instance == null)
+                {
+                    Debug.LogError("Can't Init GotchiAppearanceChain! Requires a Web3Provider in the scene.");
+                    return;
+                }
+
                 //use PreviewSideAavegotchi to get the svgs so we can customize the appearance if we want
 
                 //fetch the gotchi appearance from on chain
@@ -58,7 +77,7 @@ namespace PortalDefender.AavegotchiKit
                         for (int i = 0; i < svgs.Count; i++)
                         {
                             var svg = svgs[i];
-                            Debug.Log("Got SVG: " + svg);
+                            //Debug.Log("Got SVG: " + svg);
                             svg = styling.CustomizeSVG(svg);
                             var svgSprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
                             svgSprite.name = "Gotchi-" + (GotchiFacing)i;
@@ -72,7 +91,7 @@ namespace PortalDefender.AavegotchiKit
             }
             catch(System.Exception e)
             {
-                Debug.Log("Error Initializing Appearance: " + e.Message);
+                Debug.LogError("Error Initializing Appearance: " + e.Message);
             }            
         }
 
