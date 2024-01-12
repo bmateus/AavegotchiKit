@@ -51,7 +51,7 @@ namespace PortalDefender.AavegotchiKit
             try
             {
                 //check for availability of Web3Provider.Instance
-                if (Web3Provider.Instance == null)
+                if (!Web3Provider.IsInitialized )
                 {
                     Debug.LogError("Can't Init GotchiAppearanceChain! Requires a Web3Provider in the scene.");
                     return;

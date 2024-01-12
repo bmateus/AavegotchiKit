@@ -15,6 +15,12 @@ namespace PortalDefender.AavegotchiKit
 
         public async void Refresh()
         {
+            if (!GraphManager.IsInitialized)
+            {
+                Debug.LogError("Can't Use Graph! Requires a GraphManager in the scene.");
+                return;
+            }
+
             var gotchiData = await GraphManager.Instance.GetGotchiData(gotchiId_.ToString());
 
             if (gotchiData != null
