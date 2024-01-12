@@ -5,8 +5,8 @@ using UnityEditor.UIElements;
 
 namespace PortalDefender.AavegotchiKit
 {
-    [CustomEditor(typeof(AppearanceFetcher))]
-    public class AppearanceFetcherEditor : Editor
+    [CustomEditor(typeof(GotchiMeshAppearanceFetcher))]
+    public class GotchiMeshAppearanceFetcherEditor : Editor
     {
         //old way
         /*
@@ -59,7 +59,7 @@ namespace PortalDefender.AavegotchiKit
             fetchButton.text = "Fetch";
             fetchButton.clicked += () =>
             {
-                ((AppearanceFetcher)target).Refresh();
+                ((GotchiMeshAppearanceFetcher)target).Refresh();
             };
 
             root.Add(fetchButton);

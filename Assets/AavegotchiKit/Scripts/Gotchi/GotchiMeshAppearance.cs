@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class GotchiAppearanceMesh : MonoBehaviour, IGotchiAppearance
+    public class GotchiMeshAppearance : MonoBehaviour, IGotchiAppearance
     {
         Gotchi gotchi;
 

@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class AppearanceFetcher : MonoBehaviour
+    public class GotchiMeshAppearanceFetcher : MonoBehaviour
     {
         [SerializeField]
         int gotchiId_;
@@ -29,7 +29,7 @@ namespace PortalDefender.AavegotchiKit
         bool initOnStart_;
 
         [SerializeField]
-        GotchiAppearanceMesh appearanceMesh_;
+        GotchiMeshAppearance appearanceMesh_;
 
         private void Start()
         {

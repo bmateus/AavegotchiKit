@@ -6,7 +6,7 @@ namespace PortalDefender.AavegotchiKit
 {
     using Image = Unity.VectorGraphics.SVGImage;
 
-    public class GotchiAppearanceUI : MonoBehaviour, IGotchiAppearance
+    public class GotchiDBUIAppearance : MonoBehaviour, IGotchiAppearance
     {
         Gotchi gotchi;
 

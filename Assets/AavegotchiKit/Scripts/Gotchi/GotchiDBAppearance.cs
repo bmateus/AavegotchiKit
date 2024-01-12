@@ -24,7 +24,7 @@ namespace PortalDefender.AavegotchiKit
     /// - Rendering bugs: there are some special cases (sleeves?) that are tricky to handle<br/>
     /// - The DB needs to be updated whenever new wearables are added to the game.<br/>
     /// </remarks>
-    public class GotchiAppearance : MonoBehaviour, IGotchiAppearance
+    public class GotchiDBAppearance : MonoBehaviour, IGotchiAppearance
     {
         Gotchi gotchi;
 

@@ -4,6 +4,7 @@ using System.Linq;
 using UnityEngine;
 using Cysharp.Threading.Tasks;
 using PortalDefender.AavegotchiKit.Blockchain;
+using System.Collections.Generic;
 
 namespace PortalDefender.AavegotchiKit
 {
@@ -19,7 +20,7 @@ namespace PortalDefender.AavegotchiKit
     /// - It allows for customization of wearables<br/>
     /// - It doesn't work in the editor (placeholder sprites are used instead)<br/>
     /// </remarks>
-    public class GotchiAppearanceChain : MonoBehaviour, IGotchiAppearance
+    public class GotchiChainAppearance : MonoBehaviour, IGotchiAppearance
     {
         Gotchi gotchi;
 
@@ -57,6 +58,12 @@ namespace PortalDefender.AavegotchiKit
                 }
 
                 //use PreviewSideAavegotchi to get the svgs so we can customize the appearance if we want
+                List<ushort> equippedWearables = null;
+                if (gotchi.Data.equippedWearables.Length == 8)
+                    equippedWearables = gotchi.Data.equippedWearables
+                        .Concat(new ushort[8]).ToList(); //pad it out to 16
+                else
+                    equippedWearables = gotchi.Data.equippedWearables.ToList();
 
                 //fetch the gotchi appearance from on chain
                 var previewAavegotchi = new PreviewSideAavegotchiFunction
@@ -64,8 +71,7 @@ namespace PortalDefender.AavegotchiKit
                     HauntId = gotchi.Data.hauntId,
                     CollateralType = gotchi.Data.collateral,
                     NumericTraits = gotchi.Data.numericTraits.ToList(),
-                    EquippedWearables = gotchi.Data.equippedWearables
-                        .Concat(new ushort[8]).ToList(), //pad it out to 16
+                    EquippedWearables = equippedWearables
                 };
 
                 Web3Provider.Instance.GotchiDiamondService.PreviewSideAavegotchiQueryAsync(previewAavegotchi)

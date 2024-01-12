@@ -3,7 +3,7 @@ using UnityEditor;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class EditorCreateGotchiBaseMesh : MonoBehaviour
+    public class EditorCreateGotchiWithMeshAppearance : MonoBehaviour
     {
         [MenuItem("GameObject/AavegotchiKit/Create Mesh Gotchi", false, 10)]
         static void Create(MenuCommand menuCommand)
@@ -30,12 +30,12 @@ namespace PortalDefender.AavegotchiKit
             GameObject gotchiBaseMesh = PrefabUtility.InstantiatePrefab(prefab) as GameObject;
             gotchiBaseMesh.transform.SetParent(go.transform);
 
-            //Add a AppearanceFetcher component
-            var appearanceFetcher = go.AddComponent<AppearanceFetcher>();
+            //Add an AppearanceFetcher component
+            var appearanceFetcher = go.AddComponent<GotchiMeshAppearanceFetcher>();
             var so = new SerializedObject(appearanceFetcher);
             so.FindProperty("removeBG_").boolValue = true;
             so.FindProperty("removeShadow_").boolValue = true;
-            so.FindProperty("appearanceMesh_").objectReferenceValue = gotchiBaseMesh.GetComponent<GotchiAppearanceMesh>();
+            so.FindProperty("appearanceMesh_").objectReferenceValue = gotchiBaseMesh.GetComponent<GotchiMeshAppearance>();
             so.FindProperty("initOnStart_").boolValue = true;
             so.ApplyModifiedProperties();
 
