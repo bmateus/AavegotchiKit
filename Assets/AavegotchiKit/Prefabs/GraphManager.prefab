@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -43,4 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9af3b969c2446c4aa8b2389b8315b4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  graphConfig: {fileID: 11400000, guid: 021b05d2aadb0d649939abf18d6561f9, type: 2}
+  isPersistent: 0
+  coreGraphConfig: {fileID: 11400000, guid: 021b05d2aadb0d649939abf18d6561f9, type: 2}
+  svgGraphConfig: {fileID: 11400000, guid: e603a22ae470410479dd352933acf61f, type: 2}

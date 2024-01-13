@@ -1,0 +1,12 @@
+#get gotchi svg
+query GetGotchiSvg($id: String!)
+{
+  aavegotchi(id: $id)
+	{
+    id
+    svg
+    left
+    right
+    back
+  }
+}

@@ -1,0 +1,12 @@
+#get gotchi svgs
+query GetUserAavegotchis($ids: [String!]!)
+{
+  aavegotchis(where: {id_in: $ids} )
+	{
+    id
+    svg
+    left
+    right
+    back
+  }
+}
