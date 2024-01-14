@@ -323,4 +323,27 @@ public class SvgLoader
         return null;
     }
 
+    //Support for UI Toolkit images
+
+    static Material svgImageMaterial;
+    static Material GetSvgImageMaterial()
+    {
+        if (svgImageMaterial == null)
+        {
+            svgImageMaterial = new Material(Shader.Find("Unlit/VectorGradientUI"));
+            svgImageMaterial.hideFlags = HideFlags.HideAndDontSave;
+        }
+        return svgImageMaterial;
+    }
+
+    public static Texture2D CreateSvgImage(string data, Vector2 customPivot, bool preserveViewport = true)
+    {
+        var sprite = CreateSvgSprite(data, customPivot, preserveViewport);
+        if (sprite == null)
+            return null;
+
+        var m = GetSvgImageMaterial();
+
+        return VectorUtils.RenderSpriteToTexture2D(sprite, 256, 256, m, 1);
+    }
 }
