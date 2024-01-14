@@ -33,11 +33,25 @@ namespace PortalDefender.AavegotchiKit
         [SerializeField]
         Sprite[] shadowSprites;
 
+        [SerializeField]
+        GotchiSvgStyling styling;
+
+        ISvgProvider svgProvider;
+
         private void Awake()
         {            
             // hide appearance until it's done loading
             body.sprite = null;
             shadow.sprite = null;
+
+            //look for an svg provider on this gameobject
+            svgProvider = GetComponent<ISvgProvider>();
+            if (svgProvider == null)
+            {
+                //if there isn't one, add the default one:
+                svgProvider = gameObject.AddComponent<GotchiChainSvgProvider>();
+            }
+
         }
 
         Sprite[] svgSprites = new Sprite[4];
@@ -49,49 +63,16 @@ namespace PortalDefender.AavegotchiKit
             this.gotchi.State.PropertyChanged -= State_PropertyChanged;
 
             try
-            {
-                //check for availability of Web3Provider.Instance
-                if (!Web3Provider.IsInitialized )
+            {                
+                svgProvider.GetSvg(gotchi.Data).ContinueWith((gotchiSvgData) =>
                 {
-                    Debug.LogError("Can't Init GotchiAppearanceChain! Requires a Web3Provider in the scene.");
-                    return;
-                }
+                    svgSprites[(int)GotchiFacing.FRONT] = SvgLoader.CreateSvgSprite(styling.CustomizeSVG(gotchiSvgData.front), Vector2.zero);
+                    svgSprites[(int)GotchiFacing.LEFT] = SvgLoader.CreateSvgSprite(styling.CustomizeSVG(gotchiSvgData.left), Vector2.zero);
+                    svgSprites[(int)GotchiFacing.RIGHT] = SvgLoader.CreateSvgSprite(styling.CustomizeSVG(gotchiSvgData.right), Vector2.zero);
+                    svgSprites[(int)GotchiFacing.BACK] = SvgLoader.CreateSvgSprite(styling.CustomizeSVG(gotchiSvgData.back), Vector2.zero);
 
-                //use PreviewSideAavegotchi to get the svgs so we can customize the appearance if we want
-                List<ushort> equippedWearables = null;
-                if (gotchi.Data.equippedWearables.Length == 8)
-                    equippedWearables = gotchi.Data.equippedWearables
-                        .Concat(new ushort[8]).ToList(); //pad it out to 16
-                else
-                    equippedWearables = gotchi.Data.equippedWearables.ToList();
-
-                //fetch the gotchi appearance from on chain
-                var previewAavegotchi = new PreviewSideAavegotchiFunction
-                {
-                    HauntId = gotchi.Data.hauntId,
-                    CollateralType = gotchi.Data.collateral,
-                    NumericTraits = gotchi.Data.numericTraits.ToList(),
-                    EquippedWearables = equippedWearables
-                };
-
-                Web3Provider.Instance.GotchiDiamondService.PreviewSideAavegotchiQueryAsync(previewAavegotchi)
-                    .AsUniTask()
-                    .ContinueWith((svgs) => {
-                        
-                        var styling = new GotchiSvgStyling() { RemoveShadow = true, RemoveBackground = true };
-
-                        for (int i = 0; i < svgs.Count; i++)
-                        {
-                            var svg = svgs[i];
-                            //Debug.Log("Got SVG: " + svg);
-                            svg = styling.CustomizeSVG(svg);
-                            var svgSprite = SvgLoader.CreateSvgSprite(svg, Vector2.zero);
-                            svgSprite.name = "Gotchi-" + (GotchiFacing)i;
-                            svgSprites[i] = svgSprite;
-                        }
-
-                        Refresh();
-                    });
+                    Refresh();
+                });
 
                 this.gotchi.State.PropertyChanged += State_PropertyChanged;
             }

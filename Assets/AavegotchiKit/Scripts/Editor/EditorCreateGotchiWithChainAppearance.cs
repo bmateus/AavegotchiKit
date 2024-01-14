@@ -3,7 +3,7 @@ using UnityEditor;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class EditorCreateGotchiWithChainAppearance : MonoBehaviour
+    public class EditorCreateGotchiWithChainAppearance
     {
         [MenuItem("GameObject/AavegotchiKit/Create Chain Gotchi", false, 10)]
         static void Create(MenuCommand menuCommand)

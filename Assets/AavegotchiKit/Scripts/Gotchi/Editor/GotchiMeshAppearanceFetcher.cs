@@ -57,8 +57,8 @@ namespace PortalDefender.AavegotchiKit
                 //styling pipeline
                 GotchiSvgStyling styling = new GotchiSvgStyling()
                 {
-                    RemoveShadow = removeShadow_,
-                    RemoveBackground = removeBG_
+                    removeShadow = removeShadow_,
+                    removeBackground = removeBG_
                 };
 
                 var styledSvg = styling.CustomizeSVG(svgs_[(int)i]);

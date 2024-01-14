@@ -53,7 +53,7 @@ namespace PortalDefender.AavegotchiKit.Examples
                 trait.text = "50";
             }
 
-            styling_ = new GotchiSvgStyling() { RemoveShadow = true, RemoveBackground = true };
+            styling_ = new GotchiSvgStyling() { removeShadow = true, removeBackground = true };
 
         }
 

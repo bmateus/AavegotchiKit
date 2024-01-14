@@ -78,7 +78,7 @@ namespace PortalDefender.AavegotchiKit.GraphQL
                 return result.GotchiSvgs;
             }
             return null;
-        }   
+        }
 
     }
 }

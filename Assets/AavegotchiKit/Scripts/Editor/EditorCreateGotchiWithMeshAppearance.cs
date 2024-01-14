@@ -3,7 +3,7 @@ using UnityEditor;
 
 namespace PortalDefender.AavegotchiKit
 {
-    public class EditorCreateGotchiWithMeshAppearance : MonoBehaviour
+    public class EditorCreateGotchiWithMeshAppearance
     {
         [MenuItem("GameObject/AavegotchiKit/Create Mesh Gotchi", false, 10)]
         static void Create(MenuCommand menuCommand)

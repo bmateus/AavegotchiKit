@@ -71,7 +71,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 676285551
-  m_SortingLayer: 0
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 3286163911610860551, guid: ea0fd2345acfb864bb29fbea24458e1c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -160,6 +160,15 @@ MonoBehaviour:
   - {fileID: 3286163911610860551, guid: ea0fd2345acfb864bb29fbea24458e1c, type: 3}
   - {fileID: 3286163911610860551, guid: ea0fd2345acfb864bb29fbea24458e1c, type: 3}
   - {fileID: 3286163911610860551, guid: ea0fd2345acfb864bb29fbea24458e1c, type: 3}
+  styling:
+    removeBackground: 1
+    removeShadow: 1
+    removeHandsUp: 0
+    removeHandsDownClosed: 0
+    removeHandsDownOpen: 0
+    removeWearablePet: 0
+    removeWearableLHand: 0
+    removeWearableRHand: 0
 --- !u!210 &3368963535307084959
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -169,7 +178,7 @@ SortingGroup:
   m_GameObject: {fileID: 1541452628501661682}
   m_Enabled: 1
   m_SortingLayerID: 676285551
-  m_SortingLayer: 0
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_SortAtRoot: 0
 --- !u!1 &3527769311407666692
@@ -243,7 +252,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 676285551
-  m_SortingLayer: 0
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 3286163911610860551, guid: 45ddafa5f1bdb5740a5709cbbe40ff02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
