@@ -1,0 +1,869 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6158f4c34a6ced438591f6c43fff76a, type: 3}
+  m_Name: AavegotchiWearableDataBase
+  m_EditorClassIdentifier: 
+  HeadWearables:
+  - WearableID: 1
+    WearableName: Camo Hat
+    WearableIcon: {fileID: 21300000, guid: 4b13774fc2f23784ab7ee36207b07812, type: 3}
+  - WearableID: 4
+    WearableName: Snow Camo Hat
+    WearableIcon: {fileID: 21300000, guid: 4a14333b2f9c6404da83dc79045f90a6, type: 3}
+  - WearableID: 7
+    WearableName: Marine Cap
+    WearableIcon: {fileID: 21300000, guid: 29514f5d516709644a1c15c9d9f9ec08, type: 3}
+  - WearableID: 10
+    WearableName: Link White Hat
+    WearableIcon: {fileID: 21300000, guid: 3b71128201bb4d64f9f83b5dd8b59906, type: 3}
+  - WearableID: 21
+    WearableName: Captain Aave Mask
+    WearableIcon: {fileID: 21300000, guid: 7f72f50e65c78f342acfc529c8f698f0, type: 3}
+  - WearableID: 24
+    WearableName: Thaave Helmet
+    WearableIcon: {fileID: 21300000, guid: 26aff24c2d47d2f47b65a2f6c1bde59c, type: 3}
+  - WearableID: 27
+    WearableName: Marc Hair
+    WearableIcon: {fileID: 21300000, guid: eeb6d0d90750f5a4d8eb06020b73869c, type: 3}
+  - WearableID: 30
+    WearableName: Jordan Hair
+    WearableIcon: {fileID: 21300000, guid: 990d24141f62f42468010573d8f492c5, type: 3}
+  - WearableID: 33
+    WearableName: Stani Hair
+    WearableIcon: {fileID: 21300000, guid: 91c97f720d944204d80a767b4e0c99ed, type: 3}
+  - WearableID: 39
+    WearableName: Foxy Mask
+    WearableIcon: {fileID: 21300000, guid: 9c6cce3a3fb7abf49ae1616386ce6dbc, type: 3}
+  - WearableID: 42
+    WearableName: Eagle Mask
+    WearableIcon: {fileID: 21300000, guid: a510ce24f9752f24fa907f3cce39b5f2, type: 3}
+  - WearableID: 45
+    WearableName: Ape Mask
+    WearableIcon: {fileID: 21300000, guid: bf8890613afc0234394f37a1315913aa, type: 3}
+  - WearableID: 48
+    WearableName: Xibot Mohawk
+    WearableIcon: {fileID: 21300000, guid: 486a693789fd66b488b4e736a89ab5d4, type: 3}
+  - WearableID: 52
+    WearableName: Galaxy Brain
+    WearableIcon: {fileID: 21300000, guid: f3dc84da0193e5745b55ceb705ce43f7, type: 3}
+  - WearableID: 59
+    WearableName: Aagent Fedora Hat
+    WearableIcon: {fileID: 21300000, guid: db78208b4a52c34458bf4a464923f012, type: 3}
+  - WearableID: 60
+    WearableName: Common Wizard Hat
+    WearableIcon: {fileID: 21300000, guid: c13c50af38c40774dac5d61ae9cebb62, type: 3}
+  - WearableID: 61
+    WearableName: Legendary Wizard Hat
+    WearableIcon: {fileID: 21300000, guid: bf987b770bf7a304b921036817e044e6, type: 3}
+  - WearableID: 62
+    WearableName: Mythical Wizard Hat
+    WearableIcon: {fileID: 21300000, guid: 4ed9a32719c83434d95e4fe0f0d58ba0, type: 3}
+  - WearableID: 63
+    WearableName: Godlike Wizard Hat
+    WearableIcon: {fileID: 21300000, guid: 32f81aa5a218454419ac2d791de35f58, type: 3}
+  - WearableID: 67
+    WearableName: Straw Hat
+    WearableIcon: {fileID: 21300000, guid: 0d2ef51e8f8628246add48c19627a700, type: 3}
+  - WearableID: 71
+    WearableName: Red Santa Hat
+    WearableIcon: {fileID: 21300000, guid: 463ea4749e43205479c3572aae33a9ef, type: 3}
+  - WearableID: 72
+    WearableName: Jaay Hairpiece
+    WearableIcon: {fileID: 21300000, guid: cfd02e373f663444791a0b82daf9c3fc, type: 3}
+  - WearableID: 77
+    WearableName: Bitcoin Beanie
+    WearableIcon: {fileID: 21300000, guid: 97eacd0c4ca3b7d40bfb69ebcea74898, type: 3}
+  - WearableID: 80
+    WearableName: Sushi Bandana
+    WearableIcon: {fileID: 21300000, guid: 219bb56f65dd258409ad2f8fe13a651e, type: 3}
+  - WearableID: 84
+    WearableName: Gentleman Hat
+    WearableIcon: {fileID: 21300000, guid: 7f4bcfd52825f374fafe41afc4e47329, type: 3}
+  - WearableID: 87
+    WearableName: Miner Helmet
+    WearableIcon: {fileID: 21300000, guid: 77175c220b4dc48479e83b3718159db7, type: 3}
+  - WearableID: 90
+    WearableName: Pajama Hat
+    WearableIcon: {fileID: 21300000, guid: 3a73206bc12c98a42b42a1d7df1329d8, type: 3}
+  - WearableID: 94
+    WearableName: Sweatband
+    WearableIcon: {fileID: 21300000, guid: 6898ae8972a707d41a938f5557a4272f, type: 3}
+  - WearableID: 97
+    WearableName: Pillbox Hat
+    WearableIcon: {fileID: 21300000, guid: a55d348ec0900c44bbedf704eb24751d, type: 3}
+  - WearableID: 101
+    WearableName: Witchy Hat
+    WearableIcon: {fileID: 21300000, guid: 90a0b48bbb3f16442ad61bf731c21c14, type: 3}
+  - WearableID: 104
+    WearableName: Portal Mage Helmet
+    WearableIcon: {fileID: 21300000, guid: 0f85bdd21f6d3aa4e82574b51c58c430, type: 3}
+  - WearableID: 108
+    WearableName: Rasta Hat
+    WearableIcon: {fileID: 21300000, guid: a4991507aee05d4408cc8709ea0c272b, type: 3}
+  - WearableID: 111
+    WearableName: Hazmat Hood
+    WearableIcon: {fileID: 21300000, guid: da3cba75787b9e44eb557575c9533c7f, type: 3}
+  - WearableID: 124
+    WearableName: Beer Helmet
+    WearableIcon: {fileID: 21300000, guid: f7972add07366a348a972e65899b48d5, type: 3}
+  - WearableID: 131
+    WearableName: Dragon Horns
+    WearableIcon: {fileID: 21300000, guid: c9b9bef82c885a24381cdf9943c08863, type: 3}
+  - WearableID: 133
+    WearableName: Pointy Horns
+    WearableIcon: {fileID: 21300000, guid: 4f63ed69b3ff19f4183d8874e812f4c4, type: 3}
+  - WearableID: 136
+    WearableName: Polygon Cap
+    WearableIcon: {fileID: 21300000, guid: 106af690cf8ae734da32a41f7efddb32, type: 3}
+  - WearableID: 139
+    WearableName: Snapshot Cap
+    WearableIcon: {fileID: 21300000, guid: 1975e4b2497a30341af28ea4c05a8d7b, type: 3}
+  - WearableID: 142
+    WearableName: Princess Tiara
+    WearableIcon: {fileID: 21300000, guid: 62934fa1997057d4fbbf9f3cc2e86bdc, type: 3}
+  - WearableID: 144
+    WearableName: Princess Hair
+    WearableIcon: {fileID: 21300000, guid: c8de66706da5026449d2d1eede74f9b2, type: 3}
+  - WearableID: 145
+    WearableName: Godli Locks
+    WearableIcon: {fileID: 21300000, guid: 16450b809fb070c44a32cf1d369e97e1, type: 3}
+  - WearableID: 147
+    WearableName: Tiny Crown
+    WearableIcon: {fileID: 21300000, guid: b031be958969e4e48a4164983afbda57, type: 3}
+  - WearableID: 149
+    WearableName: Royal Crown
+    WearableIcon: {fileID: 21300000, guid: 017058ecb213893428c4a827049eff59, type: 3}
+  - WearableID: 161
+    WearableName: Lil Pump Dreads
+    WearableIcon: {fileID: 21300000, guid: ab425c9d88976a2478384e11e20f61fc, type: 3}
+  - WearableID: 206
+    WearableName: Biker Helmet
+    WearableIcon: {fileID: 21300000, guid: 08086ef98f355124b9bf9ba9b0f10cac, type: 3}
+  - WearableID: 211
+    WearableName: Guy Fawkes Mask
+    WearableIcon: {fileID: 21300000, guid: 2b9c3d2c87f9589429edcd8cfedd27c4, type: 3}
+  - WearableID: 218
+    WearableName: Mohawk
+    WearableIcon: {fileID: 21300000, guid: 2d20fe9669d05a345b68711ed1b75ee0, type: 3}
+  - WearableID: 221
+    WearableName: Pirate Hat
+    WearableIcon: {fileID: 21300000, guid: 5331f1999df93c1459fc5cdbc2b03b75, type: 3}
+  - WearableID: 226
+    WearableName: Red Headband
+    WearableIcon: {fileID: 21300000, guid: 222e04c6c9fd30140b571b0c85d62a8b, type: 3}
+  - WearableID: 228
+    WearableName: 10 Gallon Hat
+    WearableIcon: {fileID: 21300000, guid: fba8ee29fc976b3478e20abf9cfc628b, type: 3}
+  - WearableID: 232
+    WearableName: Poncho Hoodie
+    WearableIcon: {fileID: 21300000, guid: 84f618345b6c4c24a969dbbb3f1396fd, type: 3}
+  - WearableID: 235
+    WearableName: Shaaman Hoodie
+    WearableIcon: {fileID: 21300000, guid: dcac10445f0d20943bd9b0a7d716f79f, type: 3}
+  - WearableID: 239
+    WearableName: Wagie Cap
+    WearableIcon: {fileID: 21300000, guid: 803e7d942407a5e48a28e53904f651d2, type: 3}
+  - WearableID: 242
+    WearableName: Yellow Manbun
+    WearableIcon: {fileID: 21300000, guid: 956f0f7623ddf0c45b30b43df30256b0, type: 3}
+  - WearableID: 245
+    WearableName: Gecko Hat
+    WearableIcon: {fileID: 21300000, guid: c0e5962a3c059b946b185615f47878f7, type: 3}
+  - WearableID: 252
+    WearableName: Aastronaut Helmet
+    WearableIcon: {fileID: 21300000, guid: 6f44aca0efc01ab4daeb0b337bf79c47, type: 3}
+  - WearableID: 255
+    WearableName: Space Helmet
+    WearableIcon: {fileID: 21300000, guid: 2c0113b8106e5244fa9764817912a63f, type: 3}
+  - WearableID: 292
+    WearableName: Brunette Ponytail
+    WearableIcon: {fileID: 21300000, guid: 204caa71e320d8e4ca9bccb035d304e2, type: 3}
+  - WearableID: 298
+    WearableName: Horned Helmet
+    WearableIcon: {fileID: 21300000, guid: 2dafe3b3edc57434f813a22360fbb5ae, type: 3}
+  - WearableID: 300
+    WearableName: Feathered Cap
+    WearableIcon: {fileID: 21300000, guid: 17ad36852a820ae4c84f463cd6973cfb, type: 3}
+  - WearableID: 302
+    WearableName: Geisha Headpiece
+    WearableIcon: {fileID: 21300000, guid: 0b02a61c792d8d242836ef702e50daf2, type: 3}
+  - WearableID: 308
+    WearableName: Red Hair
+    WearableIcon: {fileID: 21300000, guid: 834b6d3fe45c87a45adfbbaa8a64e621, type: 3}
+  - WearableID: 309
+    WearableName: Citaadel Helm
+    WearableIcon: {fileID: 21300000, guid: 6daf8c35db55ed348894a6b591ac8952, type: 3}
+  - WearableID: 313
+    WearableName: Kabuto Helmet
+    WearableIcon: {fileID: 21300000, guid: 9c59db9f5620c3d49b130c4e4e42b231, type: 3}
+  - WearableID: 363
+    WearableName: FAKE Beret
+    WearableIcon: {fileID: 21300000, guid: 9161c5fb7a749b54bae7b33a61a92780, type: 3}
+  - WearableID: 370
+    WearableName: Wavy Hair
+    WearableIcon: {fileID: 21300000, guid: 9c77a1512d1325c439bc46c5997ab22b, type: 3}
+  - WearableID: 376
+    WearableName: Lick Brain
+    WearableIcon: {fileID: 21300000, guid: 42003c28392470a47968a355791dbee7, type: 3}
+  - WearableID: 380
+    WearableName: Sebastien Hair
+    WearableIcon: {fileID: 21300000, guid: 332fbf99f0e520e44a02bc10a3d37ec8, type: 3}
+  - WearableID: 387
+    WearableName: Roflnoggin
+    WearableIcon: {fileID: 21300000, guid: 401a9338f351c36479a657ee325442f7, type: 3}
+  BodyWearables:
+  - WearableID: 2
+    WearableName: Camo Pants
+    WearableIcon: {fileID: 21300000, guid: 7cbb3ab3dfc8cbc45adf04456de42251, type: 3}
+  - WearableID: 5
+    WearableName: Snow Camo Pants
+    WearableIcon: {fileID: 21300000, guid: 3f0c41fdccb6714488a7392dd30993d2, type: 3}
+  - WearableID: 8
+    WearableName: Marine Jacket
+    WearableIcon: {fileID: 21300000, guid: 83ab273c21b82a54187c7af114e3d1a9, type: 3}
+  - WearableID: 11
+    WearableName: Link Mess Dress
+    WearableIcon: {fileID: 21300000, guid: 3a42f83b24d6af2459fe0cb358e8db4f, type: 3}
+  - WearableID: 15
+    WearableName: Red Plaid
+    WearableIcon: {fileID: 21300000, guid: 8f025d673a20787409058b907ff70f79, type: 3}
+  - WearableID: 16
+    WearableName: Blue Plaid
+    WearableIcon: {fileID: 21300000, guid: 0b323c9a674f0a94a98f9c3ce11d4440, type: 3}
+  - WearableID: 19
+    WearableName: Aave Hero Shirt
+    WearableIcon: {fileID: 21300000, guid: 705c60faaca63674dafcf65514b824c8, type: 3}
+  - WearableID: 22
+    WearableName: Captain Aave Suit
+    WearableIcon: {fileID: 21300000, guid: ee6f6b4e118e95b47acc85ab144c71a6, type: 3}
+  - WearableID: 25
+    WearableName: Thaave Suit
+    WearableIcon: {fileID: 21300000, guid: 3d2cb0882fa5882449a60dcd3f18194a, type: 3}
+  - WearableID: 28
+    WearableName: Marc Outfit
+    WearableIcon: {fileID: 21300000, guid: b279ccbb8f17bd34888ea0499ff7ba55, type: 3}
+  - WearableID: 31
+    WearableName: Jordan Suit
+    WearableIcon: {fileID: 21300000, guid: 44e7b70403ba62c4cbb5b410721b06a8, type: 3}
+  - WearableID: 34
+    WearableName: Stani Lifejacket
+    WearableIcon: {fileID: 21300000, guid: 2e69de49deeda9340ab54b15d0155dbd, type: 3}
+  - WearableID: 37
+    WearableName: ETH TShirt
+    WearableIcon: {fileID: 21300000, guid: 1a28ff90313484d4594bc5397cfe6f99, type: 3}
+  - WearableID: 43
+    WearableName: Nogara Armor
+    WearableIcon: {fileID: 21300000, guid: e7bc3c588c8fd794da1cfd41b01da448, type: 3}
+  - WearableID: 46
+    WearableName: Half Rekt Shirt
+    WearableIcon: {fileID: 21300000, guid: b0cc651e211af9248a3d2a4ba5e6287b, type: 3}
+  - WearableID: 50
+    WearableName: GldnXross Robe
+    WearableIcon: {fileID: 21300000, guid: 330876144c5546f4c95d92775809a003, type: 3}
+  - WearableID: 54
+    WearableName: Llamacorn Shirt
+    WearableIcon: {fileID: 21300000, guid: bbeac63d13177ca46829658e09628d43, type: 3}
+  - WearableID: 56
+    WearableName: Aagent Shirt
+    WearableIcon: {fileID: 21300000, guid: 980d646d23bbba1409e3d56ee0e4befd, type: 3}
+  - WearableID: 68
+    WearableName: Farmer Jeans
+    WearableIcon: {fileID: 21300000, guid: f2a02872bdba45241b85fea650a21e87, type: 3}
+  - WearableID: 74
+    WearableName: Jaay Suit
+    WearableIcon: {fileID: 21300000, guid: 353eda784b7f65d4f93a16c776783122, type: 3}
+  - WearableID: 78
+    WearableName: Black Jeans
+    WearableIcon: {fileID: 21300000, guid: a0ec0f346e436b846a568afdb86b8c17, type: 3}
+  - WearableID: 81
+    WearableName: Sushi Coat
+    WearableIcon: {fileID: 21300000, guid: 436b64361044006498e0eaf88359facf, type: 3}
+  - WearableID: 85
+    WearableName: Gentleman Coat
+    WearableIcon: {fileID: 21300000, guid: 2693fb63487c5e947b995bc3775a0b8d, type: 3}
+  - WearableID: 88
+    WearableName: Miner Jeans
+    WearableIcon: {fileID: 21300000, guid: 165c1a1f703ec1e45afa2517d55e9498, type: 3}
+  - WearableID: 91
+    WearableName: Pajama Shirt
+    WearableIcon: {fileID: 21300000, guid: d55820ad0fe24ae41a8923cc02a3bf29, type: 3}
+  - WearableID: 95
+    WearableName: Track Shorts
+    WearableIcon: {fileID: 21300000, guid: 916e121c19812124692239ae12af4fca, type: 3}
+  - WearableID: 98
+    WearableName: Day Dress
+    WearableIcon: {fileID: 21300000, guid: 8077666cc114ea646b3929fc7336253a, type: 3}
+  - WearableID: 102
+    WearableName: Witchy Cloak
+    WearableIcon: {fileID: 21300000, guid: 64208edc4e9ef944b9e89d890e5f6d42, type: 3}
+  - WearableID: 105
+    WearableName: Portal Mage Armor
+    WearableIcon: {fileID: 21300000, guid: 2044d2415fae28648a9d9fb115677e7b, type: 3}
+  - WearableID: 109
+    WearableName: Rasta Shirt
+    WearableIcon: {fileID: 21300000, guid: c5869bee1348d6746b56630666f95824, type: 3}
+  - WearableID: 112
+    WearableName: Hazmat Suit
+    WearableIcon: {fileID: 21300000, guid: 70cd4dce9b7acaa4c8e6f994478ff5c9, type: 3}
+  - WearableID: 114
+    WearableName: Red Hawaiian Shirt
+    WearableIcon: {fileID: 21300000, guid: b96a220c5407551439803ade0167e7e4, type: 3}
+  - WearableID: 115
+    WearableName: Blue Hawaiian Shirt
+    WearableIcon: {fileID: 21300000, guid: bd25e6e9826f00c43aee0a95ba2851c8, type: 3}
+  - WearableID: 125
+    WearableName: Track Suit
+    WearableIcon: {fileID: 21300000, guid: 41acc332405e84f46bcfa8ae26225a02, type: 3}
+  - WearableID: 132
+    WearableName: Dragon Wings
+    WearableIcon: {fileID: 21300000, guid: e29d26579345ff641a9f94c7910fecf9, type: 3}
+  - WearableID: 135
+    WearableName: Polygon Shirt
+    WearableIcon: {fileID: 21300000, guid: 37aa3525cd8381642841b4ff1f2f8ddb, type: 3}
+  - WearableID: 138
+    WearableName: Snapshot Shirt
+    WearableIcon: {fileID: 21300000, guid: 653750a4d9748604ea2224fc9fac2bad, type: 3}
+  - WearableID: 143
+    WearableName: Gold Necklace
+    WearableIcon: {fileID: 21300000, guid: 2d99d5f6290e3bb4a831ab8178405224, type: 3}
+  - WearableID: 150
+    WearableName: Royal Robes
+    WearableIcon: {fileID: 21300000, guid: 0e9b84c8e455a6d43a474217a8348fe2, type: 3}
+  - WearableID: 160
+    WearableName: Lil Pump Threads
+    WearableIcon: {fileID: 21300000, guid: f1ad9f18a839f0c4fb36bc760458ca5c, type: 3}
+  - WearableID: 200
+    WearableName: Steampunk Trousers
+    WearableIcon: {fileID: 21300000, guid: 1e014884c6bc6434ea05b3d7c188d2b6, type: 3}
+  - WearableID: 203
+    WearableName: Gamer Jacket
+    WearableIcon: {fileID: 21300000, guid: acaf788d7e3a05d4e950d60becd846b2, type: 3}
+  - WearableID: 207
+    WearableName: Biker Jacket
+    WearableIcon: {fileID: 21300000, guid: e4887f66b881a3c49880d63c6f80eb2e, type: 3}
+  - WearableID: 213
+    WearableName: H4xx0r Shirt
+    WearableIcon: {fileID: 21300000, guid: 3b82a8699dcd3e042b3451da7c88a089, type: 3}
+  - WearableID: 220
+    WearableName: Punk Shirt
+    WearableIcon: {fileID: 21300000, guid: 650baf0d746c8194ca3bb57b493afd14, type: 3}
+  - WearableID: 222
+    WearableName: Pirate Coat
+    WearableIcon: {fileID: 21300000, guid: a58fb61824dbc07489264d941b9c97e2, type: 3}
+  - WearableID: 227
+    WearableName: 23 Jersey
+    WearableIcon: {fileID: 21300000, guid: f193620f00972eb4fbd760e4556058b6, type: 3}
+  - WearableID: 230
+    WearableName: Wraangler Jeans
+    WearableIcon: {fileID: 21300000, guid: 9e0159fba4184bc4f90438c89fa33765, type: 3}
+  - WearableID: 231
+    WearableName: Comfy Poncho
+    WearableIcon: {fileID: 21300000, guid: 2ab34f6260098eb4b84161e42c761cdb, type: 3}
+  - WearableID: 234
+    WearableName: Shaaman Poncho
+    WearableIcon: {fileID: 21300000, guid: 30f611d95afa14649872dfa7b8b30ccf, type: 3}
+  - WearableID: 241
+    WearableName: WGMI Shirt
+    WearableIcon: {fileID: 21300000, guid: 42c716ba7ea3b4d4ab223f4f7949061e, type: 3}
+  - WearableID: 244
+    WearableName: V-Neck Shirt
+    WearableIcon: {fileID: 21300000, guid: 68215914c4c01e3468fece74be4f2337, type: 3}
+  - WearableID: 248
+    WearableName: Up Only Shirt
+    WearableIcon: {fileID: 21300000, guid: c527cda6b1117d441be8c720e0498e06, type: 3}
+  - WearableID: 250
+    WearableName: CoinGecko Tee
+    WearableIcon: {fileID: 21300000, guid: 51acbf0a1d162e0478140e8b1b570b00, type: 3}
+  - WearableID: 253
+    WearableName: Aastronaut Suit
+    WearableIcon: {fileID: 21300000, guid: 11928d8cc03c27145ba17af66c6ae69c, type: 3}
+  - WearableID: 256
+    WearableName: Lil Bubble Space Suit
+    WearableIcon: {fileID: 21300000, guid: 36d5b2129c3ca744b829e3d0f666df24, type: 3}
+  - WearableID: 258
+    WearableName: Taoist Robe
+    WearableIcon: {fileID: 21300000, guid: 387b3ec6e2fefc84ca3a779638631c2c, type: 3}
+  - WearableID: 293
+    WearableName: Leather Tunic
+    WearableIcon: {fileID: 21300000, guid: 49da7864d2b8fad45b58968ddc7df8b0, type: 3}
+  - WearableID: 297
+    WearableName: Animal Skins
+    WearableIcon: {fileID: 21300000, guid: 23dc6931309a11348b23348a6b66213f, type: 3}
+  - WearableID: 303
+    WearableName: Kimono
+    WearableIcon: {fileID: 21300000, guid: 7f2b19b53fe202745ab678c0d1e894ed, type: 3}
+  - WearableID: 307
+    WearableName: Fairy Wings
+    WearableIcon: {fileID: 21300000, guid: 93bd316ad21b3474ba85f2af7472b392, type: 3}
+  - WearableID: 310
+    WearableName: Plate Armor
+    WearableIcon: {fileID: 21300000, guid: 486922e705089a94a93ba56d48158644, type: 3}
+  - WearableID: 314
+    WearableName: Yoroi Armor
+    WearableIcon: {fileID: 21300000, guid: d79e49b76f090d641b9524b11b90d2c9, type: 3}
+  - WearableID: 350
+    WearableName: Pixelcraft Tee
+    WearableIcon: {fileID: 21300000, guid: 0b9cde93eb3288146916df6e982aa9d4, type: 3}
+  - WearableID: 354
+    WearableName: Alchemica Apron
+    WearableIcon: {fileID: 21300000, guid: 421476ad49f119245b30ad54f17ca41a, type: 3}
+  - WearableID: 358
+    WearableName: Flaming Apron
+    WearableIcon: {fileID: 21300000, guid: ddcce48f7b66a2c4ebfbe19890245265, type: 3}
+  - WearableID: 362
+    WearableName: FAKE Shirt
+    WearableIcon: {fileID: 21300000, guid: 8172709e6f81bc545bf9a4de14a345ca, type: 3}
+  - WearableID: 366
+    WearableName: Heavenly Robes
+    WearableIcon: {fileID: 21300000, guid: 61fd8f437b1b5ad41a9d69ab908e1d58, type: 3}
+  - WearableID: 372
+    WearableName: Party Dress
+    WearableIcon: {fileID: 21300000, guid: b6ea6cc4d0c405e41bc0fdaa87990ca0, type: 3}
+  - WearableID: 373
+    WearableName: Overalls
+    WearableIcon: {fileID: 21300000, guid: e9606766a4eef1f4ba743fcfaa7130e0, type: 3}
+  - WearableID: 383
+    WearableName: Sandbox Hoodie
+    WearableIcon: {fileID: 21300000, guid: 1011c2e8a36e50d4a87b0c7bda9ec836, type: 3}
+  FaceWearables:
+  - WearableID: 13
+    WearableName: Sergey Beard
+    WearableIcon: {fileID: 21300000, guid: 1b354357635df1c44b2acc4ac4030460, type: 3}
+  - WearableID: 18
+    WearableName: Aave Hero Mask
+    WearableIcon: {fileID: 21300000, guid: 7b6540a1b56cadd44acf1312192d9a08, type: 3}
+  - WearableID: 55
+    WearableName: Aagent Headset
+    WearableIcon: {fileID: 21300000, guid: 5baba72dfd8bcc5448bc9d85e61341cb, type: 3}
+  - WearableID: 140
+    WearableName: Elf Ears
+    WearableIcon: {fileID: 21300000, guid: 01f83a81e031f7546915be0c872b92e8, type: 3}
+  - WearableID: 146
+    WearableName: Imperial Moustache
+    WearableIcon: {fileID: 21300000, guid: 6e9de49428808ce4e90d4bb3a3ade0db, type: 3}
+  - WearableID: 157
+    WearableName: Lil Pump Goatee
+    WearableIcon: {fileID: 21300000, guid: d20f6b07395b5954589776811b12f3b4, type: 3}
+  - WearableID: 209
+    WearableName: Horseshoe Mustache
+    WearableIcon: {fileID: 21300000, guid: 398328dbc248dc441bcb268da8ad798e, type: 3}
+  - WearableID: 216
+    WearableName: Rainbow Vomit
+    WearableIcon: {fileID: 21300000, guid: a0c476633dfacfd4eab1edea0f0a536a, type: 3}
+  - WearableID: 219
+    WearableName: Mutton Chops
+    WearableIcon: {fileID: 21300000, guid: 13985a75f7ad19446a20f7b9ab344c5e, type: 3}
+  - WearableID: 240
+    WearableName: Headphones
+    WearableIcon: {fileID: 21300000, guid: 0cc5d05fe54fb214ebff3c265ee4083d, type: 3}
+  - WearableID: 260
+    WearableName: Beard of Wisdom
+    WearableIcon: {fileID: 21300000, guid: 19093348ecbb2fe4cbd5499c487e1d07, type: 3}
+  - WearableID: 263
+    WearableName: Signal Headset
+    WearableIcon: {fileID: 21300000, guid: 7029a600b0a13e547b347ff6e84caa39, type: 3}
+  - WearableID: 295
+    WearableName: Forked Beard
+    WearableIcon: {fileID: 21300000, guid: 30f35ee20c6c92e4aa4b16276c3a6e5f, type: 3}
+  - WearableID: 306
+    WearableName: Flower Studs
+    WearableIcon: {fileID: 21300000, guid: c55ade1fc1edd7c4d8ff8932c050b876, type: 3}
+  - WearableID: 356
+    WearableName: Bandage
+    WearableIcon: {fileID: 21300000, guid: dccab38219986844ba67e3c42ee2de0a, type: 3}
+  - WearableID: 368
+    WearableName: Beard of Divinity
+    WearableIcon: {fileID: 21300000, guid: 47d22f191790af04699e145c8d373abc, type: 3}
+  - WearableID: 371
+    WearableName: Plastic Earrings
+    WearableIcon: {fileID: 21300000, guid: 4ee7073230d3d27499fefc3482bf8fcc, type: 3}
+  - WearableID: 378
+    WearableName: Lick Tongue
+    WearableIcon: {fileID: 21300000, guid: 35f3204ca51086541ae054969d656fb1, type: 3}
+  - WearableID: 382
+    WearableName: GOAT-ee
+    WearableIcon: {fileID: 21300000, guid: 4ad71586c6eeba04eb012aefee235f9c, type: 3}
+  - WearableID: 384
+    WearableName: Faangs
+    WearableIcon: {fileID: 21300000, guid: fb97d50af7f2b124ebca343beca5c8f9, type: 3}
+  EyeWearables:
+  - WearableID: 14
+    WearableName: Sergey Eyes
+    WearableIcon: {fileID: 21300000, guid: 8db2315593ab8474cb6ea0a15aa4fd99, type: 3}
+  - WearableID: 36
+    WearableName: ETH Logo Glasses
+    WearableIcon: {fileID: 21300000, guid: 42f1e801242f6e34a9605731d31fe7b5, type: 3}
+  - WearableID: 49
+    WearableName: Coderdan Shades
+    WearableIcon: {fileID: 21300000, guid: 6b86506ce80747b42b79a7c6c5900f20, type: 3}
+  - WearableID: 53
+    WearableName: All Seeing Eyes
+    WearableIcon: {fileID: 21300000, guid: 8a5ceb1c89066264f9b0ad1700a70691, type: 3}
+  - WearableID: 57
+    WearableName: Aagent Shades
+    WearableIcon: {fileID: 21300000, guid: 3bcd1a516fe438048a37f51f9598b4d3, type: 3}
+  - WearableID: 66
+    WearableName: Wizard Visor
+    WearableIcon: {fileID: 21300000, guid: da51ff1de1001684789af697c342a363, type: 3}
+  - WearableID: 73
+    WearableName: Jaay Glasses
+    WearableIcon: {fileID: 21300000, guid: 111d66e7990f67240a93735a5d6851e1, type: 3}
+  - WearableID: 86
+    WearableName: Monocle
+    WearableIcon: {fileID: 21300000, guid: 2e8c29fb3a099244ba9ed1502a134b7a, type: 3}
+  - WearableID: 117
+    WearableName: Cool Shades
+    WearableIcon: {fileID: 21300000, guid: 06573ee8cd5b2ee4e80563a042fda923, type: 3}
+  - WearableID: 159
+    WearableName: Lil Pump Shades
+    WearableIcon: {fileID: 21300000, guid: 0e2be3227c32f984690dc857e7125aae, type: 3}
+  - WearableID: 199
+    WearableName: Steampunk Goggles
+    WearableIcon: {fileID: 21300000, guid: 4758536b31ac6a44eb49286a4d507d43, type: 3}
+  - WearableID: 202
+    WearableName: VR Headset
+    WearableIcon: {fileID: 21300000, guid: 0f61b4be94e43a049af215c452e08541, type: 3}
+  - WearableID: 208
+    WearableName: Aviators
+    WearableIcon: {fileID: 21300000, guid: f7868282603c9a045a9c80b22533d620, type: 3}
+  - WearableID: 214
+    WearableName: Matrix Eyes
+    WearableIcon: {fileID: 21300000, guid: 991513d6ad5b91e4bb8759b17cca4cbe, type: 3}
+  - WearableID: 215
+    WearableName: Cyborg Eye
+    WearableIcon: {fileID: 21300000, guid: 07f45a5e81df6fa408ee9b2cb04b5d7b, type: 3}
+  - WearableID: 224
+    WearableName: Pirate Patch
+    WearableIcon: {fileID: 21300000, guid: c3af87e3f50042c4d8610268837e1dd7, type: 3}
+  - WearableID: 243
+    WearableName: Tinted Shades
+    WearableIcon: {fileID: 21300000, guid: 7875571908946d345a3f821323853275, type: 3}
+  - WearableID: 246
+    WearableName: APY Shades
+    WearableIcon: {fileID: 21300000, guid: 4a3258ba2871d0c42937cbbf7a3a7171, type: 3}
+  - WearableID: 249
+    WearableName: Gecko Eyes
+    WearableIcon: {fileID: 21300000, guid: 0bd383df7ed046f48ba31ab68f24b03d, type: 3}
+  - WearableID: 259
+    WearableName: Bushy Eyebrows
+    WearableIcon: {fileID: 21300000, guid: 5b615a67d725f484595a93b8c08d05ed, type: 3}
+  - WearableID: 262
+    WearableName: Radar Eyes
+    WearableIcon: {fileID: 21300000, guid: 52943799656cf6e4d81d4854707be2f6, type: 3}
+  - WearableID: 301
+    WearableName: Alluring Eyes
+    WearableIcon: {fileID: 21300000, guid: 960b48d79a6ba2a4ba7dd51196951b2a, type: 3}
+  - WearableID: 351
+    WearableName: 3D Glasses
+    WearableIcon: {fileID: 21300000, guid: 3db6d378883815e40b3dcf97520164ba, type: 3}
+  - WearableID: 355
+    WearableName: Safety Glasses
+    WearableIcon: {fileID: 21300000, guid: 93dc18e6b1d99d0429545f2b079f0ccc, type: 3}
+  - WearableID: 359
+    WearableName: Forge Goggles
+    WearableIcon: {fileID: 21300000, guid: 595c2aec5d60db64f9f4f5a3046d5bfe, type: 3}
+  - WearableID: 367
+    WearableName: Eyes of Devotion
+    WearableIcon: {fileID: 21300000, guid: 5c4d6884674e29e4abb1f9bb85a18457, type: 3}
+  - WearableID: 377
+    WearableName: Lick Eyes
+    WearableIcon: {fileID: 21300000, guid: db64e41bfb6e4ce47bd842016d4d560a, type: 3}
+  - WearableID: 381
+    WearableName: Voxel Eyes
+    WearableIcon: {fileID: 21300000, guid: a3b7af2d1fd0be94f98f8552bf0fc0c8, type: 3}
+  - WearableID: 385
+    WearableName: Block Scanners
+    WearableIcon: {fileID: 21300000, guid: d9751bf3c8a609c49abf2c385231202d, type: 3}
+  HandWearables:
+  - WearableID: 3
+    WearableName: MK2 Grenade
+    WearableIcon: {fileID: 21300000, guid: 7527f5b9383608842b7f9b44b1f0b0b9, type: 3}
+  - WearableID: 6
+    WearableName: M67 Grenade
+    WearableIcon: {fileID: 21300000, guid: 41f592a81b5ca0c4a8016341be2f3942, type: 3}
+  - WearableID: 9
+    WearableName: Walkie-talkie
+    WearableIcon: {fileID: 21300000, guid: 029a197597c38a74a9f6dc84e6bfe509, type: 3}
+  - WearableID: 12
+    WearableName: Link Bubbly
+    WearableIcon: {fileID: 21300000, guid: b4fe8cbbce95a4446a0ec632165df7c4, type: 3}
+  - WearableID: 17
+    WearableName: LINK Cube
+    WearableIcon: {fileID: 21300000, guid: 3b3fd2f6371c2a74d867178e162f4fa9, type: 3}
+  - WearableID: 20
+    WearableName: Aave Plush Toy
+    WearableIcon: {fileID: 21300000, guid: fef830f083138d44eae94a67252ebca4, type: 3}
+  - WearableID: 23
+    WearableName: Captain Aave Shield
+    WearableIcon: {fileID: 21300000, guid: c1b94ebbed3bf1f47994b917e837fb3c, type: 3}
+  - WearableID: 26
+    WearableName: Thaave Hammer
+    WearableIcon: {fileID: 21300000, guid: dffcf390263fc6c4a8c419e81ba86fb7, type: 3}
+  - WearableID: 29
+    WearableName: REKT Sign
+    WearableIcon: {fileID: 21300000, guid: b69527a8c61d21040af9d4e392f59825, type: 3}
+  - WearableID: 32
+    WearableName: Aave Flag
+    WearableIcon: {fileID: 21300000, guid: 30422d2ee93e6a74b99536dcb8a13624, type: 3}
+  - WearableID: 38
+    WearableName: 32 ETH Coin
+    WearableIcon: {fileID: 21300000, guid: 5b6b34758147ab3488fd9cf3257b6f2d, type: 3}
+  - WearableID: 41
+    WearableName: Trezor Wallet
+    WearableIcon: {fileID: 21300000, guid: 2ff1e9b4b49fb2d4db180e6fa7d6993d, type: 3}
+  - WearableID: 44
+    WearableName: DAO Egg
+    WearableIcon: {fileID: 21300000, guid: 22fec7b6b9be23b4598fa897bd2884e0, type: 3}
+  - WearableID: 47
+    WearableName: Waifu Pillow
+    WearableIcon: {fileID: 21300000, guid: 804a08679f046fe47a46c1b1b784ed80, type: 3}
+  - WearableID: 51
+    WearableName: Mudgen Diamond
+    WearableIcon: {fileID: 21300000, guid: 4d48acb3df982114ba70d761732a293f, type: 3}
+  - WearableID: 58
+    WearableName: Aagent Pistol
+    WearableIcon: {fileID: 21300000, guid: b279e2705b99514418e482ee92837074, type: 3}
+  - WearableID: 64
+    WearableName: Common Wizard Staff
+    WearableIcon: {fileID: 21300000, guid: d5eb20adddc11bb41916bacbc5e0f5e3, type: 3}
+  - WearableID: 65
+    WearableName: Legendary Wizard Staff
+    WearableIcon: {fileID: 21300000, guid: 6e4bfc332cd14294b9f4690994095284, type: 3}
+  - WearableID: 69
+    WearableName: Pitchfork
+    WearableIcon: {fileID: 21300000, guid: 13e1c6895ecb3d542808a15010d8a47a, type: 3}
+  - WearableID: 70
+    WearableName: Handsaw
+    WearableIcon: {fileID: 21300000, guid: 0691fe967d61975489692cdfaf737c84, type: 3}
+  - WearableID: 75
+    WearableName: OKex Sign
+    WearableIcon: {fileID: 21300000, guid: 72eff4da2cbe77f469c7d098be1c43ce, type: 3}
+  - WearableID: 76
+    WearableName: Big GHST Token
+    WearableIcon: {fileID: 21300000, guid: c3a5ce4c8df7f954bb04479f8c13a37d, type: 3}
+  - WearableID: 79
+    WearableName: Skateboard
+    WearableIcon: {fileID: 21300000, guid: 83a8e229f15f06a428c8f39da6748d35, type: 3}
+  - WearableID: 82
+    WearableName: Sushi Piece
+    WearableIcon: {fileID: 21300000, guid: bb42d2f8d9b65cc4db5b379ffe90981c, type: 3}
+  - WearableID: 83
+    WearableName: Sushi Knife
+    WearableIcon: {fileID: 21300000, guid: 25202ee5955079447bd927ffcb521171, type: 3}
+  - WearableID: 89
+    WearableName: Pickaxe
+    WearableIcon: {fileID: 21300000, guid: 8887de2a1cdd6224eae3f097bc185842, type: 3}
+  - WearableID: 92
+    WearableName: Bedtime Milk
+    WearableIcon: {fileID: 21300000, guid: 3850ca3ab13f1644fa1d68b4a29173e0, type: 3}
+  - WearableID: 93
+    WearableName: Fluffy Pillow
+    WearableIcon: {fileID: 21300000, guid: 3d11c23682958214e9c306b9d0ba8b00, type: 3}
+  - WearableID: 96
+    WearableName: Water bottle
+    WearableIcon: {fileID: 21300000, guid: 73ba51bab0d96c24288b9660ff6e469b, type: 3}
+  - WearableID: 99
+    WearableName: Parasol
+    WearableIcon: {fileID: 21300000, guid: d459313a119db864489b717458f23385, type: 3}
+  - WearableID: 100
+    WearableName: Clutch
+    WearableIcon: {fileID: 21300000, guid: 6357a56b24fd2be4a95c16b8240c71d2, type: 3}
+  - WearableID: 103
+    WearableName: Witchy Wand
+    WearableIcon: {fileID: 21300000, guid: 8da497cd890b845479353608711f4220, type: 3}
+  - WearableID: 106
+    WearableName: Portal Mage Axe
+    WearableIcon: {fileID: 21300000, guid: 4eb9f15d4261d4349a209da09e05ea59, type: 3}
+  - WearableID: 107
+    WearableName: Portal Mage Black Axe
+    WearableIcon: {fileID: 21300000, guid: 9f329e07e9adb7647838ed504fb0b795, type: 3}
+  - WearableID: 110
+    WearableName: Jamaican Flag
+    WearableIcon: {fileID: 21300000, guid: 476b0946c9153f344b72506431295a2c, type: 3}
+  - WearableID: 113
+    WearableName: Uranium Rod
+    WearableIcon: {fileID: 21300000, guid: b4fbfd3099d759d4bb3e133890ce293d, type: 3}
+  - WearableID: 116
+    WearableName: Coconut
+    WearableIcon: {fileID: 21300000, guid: 8bb69637d35c29b4cb119ae02d47391e, type: 3}
+  - WearableID: 118
+    WearableName: Water Jug
+    WearableIcon: {fileID: 21300000, guid: 7adbe83fccd38764b9a6574065e764c0, type: 3}
+  - WearableID: 119
+    WearableName: Baby Bottle
+    WearableIcon: {fileID: 21300000, guid: 397e18944268e1c4c9057314b57a1a6d, type: 3}
+  - WearableID: 120
+    WearableName: Martini
+    WearableIcon: {fileID: 21300000, guid: 592418bf4aa0aaf47bf1780e7ead8151, type: 3}
+  - WearableID: 121
+    WearableName: Wine
+    WearableIcon: {fileID: 21300000, guid: 3db570f7f62c3c14591a950529c03a4b, type: 3}
+  - WearableID: 122
+    WearableName: Milkshake
+    WearableIcon: {fileID: 21300000, guid: 5c52b835abdd0e04f9c7e272bb40a376, type: 3}
+  - WearableID: 123
+    WearableName: Apple Juice
+    WearableIcon: {fileID: 21300000, guid: de4e4b26526c21341abb479d0231c30d, type: 3}
+  - WearableID: 130
+    WearableName: Fireball
+    WearableIcon: {fileID: 21300000, guid: 8e0568fd96477c74f854287cf6e759da, type: 3}
+  - WearableID: 134
+    WearableName: L2 Sign
+    WearableIcon: {fileID: 21300000, guid: 15e09ac4c0e075a4a8413c5f09da2917, type: 3}
+  - WearableID: 137
+    WearableName: Vote Sign
+    WearableIcon: {fileID: 21300000, guid: ba4859f2dcf237f4f92f252018545b42, type: 3}
+  - WearableID: 141
+    WearableName: Gemstone Ring
+    WearableIcon: {fileID: 21300000, guid: b1acbbb9af65ac44582c740e87eb3f4d, type: 3}
+  - WearableID: 148
+    WearableName: Royal Sceptre
+    WearableIcon: {fileID: 21300000, guid: ee9245f26f79eb1428cb236252baca85, type: 3}
+  - WearableID: 158
+    WearableName: Lil Pump Drank
+    WearableIcon: {fileID: 21300000, guid: 18c56a740a31d31408f1f871605a5388, type: 3}
+  - WearableID: 201
+    WearableName: Mechanical Claw
+    WearableIcon: {fileID: 21300000, guid: 6cc3d443e3622014e8f46a2e018dae96, type: 3}
+  - WearableID: 204
+    WearableName: Game Controller
+    WearableIcon: {fileID: 21300000, guid: 5509dd7a742ee8d48a67edaadd04a2d4, type: 3}
+  - WearableID: 205
+    WearableName: Gotchi Mug
+    WearableIcon: {fileID: 21300000, guid: 11e5bef669f8f194b8af49c2e4019093, type: 3}
+  - WearableID: 212
+    WearableName: 1337 Laptop
+    WearableIcon: {fileID: 21300000, guid: 5a31eaeb57226e14e992a36d30558ff5, type: 3}
+  - WearableID: 217
+    WearableName: Energy Gun
+    WearableIcon: {fileID: 21300000, guid: 9a03b26148141ea43bc33fd803c898b1, type: 3}
+  - WearableID: 223
+    WearableName: Hook Hand
+    WearableIcon: {fileID: 21300000, guid: 4cb25f99ef767fd4fbb5a668c92d9c38, type: 3}
+  - WearableID: 225
+    WearableName: Basketball
+    WearableIcon: {fileID: 21300000, guid: ccb83b60054ccea40a0cf0309b4010f0, type: 3}
+  - WearableID: 229
+    WearableName: Lasso
+    WearableIcon: {fileID: 21300000, guid: cc5f629ad672a4f4883479b525163510, type: 3}
+  - WearableID: 247
+    WearableName: Up Arrow
+    WearableIcon: {fileID: 21300000, guid: afe1cad59731c5845a027412730831da, type: 3}
+  - WearableID: 251
+    WearableName: Candy Jaar
+    WearableIcon: {fileID: 21300000, guid: a3b877b3ee772c04ba40ebce4e7c9ccf, type: 3}
+  - WearableID: 254
+    WearableName: uGOTCHI Token
+    WearableIcon: {fileID: 21300000, guid: 2611ede2a4b99b44d96881cb6efd3093, type: 3}
+  - WearableID: 257
+    WearableName: Bitcoin Guitar
+    WearableIcon: {fileID: 21300000, guid: e06fbc5fb1c90fe49add3abee7205b59, type: 3}
+  - WearableID: 294
+    WearableName: Bow and Arrow
+    WearableIcon: {fileID: 21300000, guid: e4e9c433474671643a4722a93d047cf1, type: 3}
+  - WearableID: 296
+    WearableName: Double-sided Axe
+    WearableIcon: {fileID: 21300000, guid: 807395a4f99e6aa4fa1ae448454c77af, type: 3}
+  - WearableID: 299
+    WearableName: Longbow
+    WearableIcon: {fileID: 21300000, guid: e8c51edd3bc9b8d4da703638eb957222, type: 3}
+  - WearableID: 304
+    WearableName: Paper Fan
+    WearableIcon: {fileID: 21300000, guid: 8d31f6752ae765c4481fa5d10ce4dd63, type: 3}
+  - WearableID: 311
+    WearableName: Spirit Sword
+    WearableIcon: {fileID: 21300000, guid: eae10c8dd3b8df243ba0205748b04b18, type: 3}
+  - WearableID: 312
+    WearableName: Plate Shield
+    WearableIcon: {fileID: 21300000, guid: aca8be3809d32db40a6cbc185e4a85be, type: 3}
+  - WearableID: 315
+    WearableName: Haanzo Katana
+    WearableIcon: {fileID: 21300000, guid: aede9a9a3c4e8e14885a2d0372f6837a, type: 3}
+  - WearableID: 352
+    WearableName: Pixelcraft Square
+    WearableIcon: {fileID: 21300000, guid: 7810e8adca92b63468a72c81e198009f, type: 3}
+  - WearableID: 357
+    WearableName: Nail Gun
+    WearableIcon: {fileID: 21300000, guid: ed8145cad90845b42afa7b2b918a8c64, type: 3}
+  - WearableID: 360
+    WearableName: Geode Smasher
+    WearableIcon: {fileID: 21300000, guid: 02a63e2d255f15a4b89e565567f3eebd, type: 3}
+  - WearableID: 364
+    WearableName: Paint Brush
+    WearableIcon: {fileID: 21300000, guid: 8a5def6cba877c14780e6dd21234a4e3, type: 3}
+  - WearableID: 365
+    WearableName: Paint Palette
+    WearableIcon: {fileID: 21300000, guid: b5362aae97f561f4dbc1702688073436, type: 3}
+  - WearableID: 369
+    WearableName: Staff of Creation
+    WearableIcon: {fileID: 21300000, guid: 910e7fa458397424784a0903da91e7ac, type: 3}
+  - WearableID: 375
+    WearableName: GM Seeds
+    WearableIcon: {fileID: 21300000, guid: 20ee2f34682c7404d9c279790df522d1, type: 3}
+  - WearableID: 379
+    WearableName: Lick Tentacle
+    WearableIcon: {fileID: 21300000, guid: 94e78664e724d5e4286bd84312d2352b, type: 3}
+  - WearableID: 386
+    WearableName: Staff of Charming
+    WearableIcon: {fileID: 21300000, guid: 228d9d784f6ac2842a51fb09a32191e7, type: 3}
+  PetWearables:
+  - WearableID: 35
+    WearableName: Aave Boat
+    WearableIcon: {fileID: 21300000, guid: 0d58f499a7fd4f741ac19711caba7fa0, type: 3}
+  - WearableID: 40
+    WearableName: Foxy Tail
+    WearableIcon: {fileID: 21300000, guid: c02bf5e3c4544354daa6d9eb29812994, type: 3}
+  - WearableID: 151
+    WearableName: Common Rofl
+    WearableIcon: {fileID: 21300000, guid: 3cc6d68a5d95d2643a3b59c7f94411a9, type: 3}
+  - WearableID: 152
+    WearableName: Uncommon Rofl
+    WearableIcon: {fileID: 21300000, guid: 0f111ca60b0e0a94599f066715c7ad33, type: 3}
+  - WearableID: 153
+    WearableName: Rare Rofl
+    WearableIcon: {fileID: 21300000, guid: 89334f2af4024294aaf41bf6bec8253e, type: 3}
+  - WearableID: 154
+    WearableName: Legendary Rofl
+    WearableIcon: {fileID: 21300000, guid: 1456362010cb4dd4ab03ea82194bd7c1, type: 3}
+  - WearableID: 155
+    WearableName: Mythical Rofl
+    WearableIcon: {fileID: 21300000, guid: 3e79f7cb1e26b3c4bab764c62948f77b, type: 3}
+  - WearableID: 156
+    WearableName: Royal Rofl
+    WearableIcon: {fileID: 21300000, guid: 508d3992e5bcd5245b7784f60aa5ce40, type: 3}
+  - WearableID: 233
+    WearableName: Uncommon Cacti
+    WearableIcon: {fileID: 21300000, guid: 18cfceaa32d6174479303b8ca3b35869, type: 3}
+  - WearableID: 236
+    WearableName: Blue Cacti
+    WearableIcon: {fileID: 21300000, guid: 4bebb7946c6fa7f4c933abb5dc0d5751, type: 3}
+  - WearableID: 237
+    WearableName: Mythical Cacti
+    WearableIcon: {fileID: 21300000, guid: 11521b7a4e33382449643a312129453f, type: 3}
+  - WearableID: 238
+    WearableName: Godlike Cacti
+    WearableIcon: {fileID: 21300000, guid: bb81f709233fa9243b95d88104c2ceee, type: 3}
+  - WearableID: 261
+    WearableName: Aantenna Bot
+    WearableIcon: {fileID: 21300000, guid: 2c6af628f947c4e49a231b6ea1615279, type: 3}
+  - WearableID: 305
+    WearableName: Sus Butterfly
+    WearableIcon: {fileID: 21300000, guid: b2a9cf60e5803804a982bc8f7aa71bae, type: 3}
+  - WearableID: 353
+    WearableName: Nimbus
+    WearableIcon: {fileID: 21300000, guid: 5dcfce8a36ee5b04d8e4c870ec2c5d6b, type: 3}
+  - WearableID: 361
+    WearableName: Geo
+    WearableIcon: {fileID: 21300000, guid: 6e865303876b22744a0338c111a644ef, type: 3}
+  - WearableID: 374
+    WearableName: Lens n Frens Plant
+    WearableIcon: {fileID: 21300000, guid: 8b2186379c0d5e04f870e2be6ec70b98, type: 3}

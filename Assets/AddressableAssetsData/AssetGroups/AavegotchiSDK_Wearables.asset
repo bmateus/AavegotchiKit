@@ -1,0 +1,895 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AavegotchiSDK_Wearables
+  m_EditorClassIdentifier: 
+  m_GroupName: AavegotchiSDK_Wearables
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 91ad170301508234ab4c81d21ffd82bb
+  m_SerializeEntries:
+  - m_GUID: d7c086b1d5abe7b4dbc1c2d2036161c7
+    m_Address: Wearable_Mesh_116
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd836fd74d2175640a0d26c2cbb7fcdc
+    m_Address: Wearable_Mesh_69
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3f801543a0982449a12914fed3f1463
+    m_Address: Wearable_Mesh_46
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 015ddcc9224289e41b1e74016e17a8d1
+    m_Address: Wearable_Mesh_151
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45c29e8c80209e24daf30b88a7741a6b
+    m_Address: Wearable_Mesh_44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd1bc9a77b521ef4fa92e48cfd85f2c9
+    m_Address: Wearable_Mesh_366
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bfca79a33691384db8ca8af71785314
+    m_Address: Wearable_Mesh_73
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ddced8b13b807f418e2760dd1d0d594
+    m_Address: Wearable_Mesh_84
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34f7cb18c52cf604dabb847e48f558d1
+    m_Address: Wearable_Mesh_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a34943a88c2e3d418b06c2c28271730
+    m_Address: Wearable_Mesh_89
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 928990fdb3f2c584caf6d02f42282157
+    m_Address: Wearable_Mesh_101
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 661479b65cf65c54b93f330e46aea49a
+    m_Address: Wearable_Mesh_230
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2b5c4f4f2225b34c9f8ee1be9f52b76
+    m_Address: Wearable_Mesh_111
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90ee4efe7bce6f040befdb2c0e303353
+    m_Address: Wearable_Mesh_238
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 533b1f3cba3726146919b80a03ee8ea1
+    m_Address: Wearable_Mesh_254
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4bf9e6f4c6c6a540be77cfdfabc66e6
+    m_Address: Wearable_Mesh_99
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 119fded8d7e75b245a078f810f835b4d
+    m_Address: Wearable_Mesh_232
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74fdf27709e050842b63cdfb20fda631
+    m_Address: Wearable_Mesh_356
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 363a5f342410c964e8abc4e34223846a
+    m_Address: Wearable_Mesh_350
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e838f3aef5444f44ea965c4a7a9349dc
+    m_Address: Wearable_Mesh_155
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef9782d84566efb4e8bef3af03a0644e
+    m_Address: Wearable_Mesh_158
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 939cbe0f971ea60429b795f2f554764b
+    m_Address: Wearable_Mesh_306
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 198400baa51daa24094d6ada29ba8c28
+    m_Address: Wearable_Mesh_257
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 89ed96e000a06bf4f86984b83518e009
+    m_Address: Wearable_Mesh_55
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1af00fed1cc747842aad7563d4ddad3e
+    m_Address: Wearable_Mesh_233
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2e249ee8c8e4df4d8f40259b344bfbe
+    m_Address: Wearable_Mesh_223
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b84e4a97a5277b24281901ebf10fcbeb
+    m_Address: Wearable_Mesh_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1561238d0e5cc340ae48cb49758bc08
+    m_Address: Wearable_Mesh_39
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10cfc94d73777444a9750a1d01bf336c
+    m_Address: Wearable_Mesh_299
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 328b72bd10647fb4581573ba552418db
+    m_Address: Wearable_Mesh_304
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 979001ef5d00daf4fbefd543bc10b37f
+    m_Address: Wearable_Mesh_118
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52462e81f125a2e4fb71a4d1cb7a2f2c
+    m_Address: Wearable_Mesh_130
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23660cb50946a7c43a02b3c49cefd796
+    m_Address: Wearable_Mesh_72
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ef8f8635f232824487ea0045a217da0
+    m_Address: Wearable_Mesh_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 555d946d40e7919438b2177c7d3e1846
+    m_Address: Wearable_Mesh_258
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7290cc00fce7c73459ed07631ba2d466
+    m_Address: Wearable_Mesh_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e9898cc1ed9ef04bb905e6ce7a98d90
+    m_Address: Wearable_Mesh_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c697100acb6b48345a1d7fdb6e0b27cf
+    m_Address: Wearable_Mesh_150
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7b53ab6852aec5449355a54b280c37f
+    m_Address: Wearable_Mesh_86
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27b5ec895cdbf1345bd7be2bd5cdca5b
+    m_Address: Wearable_Mesh_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70cc9b12b84b3a74ba1974f4c43ca332
+    m_Address: Wearable_Mesh_41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4295fcc1699236a45abe9115e830c366
+    m_Address: Wearable_Mesh_146
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80a8f43153e5ea246857d3d12f004d43
+    m_Address: Wearable_Mesh_309
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54c7b13b29b78a1478d2a2234326d2a9
+    m_Address: Wearable_Mesh_75
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e543f8e49e545064e8b38feba274a87b
+    m_Address: Wearable_Mesh_85
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa6af3e41760af34baa84d85a4beab60
+    m_Address: Wearable_Mesh_160
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad2ed21d026d80f4ba300304febdfd02
+    m_Address: Wearable_Mesh_156
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e6cc6192338d35488b0e7279007fc33
+    m_Address: Wearable_Mesh_217
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad0323355a83acc4d8b1f84abff471ef
+    m_Address: Wearable_Mesh_224
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85cb1de9420abc943a48dff1fced4a97
+    m_Address: Wearable_Mesh_161
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d22712207afc8644cad3870e7fe3ea6a
+    m_Address: Wearable_Mesh_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dfa5d241b063f645a0ca74472da5fd6
+    m_Address: Wearable_Mesh_235
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 870d6128aceee1942aa4fc2f1519bba9
+    m_Address: Wearable_Mesh_222
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d476eb27c704b84485461ebffe1d6d9
+    m_Address: Wearable_Mesh_313
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb5e1722b7661b14f807180108f4aa47
+    m_Address: Wearable_Mesh_144
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cdc3d3f3792e664f9e68319715dd25a
+    m_Address: Wearable_Mesh_202
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4b92fcc8c5d8524f86dae0400b58517
+    m_Address: Wearable_Mesh_263
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72e180cea63a93040be87ae76a57c9b2
+    m_Address: Wearable_Mesh_221
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 484c021816a2ddc4d95e29ba0ce4039e
+    m_Address: Wearable_Mesh_103
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2be741f2a3eeda3489f46e17cd07680a
+    m_Address: Wearable_Mesh_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77d9c65ddfccee54bb3bbdfd38f54381
+    m_Address: Wearable_Mesh_77
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b5875a54cc14194b99a8688ac30dd4f
+    m_Address: Wearable_Mesh_153
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d506ae3c63adeb645ac026f14cd62379
+    m_Address: Wearable_Mesh_205
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f14eab33ab5383f4c8ad5f3a0beacecf
+    m_Address: Wearable_Mesh_209
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0705b9a6da1fccc44a41e847453ef6d9
+    m_Address: Wearable_Mesh_294
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 519d9107653c2f14580ca3f16cb93f2d
+    m_Address: Wearable_Mesh_143
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 353fb3dc8c67e194db52353c5e4fa5b2
+    m_Address: Wearable_Mesh_149
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b25c9340befef3448b34782d6922d35
+    m_Address: Wearable_Mesh_65
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b1a927564983124197d2b8db88c1c17
+    m_Address: Wearable_Mesh_152
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf93ab044d2643b4b9312dff22727dc5
+    m_Address: Wearable_Mesh_82
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 193d4563eae1bf14dba48f575fdf5dfb
+    m_Address: Wearable_Mesh_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d319e1fc04d1ff948809758ab3740e63
+    m_Address: Wearable_Mesh_251
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ec48decf76463341bbcdb5ee55082d5
+    m_Address: Wearable_Mesh_352
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d36beb8fa37cd748a620ecc03c9975d
+    m_Address: Wearable_Mesh_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e711ac9d8708eec43b5cd8a88bc665c4
+    m_Address: Wearable_Mesh_71
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c2122be350f0c44ca3343fe8d1b9c86
+    m_Address: Wearable_Mesh_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc696aec61b9c2446b3d8485c1cbfe2b
+    m_Address: Wearable_Mesh_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb73988191399e247977498ddad60925
+    m_Address: Wearable_Mesh_113
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e891b58e76b773d4789eaebac08c4815
+    m_Address: Wearable_Mesh_47
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1542dd88cf8016c418b8b56c7b380bbc
+    m_Address: Wearable_Mesh_74
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bd259c07ee5e564e975920ec334e6b1
+    m_Address: Wearable_Mesh_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2467c4784f8e1f4481b045f71218f3e
+    m_Address: Wearable_Mesh_310
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f83cb2c862084db468ab3b7ea57c75c2
+    m_Address: Wearable_Mesh_67
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 148b458b48224b44ca9b6443f29474d4
+    m_Address: Wearable_Mesh_52
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d71ea17bc6ce134eab7d9f7ce41f5d6
+    m_Address: Wearable_Mesh_154
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fc49f18f01fbaa4f801e9dac8da751e
+    m_Address: Wearable_Mesh_212
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9d9ac8c0c4b4aa49a3e18975c50a824
+    m_Address: Wearable_Mesh_31
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86faaa5d89a085d4dba261f4803c024f
+    m_Address: Wearable_Mesh_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c69581ddc2553c949853afb4cfb005f0
+    m_Address: Wearable_Mesh_122
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a437cb9f0b416f44955695b41c4538f
+    m_Address: Wearable_Mesh_57
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c56d70b33742d742b4094ad040547fc
+    m_Address: Wearable_Mesh_114
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e930f0d648779d4d8ad68acf51fc345
+    m_Address: Wearable_Mesh_247
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4610dd7a81c338c41ad157570d1c173f
+    m_Address: Wearable_Mesh_64
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1c6c43d93fef6f43a99d9f9c0e03af9
+    m_Address: Wearable_Mesh_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2448cefdcaf783f4aa4b6f5857b7c1a1
+    m_Address: Wearable_Mesh_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52e2ef871e36b894bab091cc0ff21a9f
+    m_Address: Wearable_Mesh_40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f216a0e9bc11cc040bf050b9e4d9ddf8
+    m_Address: Wearable_Mesh_112
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72be57fe27fa9e84a852f42880153d83
+    m_Address: Wearable_Mesh_102
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 741a0a50d4abac64a9217d2b8fdb44cd
+    m_Address: Wearable_Mesh_119
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b60a81ad416486643b56de5a0411dc56
+    m_Address: Wearable_Mesh_243
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c871ace1b705f345b2018fb161c293c
+    m_Address: Wearable_Mesh_355
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 982fe55692c9532448969b2919c510e3
+    m_Address: Wearable_Mesh_157
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76bd3196a26e06e4baf05e9b0f9953a9
+    m_Address: Wearable_Mesh_145
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad96362b0d93720448b71e68c2d96aad
+    m_Address: Wearable_Mesh_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87374baf2dbe07040a62eabe241e20b8
+    m_Address: Wearable_Mesh_58
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05fec2fd86f4c75458ffcd10f0309591
+    m_Address: Wearable_Mesh_305
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b72e7ebab17d3b4eb49a4cb2433b407
+    m_Address: Wearable_Mesh_68
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 981531a5a8fe3de448c87c57604b417e
+    m_Address: Wearable_Mesh_159
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 025a047c1fa447646b751f3e0f8d8431
+    m_Address: Wearable_Mesh_54
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5636ad718164a6f4faf1cf0f2dd72983
+    m_Address: Wearable_Mesh_225
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b587a739f01daf4c9e14a23575dba07
+    m_Address: Wearable_Mesh_369
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce635d683af1248408c0fedf8cf20d86
+    m_Address: Wearable_Mesh_214
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 833481ba9b3be194c98d84dad12a7b3b
+    m_Address: Wearable_Mesh_365
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9825989182466954e9bd244daacc928b
+    m_Address: Wearable_Mesh_295
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df3e3cc60239d9e4f8bef0026bde060f
+    m_Address: Wearable_Mesh_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2ef5545e70cb9a4ab7888cd11365e51
+    m_Address: Wearable_Mesh_357
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64f533baab68b2c479e862b5f0854f3c
+    m_Address: Wearable_Mesh_123
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 902aafc1dcb78be429b874eb3335cc08
+    m_Address: Wearable_Mesh_79
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39c154b998e27de45bd325e1f1d082d7
+    m_Address: Wearable_Mesh_315
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d83bd779f99f284c91ea3a06e6a8d3a
+    m_Address: Wearable_Mesh_368
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60ebafd4b1ac2884c92e7be2109322f3
+    m_Address: Wearable_Mesh_48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a2d44c07704ff54593c3113a773d765
+    m_Address: Wearable_Mesh_96
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 64248adb0a1b3894785411b382e1d4e0
+    m_Address: Wearable_Mesh_237
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a58ec6caf2174ae4d8070a9d28f1f20e
+    m_Address: Wearable_Mesh_219
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd0a8af57d846fe4fbdd414f2e53cdd1
+    m_Address: Wearable_Mesh_311
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a541ccf5b38197e4aafaff1f2df054cd
+    m_Address: Wearable_Mesh_301
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e04f12ac59b17ad4583f595ea795a4c4
+    m_Address: Wearable_Mesh_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 735af49faec7a7d4abebd8748d88c541
+    m_Address: Wearable_Mesh_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b189ff7f8ecd0534688e5268f4a0dd98
+    m_Address: Wearable_Mesh_120
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f78d9ddd3a8158046a91fde32366e101
+    m_Address: Wearable_Mesh_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ecb7efdeb3f89b42b50da6cedfef7ed
+    m_Address: Wearable_Mesh_92
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c0e4052ea8d9114ebf7c23642e3629b
+    m_Address: Wearable_Mesh_261
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c92c71ebf09546042b62224070646949
+    m_Address: Wearable_Mesh_148
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c93bc36169d8164eb538daca0d8377b
+    m_Address: Wearable_Mesh_53
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39b8289c9f3c4b141a0dc9097f90ad1b
+    m_Address: Wearable_Mesh_216
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b65f1bf97c92bc247b3e5cb97405db87
+    m_Address: Wearable_Mesh_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 652f16bad5131d644a4584ae55069f4d
+    m_Address: Wearable_Mesh_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3064c2e9bb10b5249b93b8526d948310
+    m_Address: Wearable_Mesh_353
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e07f671bbedced044a03474953a8fa92
+    m_Address: Wearable_Mesh_312
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4136fa813b1713f449e8511e6e960451
+    m_Address: Wearable_Mesh_236
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5ceda000a70de264bb58fa160d826026
+    m_Address: Wearable_Mesh_292
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03f2b7ecc30aa4c4f8c35fc071d665ef
+    m_Address: Wearable_Mesh_141
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 606b72f0ec20ee54fafc676cb1cc92ff
+    m_Address: Wearable_Mesh_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a395b5b57991224abc2b742776b9784
+    m_Address: Wearable_Mesh_260
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cc3fa6786377ed4ea7d0c199540243d
+    m_Address: Wearable_Mat_Armor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Wearable
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b1b02c48d07dfa542932396975380443, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c498749a22f4480409d485693b41c471, type: 2}
+    - {fileID: 11400000, guid: 54f430c651906524da6a38b1f3db4d5e, type: 2}
